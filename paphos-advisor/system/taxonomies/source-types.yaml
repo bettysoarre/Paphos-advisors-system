@@ -1,0 +1,30 @@
+taxonomy:
+  name: source-types
+  description: >
+    Classifies the origin type of information used in knowledge entries, process documents,
+    and research captures within the Paphos Advisor system.
+
+values:
+  - id: official
+    label: Official
+    definition: >
+      Information sourced directly from a government body, official regulation, legislation,
+      or recognised statutory authority. Examples include the Civil Registry and Migration
+      Department, the Cyprus Tax Department, the Land Registry, EU directives, and
+      official government portals.
+
+  - id: field
+    label: Field
+    definition: >
+      Information sourced from direct experience, practitioner knowledge, partner expertise,
+      or client cases. Not officially published but grounded in real-world application
+      of processes in Cyprus. Typically gathered through interviews, case debriefs,
+      or partner consultations.
+
+  - id: mixed
+    label: Mixed
+    definition: >
+      Information that combines official sources with field knowledge. Used when a process
+      or rule is officially defined but the practical application differs or is clarified
+      by field experience. The official and field components should be clearly distinguished
+      within the content.

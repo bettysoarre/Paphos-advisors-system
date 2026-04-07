@@ -1,0 +1,150 @@
+taxonomy:
+  name: service-types
+  description: >
+    Defines the service types that partners in the Paphos Advisor network can offer.
+    Used to populate the partner service catalogue and match partners to client needs.
+
+values:
+  # --- Legal Services ---
+  - id: immigration-application
+    label: Immigration Application
+    definition: >
+      Preparation and submission of residence permit, work permit, and visa applications
+      on behalf of the client.
+
+  - id: company-formation
+    label: Company Formation
+    definition: >
+      Incorporation of a Cypriot limited company or other legal entity, including
+      registration with the Registrar of Companies.
+
+  - id: property-conveyancing
+    label: Property Conveyancing
+    definition: >
+      Legal handling of property purchase transactions, including title deed transfer,
+      contract review, and Land Registry registration.
+
+  - id: contract-review
+    label: Contract Review
+    definition: >
+      Review and advice on legal contracts, including employment contracts, lease
+      agreements, service agreements, and supplier contracts.
+
+  - id: legal-representation
+    label: Legal Representation
+    definition: >
+      Representation of clients in legal proceedings, disputes, or negotiations
+      with third parties or government bodies.
+
+  # --- Tax & Accounting Services ---
+  - id: tax-residency-structuring
+    label: Tax Residency Structuring
+    definition: >
+      Advisory on establishing Cyprus tax residency, including the 60-day rule,
+      non-dom status, and worldwide income structuring.
+
+  - id: non-dom-application
+    label: Non-Dom Application
+    definition: >
+      Application for Cyprus non-domicile status, which exempts qualifying individuals
+      from Special Defence Contribution (SDC) on dividends and interest.
+
+  - id: vat-registration
+    label: VAT Registration
+    definition: >
+      Registration of individuals or businesses for VAT in Cyprus, including
+      intra-EU VAT considerations.
+
+  - id: personal-tax-filing
+    label: Personal Tax Filing
+    definition: >
+      Preparation and submission of personal income tax returns in Cyprus.
+
+  - id: corporate-tax-filing
+    label: Corporate Tax Filing
+    definition: >
+      Preparation and submission of corporate tax returns for Cypriot entities.
+
+  - id: bookkeeping
+    label: Bookkeeping
+    definition: >
+      Ongoing recording and reconciliation of financial transactions for businesses
+      or self-employed individuals.
+
+  - id: audit
+    label: Audit
+    definition: >
+      Statutory or voluntary audit of financial statements for Cypriot companies.
+
+  # --- Property Services ---
+  - id: property-search
+    label: Property Search
+    definition: >
+      Sourcing and presenting properties for sale or rent based on client requirements.
+
+  - id: property-management
+    label: Property Management
+    definition: >
+      Ongoing management of a property on behalf of an owner, including tenant
+      management, maintenance, and rental income collection.
+
+  - id: new-build-sales
+    label: New-Build Sales
+    definition: >
+      Sale of off-plan or newly completed residential or commercial developments.
+
+  # --- Shipping & Logistics ---
+  - id: international-shipping
+    label: International Shipping
+    definition: >
+      Transportation of personal effects, furniture, or goods from another country to Cyprus.
+
+  - id: customs-clearance
+    label: Customs Clearance
+    definition: >
+      Processing of customs documentation and duties for goods entering Cyprus.
+
+  - id: vehicle-import
+    label: Vehicle Import
+    definition: >
+      Logistics and paperwork for importing a personal vehicle into Cyprus,
+      including customs and re-registration support.
+
+  # --- Insurance Services ---
+  - id: health-insurance
+    label: Health Insurance
+    definition: >
+      Private health insurance plans for individuals, families, and employees in Cyprus.
+
+  - id: vehicle-insurance
+    label: Vehicle Insurance
+    definition: >
+      Motor insurance for vehicles registered or operating in Cyprus.
+
+  - id: property-insurance
+    label: Property Insurance
+    definition: >
+      Buildings and contents insurance for residential or commercial properties in Cyprus.
+
+  - id: life-insurance
+    label: Life Insurance
+    definition: >
+      Life and critical illness insurance products for individuals and families.
+
+  # --- Government Liaison Services ---
+  - id: document-handling
+    label: Document Handling
+    definition: >
+      Physical submission, collection, and tracking of applications and documents
+      at government offices on behalf of clients.
+
+  - id: apostille-legalisation
+    label: Apostille & Legalisation
+    definition: >
+      Processing of apostille stamps and document legalisation for use in Cyprus
+      or abroad.
+
+  - id: translation
+    label: Translation
+    definition: >
+      Certified or general translation of documents between English, Greek, and other languages.

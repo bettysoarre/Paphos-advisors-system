@@ -1,0 +1,50 @@
+taxonomy:
+  name: confidence-levels
+  description: >
+    Indicates how reliable and verified a piece of information or research output is.
+    Applied to knowledge entries, process steps, and research captures.
+
+values:
+  - id: high
+    label: High
+    definition: >
+      Information is confirmed by an official source (government body, legislation, or
+      official regulation) and has been independently verified by a qualified expert.
+      No contradictory sources found.
+    criteria:
+      - Sourced from official Cypriot government, EU regulation, or equivalent authority
+      - Cross-checked against at least one additional official or expert source
+      - Reviewed and signed off by a qualified advisor or partner
+      - No known contradictions or field exceptions
+
+  - id: medium
+    label: Medium
+    definition: >
+      Information is plausible and supported by credible secondary sources or field
+      experience, but has not been fully verified against official documentation.
+    criteria:
+      - Sourced from reputable secondary sources (law firm blogs, expat guides, etc.)
+      - Consistent with field experience but not officially confirmed
+      - No expert sign-off yet, or expert opinion without official backing
+      - May contain caveats or known exceptions
+
+  - id: low
+    label: Low
+    definition: >
+      Information is uncertain, anecdotal, or based on a single unverified source.
+      Should not be used in client-facing content without further verification.
+    criteria:
+      - Single source, community forum, or anecdotal report
+      - Not cross-checked against any official or secondary source
+      - Known to vary by case, officer, or timing
+      - Flagged for further research
+
+  - id: unverified
+    label: Unverified
+    definition: >
+      Information has been captured but has not been assessed for accuracy.
+      Treat as a research lead only — do not use in any work product.
+    criteria:
+      - Raw capture with no source evaluation performed
+      - Origin unknown or untraceable
+      - No cross-referencing has taken place

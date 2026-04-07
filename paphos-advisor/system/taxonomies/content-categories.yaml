@@ -1,0 +1,78 @@
+taxonomy:
+  name: content-categories
+  description: >
+    Defines the content types produced and managed within the Paphos Advisor content system.
+    Each piece of content is assigned one primary category.
+
+values:
+  - id: guide
+    label: Guide
+    definition: >
+      Long-form, structured content walking the reader through a process or topic end-to-end.
+      Intended to be the definitive resource on a subject. Typically 1,500–4,000 words.
+
+  - id: faq
+    label: FAQ
+    definition: >
+      A curated set of questions and concise answers on a specific topic or service area.
+      Designed to address common reader queries and support SEO through question-based search intent.
+
+  - id: checklist
+    label: Checklist
+    definition: >
+      An actionable list of steps or items for the reader to complete or verify.
+      Practical and scannable. Often used as a lead magnet or companion to a guide.
+
+  - id: comparison
+    label: Comparison
+    definition: >
+      Content that compares two or more options, routes, visas, services, or providers
+      to help the reader make an informed decision.
+
+  - id: partner-page
+    label: Partner Page
+    definition: >
+      A dedicated profile page for a specific partner in the Paphos Advisor network.
+      Includes services offered, areas of expertise, and referral information.
+
+  - id: service-page
+    label: Service Page
+    definition: >
+      A page describing a Paphos Advisor service offering. Conversion-focused with
+      clear value proposition, what is included, and a call to action.
+
+  - id: email-sequence
+    label: Email Sequence
+    definition: >
+      A series of structured emails delivered to a subscriber over time. Used for
+      nurturing leads, onboarding new subscribers, or guiding readers through a topic.
+
+  - id: social-post
+    label: Social Post
+    definition: >
+      Short-form content created for distribution on social media platforms.
+      Includes captions, carousels, threads, and short video scripts.
+
+  - id: video-script
+    label: Video Script
+    definition: >
+      A written script for a video production. Includes spoken dialogue, scene direction,
+      and on-screen text cues. Used for YouTube, Reels, or educational content.
+
+  - id: lead-magnet
+    label: Lead Magnet
+    definition: >
+      A high-value downloadable or gated resource offered in exchange for an email address
+      or contact detail. Examples include PDF guides, checklists, and comparison sheets.
+
+  - id: landing-page
+    label: Landing Page
+    definition: >
+      A standalone conversion-focused page built around a single offer or call to action.
+      Used for lead generation campaigns, webinar sign-ups, or specific service promotions.
+
+  - id: blog-post
+    label: Blog Post
+    definition: >
+      A shorter, timely, or opinion-driven piece of content published on the Paphos Advisor
+      blog. May cover news, updates, tips, or thought leadership. Typically 600–1,500 words.

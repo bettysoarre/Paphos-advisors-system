@@ -1,0 +1,73 @@
+taxonomy:
+  name: icp-segments
+  description: >
+    Defines the Ideal Client Profile segments used to classify and target the audiences
+    Paphos Advisors serves. A client may belong to multiple segments simultaneously.
+
+values:
+  - id: eu-national
+    label: EU National
+    definition: >
+      Citizens of European Union member states (excluding Cyprus) relocating to Cyprus.
+      Benefit from freedom of movement rights and face a simpler registration process
+      than third-country nationals, but still require guidance on MEU1 registration,
+      tax residency, and settling-in practicalities.
+
+  - id: uk-national
+    label: UK National
+    definition: >
+      British citizens relocating to Cyprus post-Brexit. No longer covered by EU freedom
+      of movement and require a specific immigration route (Category F, Pink Slip legacy,
+      or work permit). A high-volume segment with distinct legal and tax considerations.
+
+  - id: third-country
+    label: Third-Country National
+    definition: >
+      Citizens of non-EU, non-UK countries relocating to Cyprus. Subject to the most
+      complex immigration requirements including work permits, residence permits, and
+      sponsorship rules. Includes Americans, Canadians, Israelis, South Africans, and others.
+
+  - id: digital-nomad
+    label: Digital Nomad
+    definition: >
+      Location-independent workers or freelancers relocating to Cyprus to live and work
+      remotely for non-Cypriot clients or employers. May pursue the Digital Nomad Visa
+      or alternative residency routes depending on nationality and income structure.
+
+  - id: retiree
+    label: Retiree
+    definition: >
+      Individuals relocating to Cyprus in retirement, primarily motivated by lifestyle,
+      climate, cost of living, and tax efficiency. Often interested in the Category F
+      (financially independent person) visa and pension tax treatment.
+
+  - id: family
+    label: Family
+    definition: >
+      Families relocating together, including couples with children. Have additional
+      needs around schooling, healthcare, family permit applications, and family-oriented
+      settling-in services.
+
+  - id: business-owner
+    label: Business Owner
+    definition: >
+      Entrepreneurs and business owners relocating to Cyprus to establish or relocate
+      a business entity, take advantage of Cyprus's corporate tax environment, or
+      operate as a self-employed professional. Interested in company formation, non-dom
+      status, and tax structuring.
+
+  - id: property-buyer
+    label: Property Buyer
+    definition: >
+      Individuals or families purchasing property in Cyprus, whether as a primary
+      residence, holiday home, or investment. May or may not be relocating permanently.
+      Have specific needs around conveyancing, title deeds, mortgage access, and
+      property management.
+
+  - id: multi-step-relocator
+    label: Multi-Step Relocator
+    definition: >
+      Clients navigating multiple complex, interconnected processes simultaneously —
+      such as immigration, business setup, property purchase, and tax residency.
+      Require coordinated advisory across several service areas and are the highest
+      value segment for Paphos Advisors.
