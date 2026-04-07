@@ -1,0 +1,210 @@
+schema:
+  name: Partners Database
+  notion_database: Partners
+  description: >
+    Master database of all partners in the Paphos Advisor referral network.
+    Each record represents one partner entity (individual or company).
+  architecture_ref: "Section 4.2, Database 1"
+
+properties:
+
+  - name: Name
+    notion_type: title
+    required: true
+    description: Full legal name of the partner individual or company.
+
+  - name: Category
+    notion_type: select
+    required: true
+    description: Primary professional category of the partner.
+    allowed_values:
+      - lawyer
+      - accountant
+      - government-liaison
+      - shipping
+      - property-developer
+      - property-agent
+      - insurance
+      - tax-specialist
+      - other
+    taxonomy_ref: partner-categories.yaml
+
+  - name: Services Offered
+    notion_type: multi_select
+    required: true
+    description: Specific services this partner provides. Select all that apply.
+    allowed_values:
+      - immigration-application
+      - company-formation
+      - property-conveyancing
+      - contract-review
+      - legal-representation
+      - tax-residency-structuring
+      - non-dom-application
+      - vat-registration
+      - personal-tax-filing
+      - corporate-tax-filing
+      - bookkeeping
+      - audit
+      - property-search
+      - property-management
+      - new-build-sales
+      - international-shipping
+      - customs-clearance
+      - vehicle-import
+      - health-insurance
+      - vehicle-insurance
+      - property-insurance
+      - life-insurance
+      - document-handling
+      - apostille-legalisation
+      - translation
+    taxonomy_ref: service-types.yaml
+
+  - name: Status
+    notion_type: select
+    required: true
+    description: Current status of this partner in the network.
+    allowed_values:
+      - prospecting
+      - in-conversation
+      - onboarding
+      - active
+      - paused
+      - inactive
+      - blacklisted
+
+  - name: ICP Fit
+    notion_type: multi_select
+    required: false
+    description: ICP segments this partner's services are most relevant to.
+    allowed_values:
+      - eu-national
+      - uk-national
+      - third-country
+      - digital-nomad
+      - retiree
+      - family
+      - business-owner
+      - property-buyer
+      - multi-step-relocator
+    taxonomy_ref: icp-segments.yaml
+
+  - name: Geography
+    notion_type: multi_select
+    required: true
+    description: Districts or regions where this partner operates.
+    allowed_values:
+      - paphos
+      - limassol
+      - nicosia
+      - larnaca
+      - famagusta
+      - cyprus-wide
+    taxonomy_ref: tag-registry.yaml (geography dimension)
+
+  - name: Languages
+    notion_type: multi_select
+    required: false
+    description: Languages the partner works in.
+    allowed_values:
+      - english
+      - greek
+      - russian
+      - hebrew
+      - german
+      - french
+      - arabic
+      - other
+
+  - name: Contact Name
+    notion_type: rich_text
+    required: true
+    description: Full name of the primary contact person at this partner.
+
+  - name: Contact Email
+    notion_type: email
+    required: true
+    description: Primary email address for the partner contact.
+
+  - name: Contact Phone
+    notion_type: phone_number
+    required: false
+    description: Primary phone number for the partner contact.
+
+  - name: Website
+    notion_type: url
+    required: false
+    description: Partner's official website URL.
+
+  - name: Referral Terms
+    notion_type: select
+    required: false
+    description: Whether a formal referral agreement is in place.
+    allowed_values:
+      - formal-agreement
+      - informal-arrangement
+      - none
+      - pending
+
+  - name: Commission Rate
+    notion_type: number
+    required: false
+    description: >
+      Agreed referral commission percentage (if applicable).
+      Store as a percentage value e.g. 10 for 10%.
+    format: percent
+
+  - name: Onboarding Date
+    notion_type: date
+    required: false
+    description: Date the partner was formally onboarded to the network.
+
+  - name: Last Contact Date
+    notion_type: date
+    required: false
+    description: Date of the most recent meaningful contact with this partner.
+
+  - name: Next Review Date
+    notion_type: date
+    required: false
+    description: Date this partner record is next due for review. Default cadence is 3 months.
+
+  - name: Quality Rating
+    notion_type: select
+    required: false
+    description: Internal quality assessment of the partner based on client outcomes and responsiveness.
+    allowed_values:
+      - excellent
+      - good
+      - acceptable
+      - under-review
+      - do-not-refer
+
+  - name: Notes
+    notion_type: rich_text
+    required: false
+    description: >
+      Free-text field for any additional context about this partner,
+      including relationship history, caveats, or special arrangements.
+
+  - name: Partner ID
+    notion_type: rich_text
+    required: true
+    description: >
+      Unique identifier for this partner record.
+      Format: PRTN-[CATEGORY CODE]-[3-digit sequence] e.g. PRTN-LAW-001
+
+  - name: Related Processes
+    notion_type: relation
+    required: false
+    description: Processes this partner is relevant to. Linked to the Processes database.
+    relation_target: Processes Database
+
+  - name: Active Referrals
+    notion_type: rollup
+    required: false
+    description: Count of active referrals currently assigned to this partner.
+    rollup_target: Referrals Database
+    rollup_field: Status
+    rollup_function: count_values

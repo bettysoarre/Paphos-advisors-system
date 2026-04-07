@@ -1,0 +1,180 @@
+schema:
+  name: Processes Database
+  notion_database: Processes
+  description: >
+    Master database of all advisory process documents in the Paphos Advisor system.
+    Each record represents one documented process (e.g. EU Residence Registration,
+    Company Formation, Vehicle Import).
+  architecture_ref: "Section 4.2, Database 2"
+
+properties:
+
+  - name: Title
+    notion_type: title
+    required: true
+    description: Full descriptive title of the process e.g. "EU National Residence Registration (MEU1)"
+
+  - name: Process ID
+    notion_type: rich_text
+    required: true
+    description: >
+      Unique identifier for this process.
+      Format: PROC-[AREA CODE]-[3-digit sequence] e.g. PROC-IMM-001
+      See id-registry.md for area codes and current sequence numbers.
+
+  - name: Category
+    notion_type: select
+    required: true
+    description: Top-level service area this process belongs to.
+    allowed_values:
+      - immigration
+      - tax
+      - property
+      - business
+      - healthcare
+      - transport
+      - shipping
+      - insurance
+      - settling-in
+    taxonomy_ref: tag-registry.yaml (process dimension)
+
+  - name: Subcategory
+    notion_type: rich_text
+    required: false
+    description: More specific sub-area within the category e.g. "EU National Residence" or "Non-Dom Application"
+
+  - name: Status
+    notion_type: select
+    required: true
+    description: Current lifecycle stage of this process document.
+    allowed_values:
+      - stub
+      - draft
+      - in-research
+      - review
+      - validated
+      - published
+      - needs-revalidation
+      - deprecated
+      - archived
+    taxonomy_ref: process-status.yaml
+
+  - name: Confidence
+    notion_type: select
+    required: true
+    description: Reliability level of the information in this process document.
+    allowed_values:
+      - high
+      - medium
+      - low
+      - unverified
+    taxonomy_ref: confidence-levels.yaml
+
+  - name: Source Type
+    notion_type: select
+    required: true
+    description: Origin type of the information in this document.
+    allowed_values:
+      - official
+      - field
+      - mixed
+    taxonomy_ref: source-types.yaml
+
+  - name: ICP Segments
+    notion_type: multi_select
+    required: false
+    description: ICP segments this process is relevant to.
+    allowed_values:
+      - eu-national
+      - uk-national
+      - third-country
+      - digital-nomad
+      - retiree
+      - family
+      - business-owner
+      - property-buyer
+      - multi-step-relocator
+    taxonomy_ref: icp-segments.yaml
+
+  - name: Geography
+    notion_type: multi_select
+    required: false
+    description: Geographic scope of this process.
+    allowed_values:
+      - paphos
+      - limassol
+      - nicosia
+      - larnaca
+      - famagusta
+      - cyprus-wide
+      - eu
+      - international
+    taxonomy_ref: tag-registry.yaml (geography dimension)
+
+  - name: Tags
+    notion_type: multi_select
+    required: false
+    description: Canonical tags from the tag registry for filtering and cross-referencing.
+    taxonomy_ref: tag-registry.yaml
+
+  - name: Last Validated
+    notion_type: date
+    required: false
+    description: Date this process was last confirmed accurate by a qualified reviewer.
+
+  - name: Validated By
+    notion_type: rich_text
+    required: false
+    description: Name and role of the person who last validated this process.
+
+  - name: Next Review Date
+    notion_type: date
+    required: false
+    description: >
+      Date this process document is next due for review.
+      Default cadence is 6 months. Volatile processes should be reviewed quarterly.
+
+  - name: Created
+    notion_type: created_time
+    required: true
+    description: Auto-populated by Notion on record creation.
+
+  - name: Updated
+    notion_type: last_edited_time
+    required: true
+    description: Auto-populated by Notion on each edit.
+
+  - name: Owner
+    notion_type: person
+    required: false
+    description: Team member responsible for maintaining this process document.
+
+  - name: Related Partners
+    notion_type: relation
+    required: false
+    description: Partners in the network who handle or assist with this process.
+    relation_target: Partners Database
+
+  - name: Related Knowledge Articles
+    notion_type: relation
+    required: false
+    description: Knowledge articles that underpin or inform this process.
+    relation_target: Knowledge Base Database
+
+  - name: Related Content
+    notion_type: relation
+    required: false
+    description: Published or in-progress content pieces that draw from this process.
+    relation_target: Content Pipeline Database
+
+  - name: GitHub File Path
+    notion_type: url
+    required: false
+    description: >
+      Link to the corresponding .md file in the GitHub repository.
+      Format: full GitHub URL to the file.
+
+  - name: Notes
+    notion_type: rich_text
+    required: false
+    description: Free-text field for editorial notes, open questions, or flags for the next reviewer.

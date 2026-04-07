@@ -1,0 +1,130 @@
+# ID Registry
+
+Master registry of all ID prefixes, area/type codes, and current sequence numbers in the Paphos Advisor system.
+
+**Rule:** Before creating any new record, check this registry, use the next available sequence number, then update this file to reflect the new current sequence.
+
+**Format:** `[PREFIX]-[CODE]-[###]` — all uppercase, sequence zero-padded to 3 digits.
+
+---
+
+## Process IDs — `PROC`
+
+| Area | Code | Current Sequence | Next ID to Use |
+|------|------|-----------------|----------------|
+| Immigration | IMM | 000 | PROC-IMM-001 |
+| Tax | TAX | 000 | PROC-TAX-001 |
+| Property | PROP | 000 | PROC-PROP-001 |
+| Business | BIZ | 000 | PROC-BIZ-001 |
+| Healthcare | HLTH | 000 | PROC-HLTH-001 |
+| Transport | TRN | 000 | PROC-TRN-001 |
+| Shipping | SHIP | 000 | PROC-SHIP-001 |
+| Insurance | INS | 000 | PROC-INS-001 |
+| Settling-In | SET | 000 | PROC-SET-001 |
+
+---
+
+## SOP IDs — `SOP`
+
+| Area | Code | Current Sequence | Next ID to Use |
+|------|------|-----------------|----------------|
+| Content | CNT | 000 | SOP-CNT-001 |
+| Partners | PRTN | 000 | SOP-PRTN-001 |
+| Cases | CASE | 000 | SOP-CASE-001 |
+| Research | RES | 000 | SOP-RES-001 |
+| Knowledge | KB | 000 | SOP-KB-001 |
+| Operations | OPS | 000 | SOP-OPS-001 |
+
+---
+
+## Knowledge Article IDs — `KB`
+
+| Area | Code | Current Sequence | Next ID to Use |
+|------|------|-----------------|----------------|
+| Immigration | IMM | 000 | KB-IMM-001 |
+| Tax | TAX | 000 | KB-TAX-001 |
+| Property | PROP | 000 | KB-PROP-001 |
+| Business | BIZ | 000 | KB-BIZ-001 |
+| Healthcare | HLTH | 000 | KB-HLTH-001 |
+| Transport | TRN | 000 | KB-TRN-001 |
+| Shipping | SHIP | 000 | KB-SHIP-001 |
+| Insurance | INS | 000 | KB-INS-001 |
+| Settling-In | SET | 000 | KB-SET-001 |
+
+---
+
+## Content IDs — `CNT`
+
+| Content Type | Code | Current Sequence | Next ID to Use |
+|-------------|------|-----------------|----------------|
+| Guide | GDE | 000 | CNT-GDE-001 |
+| FAQ | FAQ | 000 | CNT-FAQ-001 |
+| Checklist | CHK | 000 | CNT-CHK-001 |
+| Comparison | CMP | 000 | CNT-CMP-001 |
+| Partner Page | PRTN | 000 | CNT-PRTN-001 |
+| Service Page | SVC | 000 | CNT-SVC-001 |
+| Email Sequence | EMAIL | 000 | CNT-EMAIL-001 |
+| Social Post | SOC | 000 | CNT-SOC-001 |
+| Video Script | VID | 000 | CNT-VID-001 |
+| Lead Magnet | LM | 000 | CNT-LM-001 |
+| Landing Page | LP | 000 | CNT-LP-001 |
+| Blog Post | BLOG | 000 | CNT-BLOG-001 |
+
+---
+
+## Content Brief IDs — `BRIEF`
+
+| Content Type | Code | Current Sequence | Next ID to Use |
+|-------------|------|-----------------|----------------|
+| Guide | GDE | 000 | BRIEF-GDE-001 |
+| FAQ | FAQ | 000 | BRIEF-FAQ-001 |
+| Checklist | CHK | 000 | BRIEF-CHK-001 |
+| Comparison | CMP | 000 | BRIEF-CMP-001 |
+| Partner Page | PRTN | 000 | BRIEF-PRTN-001 |
+| Service Page | SVC | 000 | BRIEF-SVC-001 |
+| Email Sequence | EMAIL | 000 | BRIEF-EMAIL-001 |
+| Social Post | SOC | 000 | BRIEF-SOC-001 |
+| Video Script | VID | 000 | BRIEF-VID-001 |
+| Lead Magnet | LM | 000 | BRIEF-LM-001 |
+| Landing Page | LP | 000 | BRIEF-LP-001 |
+| Blog Post | BLOG | 000 | BRIEF-BLOG-001 |
+
+---
+
+## Partner IDs — `PRTN`
+
+| Category | Code | Current Sequence | Next ID to Use |
+|----------|------|-----------------|----------------|
+| Lawyer | LAW | 000 | PRTN-LAW-001 |
+| Accountant | ACCT | 000 | PRTN-ACCT-001 |
+| Government Liaison | GOV | 000 | PRTN-GOV-001 |
+| Shipping | SHIP | 000 | PRTN-SHIP-001 |
+| Property Developer | DEV | 000 | PRTN-DEV-001 |
+| Property Agent | AGENT | 000 | PRTN-AGENT-001 |
+| Insurance | INS | 000 | PRTN-INS-001 |
+| Tax Specialist | TAX | 000 | PRTN-TAX-001 |
+| Other | OTH | 000 | PRTN-OTH-001 |
+
+---
+
+## Prompt IDs — `PROMPT`
+
+| Area | Code | Current Sequence | Next ID to Use |
+|------|------|-----------------|----------------|
+| Research | RES | 000 | PROMPT-RES-001 |
+| Content | CNT | 000 | PROMPT-CNT-001 |
+| Extraction | EXT | 000 | PROMPT-EXT-001 |
+| Analysis | ANL | 000 | PROMPT-ANL-001 |
+| Agents | AGT | 000 | PROMPT-AGT-001 |
+
+---
+
+## How to Use This Registry
+
+1. Identify the correct prefix and area/type code for the record you are creating.
+2. Note the **Current Sequence** number for that row.
+3. Increment by 1 — that is the ID to assign to your new record.
+4. Update the **Current Sequence** and **Next ID to Use** columns in this file.
+5. Commit the update to the registry alongside the new record.
+
+**Never skip numbers or reuse IDs.** If a record is deleted, its ID is retired — do not reassign it.

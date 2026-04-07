@@ -1,0 +1,200 @@
+schema:
+  name: Content Pipeline Database
+  notion_database: Content Pipeline
+  description: >
+    Master database tracking all content from brief through to publication.
+    Each record represents one discrete piece of content.
+  architecture_ref: "Section 4.2, Database 3"
+
+properties:
+
+  - name: Title
+    notion_type: title
+    required: true
+    description: Working title of the content piece. May differ from the final published title.
+
+  - name: Content ID
+    notion_type: rich_text
+    required: true
+    description: >
+      Unique identifier for this content piece.
+      Format: CNT-[TYPE CODE]-[3-digit sequence] e.g. CNT-GDE-001
+      See id-registry.md for type codes and current sequence numbers.
+
+  - name: Content Type
+    notion_type: select
+    required: true
+    description: The format or type of this content piece.
+    allowed_values:
+      - guide
+      - faq
+      - checklist
+      - comparison
+      - partner-page
+      - service-page
+      - email-sequence
+      - social-post
+      - video-script
+      - lead-magnet
+      - landing-page
+      - blog-post
+    taxonomy_ref: content-categories.yaml
+
+  - name: Status
+    notion_type: select
+    required: true
+    description: Current stage of this content piece in the production pipeline.
+    allowed_values:
+      - idea
+      - briefed
+      - in-progress
+      - in-review
+      - approved
+      - scheduled
+      - published
+      - needs-update
+      - archived
+
+  - name: Target Keyword
+    notion_type: rich_text
+    required: false
+    description: Primary keyword or search phrase this content is optimised for.
+
+  - name: Search Intent
+    notion_type: select
+    required: false
+    description: The underlying search intent this content satisfies.
+    allowed_values:
+      - informational
+      - navigational
+      - commercial
+      - transactional
+
+  - name: Target ICP
+    notion_type: multi_select
+    required: false
+    description: ICP segments this content is primarily written for.
+    allowed_values:
+      - eu-national
+      - uk-national
+      - third-country
+      - digital-nomad
+      - retiree
+      - family
+      - business-owner
+      - property-buyer
+      - multi-step-relocator
+    taxonomy_ref: icp-segments.yaml
+
+  - name: Category
+    notion_type: multi_select
+    required: false
+    description: Process or topic area(s) this content covers.
+    allowed_values:
+      - immigration
+      - tax
+      - property
+      - business
+      - healthcare
+      - transport
+      - shipping
+      - insurance
+      - settling-in
+    taxonomy_ref: tag-registry.yaml (process dimension)
+
+  - name: Tags
+    notion_type: multi_select
+    required: false
+    description: Canonical tags from the tag registry for filtering and cross-referencing.
+    taxonomy_ref: tag-registry.yaml
+
+  - name: Assigned To
+    notion_type: person
+    required: false
+    description: Team member or agent responsible for producing this content.
+
+  - name: Due Date
+    notion_type: date
+    required: false
+    description: Target completion date for the current stage of production.
+
+  - name: Published Date
+    notion_type: date
+    required: false
+    description: Date this content was published. Populated when status is set to "published".
+
+  - name: Next Review Date
+    notion_type: date
+    required: false
+    description: >
+      Date this content is next due for a review and accuracy check.
+      Evergreen content: annual. Volatile content (fees, policy): quarterly.
+
+  - name: Word Count
+    notion_type: number
+    required: false
+    description: Approximate or final word count of the content piece.
+    format: number
+
+  - name: Published URL
+    notion_type: url
+    required: false
+    description: Live URL of the published content. Populated once content goes live.
+
+  - name: Related Processes
+    notion_type: relation
+    required: false
+    description: Process documents this content draws from or links to.
+    relation_target: Processes Database
+
+  - name: Related Partners
+    notion_type: relation
+    required: false
+    description: Partners referenced or featured in this content piece.
+    relation_target: Partners Database
+
+  - name: Source Knowledge
+    notion_type: relation
+    required: false
+    description: Knowledge articles used as the factual basis for this content.
+    relation_target: Knowledge Base Database
+
+  - name: Brief File
+    notion_type: url
+    required: false
+    description: >
+      Link to the content brief file in the GitHub repository.
+      Format: full GitHub URL to the content-brief .md file.
+
+  - name: Content File
+    notion_type: url
+    required: false
+    description: >
+      Link to the draft or final content file in the GitHub repository or Google Drive.
+
+  - name: SEO Notes
+    notion_type: rich_text
+    required: false
+    description: >
+      Key SEO metadata for this piece: title tag, meta description, schema type,
+      and internal linking plan. Can be populated from the content brief.
+
+  - name: CTA
+    notion_type: rich_text
+    required: false
+    description: The primary call to action used in this content piece.
+
+  - name: Notes
+    notion_type: rich_text
+    required: false
+    description: Free-text field for editorial notes, feedback, blockers, or flags.
+
+  - name: Created
+    notion_type: created_time
+    required: true
+    description: Auto-populated by Notion on record creation.
+
+  - name: Updated
+    notion_type: last_edited_time
+    required: true
+    description: Auto-populated by Notion on each edit.
