@@ -37,6 +37,21 @@ Master registry of all ID prefixes, area/type codes, and current sequence number
 
 ---
 
+## Decision Tree IDs — `DT`
+
+Routing and eligibility decision trees. Domain codes match the process area.
+
+| Domain | Code | Current Sequence | Next ID to Use |
+|--------|------|-----------------|----------------|
+| Residency / Immigration | RES | 001 | DT-RES-002 |
+| Tax | TAX | 000 | DT-TAX-001 |
+| Property | PROP | 000 | DT-PROP-001 |
+| Business | BIZ | 000 | DT-BIZ-001 |
+| Healthcare | HLTH | 000 | DT-HLTH-001 |
+| Settling In | SET | 000 | DT-SET-001 |
+
+---
+
 ## Field Intelligence Article IDs — `KA-FLD`
 
 Location-specific and office-specific practical notes. Domain-agnostic — all field intelligence articles share the `FLD` code, organised by sequence.
