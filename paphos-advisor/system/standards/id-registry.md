@@ -37,6 +37,16 @@ Master registry of all ID prefixes, area/type codes, and current sequence number
 
 ---
 
+## Field Intelligence Article IDs — `KA-FLD`
+
+Location-specific and office-specific practical notes. Domain-agnostic — all field intelligence articles share the `FLD` code, organised by sequence.
+
+| Type | Code | Current Sequence | Next ID to Use |
+|------|------|-----------------|----------------|
+| Field Intelligence | FLD | 001 | KA-FLD-002 |
+
+---
+
 ## Knowledge Article IDs — `KB`
 
 | Area | Code | Current Sequence | Next ID to Use |
