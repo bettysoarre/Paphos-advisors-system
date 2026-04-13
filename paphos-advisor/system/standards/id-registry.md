@@ -154,6 +154,16 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 
 ---
 
+## Taxonomy IDs — `TAX`
+
+Taxonomy definition files. Single shared sequence — all taxonomy files use the `TAX` prefix with no area code.
+
+| Type | Current Sequence | Next ID to Use |
+|------|-----------------|----------------|
+| Taxonomy | 001 | TAX-002 |
+
+---
+
 ## Content Type Definition IDs — `CT-DEF`
 
 Definitions and rules for each content type. One record per content type.

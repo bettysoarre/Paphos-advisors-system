@@ -1,57 +1,104 @@
-taxonomy:
-  name: process-status
-  description: >
-    Tracks the lifecycle stage of a process document within the Paphos Advisor system.
-    Every process file must carry one of these statuses.
+---
+id: TAX-001
+title: "Process Status Taxonomy"
+domain: system
+applies_to:
+  - processes
+  - knowledge/official
+  - knowledge/field
+  - knowledge/decision-trees
+created: 2026-03-15
+updated: 2026-04-13
+owner: "lead-advisor"
+---
 
 values:
-  - id: stub
-    label: Stub
-    definition: >
-      Placeholder file created to reserve the topic. Contains no substantive content yet.
+  - value: stub
+    label: "Stub"
+    description: >
+      Placeholder file created to reserve a topic or ID. Contains no substantive
+      content yet. Used to pre-register a PROC-XXX ID before research begins.
+    allowed_transitions:
+      - draft
+      - in-research
 
-  - id: draft
-    label: Draft
-    definition: >
-      Initial content has been written but has not been researched or verified.
-      Not suitable for use in client-facing work.
+  - value: draft
+    label: "Draft"
+    description: >
+      Initial content has been written but has not been researched or verified
+      against official or field sources. Not suitable for use in client-facing work.
+    allowed_transitions:
+      - in-research
+      - review
 
-  - id: in-research
-    label: In Research
-    definition: >
-      Actively being researched. Sources are being gathered and facts are being checked.
-      Content is incomplete and subject to significant change.
+  - value: in-research
+    label: "In Research"
+    description: >
+      Actively being researched. Sources are being gathered and facts are being
+      checked. Content is incomplete and subject to significant change. Do not
+      surface to end users.
+    allowed_transitions:
+      - review
+      - draft
 
-  - id: review
-    label: Review
-    definition: >
-      Research is complete and content is ready for internal expert review before validation.
+  - value: review
+    label: "Under Review"
+    description: >
+      Research is complete and content is ready for internal expert review before
+      validation. May be partially accurate — do not surface to end users.
+    allowed_transitions:
+      - validated
+      - in-research
+      - draft
 
-  - id: validated
-    label: Validated
-    definition: >
-      Content has been reviewed and confirmed accurate by a qualified internal or external expert.
-      Safe to use in client-facing and content work.
+  - value: validated
+    label: "Validated"
+    description: >
+      All content has been reviewed and confirmed accurate by a qualified internal
+      or external expert. Confidence level is set. Safe to use in client-facing
+      and content work.
+    allowed_transitions:
+      - published
+      - needs-revalidation
 
-  - id: published
-    label: Published
-    definition: >
-      Validated content that has been released for active use across the system and/or publicly.
+  - value: published
+    label: "Published"
+    description: >
+      Validated content that is live and surfaced to end users. Continues to be
+      subject to review cadence and may be flagged for revalidation at any time.
+    allowed_transitions:
+      - needs-revalidation
 
-  - id: needs-revalidation
-    label: Needs Revalidation
-    definition: >
-      Previously validated or published content flagged as potentially outdated due to
-      regulatory changes, new field information, or scheduled review triggers.
+  - value: needs-revalidation
+    label: "Needs Revalidation"
+    description: >
+      Previously validated or published content flagged as potentially outdated
+      due to a regulatory change, user-reported error, new field intelligence,
+      or a scheduled review trigger. Must not be relied upon as current until
+      re-validated.
+    allowed_transitions:
+      - review
+      - draft
 
-  - id: deprecated
-    label: Deprecated
-    definition: >
-      Content that is no longer accurate or relevant. Retained for reference but must not
-      be used in active work or shared with clients.
+  - value: deprecated
+    label: "Deprecated"
+    description: >
+      Content that is no longer accurate or relevant. Retained for reference but
+      must not be used in active work or shared with clients. Typically superseded
+      by a newer process document.
+    allowed_transitions:
+      - archived
 
-  - id: archived
-    label: Archived
-    definition: >
-      Content that has been formally retired from the system. Stored in _archive for
-      historical reference only.
+  - value: archived
+    label: "Archived"
+    description: >
+      Content that has been formally retired from the system. Stored in _archive
+      for historical reference only. No further transitions permitted.
+    allowed_transitions: []
+
+rules:
+  - "No document may move to 'published' without first reaching 'validated'."
+  - "Any document in 'needs-revalidation' must be surfaced in the weekly review queue in Notion."
+  - "A document may not move directly from 'stub' to 'validated' or 'published' — it must pass through 'in-research' and 'review'."
+  - "Deprecated documents must not be linked from active process documents or content briefs."
+  - "Taxonomy values must be referenced in frontmatter as kebab-case lowercase (e.g., needs-revalidation)."
