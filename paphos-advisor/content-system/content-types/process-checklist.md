@@ -1,5 +1,9 @@
 # Content Type: Process Checklist
 
+*Extends the base checklist rules in [`checklist.md`](checklist.md). The rules below apply additionally or override for process-linked checklists specifically.*
+
+---
+
 ## Definition
 
 A Process Checklist is a structured, action-oriented document that breaks a Cyprus relocation process into a sequential list of tasks the reader can follow and tick off. Each checklist is directly linked to one process document (PROC-XXX) and serves as the practical companion to it — where the process document explains the full detail, the checklist gives the reader a clean action plan.

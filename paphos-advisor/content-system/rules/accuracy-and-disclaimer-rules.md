@@ -50,15 +50,11 @@ If you only know a range, give the range. If you do not know, say you do not kno
 
 ---
 
-## Disclaimers (see also `legal-disclaimer-rules.md`)
+## Disclaimers
 
-**Standard disclaimer:** Required on all pages. Footer placement minimum.
+Disclaimer wording, placement rules, and when each type applies are defined in [`legal-disclaimer-rules.md`](../style-guide/legal-disclaimer-rules.md). Follow those rules as defined there — do not redefine them here.
 
-**Enhanced accuracy disclaimer:** Required in a callout box when any content on the page is sourced from medium or low confidence material.
-
-**Regulatory change notice:** Required when a process has recently changed and the content has not yet been fully updated.
-
-**Professional advice CTA:** Required on all process-heavy pages. "For advice specific to your situation, speak to a qualified [immigration lawyer / tax advisor]."
+The confidence table above determines which disclaimer tier applies to a given piece of content: high confidence uses the standard disclaimer; medium or low confidence adds the enhanced accuracy disclaimer; unverified content is not published.
 
 ---
 

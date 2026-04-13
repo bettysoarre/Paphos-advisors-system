@@ -78,21 +78,15 @@ flowchart TD
 
 ### Branch: 183-day rule
 
-The client spends 183 or more days in Cyprus in a calendar year. No other conditions apply — they are automatically Cyprus tax resident under the standard rule. This is the simpler of the two routes and requires no economic activity or permanent home test.
-
-Days are counted per calendar year (1 January to 31 December). The day of arrival and departure are both counted as Cyprus days.
+The client spends 183 or more days in Cyprus in a calendar year. No further conditions apply — they are automatically Cyprus tax resident. Days of arrival and departure both count. For the full process, see [PROC-TAX-001](../../processes/tax/60-day-rule.md).
 
 ### Branch: 60-day rule — qualifies
 
-The client spends between 60 and 182 days in Cyprus and meets all three additional conditions:
+The client spends 60–182 days in Cyprus and meets three additional conditions: (1) Cyprus economic activity — employment, directorship, or registered self-employment; (2) permanent home in Cyprus — owned or rented, not a hotel; (3) fewer than 183 days in any single other country.
 
-1. **Economic activity** — employed by a Cyprus employer, director of a Cyprus-registered company, or self-employed and registered in Cyprus. A directorship of a Cyprus company (even without salary) is the most common way to satisfy this condition.
-2. **Permanent home** — owns or rents a property in Cyprus in their own name. A hotel stay does not qualify. A property rented via a lease agreement in the client's name does.
-3. **No more than 182 days in any single other country** — the client must not spend 183 or more days in any one other country during the same calendar year.
+**2026 reform:** From 1 January 2026, the condition that the client must not be tax resident elsewhere was removed. Clients who are also tax resident in another jurisdiction can now qualify under this route.
 
-**2026 reform:** From 1 January 2026, the previous condition that the client must *not be tax resident anywhere else* was removed. Clients who are also tax resident in another jurisdiction can now qualify for Cyprus tax residency under the 60-day rule. This is a significant change that opens the route to more clients.
-
-Travel records are critical for this route. Clients should maintain a contemporaneous diary of their movements throughout the year — not reconstruct it at year-end.
+For full conditions, documentation requirements, and the application process, see [PROC-TAX-001](../../processes/tax/60-day-rule.md).
 
 ### Branch: Cannot qualify — fewer than 60 days
 
@@ -108,11 +102,11 @@ The client spends 60+ days in Cyprus but also spends 183 or more days in a singl
 
 ### Branch: Non-dom — elect
 
-The client qualifies for Cyprus tax residency and has significant dividend or interest income. Non-dom status exempts them from Special Defence Contribution (SDC) on those income types. SDC rates without non-dom: 17% on dividends, 3% on interest. Non-dom election is made annually via the TD.38 declaration filed with the tax return.
+The client qualifies for Cyprus tax residency and has significant dividend or interest income — route to the non-dom election process via [PROC-TAX-002](../../processes/tax/non-dom-status.md).
 
-**Important caveats:**
-- Non-dom status does not exempt from GHS (General Healthcare System) contributions: 2.65% on dividend and interest income, capped at €180,000. This is commonly overlooked.
-- The 17-year clock runs from the first year of Cyprus tax residency — not from when non-dom status was first elected. Years of Cyprus tax residency without a non-dom election still count against the clock.
+**Routing notes to flag before handoff:**
+- GHS contributions still apply even with non-dom status: 2.65% on dividend and interest income, capped at €180,000. This is frequently overlooked.
+- The 17-year clock runs from the first year of Cyprus tax residency — not from when non-dom status was first elected. Years of tax residency without an election still count against the clock.
 - A proposed €5,000–€10,000 flat annual fee for non-dom applicants was under discussion as of April 2026 but had not been enacted. Monitor for updates.
 
 ### Branch: Non-dom — 17 years elapsed

@@ -3,9 +3,11 @@
 ## Definition
 An actionable, task-oriented document that helps a client complete a process or prepare for a move. Optimised for practical use — printable, scannable, and sequenced correctly.
 
-## Distinction from process-checklist.md
-- `process-checklist.md` — rules specific to process-linked checklists (tied to a PROC-XXX doc)
-- `checklist.md` — rules for any checklist content type (broader, including pre-move checklists, document checklists, etc.)
+## Variants
+
+This file defines the rules for **general checklists** — pre-move checklists, document preparation checklists, and other non-process-linked checklist content.
+
+For checklists tied to a specific PROC-XXX process document, the additional and overriding rules are in [`process-checklist.md`](process-checklist.md). All rules in this file also apply to process-linked checklists unless overridden there.
 
 ## Word count
 500–1,200 words
@@ -39,11 +41,7 @@ Examples:
 2. 1 month before — Document preparation
 3. Week before — Final checks
 
-**Process Checklist phases:**
-1. Prerequisites and preparation
-2. Application submission
-3. Post-submission
-4. Upon completion
+*Process-linked checklists use a different phase structure — see [`process-checklist.md`](process-checklist.md).*
 
 ## PDF version requirements
 
