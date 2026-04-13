@@ -1,5 +1,5 @@
 ---
-id: PROMPT-RES-004
+id: PRMT-RES-004
 title: Competitor Content Audit Prompt
 type: research
 tool: perplexity
@@ -10,7 +10,7 @@ output_format: Structured analysis of competitor content for a topic area
 use_with: content-system/strategy/content-gap-analysis-framework.md
 ---
 
-# Competitor Content Audit Prompt (PROMPT-RES-004)
+# Competitor Content Audit Prompt (PRMT-RES-004)
 
 ## Purpose
 Analyse what competitors are publishing on a specific Cyprus relocation topic to identify content gaps, differentiators, and quality benchmarks. Used to inform content briefs.

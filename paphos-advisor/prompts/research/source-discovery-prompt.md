@@ -1,5 +1,5 @@
 ---
-id: PROMPT-RES-002
+id: PRMT-RES-002
 title: Source Discovery Prompt
 type: research
 tool: perplexity
@@ -10,7 +10,7 @@ output_format: Structured list of sources with URLs, authority level, and notes
 use_with: SOP-RES-001, SOP-RES-002
 ---
 
-# Source Discovery Prompt (PROMPT-RES-002)
+# Source Discovery Prompt (PRMT-RES-002)
 
 ## Purpose
 Find and catalogue reliable official sources for a specific Cyprus topic area. Use before or alongside a process research session to build the source registry.

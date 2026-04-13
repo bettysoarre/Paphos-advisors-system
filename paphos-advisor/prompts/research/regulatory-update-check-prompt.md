@@ -1,5 +1,5 @@
 ---
-id: PROMPT-RES-003
+id: PRMT-RES-003
 title: Regulatory Update Check Prompt
 type: research
 tool: perplexity
@@ -10,7 +10,7 @@ output_format: Change summary with dates, sources, and impact assessment
 use_with: SOP-RES-004 (Process Revalidation SOP)
 ---
 
-# Regulatory Update Check Prompt (PROMPT-RES-003)
+# Regulatory Update Check Prompt (PRMT-RES-003)
 
 ## Purpose
 Check whether a specific Cyprus process or regulation has changed since a given date. Use for scheduled process revalidation or when a change is suspected.

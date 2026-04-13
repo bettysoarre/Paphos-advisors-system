@@ -146,7 +146,7 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 
 | Area | Code | Current Sequence | Next ID to Use |
 |------|------|-----------------|----------------|
-| Research | RES | 001 | PRMT-RES-002 |
+| Research | RES | 004 | PRMT-RES-005 |
 | Content | CNT | 000 | PRMT-CNT-001 |
 | Extraction | EXT | 000 | PRMT-EXT-001 |
 | Analysis | ANL | 000 | PRMT-ANL-001 |
