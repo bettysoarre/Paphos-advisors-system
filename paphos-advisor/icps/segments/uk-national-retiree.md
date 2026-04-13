@@ -1,97 +1,140 @@
 ---
-icp_id: ICP-01
-segment: uk-national-retiree
-priority: 2
-status: draft
-last_updated: 2026-04-13
-notes: Draft based on known profile. Update with real client data as cases accumulate.
+id: ICP-SEG-001
+title: "ICP Segment: UK National Retiree"
+segment_code: uk-national-retiree
+status: active
+created: 2026-03-15
+updated: 2026-04-13
+owner: "lead-advisor"
+related_segments:
+  - ICP-SEG-005
+related_content_mapping: "../../icps/mapping/icp-to-content-mapping.md"
+related_service_mapping: "../../icps/mapping/icp-to-service-mapping.md"
+tags:
+  - icp
+  - uk-national
+  - retiree
+  - segment
 ---
 
-# ICP-01: UK National — Retiree
+# ICP Segment: UK National Retiree
 
-## Profile Summary
+## Segment Definition
 
-A British citizen, typically 55-70 years old, who is retiring or semi-retiring to Cyprus. Motivated primarily by lifestyle (climate, pace of life, cost of living) and often by pension income optimisation. Post-Brexit, they are treated as non-EU nationals for residency purposes.
+A British citizen, typically aged 55–72, who is retiring or semi-retiring to Cyprus. Motivated primarily by lifestyle — climate, English-speaking environment, familiar culture — and secondarily by cost of living and pension income optimisation. Post-Brexit, UK nationals are treated as non-EU nationals for Cyprus residency purposes, which significantly changes their process requirements compared to EU nationals.
 
 ---
 
-## Demographics
+## Demographic Profile
 
-| Attribute | Typical profile |
-|---|---|
+| Attribute | Typical Value |
+|-----------|---------------|
 | Nationality | British (UK passport) |
-| Age range | 55-72 |
-| Employment status | Retired, semi-retired, or close to retirement |
-| Income source | UK pension (state and/or private), savings, investments |
-| Family status | Often couple; sometimes single; occasionally with adult children |
-| Property intention | Usually renting initially, considering buying |
-| Digital literacy | Moderate — comfortable with email, some tech friction |
+| Age range | 55–72 |
+| Employment status | Retired, semi-retired, or approaching retirement |
+| Income source | UK state pension, private/workplace pension, savings, investments |
+| Household | Couple (most common) or individual; children are grown and independent |
+| Property intention | Renting initially; many consider buying within 12–24 months |
+| Digital literacy | Moderate — comfortable with email; some friction with online government portals |
+| Cyprus experience | First-time relocator; some have holidayed here before |
 
 ---
 
-## Motivation for Moving
+## Motivation for Relocating
 
-- **Climate and lifestyle:** Primary driver. Cyprus offers warm weather, English-speaking environment, and a familiar (Commonwealth) cultural context.
-- **Cost of living:** Cyprus is cheaper than UK for many lifestyle costs, though property and services are rising.
-- **Tax considerations:** Some are aware of Cyprus's tax advantages (Non-Dom, no wealth tax, no inheritance tax). For many, tax is secondary to lifestyle.
-- **Community:** Large existing British expat community in Paphos is a significant pull factor.
+The primary driver is lifestyle: Cyprus offers warm weather, a large English-speaking community, and a culturally familiar environment (Commonwealth links). Paphos in particular has an established British expat community that acts as a strong pull factor.
 
----
+Secondary drivers include cost of living (lower than the UK for many day-to-day expenses, though rising) and tax advantages. Some are aware of Cyprus's favourable tax treatment of pension income and non-dom benefits, but for most retirees, tax is secondary to lifestyle quality.
 
-## Key Challenges and Fears
-
-- **Post-Brexit uncertainty:** Many are confused about what has changed since Brexit and whether they can still move to Cyprus freely.
-- **Healthcare:** A primary concern — GESY vs private, quality of care, access to specialists.
-- **Property:** Confusion about title deed risks, which areas to choose, renting vs buying.
-- **Pension and finances:** Worried about currency exchange risk, pension transfer, and cost of living increasing.
-- **Language barrier perception:** Many worry more than they need to — Cyprus is very English-friendly.
+Post-retirement timing is common — they have deferred the move until pension income is secured. Many have been thinking about Cyprus for years before enquiring.
 
 ---
 
-## Processes Required (Typical)
+## Primary Concerns and Questions
 
-1. **Category F Permit** — primary residency route for UK nationals not working in Cyprus
-2. **Private Health Insurance** — required for Category F application
-3. **Property rental or purchase** — needs housing with appropriate documentation
-4. **GESY Registration** — once resident (Category F holders can register)
-5. **Driving Licence Exchange** — UK licence exchange after becoming resident
-6. **Bank Account Opening** — essential but complex for non-EU nationals
-
----
-
-## Partner Types Needed
-
-- Immigration lawyer (Category F application)
-- Property agent (rental or purchase)
-- Healthcare provider (private insurance + GESY registration)
-- Financial advisor (pension planning, currency considerations)
-- Removal company (if shipping goods)
+1. "Can I still move to Cyprus after Brexit? Do I need a visa?"
+2. "Will my UK pension be taxed in Cyprus — or both in the UK and Cyprus?"
+3. "What is the healthcare like? Can I use GESY or do I need private insurance?"
+4. "How much does it actually cost to live in Paphos?"
+5. "Can I buy property in Cyprus as a British citizen? What are the risks?"
+6. "How long does the residency application take, and what do I need?"
+7. "What happens to my NHS entitlement once I leave the UK?"
 
 ---
 
-## Content They Are Looking For
+## Processes Most Relevant to This Segment
 
-- "Can British citizens still move to Cyprus after Brexit?"
-- "What visa do UK retirees need to live in Cyprus?"
-- "Is my UK pension taxed in Cyprus?"
-- "How much does it cost to live in Paphos?"
-- "Can I buy property in Cyprus as a British citizen?"
-- "What is healthcare like in Cyprus?"
-- "How do I find a GP in Paphos?"
+| Process | Priority |
+|---------|----------|
+| Category F Permit (Non-EU Self-Sufficient) | Critical |
+| Private Health Insurance (pre-application requirement) | Critical |
+| [Cyprus Tax Residency — 60-Day Rule](../../processes/tax/60-day-rule.md) | High |
+| [Cyprus Non-Dom Status](../../processes/tax/non-dom-status.md) | High |
+| [Renting a Property in Cyprus](../../processes/property/renting-a-property.md) | High |
+| GESY Registration | Medium |
+| Driving Licence Exchange | Low |
+| Cyprus Bank Account Opening | Medium |
 
----
-
-## Service Revenue Profile
-
-| Service | Typical complexity | Revenue indicator |
-|---|---|---|
-| Category F advisory | Medium | Moderate |
-| Property search guidance | Low | Low — primarily partner referral value |
-| Healthcare setup | Low | Low — primarily partner referral value |
-| Financial / pension planning | High (via partner) | High partner referral value |
+*Note: Category F Permit process doc is forthcoming (PROC-IMM-005). UK nationals are non-EU post-Brexit and cannot use the Yellow Slip (MEU1) route.*
 
 ---
 
-## Update Notes
+## Content Most Relevant to This Segment
 
-*Update this profile with real data as cases accumulate. Key unknowns: actual age distribution, percentage who buy vs rent, how many have UK pension transfer needs.*
+This segment is predominantly top-of-funnel researchers — they discover Paphos Advisors while searching for answers to their specific questions, not while actively in the application process.
+
+High-value content topics:
+- Brexit and UK nationals in Cyprus — what changed, what is still possible
+- Category F Permit explained — who it is for, what is required, how long it takes
+- UK pension and Cyprus tax — what is taxable, double tax treaty implications
+- Healthcare in Cyprus — GESY vs. private, GP access in Paphos
+- Cost of living in Paphos — realistic figures for retirees
+- Renting vs. buying in Cyprus — risks, timelines, title deed issues
+- Step-by-step relocation guide for UK nationals
+
+Content format: long-form guides and FAQs convert best for this segment. They are thorough researchers who read in full before contacting.
+
+---
+
+## Partner Services Most Relevant to This Segment
+
+| Partner Category | Relevance |
+|-----------------|-----------|
+| Immigration lawyer | Category F Permit application is legally complex for non-EU nationals — specialist required |
+| Tax advisor (ICPAC) | UK/Cyprus double tax treaty analysis, pension tax treatment, non-dom election |
+| Property agent | Rental and purchase — title deed verification is critical for this segment |
+| Private health insurance provider | Required for Category F application; ongoing after residency |
+| Financial advisor | Pension transfer considerations, currency exchange planning |
+| Removal / shipping company | Most in this segment are shipping household goods from the UK |
+
+---
+
+## Scoring Criteria
+
+| Signal | Weight |
+|--------|--------|
+| UK / British nationality stated | High |
+| Pension income as primary income source | High |
+| Age 55+ indicated | High |
+| Mentions retirement or semi-retirement | High |
+| Asks about Category F, AIP, or "non-EU residency" | High |
+| Mentions Brexit or "post-Brexit" | Medium |
+| Asks about healthcare or GESY | Medium |
+| Mentions shipping goods or full relocation | Medium |
+| Asks about buying property | Low — common across all segments |
+
+---
+
+## Red Flags / Disqualifiers
+
+- **Currently employed full-time in the UK with no intention to retire soon:** Likely not ready to act — may be a future client, but not a current case.
+- **Seeking a Schengen-area residency permit:** Cyprus is not in Schengen — if this is a requirement, Cyprus does not meet their need.
+- **Expects to use NHS entitlement in Cyprus:** NHS entitlement does not transfer to Cyprus. Clients who are unwilling to accept private health costs may not be a viable fit.
+- **Short-stay intention (under 6 months per year):** Category F requires genuine long-term residency intent. Clients who only want a holiday home should be re-routed.
+- **No pension or passive income secured:** Category F requires demonstrable sufficient income. Clients without confirmed pension or investment income cannot yet apply.
+
+---
+
+## Notes
+
+*Profile based on segment knowledge and client conversations. Update with real case data as cases accumulate — particularly: actual income levels seen, most common documentation gaps, and which partner categories generate most value for this segment.*

@@ -37,6 +37,16 @@ Master registry of all ID prefixes, area/type codes, and current sequence number
 
 ---
 
+## ICP Segment IDs — `ICP-SEG`
+
+Ideal Customer Profile segment definitions. One record per distinct segment.
+
+| Segment | Code | Current Sequence | Next ID to Use |
+|---------|------|-----------------|----------------|
+| Segments | SEG | 006 | ICP-SEG-007 |
+
+---
+
 ## Decision Tree IDs — `DT`
 
 Routing and eligibility decision trees. Domain codes match the process area.
