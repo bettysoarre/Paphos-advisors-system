@@ -1,13 +1,22 @@
-taxonomy:
-  name: confidence-levels
-  description: >
-    Indicates how reliable and verified a piece of information or research output is.
-    Applied to knowledge entries, process steps, and research captures.
+---
+id: TAX-002
+title: "Confidence Level Taxonomy"
+domain: system
+applies_to:
+  - processes
+  - knowledge/official
+  - knowledge/field
+  - knowledge/decision-trees
+  - research
+created: 2026-03-15
+updated: 2026-04-13
+owner: "lead-advisor"
+---
 
 values:
-  - id: high
-    label: High
-    definition: >
+  - value: high
+    label: "High"
+    description: >
       Information is confirmed by an official source (government body, legislation, or
       official regulation) and has been independently verified by a qualified expert.
       No contradictory sources found.
@@ -17,9 +26,9 @@ values:
       - Reviewed and signed off by a qualified advisor or partner
       - No known contradictions or field exceptions
 
-  - id: medium
-    label: Medium
-    definition: >
+  - value: medium
+    label: "Medium"
+    description: >
       Information is plausible and supported by credible secondary sources or field
       experience, but has not been fully verified against official documentation.
     criteria:
@@ -28,9 +37,9 @@ values:
       - No expert sign-off yet, or expert opinion without official backing
       - May contain caveats or known exceptions
 
-  - id: low
-    label: Low
-    definition: >
+  - value: low
+    label: "Low"
+    description: >
       Information is uncertain, anecdotal, or based on a single unverified source.
       Should not be used in client-facing content without further verification.
     criteria:
@@ -39,12 +48,17 @@ values:
       - Known to vary by case, officer, or timing
       - Flagged for further research
 
-  - id: unverified
-    label: Unverified
-    definition: >
+  - value: unverified
+    label: "Unverified"
+    description: >
       Information has been captured but has not been assessed for accuracy.
       Treat as a research lead only — do not use in any work product.
     criteria:
       - Raw capture with no source evaluation performed
       - Origin unknown or untraceable
       - No cross-referencing has taken place
+
+rules:
+  - "Content sourced from 'low' or 'unverified' material must display the enhanced accuracy disclaimer."
+  - "Content sourced from 'unverified' material must not be published until upgraded to at least 'medium'."
+  - "Confidence values must be set in frontmatter using lowercase (e.g., confidence: medium)."

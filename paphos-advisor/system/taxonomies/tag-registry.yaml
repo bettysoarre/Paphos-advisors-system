@@ -1,10 +1,21 @@
-taxonomy:
-  name: tag-registry
-  description: >
-    Canonical tag registry for the Paphos Advisor system. Tags are applied to content,
-    process documents, knowledge entries, and research captures to enable filtering,
-    cross-referencing, and topical mapping. Tags are organised into four dimensions:
-    process, service, geography, and audience.
+---
+id: TAX-009
+title: "Tag Registry"
+domain: system
+applies_to:
+  - content
+  - content-briefs
+  - processes
+  - knowledge/official
+  - knowledge/field
+  - knowledge/decision-trees
+  - partners
+  - icps/segments
+  - research
+created: 2026-03-15
+updated: 2026-04-13
+owner: "lead-advisor"
+---
 
 dimensions:
 
@@ -15,40 +26,40 @@ dimensions:
     description: Tags that identify the process domain a piece of content or knowledge relates to.
     values:
       - tag: immigration
-        definition: Relates to visa applications, residence permits, work permits, or entry to Cyprus.
+        description: Relates to visa applications, residence permits, work permits, or entry to Cyprus.
 
       - tag: tax
-        definition: Relates to personal or corporate tax, tax residency, VAT, or non-dom status.
+        description: Relates to personal or corporate tax, tax residency, VAT, or non-dom status.
 
       - tag: property
-        definition: Relates to buying, selling, renting, or managing property in Cyprus.
+        description: Relates to buying, selling, renting, or managing property in Cyprus.
 
       - tag: business-setup
-        definition: Relates to company formation, registration, or operating a business in Cyprus.
+        description: Relates to company formation, registration, or operating a business in Cyprus.
 
       - tag: banking
-        definition: Relates to opening bank accounts, financial access, or banking services in Cyprus.
+        description: Relates to opening bank accounts, financial access, or banking services in Cyprus.
 
       - tag: healthcare
-        definition: Relates to registering with healthcare providers, GESY, or accessing medical services.
+        description: Relates to registering with healthcare providers, GESY, or accessing medical services.
 
       - tag: transport
-        definition: Relates to vehicle import, driving licences, or road transport in Cyprus.
+        description: Relates to vehicle import, driving licences, or road transport in Cyprus.
 
       - tag: shipping
-        definition: Relates to international shipping, customs clearance, or import logistics.
+        description: Relates to international shipping, customs clearance, or import logistics.
 
       - tag: insurance
-        definition: Relates to health, vehicle, property, or life insurance in Cyprus.
+        description: Relates to health, vehicle, property, or life insurance in Cyprus.
 
       - tag: settling-in
-        definition: Relates to practical day-to-day settling-in tasks such as utilities, schools, and local registration.
+        description: Relates to practical day-to-day settling-in tasks such as utilities, schools, and local registration.
 
       - tag: legal
-        definition: Relates to legal processes, contracts, representation, or regulatory compliance.
+        description: Relates to legal processes, contracts, representation, or regulatory compliance.
 
       - tag: compliance
-        definition: Relates to ongoing compliance obligations for individuals or businesses in Cyprus.
+        description: Relates to ongoing compliance obligations for individuals or businesses in Cyprus.
 
   # -----------------------------------------------------------------------
   # SERVICE — tags relating to specific Paphos Advisor or partner services
@@ -57,37 +68,37 @@ dimensions:
     description: Tags that identify a specific service type relevant to the content or knowledge entry.
     values:
       - tag: residence-permit
-        definition: Relates specifically to the residence permit application process.
+        description: Relates specifically to the residence permit application process.
 
       - tag: work-permit
-        definition: Relates specifically to work permit applications and requirements.
+        description: Relates specifically to work permit applications and requirements.
 
       - tag: digital-nomad-visa
-        definition: Relates to the Cyprus Digital Nomad Visa specifically.
+        description: Relates to the Cyprus Digital Nomad Visa specifically.
 
       - tag: non-dom
-        definition: Relates to the non-domicile tax status application or its implications.
+        description: Relates to the non-domicile tax status application or its implications.
 
       - tag: company-formation
-        definition: Relates to the formation and registration of a Cypriot company.
+        description: Relates to the formation and registration of a Cypriot company.
 
       - tag: conveyancing
-        definition: Relates to the legal process of transferring property ownership.
+        description: Relates to the legal process of transferring property ownership.
 
       - tag: title-deeds
-        definition: Relates to the issuance, transfer, or verification of property title deeds.
+        description: Relates to the issuance, transfer, or verification of property title deeds.
 
       - tag: customs
-        definition: Relates to customs duties, declarations, or clearance procedures.
+        description: Relates to customs duties, declarations, or clearance procedures.
 
       - tag: gesy
-        definition: Relates to the General Healthcare System (GESY) registration or coverage.
+        description: Relates to the General Healthcare System (GESY) registration or coverage.
 
       - tag: apostille
-        definition: Relates to apostille stamping or document legalisation.
+        description: Relates to apostille stamping or document legalisation.
 
       - tag: translation
-        definition: Relates to certified or general translation of documents.
+        description: Relates to certified or general translation of documents.
 
   # -----------------------------------------------------------------------
   # GEOGRAPHY — tags relating to location within or outside Cyprus
@@ -96,31 +107,31 @@ dimensions:
     description: Tags that identify a geographic area relevant to the content or process.
     values:
       - tag: paphos
-        definition: Relates specifically to the Paphos district of Cyprus.
+        description: Relates specifically to the Paphos district of Cyprus.
 
       - tag: limassol
-        definition: Relates specifically to the Limassol district of Cyprus.
+        description: Relates specifically to the Limassol district of Cyprus.
 
       - tag: nicosia
-        definition: Relates specifically to the Nicosia district and capital region of Cyprus.
+        description: Relates specifically to the Nicosia district and capital region of Cyprus.
 
       - tag: larnaca
-        definition: Relates specifically to the Larnaca district of Cyprus.
+        description: Relates specifically to the Larnaca district of Cyprus.
 
       - tag: famagusta
-        definition: Relates specifically to the Famagusta district of Cyprus.
+        description: Relates specifically to the Famagusta district of Cyprus.
 
       - tag: cyprus-wide
-        definition: Applies across all districts of Cyprus with no geographic restriction.
+        description: Applies across all districts of Cyprus with no geographic restriction.
 
       - tag: eu
-        definition: Relates to European Union rules, regulations, or cross-border considerations.
+        description: Relates to European Union rules, regulations, or cross-border considerations.
 
       - tag: uk
-        definition: Relates to the United Kingdom specifically, including post-Brexit rules.
+        description: Relates to the United Kingdom specifically, including post-Brexit rules.
 
       - tag: international
-        definition: Relates to cross-border or non-Cyprus-specific international considerations.
+        description: Relates to cross-border or non-Cyprus-specific international considerations.
 
   # -----------------------------------------------------------------------
   # AUDIENCE — tags relating to the target reader or client segment
@@ -129,31 +140,37 @@ dimensions:
     description: Tags that identify which ICP segment or reader type the content is primarily aimed at.
     values:
       - tag: eu-nationals
-        definition: Content primarily relevant to EU citizens relocating to Cyprus.
+        description: Content primarily relevant to EU citizens relocating to Cyprus.
 
       - tag: uk-nationals
-        definition: Content primarily relevant to British citizens relocating to Cyprus post-Brexit.
+        description: Content primarily relevant to British citizens relocating to Cyprus post-Brexit.
 
       - tag: third-country-nationals
-        definition: Content primarily relevant to non-EU, non-UK nationals relocating to Cyprus.
+        description: Content primarily relevant to non-EU, non-UK nationals relocating to Cyprus.
 
       - tag: digital-nomads
-        definition: Content primarily relevant to location-independent remote workers.
+        description: Content primarily relevant to location-independent remote workers.
 
       - tag: retirees
-        definition: Content primarily relevant to individuals relocating to Cyprus in retirement.
+        description: Content primarily relevant to individuals relocating to Cyprus in retirement.
 
       - tag: families
-        definition: Content primarily relevant to families relocating together.
+        description: Content primarily relevant to families relocating together.
 
       - tag: business-owners
-        definition: Content primarily relevant to entrepreneurs and business owners.
+        description: Content primarily relevant to entrepreneurs and business owners.
 
       - tag: property-buyers
-        definition: Content primarily relevant to individuals purchasing property in Cyprus.
+        description: Content primarily relevant to individuals purchasing property in Cyprus.
 
       - tag: multi-step-relocators
-        definition: Content relevant to clients managing multiple complex processes simultaneously.
+        description: Content relevant to clients managing multiple complex processes simultaneously.
 
       - tag: advisors
-        definition: Internal content intended for use by the Paphos Advisors team, not clients.
+        description: Internal content intended for use by the Paphos Advisors team, not clients.
+
+rules:
+  - "Tags must be applied from this registry only — do not invent ad-hoc tags."
+  - "Each record should carry at least one process tag and one audience tag where applicable."
+  - "Geography tags are optional but recommended for district-specific content."
+  - "The 'advisors' audience tag must be applied to all internal-only content."

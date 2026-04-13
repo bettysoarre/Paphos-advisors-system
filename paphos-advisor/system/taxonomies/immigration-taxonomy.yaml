@@ -1,133 +1,143 @@
-# Immigration Taxonomy
-# Controlled vocabulary for immigration and residency process documentation.
-# Use these values in process frontmatter, KB articles, and Notion records.
+---
+id: TAX-005
+title: "Immigration Taxonomy"
+domain: immigration
+applies_to:
+  - processes/immigration
+  - knowledge/official
+  - knowledge/field
+  - knowledge/decision-trees
+created: 2026-03-15
+updated: 2026-04-13
+owner: "lead-advisor"
+---
 
 permit_types:
   - value: yellow-slip
-    label: Yellow Slip (MEU1)
+    label: "Yellow Slip (MEU1)"
     description: Temporary registration certificate for EU nationals. Valid indefinitely as proof of registration.
     applies_to: eu_nationals
     issuing_authority: CRMD (Civil Registry and Migration Department)
 
   - value: pink-slip
-    label: Pink Slip (MEU3)
+    label: "Pink Slip (MEU3)"
     description: Permanent residency certificate for EU nationals after 5 years continuous residence.
     applies_to: eu_nationals
     issuing_authority: CRMD
 
   - value: category-f
-    label: Category F Permit
+    label: "Category F Permit"
     description: Temporary residence permit for non-EU nationals with sufficient independent income. Does not permit working.
     applies_to: non_eu_nationals
     issuing_authority: CRMD
 
   - value: category-ep
-    label: Category EP Permit
+    label: "Category EP Permit"
     description: Employment Permit for non-EU nationals taking up employment in Cyprus.
     applies_to: non_eu_nationals
     issuing_authority: CRMD / Ministry of Labour
 
   - value: digital-nomad-visa
-    label: Digital Nomad Visa
+    label: "Digital Nomad Visa"
     description: Temporary residence visa for remote workers employed by companies outside Cyprus.
     applies_to: non_eu_nationals
     issuing_authority: CRMD / Civil Registry
 
   - value: permanent-residency-fast-track
-    label: Permanent Residency (Fast Track / Category 6.2)
-    description: Permanent residency by investment. Requires minimum €300,000 property purchase.
+    label: "Permanent Residency (Fast Track / Category 6.2)"
+    description: Permanent residency by investment. Requires minimum €300,000 property purchase from a licensed developer.
     applies_to: non_eu_nationals
     issuing_authority: CRMD
 
   - value: naturalisation
-    label: Naturalisation (Cyprus Citizenship)
+    label: "Naturalisation (Cyprus Citizenship)"
     description: Cyprus citizenship after 7 years legal residence (or 5 years for spouses of citizens).
     applies_to: all
     issuing_authority: Civil Registry
 
 nationality_categories:
   - value: eu_national
-    label: EU/EEA National
+    label: "EU/EEA National"
     description: Citizen of an EU or EEA member state. Free movement rights apply.
 
   - value: non_eu_national
-    label: Non-EU/Non-EEA National
+    label: "Non-EU/Non-EEA National"
     description: Citizen of a country outside the EU/EEA. Subject to immigration controls.
 
   - value: uk_national
-    label: UK National (post-Brexit)
+    label: "UK National (post-Brexit)"
     description: British citizen. Treated as non-EU for new applications post-31 Dec 2020. Existing pre-Brexit Yellow Slips remain valid.
 
 residency_status:
   - value: temporary_resident
-    label: Temporary Resident
+    label: "Temporary Resident"
     description: Holds a temporary permit (Yellow Slip, Category F, Digital Nomad Visa, Category EP).
 
   - value: permanent_resident
-    label: Permanent Resident
+    label: "Permanent Resident"
     description: Holds permanent residency (Pink Slip or Category 6.2 Fast Track).
 
   - value: citizen
-    label: Cyprus Citizen
+    label: "Cyprus Citizen"
     description: Holds Cyprus citizenship by naturalisation or birth.
 
   - value: visitor
-    label: Visitor / Tourist
+    label: "Visitor / Tourist"
     description: Present in Cyprus without a residence permit. Subject to 90-day Schengen-equivalent rule for non-EU nationals.
 
 offices:
   - value: crmd-paphos
-    label: CRMD Paphos Office
+    label: "CRMD Paphos Office"
     address: Corner of Arch. Makarios III and Ellados, Paphos
-    notes: Handles Yellow Slip, Pink Slip, and other residency applications for Paphos district.
+    description: Handles Yellow Slip, Pink Slip, and other residency applications for Paphos district.
 
   - value: crmd-limassol
-    label: CRMD Limassol Office
+    label: "CRMD Limassol Office"
     address: Limassol District Administration Building
-    notes: Handles residency applications for Limassol district.
+    description: Handles residency applications for Limassol district.
 
   - value: crmd-nicosia
-    label: CRMD Nicosia (HQ)
+    label: "CRMD Nicosia (HQ)"
     address: Corner Apelles and Athalassa, Strovolos, Nicosia
-    notes: Head office. Handles complex cases and appeals.
+    description: Head office. Handles complex cases and appeals.
 
   - value: tax-office-paphos
-    label: Tax Department — Paphos
-    notes: Issues TIC (Tax Identification Code). Required for MEU1 and Non-Dom applications.
+    label: "Tax Department — Paphos"
+    description: Issues TIC (Tax Identification Code). Required for MEU1 and Non-Dom applications.
 
 document_types:
   - value: meu1-form
-    label: MEU1 Application Form
+    label: "MEU1 Application Form"
     description: Application form for Yellow Slip (EU nationals).
 
   - value: meu3-form
-    label: MEU3 Application Form
+    label: "MEU3 Application Form"
     description: Application form for Pink Slip permanent residency (EU nationals).
 
   - value: yellow-slip-certificate
-    label: Yellow Slip Certificate
+    label: "Yellow Slip Certificate"
     description: The issued temporary registration certificate (MEU1 outcome).
 
   - value: pink-slip-certificate
-    label: Pink Slip Certificate
+    label: "Pink Slip Certificate"
     description: The issued permanent residency certificate (MEU3 outcome).
 
   - value: stamped-rental-agreement
-    label: Stamped Rental Agreement
+    label: "Stamped Rental Agreement"
     description: Rental contract stamped by the Tax Department. Required as proof of address for MEU1.
 
   - value: proof-of-income
-    label: Proof of Income / Financial Means
+    label: "Proof of Income / Financial Means"
     description: Bank statements, employment contract, or pension statements demonstrating sufficient financial means.
 
   - value: health-insurance-certificate
-    label: Health Insurance Certificate
+    label: "Health Insurance Certificate"
     description: Proof of comprehensive health insurance. Required for Category F and Digital Nomad Visa applicants.
 
   - value: clean-criminal-record
-    label: Clean Criminal Record Certificate
+    label: "Clean Criminal Record Certificate"
     description: Certificate from home country police / Interpol. Required for most permit types.
 
   - value: tic
-    label: TIC (Tax Identification Code)
+    label: "TIC (Tax Identification Code)"
     description: Cyprus tax identification number. Required for Yellow Slip and other processes.

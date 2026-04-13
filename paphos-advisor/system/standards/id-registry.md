@@ -160,7 +160,7 @@ Taxonomy definition files. Single shared sequence — all taxonomy files use the
 
 | Type | Current Sequence | Next ID to Use |
 |------|-----------------|----------------|
-| Taxonomy | 001 | TAX-002 |
+| Taxonomy | 009 | TAX-010 |
 
 ---
 

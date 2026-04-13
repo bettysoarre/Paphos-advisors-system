@@ -1,63 +1,72 @@
-taxonomy:
-  name: partner-categories
-  description: >
-    Defines the professional categories used to classify partners in the Paphos Advisor
-    partner network. Each partner is assigned one primary category.
+---
+id: TAX-006
+title: "Partner Categories Taxonomy"
+domain: partners
+applies_to:
+  - partners
+created: 2026-03-15
+updated: 2026-04-13
+owner: "lead-advisor"
+---
 
 values:
-  - id: lawyer
-    label: Lawyer
-    definition: >
+  - value: lawyer
+    label: "Lawyer"
+    description: >
       Licensed legal professionals providing services such as immigration applications,
       company formation, property conveyancing, contract review, and legal representation.
 
-  - id: accountant
-    label: Accountant
-    definition: >
+  - value: accountant
+    label: "Accountant"
+    description: >
       Qualified accountants and accounting firms providing bookkeeping, financial reporting,
       audit, and general accounting services for individuals and businesses in Cyprus.
 
-  - id: government-liaison
-    label: Government Liaison
-    definition: >
+  - value: government-liaison
+    label: "Government Liaison"
+    description: >
       Specialists who manage interactions with Cypriot government departments on behalf of
       clients. Includes document runners, application handlers, and officials familiar
       with navigating bureaucratic processes efficiently.
 
-  - id: shipping
-    label: Shipping
-    definition: >
+  - value: shipping
+    label: "Shipping"
+    description: >
       Companies and agents providing international shipping, freight forwarding, customs
       clearance, and logistics services for personal effects, vehicles, and commercial goods.
 
-  - id: property-developer
-    label: Property Developer
-    definition: >
+  - value: property-developer
+    label: "Property Developer"
+    description: >
       Companies that develop and sell new-build residential or commercial properties
       in Cyprus. Includes off-plan and newly completed developments.
 
-  - id: property-agent
-    label: Property Agent
-    definition: >
+  - value: property-agent
+    label: "Property Agent"
+    description: >
       Licensed real estate agents assisting clients with buying, selling, or renting
       residential and commercial properties in Cyprus.
 
-  - id: insurance
-    label: Insurance
-    definition: >
+  - value: insurance
+    label: "Insurance"
+    description: >
       Insurance brokers and providers offering health, life, vehicle, property, and
       liability insurance products relevant to relocators and residents in Cyprus.
 
-  - id: tax-specialist
-    label: Tax Specialist
-    definition: >
+  - value: tax-specialist
+    label: "Tax Specialist"
+    description: >
       Professionals specialising in Cypriot and international tax advisory, including
       tax residency structuring, VAT registration, non-dom applications, and cross-border
       tax planning.
 
-  - id: other
-    label: Other
-    definition: >
+  - value: other
+    label: "Other"
+    description: >
       Partners who provide services relevant to the relocating community but do not fit
       cleanly into the above categories. Includes translators, school advisors, healthcare
       providers, banking facilitators, and lifestyle services.
+
+rules:
+  - "Each partner record must be assigned exactly one primary category."
+  - "Category values must match the PRTN partner ID area codes (e.g., lawyer → PRTN-LAW)."

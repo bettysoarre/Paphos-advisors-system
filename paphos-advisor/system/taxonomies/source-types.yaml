@@ -1,30 +1,45 @@
-taxonomy:
-  name: source-types
-  description: >
-    Classifies the origin type of information used in knowledge entries, process documents,
-    and research captures within the Paphos Advisor system.
+---
+id: TAX-008
+title: "Source Types Taxonomy"
+domain: system
+applies_to:
+  - processes
+  - knowledge/official
+  - knowledge/field
+  - knowledge/decision-trees
+  - research
+  - content
+created: 2026-03-15
+updated: 2026-04-13
+owner: "lead-advisor"
+---
 
 values:
-  - id: official
-    label: Official
-    definition: >
+  - value: official
+    label: "Official"
+    description: >
       Information sourced directly from a government body, official regulation, legislation,
       or recognised statutory authority. Examples include the Civil Registry and Migration
       Department, the Cyprus Tax Department, the Land Registry, EU directives, and
       official government portals.
 
-  - id: field
-    label: Field
-    definition: >
+  - value: field
+    label: "Field"
+    description: >
       Information sourced from direct experience, practitioner knowledge, partner expertise,
       or client cases. Not officially published but grounded in real-world application
       of processes in Cyprus. Typically gathered through interviews, case debriefs,
       or partner consultations.
 
-  - id: mixed
-    label: Mixed
-    definition: >
+  - value: mixed
+    label: "Mixed"
+    description: >
       Information that combines official sources with field knowledge. Used when a process
       or rule is officially defined but the practical application differs or is clarified
       by field experience. The official and field components should be clearly distinguished
       within the content.
+
+rules:
+  - "Source type must be set in frontmatter using lowercase (e.g., source_type: official)."
+  - "Mixed-source content must clearly label which sections are official and which are field-sourced."
+  - "Field-sourced content must never be presented as official guidance in published content."

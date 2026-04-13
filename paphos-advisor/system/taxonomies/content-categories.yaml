@@ -1,78 +1,88 @@
-taxonomy:
-  name: content-categories
-  description: >
-    Defines the content types produced and managed within the Paphos Advisor content system.
-    Each piece of content is assigned one primary category.
+---
+id: TAX-003
+title: "Content Categories Taxonomy"
+domain: content
+applies_to:
+  - content
+  - content-briefs
+created: 2026-03-15
+updated: 2026-04-13
+owner: "lead-advisor"
+---
 
 values:
-  - id: guide
-    label: Guide
-    definition: >
+  - value: guide
+    label: "Guide"
+    description: >
       Long-form, structured content walking the reader through a process or topic end-to-end.
       Intended to be the definitive resource on a subject. Typically 1,500–4,000 words.
 
-  - id: faq
-    label: FAQ
-    definition: >
+  - value: faq
+    label: "FAQ"
+    description: >
       A curated set of questions and concise answers on a specific topic or service area.
       Designed to address common reader queries and support SEO through question-based search intent.
 
-  - id: checklist
-    label: Checklist
-    definition: >
+  - value: checklist
+    label: "Checklist"
+    description: >
       An actionable list of steps or items for the reader to complete or verify.
       Practical and scannable. Often used as a lead magnet or companion to a guide.
 
-  - id: comparison
-    label: Comparison
-    definition: >
+  - value: comparison
+    label: "Comparison"
+    description: >
       Content that compares two or more options, routes, visas, services, or providers
       to help the reader make an informed decision.
 
-  - id: partner-page
-    label: Partner Page
-    definition: >
+  - value: partner-page
+    label: "Partner Page"
+    description: >
       A dedicated profile page for a specific partner in the Paphos Advisor network.
       Includes services offered, areas of expertise, and referral information.
 
-  - id: service-page
-    label: Service Page
-    definition: >
+  - value: service-page
+    label: "Service Page"
+    description: >
       A page describing a Paphos Advisor service offering. Conversion-focused with
       clear value proposition, what is included, and a call to action.
 
-  - id: email-sequence
-    label: Email Sequence
-    definition: >
+  - value: email-sequence
+    label: "Email Sequence"
+    description: >
       A series of structured emails delivered to a subscriber over time. Used for
       nurturing leads, onboarding new subscribers, or guiding readers through a topic.
 
-  - id: social-post
-    label: Social Post
-    definition: >
+  - value: social-post
+    label: "Social Post"
+    description: >
       Short-form content created for distribution on social media platforms.
       Includes captions, carousels, threads, and short video scripts.
 
-  - id: video-script
-    label: Video Script
-    definition: >
+  - value: video-script
+    label: "Video Script"
+    description: >
       A written script for a video production. Includes spoken dialogue, scene direction,
       and on-screen text cues. Used for YouTube, Reels, or educational content.
 
-  - id: lead-magnet
-    label: Lead Magnet
-    definition: >
+  - value: lead-magnet
+    label: "Lead Magnet"
+    description: >
       A high-value downloadable or gated resource offered in exchange for an email address
       or contact detail. Examples include PDF guides, checklists, and comparison sheets.
 
-  - id: landing-page
-    label: Landing Page
-    definition: >
+  - value: landing-page
+    label: "Landing Page"
+    description: >
       A standalone conversion-focused page built around a single offer or call to action.
       Used for lead generation campaigns, webinar sign-ups, or specific service promotions.
 
-  - id: blog-post
-    label: Blog Post
-    definition: >
+  - value: blog-post
+    label: "Blog Post"
+    description: >
       A shorter, timely, or opinion-driven piece of content published on the Paphos Advisor
       blog. May cover news, updates, tips, or thought leadership. Typically 600–1,500 words.
+
+rules:
+  - "Each content record must be assigned exactly one primary category."
+  - "Category values must match the CNT content ID area codes (e.g., guide → CNT-GDE, faq → CNT-FAQ)."
