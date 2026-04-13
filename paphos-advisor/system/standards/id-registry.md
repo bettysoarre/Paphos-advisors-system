@@ -154,6 +154,16 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 
 ---
 
+## Content Type Definition IDs — `CT-DEF`
+
+Definitions and rules for each content type. One record per content type.
+
+| Type | Code | Current Sequence | Next ID to Use |
+|------|------|-----------------|----------------|
+| Content Type Definitions | DEF | 001 | CT-DEF-002 |
+
+---
+
 ## How to Use This Registry
 
 1. Identify the correct prefix and area/type code for the record you are creating.
