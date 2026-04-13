@@ -44,7 +44,7 @@ Routing and eligibility decision trees. Domain codes match the process area.
 | Domain | Code | Current Sequence | Next ID to Use |
 |--------|------|-----------------|----------------|
 | Residency / Immigration | RES | 001 | DT-RES-002 |
-| Tax | TAX | 000 | DT-TAX-001 |
+| Tax | TAX | 001 | DT-TAX-002 |
 | Property | PROP | 000 | DT-PROP-001 |
 | Business | BIZ | 000 | DT-BIZ-001 |
 | Healthcare | HLTH | 000 | DT-HLTH-001 |
