@@ -1,87 +1,156 @@
 ---
 id: SOP-CON-001
 title: Content Creation SOP
-area: content
-status: validated
-version: "1.0"
+category: content
+status: active
+version: 1.0
+owner: jason
 created: 2026-04-13
 updated: 2026-04-13
-related_sops: [SOP-CON-002, SOP-CON-003]
+review_due: 2026-10-13
+related_sops:
+  - SOP-CON-002
+  - SOP-CON-003
+related_workflows:
+  - content-pipeline
+tags:
+  - content
+  - creation
+  - drafting
 ---
 
 # Content Creation SOP
 
 ## Purpose
-Defines the end-to-end process for creating a piece of content from brief to ready-for-review draft.
 
-## When to Use
-When a content item moves to `in-production` status in the Content Pipeline.
+Defines the end-to-end process for creating a piece of content from brief to ready-for-review draft. Ensures all content is grounded in validated source material, meets editorial standards, and is ready for the review stage without rework.
 
-## Prerequisites
-- Content brief approved and in Notion Content Pipeline
+---
+
+## Scope
+
+Covers the creation of any new piece of website content (guides, FAQs, checklists, comparison articles, partner profiles, news updates) from the point the brief is approved to the point the draft is submitted for review. Does not cover the review process (SOP-CON-002) or publishing (SOP-CON-003).
+
+---
+
+## Roles and Responsibilities
+
+| Role | Responsibility |
+|------|----------------|
+| Content Author (Jason) | Executes all steps. Responsible for draft quality and source integrity. |
+| Reviewer | Not part of this SOP — picks up at SOP-CON-002. |
+
+---
+
+## Inputs
+
+**Trigger:** Content item moves to `in-production` status in the Notion Content Pipeline.
+
+**Required before starting:**
+- Content brief approved and linked in Notion Content Pipeline
 - Related process doc(s) exist and are at least `draft` status
 - Relevant KB articles available (or explicitly noted as not yet available)
+- Content type, target ICP, and target keyword confirmed in the brief
 
 ---
 
-## Steps
+## Process Steps
 
-### 1. Read the brief
-Open the content brief in Notion. Confirm:
-- Content type is clear
-- Target ICP(s) are identified
-- Target keyword (if SEO content) is confirmed
-- Related process doc is linked
-- Word count target is set
+### Step 1: Read the brief
+- **Who:** Content Author
+- **How:** Open the content brief in Notion. Confirm: content type, target ICP(s), target keyword, related process doc, word count target.
+- **Output:** Clear understanding of what is to be written and for whom.
+- **Tool:** Notion Content Pipeline
 
-### 2. Read the source material
-Before writing, read:
-- The related process document in full (`processes/[area]/[slug].md`)
-- Any related KB articles (`knowledge/`)
-- The content type definition (`content-system/content-types/[type].md`)
-- The style guide sections relevant to this content type
+### Step 2: Read the source material
+- **Who:** Content Author
+- **How:** Read in full: the related process document (`processes/[area]/[slug].md`), any related KB articles (`knowledge/`), the content type definition (`content-system/content-types/[type].md`), and the relevant style guide sections.
+- **Output:** Working knowledge of the facts to be written from.
+- **Tool:** GitHub
 
-### 3. Check the topical map
-Review `content-system/topical-map/pillar-topics.md` to confirm:
-- Where this piece sits in the pillar/cluster structure
-- Which existing pieces it should link to (internal linking)
-- Whether the angle has been covered elsewhere (anti-cannibalisation)
+### Step 3: Check the topical map
+- **Who:** Content Author
+- **How:** Review `content-system/topical-map/` to confirm where this piece sits in the pillar/cluster structure, which existing pieces it should link to, and whether the angle has been covered elsewhere.
+- **Output:** Internal linking targets identified. Anti-cannibalisation confirmed.
+- **Tool:** GitHub
 
-### 4. Draft the content
-Use the appropriate page template from `content-system/templates/`:
-- Guides: `guide-page-template.md`
-- FAQs: `faq-page-template.md`
-- Checklists: `checklist-template.md`
+### Step 4: Draft the content
+- **Who:** Content Author
+- **How:** Use the appropriate page template from `content-system/templates/`. Write to the word count target. Every factual claim must be traceable to a KB article or process doc. Do not present field intelligence as official guidance. Add disclaimers where source confidence is medium or lower.
+- **Output:** Complete draft at target word count.
+- **Tool:** VS Code or preferred editor
 
-Write to the word count target. Do not pad. If the topic does not fill the target word count naturally, flag this in the brief rather than adding filler.
+### Step 5: Add internal links
+- **Who:** Content Author
+- **How:** Add at least 2 internal links per 1,000 words. Follow `content-system/rules/internal-linking-rules.md`. Only link to pages that exist.
+- **Output:** Draft with internal links verified.
+- **Tool:** Editor
 
-Key rules while drafting:
-- Every factual claim must be traceable to a KB article or process doc
-- Do not present field intelligence as official guidance
-- Add the accuracy disclaimer where confidence of source material is medium or lower
-- Use the correct disclaimer language from `content-system/style-guide/legal-disclaimer-rules.md`
+### Step 6: Write meta title and description
+- **Who:** Content Author
+- **How:** Follow `content-system/rules/seo-rules.md` for character limits and keyword placement. Meta title: 50–60 chars. Meta description: 150–160 chars.
+- **Output:** Meta title and description finalised.
+- **Tool:** Editor
 
-### 5. Add internal links
-Add at least 2 internal links per 1,000 words. Follow `content-system/rules/internal-linking-rules.md`.
-
-### 6. Write meta title and description
-Follow `content-system/rules/seo-rules.md` for character limits and keyword placement.
-
-### 7. Update Notion
-- Set status to `review`
-- Tag the related process doc(s)
-- Note any open questions or caveats in the brief
-
-### 8. Notify reviewer
-Alert the assigned reviewer that the draft is ready.
+### Step 7: Update Notion and notify reviewer
+- **Who:** Content Author
+- **How:** Set content item status to `review`. Tag related process doc(s). Note any open questions or caveats in the brief. Alert the assigned reviewer.
+- **Output:** Content item status updated. Reviewer notified.
+- **Tool:** Notion Content Pipeline
 
 ---
 
-## Quality Check Before Moving to Review
+## Decision Points
+
+```mermaid
+flowchart TD
+    A[Brief approved — in-production] --> B{Source material available?}
+    B -- Yes --> C[Draft content]
+    B -- No --> D[Flag gap in brief — pause until source exists]
+    C --> E{Word count met and claims sourced?}
+    E -- Yes --> F[Write meta — submit for review]
+    E -- No --> G[Complete draft before moving on]
+```
+
+---
+
+## Outputs
+
+- Complete content draft saved and linked in Notion brief
+- Meta title and description written
+- Content item status set to `review` in Notion
+- Reviewer notified
+
+---
+
+## Quality Gates
+
 - [ ] Word count within 10% of target
 - [ ] All required sections present (per content type definition)
 - [ ] No unattributed factual claims
 - [ ] No official guidance presented from field sources only
-- [ ] Disclaimer present where required
-- [ ] Meta title and description written
-- [ ] At least 2 internal links per 1,000 words
+- [ ] Disclaimer present where required (medium or lower confidence source)
+- [ ] Meta title: 50–60 characters, includes primary keyword
+- [ ] Meta description: 150–160 characters, includes call to action
+- [ ] At least 2 internal links per 1,000 words, all resolving to existing pages
+
+---
+
+## Exceptions and Escalations
+
+**Exception:** Source material does not exist for a required section.
+**How to handle:** Write `[NEEDS SOURCE: describe what is needed]` in the draft. Do not invent or approximate. Flag in the brief. Do not submit for review until the gap is filled or explicitly approved as an acceptable gap.
+
+**Exception:** Brief is unclear or contradictory.
+**How to handle:** Do not proceed. Clarify the brief before starting. A unclear brief produces a draft that fails review.
+
+---
+
+## Related Documents
+
+- [Content Review SOP](content-review-sop.md)
+- [Content Publishing SOP](content-publishing-sop.md)
+- [Content Pipeline Lifecycle](../../workflows/content-pipeline/content-lifecycle.md)
+- [SEO Rules](../../content-system/rules/seo-rules.md)
+- [Internal Linking Rules](../../content-system/rules/internal-linking-rules.md)
+- [Editorial Standards](../../content-system/style-guide/editorial-standards.md)

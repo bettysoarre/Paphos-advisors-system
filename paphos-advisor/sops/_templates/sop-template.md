@@ -1,92 +1,127 @@
 ---
-id: sop-000                           # Unique SOP ID. Format: sop-[area]-[slug] e.g. sop-content-briefing
-title: ""                             # Full descriptive title of the SOP e.g. "How to Write and Publish a Content Brief"
-area: ""                              # Operational area this SOP governs: content | partners | cases | research | knowledge | operations
-status: draft                         # draft | active | needs-review | deprecated
-owner: ""                             # Name or role of the person responsible for maintaining this SOP
-created: ""                           # ISO date: YYYY-MM-DD
-updated: ""                           # ISO date: YYYY-MM-DD. Update whenever the procedure changes.
-review_cadence: quarterly             # How often this SOP should be reviewed: monthly | quarterly | bi-annually | annually
-last_reviewed: ""                     # ISO date: YYYY-MM-DD. Date of the most recent review.
+id: SOP-XXX-000
+title: ""
+category: content | partners | cases | research | knowledge
+status: draft
+version: 1.0
+owner: ""
+created: ""
+updated: ""
+review_due: ""
+related_sops:
+  - ""
+related_workflows:
+  - ""
 tags:
-  - ""                                # Tags relevant to this SOP from tag-registry.yaml
+  - ""
 ---
+
+# [SOP Title]
 
 ## Purpose
 
-<!-- In 2–3 sentences, explain why this SOP exists. What problem does it solve? What does it ensure happens consistently? Write this as if explaining to a new team member on day one. -->
+<!-- Why this SOP exists and what problem it solves. 2–3 sentences. Write for a new team member on day one. -->
 
 ---
 
 ## Scope
 
-<!-- Define the boundaries of this SOP. State:
-- Which team members or roles this applies to
+<!-- What this SOP covers and what it explicitly does not cover.
+- Which roles this applies to
 - Which situations or tasks it covers
-- What it does NOT cover (if relevant to avoid confusion with another SOP) -->
+- What it does NOT cover (to avoid confusion with another SOP) -->
 
 ---
 
-## Trigger
+## Roles and Responsibilities
 
-<!-- Describe the specific event or condition that initiates this procedure. Examples:
-- "A new partner has been approved for the network"
-- "A client submits an enquiry through the contact form"
-- "A process document is flagged as needs-revalidation"
-
-Be specific. The trigger should make it unambiguous when this SOP kicks in. -->
+| Role | Responsibility |
+|------|----------------|
+| [Role] | [What they do in this SOP] |
+| [Role] | [What they do in this SOP] |
 
 ---
 
-## Prerequisites
+## Inputs
 
-<!-- List everything that must be in place or completed before this procedure begins. Include:
-- Access or tools required (e.g. Notion access, a template file, login credentials)
-- Information that must be gathered first
-- Prior steps or SOPs that must have been completed
-- Any approvals needed before starting -->
+<!-- What must exist before this SOP begins. Include:
+- The trigger event or condition that starts this SOP
+- Artefacts, records, or approvals that must be in place
+- Prior SOPs that must have been completed -->
 
 ---
 
-## Procedure
+## Process Steps
 
-<!-- Provide a numbered list of every step in the procedure, in the exact order they must be completed. For each step:
-- Write one clear action per step
-- Specify who does it (if multiple roles are involved)
-- Reference any tools, templates, or systems used
-- Include decision points where relevant (e.g. "If X, go to step 5. If Y, go to step 8.")
+<!-- Numbered steps in the exact order they must be completed. For each step:
+- Who: the role performing the step
+- How: precise instructions
+- Output: what is produced
+- Tool: where in Notion / GitHub / CMS this happens
 
 Steps should be granular enough that someone unfamiliar with the task could follow them without asking questions. -->
 
-1.
-2.
-3.
+### Step 1: [Action]
+- **Who:** [Role]
+- **How:** [Precise instructions]
+- **Output:** [What is produced]
+- **Tool:** [Notion / GitHub / CMS / etc.]
+
+### Step 2: [Action]
+- **Who:**
+- **How:**
+- **Output:**
+- **Tool:**
+
+---
+
+## Decision Points
+
+<!-- Conditions that change the flow. Add a Mermaid diagram where helpful. -->
+
+```mermaid
+flowchart TD
+    A[Trigger] --> B{Decision?}
+    B -- Yes --> C[Action A]
+    B -- No --> D[Action B]
+```
 
 ---
 
 ## Outputs
 
-<!-- Describe what is produced or completed as a result of this procedure. For each output, state:
-- What it is (document, record, notification, status change, etc.)
-- Where it lives (Notion, GitHub, Google Drive, etc.)
-- Who receives it or who needs to be notified -->
+<!-- What is produced when this SOP completes successfully. For each output:
+- What it is (document, record, status change, notification)
+- Where it lives (Notion, GitHub, etc.)
+- Who receives it or needs to be notified -->
 
 ---
 
-## Exceptions
+## Quality Gates
 
-<!-- Document known situations where this SOP does not apply as written, or where a step must be handled differently. For each exception:
+<!-- Explicit pass/fail criteria. A reviewer must be able to answer yes or no to each item.
+Use a checklist format. -->
+
+- [ ] [Gate 1]
+- [ ] [Gate 2]
+- [ ] [Gate 3]
+
+---
+
+## Exceptions and Escalations
+
+<!-- Known situations where this SOP cannot be followed as written, and what to do instead.
 
 **Exception:** [Describe the situation]
-**How to handle it:** [What to do instead or in addition]
+**How to handle:** [What to do instead or in addition]
 
-If there are no known exceptions, write: "No exceptions at this time." -->
+If no known exceptions: "No exceptions at this time." -->
 
 ---
 
-## Review Schedule
+## Related Documents
 
-<!-- State when this SOP is next due for review, who is responsible for reviewing it, and what should be checked during review. Example:
-- Next review: YYYY-MM-DD
-- Reviewer: [Name or role]
-- What to check: [Accuracy of steps, tool changes, regulatory updates, etc.] -->
+<!-- Links to related SOPs, workflows, templates, and reference files. -->
+
+- [Related SOP](../[area]/[sop-slug].md)
+- [Related Workflow](../../workflows/[pipeline]/[lifecycle].md)
