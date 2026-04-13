@@ -1,5 +1,5 @@
----
-id: PROMPT-CON-002
+﻿---
+id: PRMT-CNT-002
 title: FAQ Generation Prompt
 type: content
 tool: claude
@@ -10,7 +10,7 @@ output_format: Structured FAQ page following faq-page-template.md
 use_with: SOP-CON-001, content-system/content-types/faq-page.md
 ---
 
-# FAQ Generation Prompt (PROMPT-CON-002)
+# FAQ Generation Prompt (PRMT-CNT-002)
 
 ## Purpose
 Generate a structured FAQ page for a specific topic area based on the provided source material and question list.

@@ -1,5 +1,5 @@
----
-id: PROMPT-EXT-003
+﻿---
+id: PRMT-EXT-003
 title: Research Session Extraction Prompt
 type: extraction
 tool: claude
@@ -10,7 +10,7 @@ output_format: Structured KB article drafts from a Perplexity research session
 use_with: SOP-RES-003 (Knowledge Extraction SOP)
 ---
 
-# Research Session Extraction Prompt (PROMPT-EXT-003)
+# Research Session Extraction Prompt (PRMT-EXT-003)
 
 ## Purpose
 Extract structured knowledge from a Perplexity Deep Research session output and format it as KB article drafts. The research session output is treated as mixed confidence (official + synthesised) — not as primary source material.

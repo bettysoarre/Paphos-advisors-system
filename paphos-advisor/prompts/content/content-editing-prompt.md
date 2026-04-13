@@ -1,5 +1,5 @@
----
-id: PROMPT-CON-004
+﻿---
+id: PRMT-CNT-004
 title: Content Editing Prompt
 type: content
 tool: claude
@@ -10,7 +10,7 @@ output_format: Edited content with tracked changes and editorial notes
 use_with: SOP-CON-002 (Content Review SOP)
 ---
 
-# Content Editing Prompt (PROMPT-CON-004)
+# Content Editing Prompt (PRMT-CNT-004)
 
 ## Purpose
 Edit a content draft for tone, clarity, structure, and compliance with editorial standards. Does NOT check factual accuracy — that is the reviewer's job.

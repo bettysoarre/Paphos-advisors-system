@@ -1,4 +1,4 @@
----
+﻿---
 id: RES-FRM-003
 title: Field Intelligence Framework
 type: framework
@@ -7,7 +7,7 @@ created: 2026-04-13
 updated: 2026-04-13
 applies_to: Partner knowledge extraction, client case observations, practitioner insights
 linked_sops: [SOP-RES-001, SOP-RES-003, SOP-RES-004]
-linked_prompts: [PROMPT-EXT-001, PROMPT-EXT-003]
+linked_prompts: [PRMT-EXT-001, PRMT-EXT-003]
 ---
 
 # Field Intelligence Framework (RES-FRM-003)
@@ -40,7 +40,7 @@ Structured interviews with vetted professional partners (immigration lawyers, ta
 
 **Why high quality:** Professional accountability; partners stake their reputation on accuracy; they have current, practice-based knowledge.
 
-**How captured:** Partner onboarding interview (PROMPT-EXT-001) + ongoing check-ins.
+**How captured:** Partner onboarding interview (PRMT-EXT-001) + ongoing check-ins.
 
 **Confidence output:** low–medium (field intelligence, but from accountable professionals)
 
@@ -110,7 +110,7 @@ A claim that has not been corroborated by Tier 1 or Tier 2 sources.
 ### During Partner Interviews
 1. Use Plaud Note for transcription
 2. Save transcript to `assets/partner-interviews/` per SOP-RES-001 naming convention
-3. Run PROMPT-EXT-001 to extract structured intelligence
+3. Run PRMT-EXT-001 to extract structured intelligence
 4. Classify each claim (A/B/C/D)
 5. Create KB-FLD-NNN articles for Type A and B claims
 6. Update process documents with Type C nuances

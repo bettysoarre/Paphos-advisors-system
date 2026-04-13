@@ -1,5 +1,5 @@
----
-id: PROMPT-CON-003
+﻿---
+id: PRMT-CNT-003
 title: Checklist Creation Prompt
 type: content
 tool: claude
@@ -10,7 +10,7 @@ output_format: Structured checklist following checklist-template.md
 use_with: SOP-CON-001, content-system/templates/checklist-template.md
 ---
 
-# Checklist Creation Prompt (PROMPT-CON-003)
+# Checklist Creation Prompt (PRMT-CNT-003)
 
 ## Purpose
 Create a practical, phase-structured checklist for a Cyprus process or relocation task based on source material.

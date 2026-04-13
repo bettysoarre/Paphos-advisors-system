@@ -1,5 +1,5 @@
----
-id: PROMPT-ANA-002
+﻿---
+id: PRMT-ANL-002
 title: Process Comparison Prompt
 type: analysis
 tool: claude
@@ -10,7 +10,7 @@ output_format: Structured comparison suitable for a comparison article
 use_with: content-system/content-types/comparison-article.md
 ---
 
-# Process Comparison Prompt (PROMPT-ANA-002)
+# Process Comparison Prompt (PRMT-ANL-002)
 
 ## Purpose
 Compare two or more Cyprus residency routes, tax structures, or property options based on process documentation, for use in a comparison article.

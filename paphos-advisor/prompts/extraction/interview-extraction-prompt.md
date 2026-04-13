@@ -1,5 +1,5 @@
----
-id: PROMPT-EXT-001
+﻿---
+id: PRMT-EXT-001
 title: Interview Knowledge Extraction Prompt
 use_case: >
   Extract structured knowledge claims from an interview transcript with a partner,

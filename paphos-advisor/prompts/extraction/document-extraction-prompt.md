@@ -1,5 +1,5 @@
----
-id: PROMPT-EXT-002
+﻿---
+id: PRMT-EXT-002
 title: Document Extraction Prompt
 type: extraction
 tool: claude
@@ -10,7 +10,7 @@ output_format: Structured KB article drafts from an official document
 use_with: SOP-RES-003 (Knowledge Extraction SOP)
 ---
 
-# Document Extraction Prompt (PROMPT-EXT-002)
+# Document Extraction Prompt (PRMT-EXT-002)
 
 ## Purpose
 Extract structured knowledge from an official document (PDF, government webpage, legislation extract) and format it as KB article drafts for the knowledge base.

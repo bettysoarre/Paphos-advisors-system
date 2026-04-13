@@ -1,4 +1,4 @@
----
+﻿---
 id: SOP-PAR-001
 title: Partner Onboarding SOP
 category: partners
@@ -82,7 +82,7 @@ Covers all stages from initial partner identification through to activation as a
 
 ### Step 5: Knowledge extraction (Stage 5)
 - **Who:** Lead Advisor
-- **How:** Run PROMPT-EXT-001 against the interview transcript. Extract KB articles. Update related process documents with field intelligence. Follow SOP-RES-003.
+- **How:** Run PRMT-EXT-001 against the interview transcript. Extract KB articles. Update related process documents with field intelligence. Follow SOP-RES-003.
 - **Output:** KB articles created. Process docs updated. Research Log entry updated.
 - **Tool:** Claude, GitHub, Notion Research Log
 

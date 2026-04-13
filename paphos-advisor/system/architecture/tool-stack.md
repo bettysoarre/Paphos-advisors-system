@@ -1,4 +1,4 @@
-# Tool Stack
+﻿# Tool Stack
 
 ## Overview
 
@@ -81,7 +81,7 @@
 **How it is used:**
 - Record all partner interviews during Stage 4 of the partner onboarding process
 - Export transcript (text) and save to `assets/transcripts/` with naming convention: `transcript-[partner-slug]-[YYYY-MM-DD].txt`
-- Run `prompts/extraction/interview-extraction-prompt.md` (PROMPT-EXT-001) on the transcript in Claude
+- Run `prompts/extraction/interview-extraction-prompt.md` (PRMT-EXT-001) on the transcript in Claude
 - Extracted knowledge is structured into KB articles in `knowledge/`
 
 ---

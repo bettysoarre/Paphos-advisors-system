@@ -147,10 +147,10 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 | Area | Code | Current Sequence | Next ID to Use |
 |------|------|-----------------|----------------|
 | Research | RES | 004 | PRMT-RES-005 |
-| Content | CNT | 000 | PRMT-CNT-001 |
-| Extraction | EXT | 000 | PRMT-EXT-001 |
-| Analysis | ANL | 000 | PRMT-ANL-001 |
-| Agents | AGT | 000 | PRMT-AGT-001 |
+| Content | CNT | 004 | PRMT-CNT-005 |
+| Extraction | EXT | 003 | PRMT-EXT-004 |
+| Analysis | ANL | 003 | PRMT-ANL-004 |
+| Agents | AGT | 002 | PRMT-AGT-003 |
 
 ---
 

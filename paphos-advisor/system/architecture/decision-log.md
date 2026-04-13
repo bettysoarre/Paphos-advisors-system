@@ -1,4 +1,4 @@
-# Architecture Decision Log
+﻿# Architecture Decision Log
 
 Decisions that shaped the system design. Format: context → decision → rationale → consequences.
 
@@ -59,7 +59,7 @@ Decisions that shaped the system design. Format: context → decision → ration
 **Rationale:**
 - Partners (immigration lawyers, tax advisors, property agents) handle these processes daily
 - A single 60-minute interview can yield months of research value
-- Structured extraction (using PROMPT-EXT-001) produces consistent, comparable KB articles
+- Structured extraction (using PRMT-EXT-001) produces consistent, comparable KB articles
 - Partners benefit from the relationship, making interviews achievable
 
 **Consequences:**

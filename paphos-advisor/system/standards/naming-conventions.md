@@ -1,4 +1,4 @@
-# Naming Conventions
+﻿# Naming Conventions
 
 All files, folders, IDs, tags, and taxonomy values in the Paphos Advisor system follow strict naming conventions to ensure consistency, searchability, and compatibility across GitHub, Notion, and AI tooling.
 
@@ -146,9 +146,9 @@ All components are uppercase. Sequences are zero-padded to 3 digits and incremen
 |------|------|---------|
 | Research | RES | `PROMPT-RES-001` |
 | Content | CNT | `PROMPT-CNT-001` |
-| Extraction | EXT | `PROMPT-EXT-001` |
+| Extraction | EXT | `PRMT-EXT-001` |
 | Analysis | ANL | `PROMPT-ANL-001` |
-| Agents | AGT | `PROMPT-AGT-001` |
+| Agents | AGT | `PRMT-AGT-001` |
 
 ### 3.7 Brief IDs
 

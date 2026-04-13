@@ -1,5 +1,5 @@
----
-id: PROMPT-ANA-001
+﻿---
+id: PRMT-ANL-001
 title: Gap Analysis Prompt
 type: analysis
 tool: claude
@@ -10,7 +10,7 @@ output_format: Scored gap list with priority recommendations
 use_with: content-system/strategy/content-gap-analysis-framework.md
 ---
 
-# Gap Analysis Prompt (PROMPT-ANA-001)
+# Gap Analysis Prompt (PRMT-ANL-001)
 
 ## Purpose
 Analyse the current content library and knowledge base against our ICP needs and topical map to identify the highest-priority gaps.

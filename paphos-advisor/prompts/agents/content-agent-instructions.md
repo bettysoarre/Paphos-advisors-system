@@ -1,5 +1,5 @@
----
-id: PROMPT-AGT-002
+﻿---
+id: PRMT-AGT-002
 title: Content Agent Instructions
 type: agent-instructions
 tool: claude
@@ -10,7 +10,7 @@ output_format: Drafted content ready for human editorial review
 use_with: prompts/content/, content-system/, sops/content/
 ---
 
-# Content Agent Instructions (PROMPT-AGT-002)
+# Content Agent Instructions (PRMT-AGT-002)
 
 ## Purpose
 Standing instructions for Claude when operating as the Paphos Advisors Content Agent. Defines how the agent should approach content drafting so that outputs are accurate, on-brand, ICP-appropriate, and ready for human editorial review.

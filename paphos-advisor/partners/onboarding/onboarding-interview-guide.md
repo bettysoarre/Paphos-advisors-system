@@ -1,4 +1,4 @@
-# Partner Onboarding Interview Guide
+﻿# Partner Onboarding Interview Guide
 
 ## Purpose
 A structured guide for conducting the formal partner knowledge interview (Stage 4 of the partner onboarding checklist). This interview has two goals:
@@ -11,7 +11,7 @@ A structured guide for conducting the formal partner knowledge interview (Stage 
 
 **Transcript:** Export the recording and save to `assets/transcripts/transcript-[partner-slug]-[YYYY-MM-DD].txt`
 
-**Post-interview:** Run `prompts/extraction/interview-extraction-prompt.md` (PROMPT-EXT-001) against the transcript.
+**Post-interview:** Run `prompts/extraction/interview-extraction-prompt.md` (PRMT-EXT-001) against the transcript.
 
 **Duration:** 45-60 minutes
 
@@ -104,7 +104,7 @@ Thank them for their time. Confirm next steps:
 ## After the Interview
 
 1. Save transcript to `assets/transcripts/`
-2. Run PROMPT-EXT-001 on the transcript
+2. Run PRMT-EXT-001 on the transcript
 3. Create KB articles from extracted intelligence
 4. Update relevant process documents
 5. Update Research Log to `Integrated`

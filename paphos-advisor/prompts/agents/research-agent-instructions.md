@@ -1,5 +1,5 @@
----
-id: PROMPT-AGT-001
+﻿---
+id: PRMT-AGT-001
 title: Research Agent Instructions
 type: agent-instructions
 tool: claude
@@ -10,7 +10,7 @@ output_format: Structured research output ready for extraction pipeline
 use_with: prompts/research/, research/frameworks/, sops/research/
 ---
 
-# Research Agent Instructions (PROMPT-AGT-001)
+# Research Agent Instructions (PRMT-AGT-001)
 
 ## Purpose
 Standing instructions for Claude when operating as the Paphos Advisors Research Agent. Defines how the agent should approach, execute, and document research sessions so that outputs feed cleanly into the extraction and knowledge pipeline.
@@ -145,5 +145,5 @@ Confidence: [high / medium / low / unverified]
 After a research session is complete:
 1. Save the output to `assets/research-captures/` per SOP-RES-001 naming convention
 2. Create a Research Log entry in Notion
-3. Run PROMPT-EXT-001 or PROMPT-EXT-003 to extract KB articles
+3. Run PRMT-EXT-001 or PRMT-EXT-003 to extract KB articles
 4. Flag any open questions for follow-up research scheduling

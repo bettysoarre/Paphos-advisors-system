@@ -1,5 +1,5 @@
----
-id: PROMPT-CON-001
+﻿---
+id: PRMT-CNT-001
 title: Guide Drafting Prompt
 type: content
 tool: claude
@@ -10,7 +10,7 @@ output_format: Full draft following guide-page-template.md structure
 use_with: SOP-CON-001, content-system/templates/guide-page-template.md
 ---
 
-# Guide Drafting Prompt (PROMPT-CON-001)
+# Guide Drafting Prompt (PRMT-CNT-001)
 
 ## Purpose
 Draft a relocation guide or process explainer based on the source material provided. Used by Claude to produce a draft that follows the guide page template.

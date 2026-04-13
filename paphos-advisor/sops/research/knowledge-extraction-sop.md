@@ -1,4 +1,4 @@
----
+﻿---
 id: SOP-RES-003
 title: Knowledge Extraction SOP
 category: research
@@ -51,9 +51,9 @@ Covers the extraction and integration of knowledge from any raw input that has a
 
 | Input type | Extraction prompt |
 |---|---|
-| Partner interview transcript | `prompts/extraction/interview-extraction-prompt.md` (PROMPT-EXT-001) |
-| Official document or PDF | `prompts/extraction/document-extraction-prompt.md` (PROMPT-EXT-002) |
-| Perplexity research session | `prompts/extraction/research-session-extraction-prompt.md` (PROMPT-EXT-003) |
+| Partner interview transcript | `prompts/extraction/interview-extraction-prompt.md` (PRMT-EXT-001) |
+| Official document or PDF | `prompts/extraction/document-extraction-prompt.md` (PRMT-EXT-002) |
+| Perplexity research session | `prompts/extraction/research-session-extraction-prompt.md` (PRMT-EXT-003) |
 
 **Required before starting:**
 - Raw file confirmed present in `assets/`

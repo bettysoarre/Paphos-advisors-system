@@ -1,5 +1,5 @@
----
-id: PROMPT-ANA-003
+﻿---
+id: PRMT-ANL-003
 title: ICP Needs Analysis Prompt
 type: analysis
 tool: claude
@@ -10,7 +10,7 @@ output_format: Updated ICP segment profile with data-driven insights
 use_with: icps/segments/, icps/mapping/
 ---
 
-# ICP Needs Analysis Prompt (PROMPT-ANA-003)
+# ICP Needs Analysis Prompt (PRMT-ANL-003)
 
 ## Purpose
 Analyse case data, client questions, and content performance to update an ICP segment profile with real-world intelligence. Used quarterly to keep ICP profiles grounded in actual client behaviour.
