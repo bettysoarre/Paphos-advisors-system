@@ -28,7 +28,8 @@ sources:
 last_validated: ""
 validated_by: ""
 created: "2026-04-09"
-updated: "2026-04-09"
+updated: "2026-04-13"
+review_due: "2026-10-13"
 related_processes:
   - "PROC-IMM-001 — Yellow Slip Application (MEU1)"
   - "PROC-TAX-001 — 60-Day Tax Residency Rule"
@@ -47,19 +48,21 @@ tags:
   - retirees
 ---
 
-## Overview
+## Summary
 
 Renting a property is typically the first practical step for anyone relocating to Cyprus. A rental agreement provides proof of address — which is required for the Yellow Slip (MEU1), tax residency registration, bank account opening, vehicle registration, and GESY healthcare registration. The Cyprus rental market is relatively straightforward but has specific legal requirements that relocators commonly miss — particularly around contract stamping, deposit protections, and minimum rental terms. As of January 2026, stamp duty on rental agreements has been abolished, simplifying one part of the process.
 
 ---
 
-## Eligibility
+## Who This Applies To
 
 There are no nationality restrictions on renting property in Cyprus. EU nationals, UK nationals, and third-country nationals can all rent freely. The landlord sets their own qualifying criteria (income, references, etc.).
 
 ---
 
-## Required Documents
+## What You Will Need
+
+### Documents Required
 
 Documents typically required by a landlord or agent when applying to rent:
 
@@ -77,7 +80,7 @@ Documents typically required by a landlord or agent when applying to rent:
 
 ---
 
-## Fees
+### Fees
 
 | Fee | Amount | Notes |
 |-----|--------|-------|
@@ -89,7 +92,7 @@ Documents typically required by a landlord or agent when applying to rent:
 
 ---
 
-## Where to Apply
+### Where to Apply
 
 There is no government office involved in renting a property. The process is between tenant and landlord (or agent). For finding properties:
 
@@ -99,7 +102,7 @@ There is no government office involved in renting a property. The process is bet
 
 ---
 
-## Process Steps
+## Step-by-Step Process
 
 1. **Search for properties.** Use Bazaraki.com, a local property agent, or expat community groups. Define your requirements: district, budget, furnished/unfurnished, number of bedrooms, garden, pool, proximity to schools or offices.
 
@@ -130,7 +133,7 @@ There is no government office involved in renting a property. The process is bet
 
 ---
 
-## Processing Time
+### Timeline
 
 - Viewing to signing: typically 1–7 days in a normal market; faster in peak season if the property is in demand
 - Utilities transfer: 1–5 working days per utility
@@ -164,7 +167,7 @@ Furnished properties command a premium of 15–30% over unfurnished equivalents 
 
 ---
 
-## Common Issues
+## Common Issues and How to Handle Them
 
 **Issue:** Landlord asks for a cash deposit with no receipt and no written agreement.
 **Resolution:** Never pay cash without a receipt and a written contract. A verbal rental agreement has limited legal enforceability in Cyprus. Always insist on a written contract before paying anything.
@@ -188,3 +191,12 @@ Furnished properties command a premium of 15–30% over unfurnished equivalents 
 - **PROC-IMM-001 — Yellow Slip Application (MEU1):** The rental agreement (minimum 12 months) is a required document for MEU1 registration. Renting is typically the first step before MEU1 can be completed.
 - **PROC-TAX-001 — 60-Day Tax Residency Rule:** The rental agreement is evidence of a "permanent home available in Cyprus" — one of the qualifying conditions for tax residency under the 60-day rule.
 - **PROC-SET-001 — Utilities Registration:** Registering utilities in your name follows immediately after signing the rental agreement.
+
+---
+
+## Changelog
+
+| Date | Change | Author |
+|------|--------|--------|
+| 2026-04-13 | Updated to new process document schema (review_due, section headings) | |
+| 2026-04-09 | Initial draft created from secondary sources | |

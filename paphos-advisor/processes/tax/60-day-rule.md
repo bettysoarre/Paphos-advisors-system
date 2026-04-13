@@ -31,7 +31,8 @@ sources:
 last_validated: ""
 validated_by: ""
 created: "2026-04-09"
-updated: "2026-04-09"
+updated: "2026-04-13"
+review_due: "2026-10-13"
 related_processes:
   - "PROC-TAX-002 — Non-Dom Status Application"
   - "PROC-IMM-001 — Yellow Slip Application (MEU1)"
@@ -49,13 +50,13 @@ tags:
   - business-owners
 ---
 
-## Overview
+## Summary
 
 The 60-Day Rule is an alternative route to becoming a Cyprus tax resident that requires spending a minimum of 60 days in Cyprus during a calendar year — significantly fewer than the standard 183-day threshold. It was introduced to attract internationally mobile individuals and business owners who cannot commit to spending the majority of the year in one country. As of January 2026, Cyprus removed the previous requirement that applicants must not be tax resident in any other country, making the 60-day route available to a much wider group. Establishing Cyprus tax residency is the prerequisite for accessing the non-dom regime and its associated tax exemptions.
 
 ---
 
-## Eligibility
+## Who This Applies To
 
 Any individual may qualify for Cyprus tax residency under the 60-day rule provided **all** of the following conditions are met:
 
@@ -75,7 +76,9 @@ Any individual may qualify for Cyprus tax residency under the 60-day rule provid
 
 ---
 
-## Required Documents
+## What You Will Need
+
+### Documents Required
 
 There is no single application form for the 60-day rule — tax residency is established by registering with the Cyprus Tax Department and providing supporting evidence of the qualifying conditions.
 
@@ -89,7 +92,7 @@ There is no single application form for the 60-day rule — tax residency is est
 
 ---
 
-## Fees
+### Fees
 
 | Fee | Amount | Notes |
 |-----|--------|-------|
@@ -101,7 +104,7 @@ There is no single application form for the 60-day rule — tax residency is est
 
 ---
 
-## Where to Apply
+### Where to Apply
 
 Tax residency under the 60-day rule is established through the **Cyprus Tax Department**.
 
@@ -111,7 +114,7 @@ Tax residency under the 60-day rule is established through the **Cyprus Tax Depa
 
 ---
 
-## Process Steps
+## Step-by-Step Process
 
 1. **Establish the qualifying conditions during the calendar year.** Ensure you spend at least 60 days in Cyprus, do not spend more than 183 days in any other single country, have a home available in Cyprus all year, and hold a Cyprus employment, directorship, or business activity through 31 December.
 
@@ -127,7 +130,7 @@ Tax residency under the 60-day rule is established through the **Cyprus Tax Depa
 
 ---
 
-## Processing Time
+### Timeline
 
 - **TIC registration:** Same day or within a few days at the local office
 - **Tax residency certificate:** Typically issued within 2–4 weeks of request, after the annual return has been filed
@@ -157,7 +160,7 @@ The Tax Department can request evidence of physical presence in Cyprus. Many app
 
 ---
 
-## Common Issues
+## Common Issues and How to Handle Them
 
 **Issue:** Applicant fails the 60-day count because they counted travel days incorrectly.
 **Resolution:** Both the day of arrival and day of departure count as days in Cyprus. Count conservatively and keep records from the start of the year.
@@ -178,3 +181,12 @@ The Tax Department can request evidence of physical presence in Cyprus. Many app
 - **PROC-TAX-002 — Non-Dom Status Application:** Tax residency under the 60-day rule is the prerequisite for the non-dom regime. These two processes typically run together.
 - **PROC-IMM-001 — Yellow Slip Application (MEU1):** EU nationals establishing Cyprus tax residency will typically also need the Yellow Slip. The MEU1 provides supporting evidence of Cyprus residence.
 - **PROC-BIZ-001 — Company Formation:** Many applicants establish a Cyprus company to satisfy the business activity condition of the 60-day rule.
+
+---
+
+## Changelog
+
+| Date | Change | Author |
+|------|--------|--------|
+| 2026-04-13 | Updated to new process document schema (review_due, section headings) | |
+| 2026-04-09 | Initial draft created from secondary sources | |

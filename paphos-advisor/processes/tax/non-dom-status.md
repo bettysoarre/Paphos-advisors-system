@@ -31,7 +31,8 @@ sources:
 last_validated: ""
 validated_by: ""
 created: "2026-04-09"
-updated: "2026-04-09"
+updated: "2026-04-13"
+review_due: "2026-10-13"
 related_processes:
   - "PROC-TAX-001 — 60-Day Tax Residency Rule"
   - "PROC-IMM-001 — Yellow Slip Application (MEU1)"
@@ -50,13 +51,13 @@ tags:
   - business-owners
 ---
 
-## Overview
+## Summary
 
 Cyprus Non-Domicile (Non-Dom) status is a tax classification available to individuals who are Cyprus tax residents but are not legally considered domiciled in Cyprus. Non-doms are fully exempt from the Special Defence Contribution (SDC) on worldwide dividend and passive interest income, as well as rental income — for up to 17 years. This makes Cyprus one of the most attractive jurisdictions in Europe for business owners, investors, and high-net-worth individuals who receive dividends or investment income. Non-dom status is not a separate application in isolation — it is obtained by filing a declaration with the Cyprus Tax Department confirming that you qualify, alongside your annual tax return.
 
 ---
 
-## Eligibility
+## Who This Applies To
 
 To qualify for non-dom status, you must satisfy **both** of the following:
 
@@ -92,7 +93,9 @@ You are considered **not domiciled** in Cyprus if you meet one of the following:
 
 ---
 
-## Required Documents
+## What You Will Need
+
+### Documents Required
 
 Non-dom status is established through annual declarations filed with the Cyprus Tax Department. There is no separate "non-dom application" — you declare your status as part of the tax filing process.
 
@@ -105,7 +108,7 @@ Non-dom status is established through annual declarations filed with the Cyprus 
 
 ---
 
-## Fees
+### Fees
 
 | Fee | Amount | Notes |
 |-----|--------|-------|
@@ -117,7 +120,7 @@ Non-dom status is established through annual declarations filed with the Cyprus 
 
 ---
 
-## Where to Apply
+### Where to Apply
 
 Non-dom status is declared to the **Cyprus Tax Department** as part of the annual tax return process.
 
@@ -127,7 +130,7 @@ Non-dom status is declared to the **Cyprus Tax Department** as part of the annua
 
 ---
 
-## Process Steps
+## Step-by-Step Process
 
 1. **Establish Cyprus tax residency first.** Non-dom status is only available to Cyprus tax residents. Complete PROC-TAX-001 (60-day rule) or ensure you meet the 183-day threshold before proceeding.
 
@@ -145,7 +148,7 @@ Non-dom status is declared to the **Cyprus Tax Department** as part of the annua
 
 ---
 
-## Processing Time
+### Timeline
 
 - Non-dom status takes effect from the date you became a Cyprus tax resident — it is not prospective only
 - The annual declaration (TD.38) is processed as part of the tax return — no separate waiting period
@@ -175,7 +178,7 @@ The January 2026 reform reduced SDC on dividends from 17% to 5% for non-qualifyi
 
 ---
 
-## Common Issues
+## Common Issues and How to Handle Them
 
 **Issue:** Applicant has been Cyprus tax resident for years but never formally claimed non-dom status.
 **Resolution:** Non-dom status can typically be claimed retroactively for open tax years. Engage a tax specialist to review your filing history and file amended returns if appropriate.
@@ -196,3 +199,12 @@ The January 2026 reform reduced SDC on dividends from 17% to 5% for non-qualifyi
 - **PROC-TAX-001 — 60-Day Tax Residency Rule:** Tax residency is the prerequisite for non-dom status. These processes always run together.
 - **PROC-IMM-001 — Yellow Slip Application (MEU1):** EU nationals will typically obtain the Yellow Slip alongside establishing tax residency.
 - **PROC-BIZ-001 — Company Formation:** Many non-doms structure dividend income through a Cyprus company. Company formation and non-dom status are closely linked for business owners.
+
+---
+
+## Changelog
+
+| Date | Change | Author |
+|------|--------|--------|
+| 2026-04-13 | Updated to new process document schema (review_due, section headings) | |
+| 2026-04-09 | Initial draft created from secondary sources | |

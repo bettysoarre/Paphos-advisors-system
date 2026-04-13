@@ -34,7 +34,8 @@ sources:
 last_validated: ""
 validated_by: ""
 created: "2026-04-09"
-updated: "2026-04-09"
+updated: "2026-04-13"
+review_due: "2026-10-13"
 related_processes:
   - "PROC-TAX-001 — 60-Day Tax Residency Rule"
   - "PROC-IMM-002 — MEU2 Registration (Non-EU Family Members)"
@@ -49,13 +50,13 @@ tags:
   - paphos
 ---
 
-## Overview
+## Summary
 
 The MEU1 Registration Certificate — informally known as the Yellow Slip — is the official document that confirms an EU, EEA, or Swiss national's right to reside in Cyprus. Any EU citizen intending to stay in Cyprus for more than three months is legally required to obtain one. The application is submitted to the local Civil Registry and Migration Department (CRMD) office and results in a registration certificate that does not expire. It is the first and most fundamental document an EU national must obtain when relocating to Cyprus, and it underpins access to tax residency, banking, healthcare registration, and vehicle re-registration.
 
 ---
 
-## Eligibility
+## Who This Applies To
 
 The MEU1 applies to citizens of EU member states, EEA countries (Norway, Iceland, Liechtenstein), and Switzerland. You are eligible if:
 
@@ -84,7 +85,9 @@ The MEU1 applies to citizens of EU member states, EEA countries (Norway, Iceland
 
 ---
 
-## Required Documents
+## What You Will Need
+
+### Documents Required
 
 Documents required vary slightly by category. The following applies to the most common case — financially self-sufficient or employed applicants.
 
@@ -112,7 +115,7 @@ Documents required vary slightly by category. The following applies to the most 
 
 ---
 
-## Fees
+### Fees
 
 | Fee | Amount | Paid To | Payment Method |
 |-----|--------|---------|----------------|
@@ -124,7 +127,7 @@ There are no other standard government fees for the MEU1 itself. If using a lawy
 
 ---
 
-## Where to Apply
+### Where to Apply
 
 Applications are submitted in person at the **Civil Registry and Migration Department (CRMD)** district office corresponding to the applicant's place of residence.
 
@@ -144,7 +147,7 @@ Applications are submitted in person at the **Civil Registry and Migration Depar
 
 ---
 
-## Process Steps
+## Step-by-Step Process
 
 1. **Download or collect the MEU1 form.** Available at the CRMD office or via the official Cyprus government portal. Complete it in full before attending — do not leave fields blank.
 
@@ -162,7 +165,7 @@ Applications are submitted in person at the **Civil Registry and Migration Depar
 
 ---
 
-## Processing Time
+### Timeline
 
 **Official stated timeframe:** Issued immediately or within 5 days at the local Immigration City Unit.
 
@@ -208,7 +211,7 @@ Some practitioners report that proof of GESY registration (the General Healthcar
 
 ---
 
-## Common Issues
+## Common Issues and How to Handle Them
 
 **Issue:** Rental agreement rejected because it has not been stamped at the Tax Office.
 **Resolution:** Before attending CRMD, take the rental agreement and a copy to the local Tax Department office and have it stamped. This is a separate step many applicants miss.
@@ -233,3 +236,12 @@ Some practitioners report that proof of GESY registration (the General Healthcar
 - **PROC-IMM-002 — MEU2 Registration (Non-EU Family Members):** If the applicant has non-EU family members accompanying them, those family members require a separate MEU2 application. The EU national's MEU1 must typically be completed first.
 - **PROC-HLTH-001 — GESY Registration:** Healthcare registration typically follows MEU1 completion. The Yellow Slip may be required as part of the GESY registration process.
 - **PROC-BIZ-001 — Company Formation:** EU nationals establishing a company in Cyprus will need the Yellow Slip as part of the company formation and bank account opening process.
+
+---
+
+## Changelog
+
+| Date | Change | Author |
+|------|--------|--------|
+| 2026-04-13 | Updated to new process document schema (review_due, section headings) | |
+| 2026-04-09 | Initial draft created from secondary sources | |
