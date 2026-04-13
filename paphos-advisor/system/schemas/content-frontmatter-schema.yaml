@@ -1,0 +1,146 @@
+# Content Frontmatter Schema
+# Defines the standard frontmatter fields for all markdown content files in this repository.
+# Each file type (process, KB article, content brief, SOP, prompt) uses a subset of these fields.
+
+# ---
+# PROCESS DOCUMENTS (processes/*/*.md)
+# ---
+process_frontmatter:
+  required:
+    - id           # PROC-[AREA]-[NNN] — e.g. PROC-IMM-001
+    - title        # Human-readable title
+    - area         # Top-level area from tag-registry.yaml (immigration, tax, property, etc.)
+    - sub_area     # More specific sub-area
+    - status       # From process-status.yaml
+    - confidence   # From confidence-levels.yaml
+    - source_type  # From source-types.yaml
+    - created      # ISO date YYYY-MM-DD
+    - updated      # ISO date YYYY-MM-DD
+
+  optional:
+    - related_processes   # List of related PROC-XXX IDs
+    - related_partners    # List of partner categories relevant to this process
+    - related_icps        # List of ICP segment slugs
+    - reviewed_by         # Name of reviewer
+    - review_date         # ISO date of last review
+    - published_date      # ISO date when content was published from this doc
+    - next_review_due     # ISO date
+    - tags                # From tag-registry.yaml
+
+  example: |
+    ---
+    id: PROC-IMM-001
+    title: "Yellow Slip (MEU1) — EU National Registration"
+    area: immigration
+    sub_area: eu-residency
+    status: draft
+    confidence: medium
+    source_type: mixed
+    created: 2026-04-13
+    updated: 2026-04-13
+    related_processes: []
+    related_partners: [immigration-lawyers]
+    related_icps: [eu-national-remote-worker, uk-national-retiree]
+    tags: [yellow-slip, meu1, eu-national, crmd, paphos]
+    ---
+
+# ---
+# KNOWLEDGE ARTICLES (knowledge/*/*.md)
+# ---
+knowledge_frontmatter:
+  required:
+    - id           # KB-[TYPE]-[NNN] — e.g. KB-FLD-001
+    - title        # Clear, specific factual claim or topic
+    - type         # official | field | faq | decision-tree
+    - topic_area   # immigration | tax | property | etc.
+    - confidence   # From confidence-levels.yaml
+    - source_type  # From source-types.yaml
+    - created      # ISO date
+    - updated      # ISO date
+
+  optional:
+    - source          # Citation string or reference
+    - related_process # PROC-XXX ID
+    - partner_category # If field source
+    - validated_by
+    - validation_date
+    - tags
+
+  example: |
+    ---
+    id: KB-FLD-001
+    title: "Paphos CRMD real-world processing time for MEU1 is 1-3 months"
+    type: field
+    topic_area: immigration
+    confidence: medium
+    source_type: field
+    source: "Immigration lawyer interview, Paphos, 2026-03-15"
+    related_process: PROC-IMM-001
+    partner_category: immigration-lawyers
+    created: 2026-04-13
+    updated: 2026-04-13
+    ---
+
+# ---
+# SOPs (sops/*/*.md)
+# ---
+sop_frontmatter:
+  required:
+    - id           # SOP-[AREA]-[NNN] — e.g. SOP-CON-001
+    - title
+    - area         # content | partners | cases | research | knowledge
+    - status       # draft | review | validated | published
+    - version      # Semantic version e.g. 1.0
+    - created
+    - updated
+
+  optional:
+    - owner
+    - reviewed_by
+    - review_date
+    - next_review_due
+    - related_sops
+    - related_processes
+
+# ---
+# PROMPTS (prompts/*/*.md)
+# ---
+prompt_frontmatter:
+  required:
+    - id           # PROMPT-[TYPE]-[NNN] — e.g. PROMPT-RES-001
+    - title
+    - type         # research | content | extraction | analysis | agent
+    - tool         # perplexity | claude | other
+    - version
+    - created
+    - updated
+
+  optional:
+    - output_format    # What format the prompt produces
+    - use_with         # Which SOP or workflow references this prompt
+    - related_prompts
+    - tags
+
+# ---
+# CONTENT BRIEFS (content-system/templates/*.md and Content Pipeline in Notion)
+# ---
+content_brief_frontmatter:
+  required:
+    - id           # CNT-[NNN]
+    - title        # Target page title / H1
+    - content_type # From content-categories.yaml
+    - status       # draft | in-production | review | approved | published | needs-update
+    - target_icp   # List of ICP segment slugs
+    - created
+    - updated
+
+  optional:
+    - target_keyword
+    - word_count_target
+    - related_process
+    - related_kb_articles
+    - assigned_to
+    - due_date
+    - published_url
+    - published_date
+    - tags

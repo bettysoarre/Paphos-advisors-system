@@ -1,0 +1,61 @@
+states:
+  - id: draft
+    label: Draft
+    description: KB article created. Not yet reviewed for accuracy.
+    next_states: [review]
+
+  - id: review
+    label: Review
+    description: Under review for accuracy, completeness, and source quality per SOP-KNW-002.
+    next_states: [validated, draft]
+
+  - id: validated
+    label: Validated
+    description: Review passed. Confidence is medium or higher. Safe to reference.
+    next_states: [needs-revalidation, archived]
+
+  - id: needs-revalidation
+    label: Needs Revalidation
+    description: Previously validated. Circumstances have changed or review cadence reached.
+    next_states: [review, archived]
+
+  - id: archived
+    label: Archived
+    description: Article retired per SOP-KNW-003. Kept for historical reference.
+    next_states: []
+
+transitions:
+  - from: draft
+    to: review
+    trigger: Article created and ready for accuracy check
+    actor: Knowledge manager
+
+  - from: review
+    to: validated
+    trigger: Review passes — confidence is medium or higher
+    actor: Knowledge manager
+
+  - from: review
+    to: draft
+    trigger: Review returns for revision — insufficient sources, low confidence, incomplete
+    actor: Knowledge manager
+
+  - from: validated
+    to: needs-revalidation
+    trigger: Review cadence reached OR change detected in this area
+    actor: Automated cadence or team flag
+
+  - from: needs-revalidation
+    to: review
+    trigger: Revalidation research complete
+    actor: Knowledge manager
+
+  - from: validated
+    to: archived
+    trigger: Article retired per SOP-KNW-003
+    actor: Knowledge manager
+
+  - from: needs-revalidation
+    to: archived
+    trigger: Process no longer exists, or article cannot be brought to validated status
+    actor: Knowledge manager

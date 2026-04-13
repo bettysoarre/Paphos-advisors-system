@@ -1,0 +1,136 @@
+# Notion Contact / Client Database Schema
+# Database: Contacts (PA - Operations workspace)
+# Purpose: Client and prospect records. Central hub linking to cases, referrals, and content insights.
+
+database_name: Contacts
+description: Client and prospect records. Each contact links to their cases, the ICP segment they belong to, and any referrals made on their behalf.
+
+properties:
+  - name: Full Name
+    type: title
+    description: Client's full name.
+    required: true
+
+  - name: Contact ID
+    type: rich_text
+    description: Unique ID. Format — CLT-[NNN] (e.g. CLT-001)
+    required: true
+
+  - name: Status
+    type: select
+    options:
+      - name: Prospect
+        color: gray
+        description: Has expressed interest but not yet engaged.
+      - name: Active Client
+        color: green
+        description: Currently engaged in a case.
+      - name: Past Client
+        color: blue
+        description: Previously engaged; case closed.
+      - name: On Hold
+        color: orange
+        description: Engagement paused.
+      - name: Not a Fit
+        color: red
+        description: Assessed and determined not suitable for our services.
+
+  - name: ICP Segment
+    type: select
+    description: Which ICP segment best describes this client.
+    options:
+      - UK National — Retiree
+      - EU National — Remote Worker
+      - Non-EU Digital Nomad
+      - Entrepreneur — Company Formation
+      - HNI — Permanent Residency
+      - Family Relocating with Children
+      - Intra-Company Transfer
+      - Property Investor (Non-Resident)
+      - Return Diaspora
+
+  - name: Nationality
+    type: select
+    description: Client's nationality category (for process routing).
+    options:
+      - EU / EEA National
+      - UK National (post-Brexit)
+      - Non-EU National
+
+  - name: Email
+    type: email
+    required: true
+
+  - name: Phone
+    type: phone_number
+
+  - name: Current Location
+    type: rich_text
+    description: Where the client is currently based (country/city).
+
+  - name: Target Move Date
+    type: date
+    description: When the client intends to relocate to Cyprus.
+
+  - name: Cases
+    type: relation
+    relation_database: Cases
+    description: All cases linked to this client.
+
+  - name: How They Found Us
+    type: select
+    options:
+      - Organic Search
+      - Referral — Partner
+      - Referral — Client
+      - Social Media
+      - Direct / Word of Mouth
+      - Other
+
+  - name: Referral Partner
+    type: relation
+    relation_database: Partners
+    description: If referred by a partner — which partner.
+
+  - name: First Contact Date
+    type: date
+    required: true
+
+  - name: GDPR Consent
+    type: checkbox
+    description: Client has given consent to store and process their personal data.
+    required: true
+
+  - name: Newsletter Opt-In
+    type: checkbox
+    description: Client has opted in to receive newsletter / content emails.
+
+  - name: Primary Need
+    type: multi_select
+    description: The main reasons for their relocation / what they need help with.
+    options:
+      - Immigration / Residency
+      - Tax Residency
+      - Non-Dom Status
+      - Property Purchase
+      - Property Rental
+      - Business Formation
+      - GESY / Healthcare
+      - Settling In
+
+  - name: Budget Range
+    type: select
+    options:
+      - Under €1,000
+      - €1,000 — €3,000
+      - €3,000 — €10,000
+      - €10,000+
+      - Unknown
+
+  - name: Notes
+    type: rich_text
+    description: Key context about this client. Not for case-specific notes (use the Case record).
+
+  - name: Assigned Advisor
+    type: person
+    description: Primary team member managing this client relationship.

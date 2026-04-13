@@ -1,0 +1,46 @@
+states:
+  - id: planned
+    label: Planned
+    description: Research session scoped and logged in Notion Research Log. Not yet started.
+    next_states: [in-progress]
+
+  - id: in-progress
+    label: In Progress
+    description: Research session actively being conducted.
+    next_states: [captured]
+
+  - id: captured
+    label: Captured
+    description: Session complete. Raw output saved to assets/research-captures/.
+    next_states: [extracting]
+
+  - id: extracting
+    label: Extracting
+    description: Extraction prompt being run against the captured output.
+    next_states: [integrated]
+
+  - id: integrated
+    label: Integrated
+    description: KB articles created, process docs updated. Research cycle complete.
+    next_states: []
+
+transitions:
+  - from: planned
+    to: in-progress
+    trigger: Research session started
+    actor: Researcher
+
+  - from: in-progress
+    to: captured
+    trigger: Session complete and output file saved per SOP-RES-001
+    actor: Researcher
+
+  - from: captured
+    to: extracting
+    trigger: Extraction prompt (PROMPT-EXT-003 or PROMPT-EXT-001) run against output
+    actor: Researcher / Claude
+
+  - from: extracting
+    to: integrated
+    trigger: KB articles created and process docs updated per SOP-RES-003
+    actor: Researcher

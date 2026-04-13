@@ -1,0 +1,127 @@
+# Notion Research Log Database Schema
+# Database: Research Log (PA - Knowledge workspace)
+# Purpose: Track all research sessions and their outputs.
+
+database_name: Research Log
+description: Tracks research sessions — Perplexity deep dives, official source reviews, and field observations — and their extracted outputs.
+
+properties:
+  - name: Session Title
+    type: title
+    description: Descriptive name for the research session. E.g. "Yellow Slip MEU1 — Perplexity Deep Research Apr 2026"
+    required: true
+
+  - name: Research ID
+    type: rich_text
+    description: Unique ID. Format — RES-[NNN] (e.g. RES-001)
+    required: true
+
+  - name: Status
+    type: select
+    options:
+      - name: Planned
+        color: gray
+        description: Session planned but not yet run.
+      - name: In Progress
+        color: yellow
+        description: Research session underway.
+      - name: Captured
+        color: blue
+        description: Session complete, output saved to assets/research-captures/.
+      - name: Extracting
+        color: orange
+        description: Extraction prompt being run against the output.
+      - name: Integrated
+        color: green
+        description: Knowledge extracted and integrated into process docs or KB articles.
+
+  - name: Research Type
+    type: select
+    options:
+      - name: Process Research
+        description: Using PROMPT-RES-001 to research a Cyprus administrative process.
+      - name: Source Discovery
+        description: Finding and validating official sources for a topic area.
+      - name: Regulatory Update Check
+        description: Checking for recent changes to a process or regulation.
+      - name: Competitor Content Audit
+        description: Analysing competitor content for a topic area.
+      - name: Field Observation
+        description: Direct observation or practitioner conversation (not a formal interview).
+
+  - name: Topic Area
+    type: select
+    options:
+      - Immigration
+      - Tax
+      - Property
+      - Business Formation
+      - Healthcare
+      - Transport
+      - Shipping
+      - Insurance
+      - Settling In
+      - Content Strategy
+      - Partner Research
+
+  - name: Process Doc Updated
+    type: relation
+    relation_database: Process Library
+    description: Which process document(s) were updated as a result of this research.
+
+  - name: KB Articles Created
+    type: number
+    description: Number of KB articles created from this session.
+
+  - name: Prompt Used
+    type: select
+    options:
+      - PROMPT-RES-001 (Process Research)
+      - PROMPT-RES-002 (Source Discovery)
+      - PROMPT-RES-003 (Regulatory Update)
+      - PROMPT-RES-004 (Competitor Audit)
+      - PROMPT-EXT-001 (Interview Extraction)
+      - PROMPT-EXT-002 (Document Extraction)
+      - PROMPT-EXT-003 (Research Session Extraction)
+
+  - name: Tool Used
+    type: select
+    options:
+      - Perplexity (Deep Research)
+      - Claude
+      - Manual Review
+      - Other
+
+  - name: Session Date
+    type: date
+    description: Date the research session was run.
+    required: true
+
+  - name: Capture File
+    type: rich_text
+    description: Path to the raw output file in assets/research-captures/.
+
+  - name: Confidence Output
+    type: select
+    description: Overall confidence level of the research output.
+    options:
+      - name: High
+        color: green
+      - name: Medium
+        color: yellow
+      - name: Low
+        color: orange
+      - name: Unverified
+        color: red
+
+  - name: Open Questions
+    type: rich_text
+    description: Questions that the research raised but did not resolve. These become next research tasks.
+
+  - name: Researcher
+    type: person
+    description: Who ran the research session.
+
+  - name: Notes
+    type: rich_text
+    description: Any additional context about this research session.

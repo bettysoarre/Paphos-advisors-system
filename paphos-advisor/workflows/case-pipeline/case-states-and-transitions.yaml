@@ -1,0 +1,86 @@
+states:
+  - id: enquiry
+    label: Enquiry
+    description: Initial contact received. Not yet assessed.
+    next_states: [assessment]
+
+  - id: assessment
+    label: Assessment
+    description: Client needs and fit being evaluated per SOP-CAS-001.
+    next_states: [proposal-sent, closed-lost]
+
+  - id: proposal-sent
+    label: Proposal Sent
+    description: Service scope and fee sent to client. Awaiting confirmation.
+    next_states: [active, closed-lost]
+
+  - id: active
+    label: Active
+    description: Engagement confirmed. Case in progress.
+    next_states: [on-hold, closed-won, closed-lost]
+
+  - id: on-hold
+    label: On Hold
+    description: Client has requested a pause.
+    next_states: [active, closed-lost]
+
+  - id: closed-won
+    label: Closed — Won
+    description: Case successfully completed per SOP-CAS-004.
+    next_states: []
+
+  - id: closed-lost
+    label: Closed — Lost
+    description: Client did not proceed. Reason recorded.
+    next_states: []
+
+transitions:
+  - from: enquiry
+    to: assessment
+    trigger: Initial contact responded to within 1 business day
+    actor: Assigned advisor
+
+  - from: assessment
+    to: proposal-sent
+    trigger: Client assessed as fit, scope agreed
+    actor: Assigned advisor
+
+  - from: assessment
+    to: closed-lost
+    trigger: Not a fit, or no response after 2 follow-up attempts
+    actor: Assigned advisor
+
+  - from: proposal-sent
+    to: active
+    trigger: Client confirms engagement
+    actor: Client / Advisor
+
+  - from: proposal-sent
+    to: closed-lost
+    trigger: Client declines or no response after 2 follow-ups
+    actor: Assigned advisor
+
+  - from: active
+    to: on-hold
+    trigger: Client requests pause
+    actor: Client
+
+  - from: on-hold
+    to: active
+    trigger: Client resumes engagement
+    actor: Client / Advisor
+
+  - from: on-hold
+    to: closed-lost
+    trigger: No contact after agreed hold period
+    actor: Assigned advisor
+
+  - from: active
+    to: closed-won
+    trigger: All deliverables complete — SOP-CAS-004
+    actor: Assigned advisor
+
+  - from: active
+    to: closed-lost
+    trigger: Client withdraws mid-engagement
+    actor: Client / Advisor

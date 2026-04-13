@@ -1,0 +1,22 @@
+source_id,name,type,domain,url,authority_tier,last_verified,confidence_output,notes
+SRC-001,Civil Registry and Migration Department (CRMD),official-government,immigration,crmd.moi.gov.cy,1,2026-04-13,high,Primary authority for all residence permit applications in Cyprus
+SRC-002,Ministry of Interior Cyprus,official-government,immigration,moi.gov.cy,1,2026-04-13,high,Policy authority above CRMD; press releases for regulatory changes
+SRC-003,Cyprus Tax Department (Inland Revenue),official-government,tax,taxisnet.mof.gov.cy,1,2026-04-13,high,Primary tax authority; personal income tax / corporate tax / Non-Dom / GESY
+SRC-004,Ministry of Finance Cyprus,official-government,tax,mof.gov.cy,1,2026-04-13,high,Annual budget and tax policy announcements
+SRC-005,Department of Lands and Surveys,official-government,property,dls.moi.gov.cy,1,2026-04-13,high,Title deed registration / property transfer fees / land registry
+SRC-006,Registrar of Companies Cyprus,official-government,business,efiling.drcor.mcit.gov.cy,1,2026-04-13,high,HE company formation / annual returns / company search
+SRC-007,Ministry of Energy Commerce and Industry,official-government,business,mcit.gov.cy,1,2026-04-13,high,Companies Law cap 113 / commercial licensing
+SRC-008,GESY Health Insurance Organisation,official-government,healthcare,gesy.org.cy,1,2026-04-13,high,GESY registration / contribution rates / provider lists
+SRC-009,Official Gazette of Cyprus,official-government,all,gazette.gov.cy,1,2026-04-13,high,Definitive source for all enacted legislation — Greek only
+SRC-010,EUR-Lex,official-eu,all,eur-lex.europa.eu,1,2026-04-13,high,Official EU legislation database — regulations applicable in Cyprus
+SRC-011,EURES — EU Free Movement,official-eu,immigration,eures.europa.eu,1,2026-04-13,high,EU citizen freedom of movement rights and Cyprus country profile
+SRC-012,European Commission Migration and Home Affairs,official-eu,immigration,ec.europa.eu/home-affairs,1,2026-04-13,high,Freedom of movement directive (2004/38/EC) and third-country rules
+SRC-013,Central Bank of Cyprus,official-government,business,centralbank.gov.cy,1,2026-04-13,high,AML/KYC requirements / banking licensing / company banking compliance
+SRC-014,ICPAC,professional-body,tax,icpac.org.cy,2,2026-04-13,medium,Institute of Certified Public Accountants; practitioner interpretation of tax rules
+SRC-015,Cyprus Bar Association,professional-body,immigration,cybar.org.cy,2,2026-04-13,medium,Regulatory body for lawyers; use to verify lawyer registration status
+SRC-016,CREAA,professional-body,property,creaa.org.cy,2,2026-04-13,medium,Regulatory body for property agents; use to verify agent registration
+SRC-017,CySEC,professional-body,financial,cysec.gov.cy,2,2026-04-13,medium,Securities and financial services regulator
+SRC-018,OECD,international-body,business,oecd.org,2,2026-04-13,medium,International standard-setter; use for BEPS substance requirement context
+SRC-019,Cyprus Medical Council,professional-body,healthcare,cymc.org.cy,2,2026-04-13,medium,Regulatory body for medical professionals; use to verify provider registration
+SRC-020,Cyprus Mail,news-media,all,cyprusmail.com,3,2026-04-13,low,English-language newspaper; use for breaking news leads only — verify via official source
+SRC-021,Financial Mirror Cyprus,news-media,business,financialmirror.com,3,2026-04-13,low,Business and financial news; use as lead only

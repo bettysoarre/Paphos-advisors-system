@@ -1,0 +1,56 @@
+states:
+  - id: pending
+    label: Pending
+    description: Decision to refer made. Introduction not yet sent.
+    next_states: [introduced]
+
+  - id: introduced
+    label: Introduced
+    description: Warm introduction email sent to client and partner.
+    next_states: [engaged, no-response]
+
+  - id: engaged
+    label: Engaged
+    description: Client confirmed they are working with the referred partner.
+    next_states: [completed-positive, completed-negative]
+
+  - id: completed-positive
+    label: Completed — Positive
+    description: Client reported positive outcome with referred partner.
+    next_states: []
+
+  - id: completed-negative
+    label: Completed — Negative
+    description: Client reported poor outcome. Partner review triggered.
+    next_states: []
+
+  - id: no-response
+    label: No Response
+    description: Client did not follow up on the referral after 2 weeks.
+    next_states: []
+
+transitions:
+  - from: pending
+    to: introduced
+    trigger: Warm introduction email sent per SOP-PAR-004
+    actor: Advisor
+
+  - from: introduced
+    to: engaged
+    trigger: Client confirms engagement with partner
+    actor: Client (confirmed by advisor at follow-up)
+
+  - from: introduced
+    to: no-response
+    trigger: 2 weeks with no client update on referral
+    actor: Advisor (trigger at follow-up check)
+
+  - from: engaged
+    to: completed-positive
+    trigger: Client reports positive outcome (case closure or direct feedback)
+    actor: Advisor
+
+  - from: engaged
+    to: completed-negative
+    trigger: Client reports issue with referred partner
+    actor: Client / Advisor (triggers SOP-PAR-003)

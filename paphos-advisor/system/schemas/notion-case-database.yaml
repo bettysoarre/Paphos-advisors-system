@@ -1,0 +1,139 @@
+# Notion Case Database Schema
+# Database: Cases (PA - Operations workspace)
+# Purpose: Track client cases from intake through closure.
+
+database_name: Cases
+description: Tracks all client advisory cases from initial contact through closure.
+
+properties:
+  - name: Case ID
+    type: title
+    description: Unique case identifier. Format — CASE-[NNN] (e.g. CASE-001)
+    required: true
+
+  - name: Client Name
+    type: relation
+    relation_database: Contacts
+    description: Link to the client record in the Contacts database.
+    required: true
+
+  - name: Status
+    type: select
+    options:
+      - name: Enquiry
+        color: gray
+        description: Initial contact made, not yet assessed.
+      - name: Assessment
+        color: yellow
+        description: Client needs being assessed.
+      - name: Proposal Sent
+        color: blue
+        description: Service proposal or scope sent to client.
+      - name: Active
+        color: green
+        description: Engagement confirmed, case in progress.
+      - name: On Hold
+        color: orange
+        description: Client has paused engagement.
+      - name: Closed — Won
+        color: purple
+        description: Case successfully completed.
+      - name: Closed — Lost
+        color: red
+        description: Client did not proceed.
+    required: true
+
+  - name: ICP Segment
+    type: select
+    description: Which ICP segment this client belongs to. Values from icp-segments.yaml.
+    options:
+      - UK National — Retiree
+      - EU National — Remote Worker
+      - Non-EU Digital Nomad
+      - Entrepreneur — Company Formation
+      - HNI — Permanent Residency
+      - Family Relocating with Children
+      - Intra-Company Transfer
+      - Property Investor (Non-Resident)
+      - Return Diaspora
+
+  - name: Processes Required
+    type: multi_select
+    description: Which processes this case involves.
+    options:
+      - Yellow Slip (MEU1)
+      - Pink Slip (MEU3)
+      - Category F Permit
+      - Digital Nomad Visa
+      - Permanent Residency Fast Track
+      - 60-Day Rule Tax Residency
+      - Non-Dom Status
+      - Personal Tax Return
+      - Renting a Property
+      - Buying Property
+      - HE Company Formation
+      - GESY Registration
+      - Bank Account Opening
+      - Driving Licence Exchange
+      - Vehicle Import
+
+  - name: Assigned Advisor
+    type: person
+    description: Team member responsible for this case.
+    required: true
+
+  - name: Date Opened
+    type: date
+    description: Date the case was created.
+    required: true
+
+  - name: Date Closed
+    type: date
+    description: Date the case was closed. Leave blank if still active.
+
+  - name: Priority
+    type: select
+    options:
+      - name: High
+        color: red
+      - name: Normal
+        color: yellow
+      - name: Low
+        color: gray
+
+  - name: Partners Referred To
+    type: relation
+    relation_database: Partners
+    description: Partners referred to for this case.
+
+  - name: Source
+    type: select
+    description: How the client found us.
+    options:
+      - Organic Search
+      - Referral — Partner
+      - Referral — Client
+      - Social Media
+      - Direct / Word of Mouth
+      - Other
+
+  - name: Case Notes
+    type: rich_text
+    description: High-level case summary and key decisions. Detailed notes go in sub-pages.
+
+  - name: Next Action
+    type: rich_text
+    description: The single next action required on this case.
+
+  - name: Next Action Date
+    type: date
+    description: When the next action is due.
+
+  - name: Fee (€)
+    type: number
+    format: euro
+    description: Total agreed fee for this case.
+
+  - name: Tags
+    type: multi_select
+    description: Additional tags for filtering. Use canonical tags from tag-registry.yaml.

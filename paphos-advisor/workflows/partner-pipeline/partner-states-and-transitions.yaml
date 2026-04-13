@@ -1,0 +1,58 @@
+states:
+  - id: candidate
+    label: Candidate
+    description: Partner identified. Vetting not started.
+    next_states: [vetting]
+
+  - id: vetting
+    label: Vetting
+    description: Regulatory and quality assessment in progress (SOP-PAR-002).
+    next_states: [contacted, archived]
+
+  - id: contacted
+    label: Contacted
+    description: First contact made. Relationship building in progress.
+    next_states: [information-gathering]
+
+  - id: information-gathering
+    label: Information Gathering
+    description: Stage 3 of onboarding checklist. Collecting firm details and service info.
+    next_states: [interviewed]
+
+  - id: interviewed
+    label: Interviewed
+    description: Stage 4 knowledge interview completed. Extraction pending.
+    next_states: [onboarded]
+
+  - id: onboarded
+    label: Onboarded
+    description: All records complete. Contract on file. Trust level = probationary. Not yet active.
+    next_states: [active]
+
+  - id: active
+    label: Active
+    description: Knowledge extracted and integrated. Referral workflow live. Trust level = trusted or above.
+    next_states: [under-review, suspended, archived]
+
+  - id: under-review
+    label: Under Review
+    description: Scheduled or triggered review in progress.
+    next_states: [active, suspended]
+
+  - id: suspended
+    label: Suspended
+    description: Referrals paused pending investigation.
+    next_states: [active, archived]
+
+  - id: archived
+    label: Archived
+    description: Partner relationship ended.
+    next_states: []
+
+trust_levels:
+  - id: probationary
+    description: Newly onboarded. 90-day review required before upgrading.
+  - id: trusted
+    description: 90-day review passed. 2+ positive referral outcomes.
+  - id: preferred
+    description: Long-term trusted partner. Priority routing.

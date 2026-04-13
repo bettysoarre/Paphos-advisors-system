@@ -1,0 +1,214 @@
+---
+# Service Type Definitions
+# Schema for partner service classification used in routing, ICP mapping, and referral logic
+# See also: partners/service-catalogue/service-types-overview.md
+# See also: partners/referral-rules/referral-routing-logic.md
+---
+
+service_categories:
+
+  - id: SVCCAT-01
+    label: Immigration and Residency
+    description: Services related to obtaining, renewing, or progressing residence permits in Cyprus.
+    partner_categories: [immigration-lawyers]
+    services:
+      - id: SVC-IMM-001
+        label: EU National Residency (Yellow Slip / MEU1)
+        description: Application for temporary residence certificate for EU/EEA nationals under Freedom of Movement directive.
+        process_doc: processes/immigration/yellow-slip-eu-national.md
+        applicable_icps: [ICP-02, ICP-06]
+        typical_fee_range: "€800–€1,500 (lawyer fees; government fee ~€70)"
+        regulatory_requirement: Cyprus Bar Association registered lawyer
+
+      - id: SVC-IMM-002
+        label: EU National Permanent Residency (Pink Slip / MEU3)
+        description: Application for permanent residence for EU/EEA nationals after 5 years continuous legal residency.
+        process_doc: processes/immigration/permanent-residency-eu.md
+        applicable_icps: [ICP-02, ICP-06]
+        typical_fee_range: "€500–€1,200 (lawyer fees; government fee ~€70)"
+        regulatory_requirement: Cyprus Bar Association registered lawyer
+
+      - id: SVC-IMM-003
+        label: Category F Residency (Financially Independent)
+        description: Residency permit for non-EU nationals who are financially self-sufficient and do not work in Cyprus.
+        process_doc: processes/immigration/category-f-residency.md
+        applicable_icps: [ICP-01]
+        typical_fee_range: "€1,500–€3,000 (lawyer fees; government fee ~€500)"
+        regulatory_requirement: Cyprus Bar Association registered lawyer
+
+      - id: SVC-IMM-004
+        label: Digital Nomad Visa
+        description: Temporary permit for non-EU nationals working remotely for non-Cyprus employers or clients.
+        process_doc: processes/immigration/digital-nomad-visa.md
+        applicable_icps: [ICP-03]
+        typical_fee_range: "€1,000–€2,500 (lawyer fees)"
+        regulatory_requirement: Cyprus Bar Association registered lawyer
+
+      - id: SVC-IMM-005
+        label: Category 6.2 Permanent Residency (Investment)
+        description: Fast-track permanent residency for non-EU nationals purchasing qualifying property (€300,000+).
+        process_doc: processes/immigration/category-6-2-investment-pr.md
+        applicable_icps: [ICP-05]
+        typical_fee_range: "€3,000–€6,000 (lawyer fees; government fee ~€500)"
+        regulatory_requirement: Cyprus Bar Association registered lawyer
+
+      - id: SVC-IMM-006
+        label: Family Member ARC Card (Third-Country National)
+        description: ARC card application for non-EU family members of EU nationals.
+        applicable_icps: [ICP-06]
+        typical_fee_range: "€800–€1,500 (lawyer fees)"
+        regulatory_requirement: Cyprus Bar Association registered lawyer
+
+  - id: SVCCAT-02
+    label: Taxation
+    description: Services related to personal and corporate tax registration, filing, and optimisation in Cyprus.
+    partner_categories: [tax-advisors]
+    services:
+      - id: SVC-TAX-001
+        label: Non-Dom Tax Registration (60-Day Rule)
+        description: Registration under the Non-Domiciled (Non-Dom) regime for individuals spending 60+ days in Cyprus.
+        process_doc: processes/tax/non-dom-registration.md
+        applicable_icps: [ICP-02, ICP-03, ICP-04]
+        typical_fee_range: "€800–€2,000 (advisor fees)"
+        regulatory_requirement: ICPAC registered tax advisor or Cyprus Bar Association registered lawyer
+
+      - id: SVC-TAX-002
+        label: Personal Income Tax Return Filing
+        description: Annual personal income tax return preparation and submission.
+        applicable_icps: [ICP-01, ICP-02, ICP-03, ICP-04, ICP-05]
+        typical_fee_range: "€300–€800 per year"
+        regulatory_requirement: ICPAC registered tax advisor
+
+      - id: SVC-TAX-003
+        label: Corporate Tax Compliance
+        description: Corporate tax return preparation, filing, and provisional tax management for Cyprus HE companies.
+        applicable_icps: [ICP-04]
+        typical_fee_range: "€1,500–€4,000 per year (depending on company complexity)"
+        regulatory_requirement: ICPAC registered tax advisor / CPA
+
+      - id: SVC-TAX-004
+        label: GESY Registration
+        description: Registration with and ongoing compliance for Cyprus General Healthcare System contributions.
+        process_doc: processes/healthcare/gesy-registration.md
+        applicable_icps: [ICP-01, ICP-02, ICP-03, ICP-04, ICP-05, ICP-06]
+        typical_fee_range: "Often included in tax registration; standalone €200–€500"
+        regulatory_requirement: ICPAC registered advisor
+
+      - id: SVC-TAX-005
+        label: VAT Registration and Returns
+        description: VAT registration (if applicable) and quarterly/annual VAT return filing.
+        applicable_icps: [ICP-04]
+        typical_fee_range: "€500–€1,500 per year"
+        regulatory_requirement: ICPAC registered advisor
+
+  - id: SVCCAT-03
+    label: Property Transactions
+    description: Services related to purchasing, renting, and managing property in Cyprus.
+    partner_categories: [property-agents]
+    services:
+      - id: SVC-PROP-001
+        label: Residential Property Purchase
+        description: Property search, negotiation, legal due diligence, and purchase completion.
+        process_doc: processes/property/property-purchase.md
+        applicable_icps: [ICP-01, ICP-02, ICP-04, ICP-05, ICP-06]
+        typical_fee_range: "Agent: 2–5% of purchase price; lawyer: €2,000–€5,000"
+        regulatory_requirement: CREAA registered agent; Cyprus Bar Association lawyer for legal work
+
+      - id: SVC-PROP-002
+        label: Long-Term Rental Assistance
+        description: Property search and tenancy agreement for long-term rental.
+        applicable_icps: [ICP-01, ICP-02, ICP-03, ICP-04, ICP-06]
+        typical_fee_range: "Agent: typically 1 month rent fee"
+        regulatory_requirement: CREAA registered agent preferred
+
+      - id: SVC-PROP-003
+        label: Investment Property (Category 6.2 Qualifying)
+        description: Sourcing and purchase of qualifying investment property for Category 6.2 permanent residency (€300,000+).
+        applicable_icps: [ICP-05]
+        typical_fee_range: "As per residential purchase; investment advisory may add €1,000–€3,000"
+        regulatory_requirement: CREAA registered agent; Cyprus Bar Association lawyer
+
+  - id: SVCCAT-04
+    label: Business Formation and Compliance
+    description: Services related to registering and operating a Cyprus company.
+    partner_categories: [tax-advisors, financial-advisors]
+    services:
+      - id: SVC-BUS-001
+        label: Cyprus HE Company Formation
+        description: Registration of a Cyprus private limited company (HE) with the Registrar of Companies.
+        process_doc: processes/business/cyprus-he-company-formation.md
+        applicable_icps: [ICP-04]
+        typical_fee_range: "€1,500–€3,500 (including government fees ~€105)"
+        regulatory_requirement: ICPAC registered advisor or Cyprus Bar Association lawyer
+
+      - id: SVC-BUS-002
+        label: Corporate Secretary and Registered Address
+        description: Ongoing corporate secretarial services and provision of registered office address.
+        applicable_icps: [ICP-04]
+        typical_fee_range: "€600–€1,500 per year"
+        regulatory_requirement: ICPAC regulated firm
+
+      - id: SVC-BUS-003
+        label: Annual Accounts and Audit
+        description: Preparation of statutory annual accounts and audit (required for HE companies).
+        applicable_icps: [ICP-04]
+        typical_fee_range: "€1,500–€4,000 per year (depending on size)"
+        regulatory_requirement: ICPAC registered CPA
+
+  - id: SVCCAT-05
+    label: Removals and Logistics
+    description: Services related to physical relocation of household goods to Cyprus.
+    partner_categories: [removal-companies]
+    services:
+      - id: SVC-REM-001
+        label: EU-Origin Household Removal
+        description: Packing and shipping household goods from an EU country to Cyprus.
+        applicable_icps: [ICP-01, ICP-02, ICP-06]
+        typical_fee_range: "€2,000–€8,000 depending on volume and distance"
+        regulatory_requirement: Liability insurance required; BAR/FIDI membership preferred
+
+      - id: SVC-REM-002
+        label: Non-EU-Origin Household Removal
+        description: Packing, shipping, and customs clearance for goods from outside the EU.
+        applicable_icps: [ICP-03, ICP-04, ICP-05]
+        typical_fee_range: "€3,000–€12,000 depending on volume and distance"
+        regulatory_requirement: Customs agent required for clearance; liability insurance required
+
+  - id: SVCCAT-06
+    label: Healthcare
+    description: Services related to accessing healthcare in Cyprus.
+    partner_categories: [healthcare-providers]
+    services:
+      - id: SVC-HLT-001
+        label: GP Registration (GESY)
+        description: Registration with a GESY-enrolled general practitioner.
+        applicable_icps: [ICP-01, ICP-02, ICP-03, ICP-04, ICP-05, ICP-06]
+        typical_fee_range: "Free under GESY once enrolled"
+        regulatory_requirement: GESY registered practice; Cyprus Medical Council registered doctor
+
+      - id: SVC-HLT-002
+        label: Medical Certificate for Permit Application
+        description: Medical certificate issued by a Cyprus registered physician — required for some permit applications.
+        applicable_icps: [ICP-01, ICP-03, ICP-05]
+        typical_fee_range: "€50–€150"
+        regulatory_requirement: Cyprus Medical Council registered doctor
+
+  - id: SVCCAT-07
+    label: Financial Services
+    description: Services related to investment, pension, and financial planning.
+    partner_categories: [financial-advisors]
+    services:
+      - id: SVC-FIN-001
+        label: UK Pension Transfer Advice
+        description: Regulated advice on transferring UK pension schemes to QROPS or alternative arrangements.
+        applicable_icps: [ICP-01]
+        typical_fee_range: "€2,000–€5,000 (regulated advice fees)"
+        regulatory_requirement: CySEC authorised advisor; FCA regulated where UK pension involved
+        notes: High regulatory complexity — partner must hold correct authorisations for both jurisdictions
+
+      - id: SVC-FIN-002
+        label: International Investment Portfolio
+        description: Portfolio management and investment advice for individuals relocating to Cyprus.
+        applicable_icps: [ICP-04, ICP-05]
+        typical_fee_range: "Typically fee-based or % AUM"
+        regulatory_requirement: CySEC authorised investment firm
