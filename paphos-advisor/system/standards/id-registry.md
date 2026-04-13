@@ -142,15 +142,15 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 
 ---
 
-## Prompt IDs — `PROMPT`
+## Prompt IDs — `PRMT`
 
 | Area | Code | Current Sequence | Next ID to Use |
 |------|------|-----------------|----------------|
-| Research | RES | 000 | PROMPT-RES-001 |
-| Content | CNT | 000 | PROMPT-CNT-001 |
-| Extraction | EXT | 000 | PROMPT-EXT-001 |
-| Analysis | ANL | 000 | PROMPT-ANL-001 |
-| Agents | AGT | 000 | PROMPT-AGT-001 |
+| Research | RES | 001 | PRMT-RES-002 |
+| Content | CNT | 000 | PRMT-CNT-001 |
+| Extraction | EXT | 000 | PRMT-EXT-001 |
+| Analysis | ANL | 000 | PRMT-ANL-001 |
+| Agents | AGT | 000 | PRMT-AGT-001 |
 
 ---
 
