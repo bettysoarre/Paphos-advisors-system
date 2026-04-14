@@ -174,6 +174,18 @@ Definitions and rules for each content type. One record per content type.
 
 ---
 
+## Notion Schema IDs — `SCH-NOT`
+
+GitHub schema specifications for Notion databases. One record per Notion database.
+
+| Database | Code | Current Sequence | Next ID to Use |
+|----------|------|-----------------|----------------|
+| Notion Schemas | NOT | 002 | SCH-NOT-003 |
+
+> SCH-NOT-001 is reserved for `notion-contact-database.yaml` (pending formalisation).
+
+---
+
 ## How to Use This Registry
 
 1. Identify the correct prefix and area/type code for the record you are creating.

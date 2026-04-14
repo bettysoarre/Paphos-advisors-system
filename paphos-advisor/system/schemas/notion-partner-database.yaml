@@ -1,17 +1,41 @@
-schema:
-  name: Partners Database
-  notion_database: Partners
-  description: >
-    Master database of all partners in the Paphos Advisor referral network.
-    Each record represents one partner entity (individual or company).
-  architecture_ref: "Section 4.2, Database 1"
+---
+id: SCH-NOT-002
+title: "Partners Database — Notion Schema"
+database_name: Partners
+notion_database_id: 47ff4231-f41b-43aa-91be-70f6d872d3f0
+schema_version: 1
+status: active
+created: 2026-04-13
+updated: 2026-04-13
+owner: "lead-advisor"
+related_taxonomies:
+  - TAX-006  # Partner Categories
+  - TAX-007  # Service Types
+  - TAX-009  # Tag Registry
+---
 
-properties:
+description: >
+  Master database of all partners in the Paphos Advisor referral network.
+  Each record represents one partner entity (individual or company).
 
-  - name: Name
+fields:
+
+  - name: Partner Name
     notion_type: title
     required: true
     description: Full legal name of the partner individual or company.
+    notes: >
+      Field exists in Notion as "Partner Name" (title field).
+      Schema spec uses "Name" — same field, different label.
+
+  - name: Partner ID
+    notion_type: rich_text
+    required: true
+    description: >
+      Unique identifier for this partner record.
+      Format: PRTN-[AREA]-[NNN] (e.g. PRTN-LAW-001).
+      Assigned at onboarding; never reused.
+    taxonomy_ref: id-registry.md (PRTN prefix)
 
   - name: Category
     notion_type: select
@@ -27,7 +51,7 @@ properties:
       - insurance
       - tax-specialist
       - other
-    taxonomy_ref: partner-categories.yaml
+    taxonomy_ref: TAX-006
 
   - name: Services Offered
     notion_type: multi_select
@@ -59,7 +83,7 @@ properties:
       - document-handling
       - apostille-legalisation
       - translation
-    taxonomy_ref: service-types.yaml
+    taxonomy_ref: TAX-007
 
   - name: Status
     notion_type: select
@@ -73,6 +97,9 @@ properties:
       - paused
       - inactive
       - blacklisted
+    notes: >
+      Notion currently has this as "Onboarding Status" (status type).
+      Pending manual update: rename to "Status", change type to select, replace values with the list above.
 
   - name: ICP Fit
     notion_type: multi_select
@@ -88,7 +115,7 @@ properties:
       - business-owner
       - property-buyer
       - multi-step-relocator
-    taxonomy_ref: icp-segments.yaml
+    taxonomy_ref: TAX-004
 
   - name: Geography
     notion_type: multi_select
@@ -101,7 +128,7 @@ properties:
       - larnaca
       - famagusta
       - cyprus-wide
-    taxonomy_ref: tag-registry.yaml (geography dimension)
+    taxonomy_ref: TAX-009 (geography dimension)
 
   - name: Languages
     notion_type: multi_select
@@ -147,6 +174,11 @@ properties:
       - none
       - pending
 
+  - name: Referral Eligible
+    notion_type: checkbox
+    required: false
+    description: Whether this partner is currently eligible to receive referrals.
+
   - name: Commission Rate
     notion_type: number
     required: false
@@ -165,7 +197,12 @@ properties:
     required: false
     description: Date of the most recent meaningful contact with this partner.
 
-  - name: Next Review Date
+  - name: Last Review Date
+    notion_type: date
+    required: false
+    description: Date this partner record was most recently reviewed.
+
+  - name: Next Review Due
     notion_type: date
     required: false
     description: Date this partner record is next due for review. Default cadence is 3 months.
@@ -181,19 +218,30 @@ properties:
       - under-review
       - do-not-refer
 
-  - name: Notes
+  - name: Internal Trust Notes
     notion_type: rich_text
     required: false
     description: >
-      Free-text field for any additional context about this partner,
-      including relationship history, caveats, or special arrangements.
+      Internal vetting notes, relationship history, caveats, and special arrangements.
+    notes: >
+      Exists in Notion as "Internal Trust Notes". Schema spec used "Vetting Notes" — same purpose,
+      no duplicate created. Field label retained as-is.
 
-  - name: Partner ID
+  - name: Tags
+    notion_type: multi_select
+    required: false
+    description: Process and audience tags for filtering and cross-referencing.
+    taxonomy_ref: TAX-009
+
+  - name: GitHub Profile Path
     notion_type: rich_text
-    required: true
+    required: false
     description: >
-      Unique identifier for this partner record.
-      Format: PRTN-[CATEGORY CODE]-[3-digit sequence] e.g. PRTN-LAW-001
+      Path to this partner's GitHub profile file within the repository.
+      Format: partners/[category]/[filename].md
+    notes: >
+      Exists in Notion as "GitHub Profile Path". Schema spec used "GitHub Category File" — same purpose,
+      field label retained as-is.
 
   - name: Related Processes
     notion_type: relation
@@ -208,3 +256,48 @@ properties:
     rollup_target: Referrals Database
     rollup_field: Status
     rollup_function: count_values
+
+rules:
+  - "Each partner record must have a Partner ID assigned from the PRTN sequence in id-registry.md before activation."
+  - "Category must match a value in TAX-006 — use the value field (lowercase), not the label."
+  - "Services Offered must match values in TAX-007 exactly."
+  - "Tags must be drawn from TAX-009 only."
+  - "Partner ID format: PRTN-[AREA]-[NNN] where AREA matches the partner category code in id-registry.md."
+
+pending_notion_changes:
+  - field: Status
+    action: rename_and_retype
+    from_name: "Onboarding Status"
+    to_name: "Status"
+    from_type: status
+    to_type: select
+    replace_values:
+      - Not started → prospecting
+      - In progress → in-conversation
+      - Onboarded → onboarding
+      - Active → active
+      - Paused → paused
+      - Offboarded → inactive
+      add: blacklisted
+    note: >
+      Notion MCP was disconnected before this change could be applied.
+      Apply manually or reconnect MCP and re-run.
+
+resolved_discrepancies:
+  - field: Name (title)
+    spec_name: "Name"
+    notion_name: "Partner Name"
+    resolution: accepted
+    note: Same field, different label. No action needed.
+
+  - field: Internal notes
+    spec_name: "Vetting Notes"
+    notion_name: "Internal Trust Notes"
+    resolution: accepted
+    note: Same purpose, different label. No duplicate created. Notion label retained.
+
+  - field: GitHub file link
+    spec_name: "GitHub Category File"
+    notion_name: "GitHub Profile Path"
+    resolution: accepted
+    note: Same purpose, different label. Notion label retained.
