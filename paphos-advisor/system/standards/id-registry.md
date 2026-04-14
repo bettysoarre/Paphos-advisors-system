@@ -188,9 +188,16 @@ GitHub schema specifications for Notion databases. One record per Notion databas
 
 | Database | Code | Current Sequence | Next ID to Use |
 |----------|------|-----------------|----------------|
-| Notion Schemas | NOT | 002 | SCH-NOT-003 |
+| Notion Schemas | NOT | 007 | SCH-NOT-008 |
 
-> SCH-NOT-001 is reserved for `notion-contact-database.yaml` (pending formalisation).
+Assigned IDs:
+- SCH-NOT-001 — notion-contact-database.yaml (Contacts)
+- SCH-NOT-002 — notion-partner-database.yaml (Partners)
+- SCH-NOT-003 — notion-content-database.yaml (Content Pipeline)
+- SCH-NOT-004 — notion-case-database.yaml (Cases)
+- SCH-NOT-005 — notion-research-database.yaml (Research Log)
+- SCH-NOT-006 — notion-knowledge-database.yaml (Knowledge Base)
+- SCH-NOT-007 — notion-process-database.yaml (Processes)
 
 ---
 

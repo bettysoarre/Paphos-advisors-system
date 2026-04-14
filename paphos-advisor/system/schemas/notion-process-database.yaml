@@ -1,13 +1,27 @@
-schema:
-  name: Processes Database
-  notion_database: Processes
-  description: >
-    Master database of all advisory process documents in the Paphos Advisor system.
-    Each record represents one documented process (e.g. EU Residence Registration,
-    Company Formation, Vehicle Import).
-  architecture_ref: "Section 4.2, Database 2"
+---
+id: SCH-NOT-007
+title: "Processes Database — Notion Schema"
+database_name: Processes
+notion_database_id: TBD
+schema_version: 1
+status: draft
+created: 2026-04-14
+updated: 2026-04-14
+owner: "lead-advisor"
+related_taxonomies:
+  - TAX-PROC-001  # Process Status
+  - TAX-CONF-001  # Confidence Levels
+  - TAX-SRC-001   # Source Types
+  - TAX-ICP-001   # ICP Segments
+  - TAX-TAG-001   # Tag Registry
+---
 
-properties:
+description: >
+  Master database of all advisory process documents in the Paphos Advisor system.
+  Each record represents one documented process (e.g. EU Residence Registration,
+  Company Formation, Vehicle Import). Canonical content lives in GitHub (processes/ folder).
+
+fields:
 
   - name: Title
     notion_type: title
@@ -36,12 +50,12 @@ properties:
       - shipping
       - insurance
       - settling-in
-    taxonomy_ref: tag-registry.yaml (process dimension)
+    taxonomy_ref: TAX-TAG-001
 
   - name: Subcategory
     notion_type: rich_text
     required: false
-    description: More specific sub-area within the category e.g. "EU National Residence" or "Non-Dom Application"
+    description: More specific sub-area e.g. "EU National Residence" or "Non-Dom Application"
 
   - name: Status
     notion_type: select
@@ -57,7 +71,7 @@ properties:
       - needs-revalidation
       - deprecated
       - archived
-    taxonomy_ref: process-status.yaml
+    taxonomy_ref: TAX-PROC-001
 
   - name: Confidence
     notion_type: select
@@ -68,7 +82,7 @@ properties:
       - medium
       - low
       - unverified
-    taxonomy_ref: confidence-levels.yaml
+    taxonomy_ref: TAX-CONF-001
 
   - name: Source Type
     notion_type: select
@@ -78,7 +92,7 @@ properties:
       - official
       - field
       - mixed
-    taxonomy_ref: source-types.yaml
+    taxonomy_ref: TAX-SRC-001
 
   - name: ICP Segments
     notion_type: multi_select
@@ -94,7 +108,7 @@ properties:
       - business-owner
       - property-buyer
       - multi-step-relocator
-    taxonomy_ref: icp-segments.yaml
+    taxonomy_ref: TAX-ICP-001
 
   - name: Geography
     notion_type: multi_select
@@ -109,13 +123,13 @@ properties:
       - cyprus-wide
       - eu
       - international
-    taxonomy_ref: tag-registry.yaml (geography dimension)
+    taxonomy_ref: TAX-TAG-001
 
   - name: Tags
     notion_type: multi_select
     required: false
-    description: Canonical tags from the tag registry for filtering and cross-referencing.
-    taxonomy_ref: tag-registry.yaml
+    description: Canonical tags from the tag registry.
+    taxonomy_ref: TAX-TAG-001
 
   - name: Last Validated
     notion_type: date
@@ -170,11 +184,16 @@ properties:
   - name: GitHub File Path
     notion_type: url
     required: false
-    description: >
-      Link to the corresponding .md file in the GitHub repository.
-      Format: full GitHub URL to the file.
+    description: Link to the corresponding .md file in the GitHub repository.
 
   - name: Notes
     notion_type: rich_text
     required: false
-    description: Free-text field for editorial notes, open questions, or flags for the next reviewer.
+    description: Editorial notes, open questions, or flags for the next reviewer.
+
+rules:
+  - "Process ID format: PROC-[AREA]-[NNN]. Assign from id-registry.md PROC sequence."
+  - "GitHub File Path must be populated for all validated/published processes."
+  - "Status and Confidence must both be set before Status can reach 'validated'."
+  - "Last Validated and Validated By must be populated when Status = validated."
+  - "Status values must match TAX-PROC-001 exactly (kebab-case)."

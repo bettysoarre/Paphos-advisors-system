@@ -1,115 +1,135 @@
-# Notion Knowledge Base Database Schema
-# Database: Knowledge Base (PA - Knowledge workspace)
-# Purpose: Registry of all KB articles, linking to their GitHub source files.
-
+---
+id: SCH-NOT-006
+title: "Knowledge Base Database — Notion Schema"
 database_name: Knowledge Base
-description: Registry and operational view of all knowledge articles. The canonical content lives in GitHub (knowledge/ folder); this database provides the operational interface.
+notion_database_id: TBD
+schema_version: 1
+status: draft
+created: 2026-04-14
+updated: 2026-04-14
+owner: "lead-advisor"
+related_taxonomies:
+  - TAX-CONF-001  # Confidence Levels
+  - TAX-SRC-001   # Source Types
+  - TAX-TAG-001   # Tag Registry
+---
 
-properties:
+description: >
+  Registry and operational view of all knowledge articles. The canonical content
+  lives in GitHub (knowledge/ folder); this database provides the operational interface
+  for tracking status, confidence, and review cadence.
+
+fields:
+
   - name: Title
-    type: title
-    description: Descriptive title of the knowledge article. Should be a clear factual claim or topic.
+    notion_type: title
     required: true
+    description: Descriptive title of the knowledge article. Should be a clear factual claim or topic.
 
   - name: KB ID
-    type: rich_text
-    description: Unique ID. Format — KB-[TYPE]-[NNN] (e.g. KB-OFF-001, KB-FLD-001)
+    notion_type: rich_text
     required: true
+    description: Unique ID. Format — KA-[TYPE]-[NNN] (e.g. KA-OFF-001, KA-FLD-001)
 
   - name: Status
-    type: select
-    options:
-      - name: Draft
-        color: gray
-        description: Article created but not yet reviewed.
-      - name: Review
-        color: yellow
-        description: Under review for accuracy and completeness.
-      - name: Validated
-        color: green
-        description: Reviewed and approved. Safe to reference in content and advice.
-      - name: Needs Revalidation
-        color: orange
-        description: Previously validated but circumstances have changed.
-      - name: Archived
-        color: red
-        description: No longer current. Kept for historical reference.
+    notion_type: select
+    required: true
+    allowed_values:
+      - draft
+      - review
+      - validated
+      - needs-revalidation
+      - archived
+    taxonomy_ref: TAX-PROC-001
 
   - name: Knowledge Type
-    type: select
-    options:
-      - name: Official
-        description: Summarises official government guidance.
-      - name: Field
-        description: Practical intelligence from partner interviews or field observation.
-      - name: FAQ
-        description: Canonical answer to a frequently asked question.
-      - name: Decision Tree
-        description: Logic tree for routing a client to the right process or answer.
+    notion_type: select
+    required: true
+    allowed_values:
+      - official
+      - field
+      - faq
+      - decision-tree
 
   - name: Topic Area
-    type: select
-    options:
-      - Immigration
-      - Tax
-      - Property
-      - Business Formation
-      - Healthcare
-      - Transport
-      - Shipping
-      - Insurance
-      - Settling In
+    notion_type: select
+    required: false
+    allowed_values:
+      - immigration
+      - tax
+      - property
+      - business-formation
+      - healthcare
+      - transport
+      - shipping
+      - insurance
+      - settling-in
 
   - name: Confidence
-    type: select
-    options:
-      - name: High
-        color: green
-      - name: Medium
-        color: yellow
-      - name: Low
-        color: orange
-      - name: Unverified
-        color: red
+    notion_type: select
     required: true
+    allowed_values:
+      - high
+      - medium
+      - low
+      - unverified
+    taxonomy_ref: TAX-CONF-001
 
   - name: Source Type
-    type: select
-    options:
-      - Official
-      - Field
-      - Mixed
+    notion_type: select
+    required: false
+    allowed_values:
+      - official
+      - field
+      - mixed
+    taxonomy_ref: TAX-SRC-001
 
   - name: Related Process Docs
-    type: relation
-    relation_database: Process Library
+    notion_type: relation
+    required: false
     description: Which process documents this KB article supports.
+    relation_target: Processes Database
 
   - name: Partner Source
-    type: relation
-    relation_database: Partners
-    description: If field source — which partner category the knowledge came from.
+    notion_type: relation
+    required: false
+    description: If field source — which partner provided the knowledge.
+    relation_target: Partners Database
 
   - name: GitHub File Path
-    type: rich_text
+    notion_type: rich_text
+    required: true
     description: Path to the source .md file in the GitHub repository.
 
   - name: Date Created
-    type: date
+    notion_type: date
     required: true
 
   - name: Last Reviewed
-    type: date
+    notion_type: date
+    required: false
     description: Date of last accuracy review.
 
   - name: Next Review Due
-    type: date
-    description: Calculated from review cadence. High confidence = 12 months; medium = 6 months; low = 3 months.
+    notion_type: date
+    required: false
+    description: >
+      Calculated from review cadence.
+      High confidence = 12 months; medium = 6 months; low = 3 months.
 
   - name: Used In Content
-    type: checkbox
+    notion_type: checkbox
+    required: false
     description: Has this KB article been used as a source for published content?
 
   - name: Tags
-    type: multi_select
+    notion_type: multi_select
+    required: false
     description: Canonical tags from tag-registry.yaml.
+    taxonomy_ref: TAX-TAG-001
+
+rules:
+  - "KB ID format: KA-[TYPE]-[NNN] where TYPE is OFF (official), FLD (field), or FAQ."
+  - "GitHub File Path must be populated for all validated articles."
+  - "Confidence must be set before Status can move to 'validated'."
+  - "Next Review Due must be set when Status = validated."

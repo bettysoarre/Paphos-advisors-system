@@ -1,12 +1,24 @@
-schema:
-  name: Content Pipeline Database
-  notion_database: Content Pipeline
-  description: >
-    Master database tracking all content from brief through to publication.
-    Each record represents one discrete piece of content.
-  architecture_ref: "Section 4.2, Database 3"
+---
+id: SCH-NOT-003
+title: "Content Pipeline Database — Notion Schema"
+database_name: Content Pipeline
+notion_database_id: b8429a09-8cef-4fdf-aafc-82b990db0689
+schema_version: 1
+status: active
+created: 2026-04-14
+updated: 2026-04-14
+owner: "lead-advisor"
+related_taxonomies:
+  - TAX-CNT-001   # Content Categories
+  - TAX-ICP-001   # ICP Segments
+  - TAX-TAG-001   # Tag Registry
+---
 
-properties:
+description: >
+  Master database tracking all content from brief through to publication.
+  Each record represents one discrete piece of content.
+
+fields:
 
   - name: Title
     notion_type: title
@@ -38,7 +50,7 @@ properties:
       - lead-magnet
       - landing-page
       - blog-post
-    taxonomy_ref: content-categories.yaml
+    taxonomy_ref: TAX-CNT-001
 
   - name: Status
     notion_type: select
@@ -84,7 +96,7 @@ properties:
       - business-owner
       - property-buyer
       - multi-step-relocator
-    taxonomy_ref: icp-segments.yaml
+    taxonomy_ref: TAX-ICP-001
 
   - name: Category
     notion_type: multi_select
@@ -100,13 +112,13 @@ properties:
       - shipping
       - insurance
       - settling-in
-    taxonomy_ref: tag-registry.yaml (process dimension)
+    taxonomy_ref: TAX-TAG-001
 
   - name: Tags
     notion_type: multi_select
     required: false
     description: Canonical tags from the tag registry for filtering and cross-referencing.
-    taxonomy_ref: tag-registry.yaml
+    taxonomy_ref: TAX-TAG-001
 
   - name: Assigned To
     notion_type: person
@@ -134,7 +146,6 @@ properties:
     notion_type: number
     required: false
     description: Approximate or final word count of the content piece.
-    format: number
 
   - name: Published URL
     notion_type: url
@@ -162,22 +173,18 @@ properties:
   - name: Brief File
     notion_type: url
     required: false
-    description: >
-      Link to the content brief file in the GitHub repository.
-      Format: full GitHub URL to the content-brief .md file.
+    description: Link to the content brief file in the GitHub repository.
 
   - name: Content File
     notion_type: url
     required: false
-    description: >
-      Link to the draft or final content file in the GitHub repository or Google Drive.
+    description: Link to the draft or final content file in the GitHub repository or Google Drive.
 
   - name: SEO Notes
     notion_type: rich_text
     required: false
     description: >
-      Key SEO metadata for this piece: title tag, meta description, schema type,
-      and internal linking plan. Can be populated from the content brief.
+      Key SEO metadata: title tag, meta description, schema type, and internal linking plan.
 
   - name: CTA
     notion_type: rich_text
@@ -198,3 +205,10 @@ properties:
     notion_type: last_edited_time
     required: true
     description: Auto-populated by Notion on each edit.
+
+rules:
+  - "Content ID format: CNT-[TYPE CODE]-[NNN]. Assign from id-registry.md CNT sequence."
+  - "Content Type must match a value in TAX-CNT-001."
+  - "Target ICP values must match TAX-ICP-001 exactly (kebab-case)."
+  - "Tags must be drawn from TAX-TAG-001 only."
+  - "Published URL and Published Date must both be populated when Status = published."

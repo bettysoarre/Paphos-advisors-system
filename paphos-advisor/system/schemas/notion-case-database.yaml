@@ -1,139 +1,150 @@
-# Notion Case Database Schema
-# Database: Cases (PA - Operations workspace)
-# Purpose: Track client cases from intake through closure.
-
+---
+id: SCH-NOT-004
+title: "Cases Database — Notion Schema"
 database_name: Cases
-description: Tracks all client advisory cases from initial contact through closure.
+notion_database_id: TBD
+schema_version: 1
+status: draft
+created: 2026-04-14
+updated: 2026-04-14
+owner: "lead-advisor"
+related_taxonomies:
+  - TAX-ICP-001   # ICP Segments
+  - TAX-TAG-001   # Tag Registry
+---
 
-properties:
+description: >
+  Tracks all client advisory cases from initial contact through closure.
+  Each record represents one engagement with one client.
+
+fields:
+
   - name: Case ID
-    type: title
-    description: Unique case identifier. Format — CASE-[NNN] (e.g. CASE-001)
+    notion_type: title
     required: true
+    description: Unique case identifier. Format — CASE-[NNN] (e.g. CASE-001)
 
   - name: Client Name
-    type: relation
-    relation_database: Contacts
-    description: Link to the client record in the Contacts database.
+    notion_type: relation
     required: true
+    description: Link to the client record in the Contacts database.
+    relation_target: Contacts Database
 
   - name: Status
-    type: select
-    options:
-      - name: Enquiry
-        color: gray
-        description: Initial contact made, not yet assessed.
-      - name: Assessment
-        color: yellow
-        description: Client needs being assessed.
-      - name: Proposal Sent
-        color: blue
-        description: Service proposal or scope sent to client.
-      - name: Active
-        color: green
-        description: Engagement confirmed, case in progress.
-      - name: On Hold
-        color: orange
-        description: Client has paused engagement.
-      - name: Closed — Won
-        color: purple
-        description: Case successfully completed.
-      - name: Closed — Lost
-        color: red
-        description: Client did not proceed.
+    notion_type: select
     required: true
+    allowed_values:
+      - enquiry
+      - assessment
+      - proposal-sent
+      - active
+      - on-hold
+      - closed-won
+      - closed-lost
 
   - name: ICP Segment
-    type: select
-    description: Which ICP segment this client belongs to. Values from icp-segments.yaml.
-    options:
-      - UK National — Retiree
-      - EU National — Remote Worker
-      - Non-EU Digital Nomad
-      - Entrepreneur — Company Formation
-      - HNI — Permanent Residency
-      - Family Relocating with Children
-      - Intra-Company Transfer
-      - Property Investor (Non-Resident)
-      - Return Diaspora
+    notion_type: select
+    required: false
+    description: Which ICP segment this client belongs to.
+    allowed_values:
+      - uk-national
+      - eu-national
+      - non-eu-digital-nomad
+      - entrepreneur-company-formation
+      - hni-permanent-residency
+      - family-relocating-with-children
+    taxonomy_ref: TAX-ICP-001
 
   - name: Processes Required
-    type: multi_select
+    notion_type: multi_select
+    required: false
     description: Which processes this case involves.
-    options:
-      - Yellow Slip (MEU1)
-      - Pink Slip (MEU3)
-      - Category F Permit
-      - Digital Nomad Visa
-      - Permanent Residency Fast Track
-      - 60-Day Rule Tax Residency
-      - Non-Dom Status
-      - Personal Tax Return
-      - Renting a Property
-      - Buying Property
-      - HE Company Formation
-      - GESY Registration
-      - Bank Account Opening
-      - Driving Licence Exchange
-      - Vehicle Import
+    allowed_values:
+      - yellow-slip-meu1
+      - pink-slip-meu3
+      - category-f-permit
+      - digital-nomad-visa
+      - permanent-residency-fast-track
+      - 60-day-rule-tax-residency
+      - non-dom-status
+      - personal-tax-return
+      - renting-a-property
+      - buying-property
+      - he-company-formation
+      - gesy-registration
+      - bank-account-opening
+      - driving-licence-exchange
+      - vehicle-import
 
   - name: Assigned Advisor
-    type: person
-    description: Team member responsible for this case.
+    notion_type: person
     required: true
+    description: Team member responsible for this case.
 
   - name: Date Opened
-    type: date
-    description: Date the case was created.
+    notion_type: date
     required: true
+    description: Date the case was created.
 
   - name: Date Closed
-    type: date
+    notion_type: date
+    required: false
     description: Date the case was closed. Leave blank if still active.
 
   - name: Priority
-    type: select
-    options:
-      - name: High
-        color: red
-      - name: Normal
-        color: yellow
-      - name: Low
-        color: gray
+    notion_type: select
+    required: false
+    allowed_values:
+      - high
+      - normal
+      - low
 
   - name: Partners Referred To
-    type: relation
-    relation_database: Partners
+    notion_type: relation
+    required: false
     description: Partners referred to for this case.
+    relation_target: Partners Database
 
   - name: Source
-    type: select
+    notion_type: select
+    required: false
     description: How the client found us.
-    options:
-      - Organic Search
-      - Referral — Partner
-      - Referral — Client
-      - Social Media
-      - Direct / Word of Mouth
-      - Other
+    allowed_values:
+      - organic-search
+      - referral-partner
+      - referral-client
+      - social-media
+      - direct-word-of-mouth
+      - other
 
   - name: Case Notes
-    type: rich_text
+    notion_type: rich_text
+    required: false
     description: High-level case summary and key decisions. Detailed notes go in sub-pages.
 
   - name: Next Action
-    type: rich_text
+    notion_type: rich_text
+    required: false
     description: The single next action required on this case.
 
   - name: Next Action Date
-    type: date
+    notion_type: date
+    required: false
     description: When the next action is due.
 
   - name: Fee (€)
-    type: number
-    format: euro
+    notion_type: number
+    required: false
     description: Total agreed fee for this case.
 
   - name: Tags
-    type: multi_select
+    notion_type: multi_select
+    required: false
     description: Additional tags for filtering. Use canonical tags from tag-registry.yaml.
+    taxonomy_ref: TAX-TAG-001
+
+rules:
+  - "Case ID format: CASE-[NNN]. Assign sequentially from id-registry.md CASE sequence."
+  - "Client Name relation must always be populated — no orphaned cases."
+  - "Date Closed must be populated when Status = closed-won or closed-lost."
+  - "ICP Segment values must match TAX-ICP-001 exactly (kebab-case)."

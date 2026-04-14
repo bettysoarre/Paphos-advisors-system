@@ -1,136 +1,158 @@
-# Notion Contact / Client Database Schema
-# Database: Contacts (PA - Operations workspace)
-# Purpose: Client and prospect records. Central hub linking to cases, referrals, and content insights.
-
+---
+id: SCH-NOT-001
+title: "Contacts Database — Notion Schema"
 database_name: Contacts
-description: Client and prospect records. Each contact links to their cases, the ICP segment they belong to, and any referrals made on their behalf.
+notion_database_id: TBD
+schema_version: 1
+status: draft
+created: 2026-04-14
+updated: 2026-04-14
+owner: "lead-advisor"
+related_taxonomies:
+  - TAX-ICP-001  # ICP Segments
+  - TAX-TAG-001  # Tag Registry
+---
 
-properties:
+description: >
+  Client and prospect records. Central hub linking to cases, referrals,
+  and content insights. Each contact links to their cases, the ICP segment
+  they belong to, and any referrals made on their behalf.
+
+fields:
+
   - name: Full Name
-    type: title
-    description: Client's full name.
+    notion_type: title
     required: true
+    description: Client's full name.
 
   - name: Contact ID
-    type: rich_text
-    description: Unique ID. Format — CLT-[NNN] (e.g. CLT-001)
+    notion_type: rich_text
     required: true
+    description: Unique ID. Format — CLT-[NNN] (e.g. CLT-001)
 
   - name: Status
-    type: select
-    options:
-      - name: Prospect
-        color: gray
-        description: Has expressed interest but not yet engaged.
-      - name: Active Client
-        color: green
-        description: Currently engaged in a case.
-      - name: Past Client
-        color: blue
-        description: Previously engaged; case closed.
-      - name: On Hold
-        color: orange
-        description: Engagement paused.
-      - name: Not a Fit
-        color: red
-        description: Assessed and determined not suitable for our services.
+    notion_type: select
+    required: true
+    allowed_values:
+      - prospect
+      - active-client
+      - past-client
+      - on-hold
+      - not-a-fit
 
   - name: ICP Segment
-    type: select
+    notion_type: select
+    required: false
     description: Which ICP segment best describes this client.
-    options:
-      - UK National — Retiree
-      - EU National — Remote Worker
-      - Non-EU Digital Nomad
-      - Entrepreneur — Company Formation
-      - HNI — Permanent Residency
-      - Family Relocating with Children
-      - Intra-Company Transfer
-      - Property Investor (Non-Resident)
-      - Return Diaspora
+    allowed_values:
+      - uk-national
+      - eu-national
+      - non-eu-digital-nomad
+      - entrepreneur-company-formation
+      - hni-permanent-residency
+      - family-relocating-with-children
+    taxonomy_ref: TAX-ICP-001
 
   - name: Nationality
-    type: select
+    notion_type: select
+    required: false
     description: Client's nationality category (for process routing).
-    options:
-      - EU / EEA National
-      - UK National (post-Brexit)
-      - Non-EU National
+    allowed_values:
+      - eu-eea-national
+      - uk-national-post-brexit
+      - non-eu-national
 
   - name: Email
-    type: email
+    notion_type: email
     required: true
 
   - name: Phone
-    type: phone_number
+    notion_type: phone_number
+    required: false
 
   - name: Current Location
-    type: rich_text
+    notion_type: rich_text
+    required: false
     description: Where the client is currently based (country/city).
 
   - name: Target Move Date
-    type: date
+    notion_type: date
+    required: false
     description: When the client intends to relocate to Cyprus.
 
   - name: Cases
-    type: relation
-    relation_database: Cases
+    notion_type: relation
+    required: false
     description: All cases linked to this client.
+    relation_target: Cases Database
 
   - name: How They Found Us
-    type: select
-    options:
-      - Organic Search
-      - Referral — Partner
-      - Referral — Client
-      - Social Media
-      - Direct / Word of Mouth
-      - Other
+    notion_type: select
+    required: false
+    allowed_values:
+      - organic-search
+      - referral-partner
+      - referral-client
+      - social-media
+      - direct-word-of-mouth
+      - other
 
   - name: Referral Partner
-    type: relation
-    relation_database: Partners
+    notion_type: relation
+    required: false
     description: If referred by a partner — which partner.
+    relation_target: Partners Database
 
   - name: First Contact Date
-    type: date
+    notion_type: date
     required: true
 
   - name: GDPR Consent
-    type: checkbox
-    description: Client has given consent to store and process their personal data.
+    notion_type: checkbox
     required: true
+    description: Client has given consent to store and process their personal data.
 
   - name: Newsletter Opt-In
-    type: checkbox
+    notion_type: checkbox
+    required: false
     description: Client has opted in to receive newsletter / content emails.
 
   - name: Primary Need
-    type: multi_select
+    notion_type: multi_select
+    required: false
     description: The main reasons for their relocation / what they need help with.
-    options:
-      - Immigration / Residency
-      - Tax Residency
-      - Non-Dom Status
-      - Property Purchase
-      - Property Rental
-      - Business Formation
-      - GESY / Healthcare
-      - Settling In
+    allowed_values:
+      - immigration-residency
+      - tax-residency
+      - non-dom-status
+      - property-purchase
+      - property-rental
+      - business-formation
+      - gesy-healthcare
+      - settling-in
 
   - name: Budget Range
-    type: select
-    options:
-      - Under €1,000
-      - €1,000 — €3,000
-      - €3,000 — €10,000
-      - €10,000+
-      - Unknown
+    notion_type: select
+    required: false
+    allowed_values:
+      - under-1000
+      - 1000-3000
+      - 3000-10000
+      - 10000-plus
+      - unknown
 
   - name: Notes
-    type: rich_text
+    notion_type: rich_text
+    required: false
     description: Key context about this client. Not for case-specific notes (use the Case record).
 
   - name: Assigned Advisor
-    type: person
+    notion_type: person
+    required: false
     description: Primary team member managing this client relationship.
+
+rules:
+  - "GDPR Consent must be checked before any data is stored. No exceptions."
+  - "Contact ID format: CLT-[NNN]. Assign from id-registry.md CLT sequence."
+  - "ICP Segment values must match TAX-ICP-001 exactly (kebab-case)."
+  - "Status values are kebab-case — align with operational definitions in process-status docs."
