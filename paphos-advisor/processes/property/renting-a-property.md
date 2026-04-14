@@ -1,4 +1,4 @@
----
+﻿---
 id: PROC-PROP-001
 title: "Renting a Property in Cyprus"
 category: property
@@ -32,7 +32,7 @@ updated: "2026-04-13"
 review_due: "2026-10-13"
 related_processes:
   - "PROC-IMM-001 — Yellow Slip Application (MEU1)"
-  - "PROC-TAX-001 — 60-Day Tax Residency Rule"
+  - "PROC-TAX-PROC-001 — 60-Day Tax Residency Rule"
   - "PROC-SET-001 — Utilities Registration"
 related_partners:
   - property-agent
@@ -189,7 +189,7 @@ Furnished properties command a premium of 15–30% over unfurnished equivalents 
 ## Related Processes
 
 - **PROC-IMM-001 — Yellow Slip Application (MEU1):** The rental agreement (minimum 12 months) is a required document for MEU1 registration. Renting is typically the first step before MEU1 can be completed.
-- **PROC-TAX-001 — 60-Day Tax Residency Rule:** The rental agreement is evidence of a "permanent home available in Cyprus" — one of the qualifying conditions for tax residency under the 60-day rule.
+- **PROC-TAX-PROC-001 — 60-Day Tax Residency Rule:** The rental agreement is evidence of a "permanent home available in Cyprus" — one of the qualifying conditions for tax residency under the 60-day rule.
 - **PROC-SET-001 — Utilities Registration:** Registering utilities in your name follows immediately after signing the rental agreement.
 
 ---

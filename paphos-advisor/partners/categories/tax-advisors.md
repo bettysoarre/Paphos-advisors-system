@@ -1,4 +1,4 @@
-# Partner Category: Tax Advisors
+﻿# Partner Category: Tax Advisors
 
 ## Category ID
 `tax-advisors`
@@ -23,11 +23,11 @@ Registration with **ICPAC** is mandatory for practising accountants in Cyprus. V
 
 ## Process docs they inform
 
-- PROC-TAX-001 (60-Day Rule)
-- PROC-TAX-002 (Non-Dom Status)
-- PROC-TAX-003 (Personal Tax Return) — stub
-- PROC-TAX-004 (Double Taxation Treaty) — stub
-- PROC-TAX-005 (VAT Registration Individual) — stub
+- PROC-TAX-PROC-001 (60-Day Rule)
+- PROC-TAX-CONF-001 (Non-Dom Status)
+- PROC-TAX-CNT-001 (Personal Tax Return) — stub
+- PROC-TAX-ICP-001 (Double Taxation Treaty) — stub
+- PROC-TAX-IMM-001 (VAT Registration Individual) — stub
 
 ## Knowledge interview focus areas
 

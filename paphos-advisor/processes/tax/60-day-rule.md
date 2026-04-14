@@ -1,5 +1,5 @@
----
-id: PROC-TAX-001
+﻿---
+id: PROC-TAX-PROC-001
 title: "Cyprus Tax Residency — 60-Day Rule"
 category: tax
 subcategory: tax-residency
@@ -34,7 +34,7 @@ created: "2026-04-09"
 updated: "2026-04-13"
 review_due: "2026-10-13"
 related_processes:
-  - "PROC-TAX-002 — Non-Dom Status Application"
+  - "PROC-TAX-CONF-001 — Non-Dom Status Application"
   - "PROC-IMM-001 — Yellow Slip Application (MEU1)"
 related_partners:
   - tax-specialist
@@ -178,7 +178,7 @@ The Tax Department can request evidence of physical presence in Cyprus. Many app
 
 ## Related Processes
 
-- **PROC-TAX-002 — Non-Dom Status Application:** Tax residency under the 60-day rule is the prerequisite for the non-dom regime. These two processes typically run together.
+- **PROC-TAX-CONF-001 — Non-Dom Status Application:** Tax residency under the 60-day rule is the prerequisite for the non-dom regime. These two processes typically run together.
 - **PROC-IMM-001 — Yellow Slip Application (MEU1):** EU nationals establishing Cyprus tax residency will typically also need the Yellow Slip. The MEU1 provides supporting evidence of Cyprus residence.
 - **PROC-BIZ-001 — Company Formation:** Many applicants establish a Cyprus company to satisfy the business activity condition of the 60-day rule.
 

@@ -1,4 +1,4 @@
----
+﻿---
 id: SCH-NOT-002
 title: "Partners Database — Notion Schema"
 database_name: Partners
@@ -9,9 +9,9 @@ created: 2026-04-13
 updated: 2026-04-13
 owner: "lead-advisor"
 related_taxonomies:
-  - TAX-006  # Partner Categories
-  - TAX-007  # Service Types
-  - TAX-009  # Tag Registry
+  - TAX-PART-001  # Partner Categories
+  - TAX-SVC-001  # Service Types
+  - TAX-TAG-001  # Tag Registry
 ---
 
 description: >
@@ -51,7 +51,7 @@ fields:
       - insurance
       - tax-specialist
       - other
-    taxonomy_ref: TAX-006
+    taxonomy_ref: TAX-PART-001
 
   - name: Services Offered
     notion_type: multi_select
@@ -83,7 +83,7 @@ fields:
       - document-handling
       - apostille-legalisation
       - translation
-    taxonomy_ref: TAX-007
+    taxonomy_ref: TAX-SVC-001
 
   - name: Status
     notion_type: select
@@ -115,7 +115,7 @@ fields:
       - business-owner
       - property-buyer
       - multi-step-relocator
-    taxonomy_ref: TAX-004
+    taxonomy_ref: TAX-ICP-001
 
   - name: Geography
     notion_type: multi_select
@@ -128,7 +128,7 @@ fields:
       - larnaca
       - famagusta
       - cyprus-wide
-    taxonomy_ref: TAX-009 (geography dimension)
+    taxonomy_ref: TAX-TAG-001 (geography dimension)
 
   - name: Languages
     notion_type: multi_select
@@ -231,7 +231,7 @@ fields:
     notion_type: multi_select
     required: false
     description: Process and audience tags for filtering and cross-referencing.
-    taxonomy_ref: TAX-009
+    taxonomy_ref: TAX-TAG-001
 
   - name: GitHub Profile Path
     notion_type: rich_text
@@ -259,9 +259,9 @@ fields:
 
 rules:
   - "Each partner record must have a Partner ID assigned from the PRTN sequence in id-registry.md before activation."
-  - "Category must match a value in TAX-006 — use the value field (lowercase), not the label."
-  - "Services Offered must match values in TAX-007 exactly."
-  - "Tags must be drawn from TAX-009 only."
+  - "Category must match a value in TAX-PART-001 — use the value field (lowercase), not the label."
+  - "Services Offered must match values in TAX-SVC-001 exactly."
+  - "Tags must be drawn from TAX-TAG-001 only."
   - "Partner ID format: PRTN-[AREA]-[NNN] where AREA matches the partner category code in id-registry.md."
 
 pending_notion_changes:

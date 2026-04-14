@@ -1,4 +1,4 @@
-# Pillar: Tax & Financial Planning
+﻿# Pillar: Tax & Financial Planning
 
 ## Pillar page target
 - Primary keyword: "Cyprus tax for expats" / "Cyprus tax residency"
@@ -14,8 +14,8 @@ A comprehensive guide to Cyprus taxation for relocators — covering tax residen
 
 | # | Title | Content type | Target keyword | ICP | Process doc | Status |
 |---|---|---|---|---|---|---|
-| 1 | Cyprus 60-Day Tax Residency Rule — Full Guide | Process explainer | "cyprus 60 day tax residency rule" | EU remote worker, Entrepreneur | PROC-TAX-001 | Pending |
-| 2 | Non-Domiciled (Non-Dom) Status in Cyprus | Process explainer | "cyprus non dom status" | EU remote worker, HNI, Entrepreneur | PROC-TAX-002 | Pending |
+| 1 | Cyprus 60-Day Tax Residency Rule — Full Guide | Process explainer | "cyprus 60 day tax residency rule" | EU remote worker, Entrepreneur | PROC-TAX-PROC-001 | Pending |
+| 2 | Non-Domiciled (Non-Dom) Status in Cyprus | Process explainer | "cyprus non dom status" | EU remote worker, HNI, Entrepreneur | PROC-TAX-CONF-001 | Pending |
 | 3 | Cyprus Tax Residency — How It Works | Guide | "cyprus tax residency" | All tax-motivated ICPs | Multiple | Pending |
 | 4 | Personal Income Tax in Cyprus — Rates and Exemptions | Explainer | "cyprus income tax expats" | EU remote worker | — | Pending |
 | 5 | Double Taxation Treaties — Cyprus's Network | Explainer | "cyprus double taxation treaties" | HNI, Entrepreneur | — | Pending |

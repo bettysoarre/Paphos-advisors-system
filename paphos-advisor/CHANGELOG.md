@@ -1,4 +1,4 @@
-# System Changelog
+﻿# System Changelog
 
 This file records significant system-level changes: new taxonomy values, schema changes, governance updates, structural additions. It is not a git commit log — it captures *why* changes were made, not just what changed.
 
@@ -30,7 +30,7 @@ For process document changes, see the `updated` and `field_notes` frontmatter wi
 **Area:** All
 **Author:** Jason / Betty
 
-**What changed:** Full repository structure created. Includes taxonomies, schemas, governance, standards, templates, process documents (PROC-IMM-001, PROC-TAX-001, PROC-TAX-002, PROC-PROP-001), content type definitions, topical map, partner onboarding checklist, and prompt library.
+**What changed:** Full repository structure created. Includes taxonomies, schemas, governance, standards, templates, process documents (PROC-IMM-001, PROC-TAX-PROC-001, PROC-TAX-CONF-001, PROC-PROP-001), content type definitions, topical map, partner onboarding checklist, and prompt library.
 
 **Why:** Initial system build for Paphos Advisors knowledge and operations platform.
 

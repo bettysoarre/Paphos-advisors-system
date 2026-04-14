@@ -1,4 +1,4 @@
-# Topical Map — Pillar Topics
+﻿# Topical Map — Pillar Topics
 
 This document defines the six content pillars for Paphos Advisors. Each pillar represents a major topic cluster that we intend to own with topical authority. Supporting content ideas listed under each pillar will become individual Content Pipeline entries in Notion.
 
@@ -124,11 +124,11 @@ The full Cyprus tax picture for relocating individuals — residency rules, the 
 
 2. **The Cyprus 60-Day Tax Residency Rule Explained**
    *Type: Guide | Intent: Informational | ICP: Business Owners, Digital Nomads, Multi-step Relocators*
-   Full guide based on PROC-TAX-001. Covers all four qualifying conditions, the 2026 rule change, and how to structure your year to qualify.
+   Full guide based on PROC-TAX-PROC-001. Covers all four qualifying conditions, the 2026 rule change, and how to structure your year to qualify.
 
 3. **Cyprus Non-Dom Status: How to Pay 0% Tax on Dividends**
    *Type: Guide | Intent: Commercial | ICP: Business Owners, Investors*
-   Full guide based on PROC-TAX-002. Targets high-intent searchers — business owners and investors actively looking for dividend tax optimisation. High-value lead generation.
+   Full guide based on PROC-TAX-CONF-001. Targets high-intent searchers — business owners and investors actively looking for dividend tax optimisation. High-value lead generation.
 
 4. **Cyprus Income Tax Rates and Bands for [Year]**
    *Type: Guide | Intent: Informational | ICP: All*

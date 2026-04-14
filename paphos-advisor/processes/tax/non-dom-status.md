@@ -1,5 +1,5 @@
----
-id: PROC-TAX-002
+﻿---
+id: PROC-TAX-CONF-001
 title: "Cyprus Non-Domicile (Non-Dom) Status Application"
 category: tax
 subcategory: tax-residency
@@ -34,7 +34,7 @@ created: "2026-04-09"
 updated: "2026-04-13"
 review_due: "2026-10-13"
 related_processes:
-  - "PROC-TAX-001 — 60-Day Tax Residency Rule"
+  - "PROC-TAX-PROC-001 — 60-Day Tax Residency Rule"
   - "PROC-IMM-001 — Yellow Slip Application (MEU1)"
   - "PROC-BIZ-001 — Company Formation"
 related_partners:
@@ -63,7 +63,7 @@ To qualify for non-dom status, you must satisfy **both** of the following:
 
 **1. Be a Cyprus tax resident**
 - Either under the 183-day rule (spending more than 183 days in Cyprus per calendar year)
-- Or under the 60-day rule (see PROC-TAX-001)
+- Or under the 60-day rule (see PROC-TAX-PROC-001)
 
 **2. Not be domiciled in Cyprus under Cyprus law**
 
@@ -132,7 +132,7 @@ Non-dom status is declared to the **Cyprus Tax Department** as part of the annua
 
 ## Step-by-Step Process
 
-1. **Establish Cyprus tax residency first.** Non-dom status is only available to Cyprus tax residents. Complete PROC-TAX-001 (60-day rule) or ensure you meet the 183-day threshold before proceeding.
+1. **Establish Cyprus tax residency first.** Non-dom status is only available to Cyprus tax residents. Complete PROC-TAX-PROC-001 (60-day rule) or ensure you meet the 183-day threshold before proceeding.
 
 2. **Obtain a Tax Identification Code (TIC).** If not already registered, apply at the local Tax Department or via Taxisnet.
 
@@ -196,7 +196,7 @@ The January 2026 reform reduced SDC on dividends from 17% to 5% for non-qualifyi
 
 ## Related Processes
 
-- **PROC-TAX-001 — 60-Day Tax Residency Rule:** Tax residency is the prerequisite for non-dom status. These processes always run together.
+- **PROC-TAX-PROC-001 — 60-Day Tax Residency Rule:** Tax residency is the prerequisite for non-dom status. These processes always run together.
 - **PROC-IMM-001 — Yellow Slip Application (MEU1):** EU nationals will typically obtain the Yellow Slip alongside establishing tax residency.
 - **PROC-BIZ-001 — Company Formation:** Many non-doms structure dividend income through a Cyprus company. Company formation and non-dom status are closely linked for business owners.
 

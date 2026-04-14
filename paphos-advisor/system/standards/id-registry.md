@@ -1,4 +1,4 @@
-# ID Registry
+﻿# ID Registry
 
 Master registry of all ID prefixes, area/type codes, and current sequence numbers in the Paphos Advisor system.
 
@@ -13,7 +13,7 @@ Master registry of all ID prefixes, area/type codes, and current sequence number
 | Area | Code | Current Sequence | Next ID to Use |
 |------|------|-----------------|----------------|
 | Immigration | IMM | 000 | PROC-IMM-001 |
-| Tax | TAX | 000 | PROC-TAX-001 |
+| Tax | TAX | 000 | PROC-TAX-PROC-001 |
 | Property | PROP | 000 | PROC-PROP-001 |
 | Business | BIZ | 000 | PROC-BIZ-001 |
 | Healthcare | HLTH | 000 | PROC-HLTH-001 |
@@ -54,7 +54,7 @@ Routing and eligibility decision trees. Domain codes match the process area.
 | Domain | Code | Current Sequence | Next ID to Use |
 |--------|------|-----------------|----------------|
 | Residency / Immigration | RES | 001 | DT-RES-002 |
-| Tax | TAX | 001 | DT-TAX-002 |
+| Tax | TAX | 001 | DT-TAX-CONF-001 |
 | Property | PROP | 000 | DT-PROP-001 |
 | Business | BIZ | 000 | DT-BIZ-001 |
 | Healthcare | HLTH | 000 | DT-HLTH-001 |
@@ -77,7 +77,7 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 | Area | Code | Current Sequence | Next ID to Use |
 |------|------|-----------------|----------------|
 | Immigration | IMM | 000 | KB-IMM-001 |
-| Tax | TAX | 000 | KB-TAX-001 |
+| Tax | TAX | 000 | KB-TAX-PROC-001 |
 | Property | PROP | 000 | KB-PROP-001 |
 | Business | BIZ | 000 | KB-BIZ-001 |
 | Healthcare | HLTH | 000 | KB-HLTH-001 |
@@ -137,7 +137,7 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 | Property Developer | DEV | 000 | PRTN-DEV-001 |
 | Property Agent | AGENT | 000 | PRTN-AGENT-001 |
 | Insurance | INS | 000 | PRTN-INS-001 |
-| Tax Specialist | TAX | 000 | PRTN-TAX-001 |
+| Tax Specialist | TAX | 000 | PRTN-TAX-PROC-001 |
 | Other | OTH | 000 | PRTN-OTH-001 |
 
 ---
@@ -156,11 +156,19 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 
 ## Taxonomy IDs — `TAX`
 
-Taxonomy definition files. Single shared sequence — all taxonomy files use the `TAX` prefix with no area code.
+Taxonomy definition files. Format: `TAX-[CATEGORY]-[NNN]`. Each category has its own sequence.
 
-| Type | Current Sequence | Next ID to Use |
-|------|-----------------|----------------|
-| Taxonomy | 009 | TAX-010 |
+| Category | Code | Current Sequence | Next ID to Use |
+|----------|------|-----------------|----------------|
+| Process Status | PROC | 001 | TAX-PROC-002 |
+| Confidence Levels | CONF | 001 | TAX-CONF-002 |
+| Content Categories | CNT | 001 | TAX-CNT-002 |
+| ICP Segments | ICP | 001 | TAX-ICP-002 |
+| Immigration | IMM | 001 | TAX-IMM-002 |
+| Partner Categories | PART | 001 | TAX-PART-002 |
+| Service Types | SVC | 001 | TAX-SVC-002 |
+| Source Types | SRC | 001 | TAX-SRC-002 |
+| Tag Registry | TAG | 001 | TAX-TAG-002 |
 
 ---
 

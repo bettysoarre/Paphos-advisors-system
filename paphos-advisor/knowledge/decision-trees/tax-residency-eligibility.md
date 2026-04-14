@@ -1,5 +1,5 @@
----
-id: DT-TAX-001
+﻿---
+id: DT-TAX-PROC-001
 title: "Cyprus Tax Residency Eligibility"
 domain: tax
 status: draft
@@ -10,8 +10,8 @@ created: 2026-04-13
 updated: 2026-04-13
 review_due: 2026-10-13
 related_processes:
-  - PROC-TAX-001
-  - PROC-TAX-002
+  - PROC-TAX-PROC-001
+  - PROC-TAX-CONF-001
 tags:
   - decision-tree
   - tax
@@ -59,7 +59,7 @@ flowchart TD
     F -- Yes --> H{Days in any single\nother country per year?}
     F -- No --> I[Cannot qualify under 60-day rule\nSecure permanent Cyprus address first]
 
-    H -- Fewer than 183 days --> J[Qualifies under 60-day rule\nPROC-TAX-001]
+    H -- Fewer than 183 days --> J[Qualifies under 60-day rule\nPROC-TAX-PROC-001]
     H -- 183 or more days\nin one country --> K[Fails 60-day rule\nCannot qualify while spending 183+ days\nin another single country]
 
     C --> L{Significant dividend\nor interest income?}
@@ -68,7 +68,7 @@ flowchart TD
     L -- No --> M[Standard Cyprus tax residency\nNo SDC exposure — non-dom election\nnot urgent but still worth electing]
     L -- Yes --> N{Within first 17 years\nof Cyprus tax residency?}
 
-    N -- Yes --> O[Elect non-dom status via TD.38\nSDC exemption on dividends and interest\nPROC-TAX-002]
+    N -- Yes --> O[Elect non-dom status via TD.38\nSDC exemption on dividends and interest\nPROC-TAX-CONF-001]
     N -- No — 17 years elapsed --> P[Non-dom no longer available\nSDC applies: 17% on dividends\n3% on interest]
 ```
 
@@ -78,7 +78,7 @@ flowchart TD
 
 ### Branch: 183-day rule
 
-The client spends 183 or more days in Cyprus in a calendar year. No further conditions apply — they are automatically Cyprus tax resident. Days of arrival and departure both count. For the full process, see [PROC-TAX-001](../../processes/tax/60-day-rule.md).
+The client spends 183 or more days in Cyprus in a calendar year. No further conditions apply — they are automatically Cyprus tax resident. Days of arrival and departure both count. For the full process, see [PROC-TAX-PROC-001](../../processes/tax/60-day-rule.md).
 
 ### Branch: 60-day rule — qualifies
 
@@ -86,7 +86,7 @@ The client spends 60–182 days in Cyprus and meets three additional conditions:
 
 **2026 reform:** From 1 January 2026, the condition that the client must not be tax resident elsewhere was removed. Clients who are also tax resident in another jurisdiction can now qualify under this route.
 
-For full conditions, documentation requirements, and the application process, see [PROC-TAX-001](../../processes/tax/60-day-rule.md).
+For full conditions, documentation requirements, and the application process, see [PROC-TAX-PROC-001](../../processes/tax/60-day-rule.md).
 
 ### Branch: Cannot qualify — fewer than 60 days
 
@@ -102,7 +102,7 @@ The client spends 60+ days in Cyprus but also spends 183 or more days in a singl
 
 ### Branch: Non-dom — elect
 
-The client qualifies for Cyprus tax residency and has significant dividend or interest income — route to the non-dom election process via [PROC-TAX-002](../../processes/tax/non-dom-status.md).
+The client qualifies for Cyprus tax residency and has significant dividend or interest income — route to the non-dom election process via [PROC-TAX-CONF-001](../../processes/tax/non-dom-status.md).
 
 **Routing notes to flag before handoff:**
 - GHS contributions still apply even with non-dom status: 2.65% on dividend and interest income, capped at €180,000. This is frequently overlooked.
@@ -122,7 +122,7 @@ The client has been Cyprus tax resident for 17 or more years. Non-dom status is 
 - **Client is employed by a foreign employer but works remotely from Cyprus:** The economic activity condition for the 60-day rule requires Cyprus-based activity (Cyprus employer, Cyprus company directorship, or Cyprus-registered self-employment). Working for a foreign employer remotely from Cyprus does not satisfy the condition. A Cyprus company structure is typically required.
 - **Days calculation disputes:** Tax authorities may challenge day counts if travel records are poor. Advise clients to keep boarding passes, hotel receipts, and a dated travel diary. Do not rely on bank transaction history alone.
 - **Client with income in multiple jurisdictions:** Multi-jurisdiction tax situations require specialist cross-border tax advice. Do not route these clients through this tree alone — the interaction between Cyprus tax residency and other jurisdictions' tie-breaker rules (under double tax treaties) requires professional assessment.
-- **Proposed non-dom flat fee:** If enacted, this would change the economics of non-dom for lower-income clients. Monitor government announcements and update this tree and PROC-TAX-002 when confirmed.
+- **Proposed non-dom flat fee:** If enacted, this would change the economics of non-dom for lower-income clients. Monitor government announcements and update this tree and PROC-TAX-CONF-001 when confirmed.
 
 ---
 
@@ -130,12 +130,12 @@ The client has been Cyprus tax resident for 17 or more years. Non-dom status is 
 
 | Outcome | Route | Process Doc | Status |
 |---------|-------|-------------|--------|
-| 183+ days in Cyprus | 183-day rule — automatic tax residency | PROC-TAX-001 | Available |
-| 60–182 days, all conditions met | 60-day rule — elective tax residency | PROC-TAX-001 | Available |
-| Tax resident + dividend/interest income, <17 years | Non-dom election | PROC-TAX-002 | Available |
-| Tax resident + no significant passive income | Standard Cyprus tax residency | PROC-TAX-001 | Available |
+| 183+ days in Cyprus | 183-day rule — automatic tax residency | PROC-TAX-PROC-001 | Available |
+| 60–182 days, all conditions met | 60-day rule — elective tax residency | PROC-TAX-PROC-001 | Available |
+| Tax resident + dividend/interest income, <17 years | Non-dom election | PROC-TAX-CONF-001 | Available |
+| Tax resident + no significant passive income | Standard Cyprus tax residency | PROC-TAX-PROC-001 | Available |
 | <60 days or conditions not met | Not eligible — no route available | — | — |
-| 17+ years Cyprus tax resident | Non-dom not available — SDC applies | PROC-TAX-002 (for context) | — |
+| 17+ years Cyprus tax resident | Non-dom not available — SDC applies | PROC-TAX-CONF-001 (for context) | — |
 
 ---
 

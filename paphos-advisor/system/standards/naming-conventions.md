@@ -65,7 +65,7 @@ All components are uppercase. Sequences are zero-padded to 3 digits and incremen
 | Area | Code | Example |
 |------|------|---------|
 | Immigration | IMM | `PROC-IMM-001` |
-| Tax | TAX | `PROC-TAX-001` |
+| Tax | TAX | `PROC-TAX-PROC-001` |
 | Property | PROP | `PROC-PROP-001` |
 | Business | BIZ | `PROC-BIZ-001` |
 | Healthcare | HLTH | `PROC-HLTH-001` |
@@ -94,7 +94,7 @@ All components are uppercase. Sequences are zero-padded to 3 digits and incremen
 | Area | Code | Example |
 |------|------|---------|
 | Immigration | IMM | `KB-IMM-001` |
-| Tax | TAX | `KB-TAX-001` |
+| Tax | TAX | `KB-TAX-PROC-001` |
 | Property | PROP | `KB-PROP-001` |
 | Business | BIZ | `KB-BIZ-001` |
 | Healthcare | HLTH | `KB-HLTH-001` |
@@ -135,7 +135,7 @@ All components are uppercase. Sequences are zero-padded to 3 digits and incremen
 | Property Developer | DEV | `PRTN-DEV-001` |
 | Property Agent | AGENT | `PRTN-AGENT-001` |
 | Insurance | INS | `PRTN-INS-001` |
-| Tax Specialist | TAX | `PRTN-TAX-001` |
+| Tax Specialist | TAX | `PRTN-TAX-PROC-001` |
 | Other | OTH | `PRTN-OTH-001` |
 
 ### 3.6 Prompt IDs

@@ -1,4 +1,4 @@
----
+﻿---
 id: PROC-IMM-001
 title: "Yellow Slip Application — EU National (MEU1)"
 category: immigration
@@ -37,7 +37,7 @@ created: "2026-04-09"
 updated: "2026-04-13"
 review_due: "2026-10-13"
 related_processes:
-  - "PROC-TAX-001 — 60-Day Tax Residency Rule"
+  - "PROC-TAX-PROC-001 — 60-Day Tax Residency Rule"
   - "PROC-IMM-002 — MEU2 Registration (Non-EU Family Members)"
 related_partners:
   - lawyer
@@ -232,7 +232,7 @@ Some practitioners report that proof of GESY registration (the General Healthcar
 
 ## Related Processes
 
-- **PROC-TAX-001 — 60-Day Tax Residency Rule:** Many EU nationals obtaining the Yellow Slip are simultaneously establishing Cyprus tax residency. The MEU1 is not required for tax residency but is strong supporting evidence of physical presence. These two processes often run in parallel.
+- **PROC-TAX-PROC-001 — 60-Day Tax Residency Rule:** Many EU nationals obtaining the Yellow Slip are simultaneously establishing Cyprus tax residency. The MEU1 is not required for tax residency but is strong supporting evidence of physical presence. These two processes often run in parallel.
 - **PROC-IMM-002 — MEU2 Registration (Non-EU Family Members):** If the applicant has non-EU family members accompanying them, those family members require a separate MEU2 application. The EU national's MEU1 must typically be completed first.
 - **PROC-HLTH-001 — GESY Registration:** Healthcare registration typically follows MEU1 completion. The Yellow Slip may be required as part of the GESY registration process.
 - **PROC-BIZ-001 — Company Formation:** EU nationals establishing a company in Cyprus will need the Yellow Slip as part of the company formation and bank account opening process.
