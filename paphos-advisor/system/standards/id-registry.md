@@ -15,7 +15,7 @@ Master registry of all ID prefixes, area/type codes, and current sequence number
 | Immigration | IMM | 000 | PROC-IMM-001 |
 | Tax | TAX | 000 | PROC-TAX-PROC-001 |
 | Property | PROP | 000 | PROC-PROP-001 |
-| Business | BIZ | 000 | PROC-BIZ-001 |
+| Business | BIZ | 001 | PROC-BIZ-002 |
 | Healthcare | HLTH | 000 | PROC-HLTH-001 |
 | Transport | TRN | 000 | PROC-TRN-001 |
 | Shipping | SHIP | 000 | PROC-SHIP-001 |
@@ -54,7 +54,7 @@ Routing and eligibility decision trees. Domain codes match the process area.
 | Domain | Code | Current Sequence | Next ID to Use |
 |--------|------|-----------------|----------------|
 | Residency / Immigration | RES | 001 | DT-RES-002 |
-| Tax | TAX | 001 | DT-TAX-CONF-001 |
+| Tax | TAX | 001 | DT-TAX-002 |
 | Property | PROP | 000 | DT-PROP-001 |
 | Business | BIZ | 000 | DT-BIZ-001 |
 | Healthcare | HLTH | 000 | DT-HLTH-001 |
@@ -92,10 +92,10 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 
 | Content Type | Code | Current Sequence | Next ID to Use |
 |-------------|------|-----------------|----------------|
-| Guide | GDE | 000 | CNT-GDE-001 |
+| Guide | GDE | 003 | CNT-GDE-004 |
 | FAQ | FAQ | 000 | CNT-FAQ-001 |
 | Checklist | CHK | 000 | CNT-CHK-001 |
-| Comparison | CMP | 000 | CNT-CMP-001 |
+| Comparison | CMP | 001 | CNT-CMP-002 |
 | Partner Page | PRTN | 000 | CNT-PRTN-001 |
 | Service Page | SVC | 000 | CNT-SVC-001 |
 | Email Sequence | EMAIL | 000 | CNT-EMAIL-001 |

@@ -6,7 +6,7 @@ notion_database_id: 47ff4231-f41b-43aa-91be-70f6d872d3f0
 schema_version: 1
 status: active
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-15
 owner: "lead-advisor"
 related_taxonomies:
   - TAX-PART-001  # Partner Categories
@@ -97,9 +97,6 @@ fields:
       - paused
       - inactive
       - blacklisted
-    notes: >
-      Notion currently has this as "Onboarding Status" (status type).
-      Pending manual update: rename to "Status", change type to select, replace values with the list above.
 
   - name: ICP Fit
     notion_type: multi_select
@@ -264,26 +261,13 @@ rules:
   - "Tags must be drawn from TAX-TAG-001 only."
   - "Partner ID format: PRTN-[AREA]-[NNN] where AREA matches the partner category code in id-registry.md."
 
-pending_notion_changes:
-  - field: Status
-    action: rename_and_retype
-    from_name: "Onboarding Status"
-    to_name: "Status"
-    from_type: status
-    to_type: select
-    replace_values:
-      - Not started → prospecting
-      - In progress → in-conversation
-      - Onboarded → onboarding
-      - Active → active
-      - Paused → paused
-      - Offboarded → inactive
-      add: blacklisted
-    note: >
-      Notion MCP was disconnected before this change could be applied.
-      Apply manually or reconnect MCP and re-run.
-
 resolved_discrepancies:
+  - field: Status
+    spec_name: "Status"
+    notion_name: "Status"
+    resolution: applied
+    note: Was "Onboarding Status" (status type). Renamed to "Status" (select type) with correct values. Applied 2026-04-15.
+
   - field: Name (title)
     spec_name: "Name"
     notion_name: "Partner Name"

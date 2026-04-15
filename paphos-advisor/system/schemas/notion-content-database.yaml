@@ -6,7 +6,7 @@ notion_database_id: b8429a09-8cef-4fdf-aafc-82b990db0689
 schema_version: 1
 status: active
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-15
 owner: "lead-advisor"
 related_taxonomies:
   - TAX-CNT-001   # Content Categories
@@ -163,6 +163,12 @@ fields:
     required: false
     description: Partners referenced or featured in this content piece.
     relation_target: Partners Database
+
+  - name: Related ICPs
+    notion_type: relation
+    required: false
+    description: ICP segments this content piece is written for.
+    relation_target: ICPs Database
 
   - name: Source Knowledge
     notion_type: relation

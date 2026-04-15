@@ -1,5 +1,5 @@
 ﻿---
-id: DT-TAX-PROC-001
+id: DT-TAX-001
 title: "Cyprus Tax Residency Eligibility"
 domain: tax
 status: draft
