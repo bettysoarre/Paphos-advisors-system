@@ -28,10 +28,10 @@ sources:
   - url: "https://assets.kpmg.com/content/dam/kpmg/cy/pdf/2024/cyprus-tax-residency-and-non-dom-rules.pdf"
     title: "Cyprus Tax Residency and Non-Dom Rules — KPMG Cyprus"
     accessed: "2026-04-09"
-last_validated: ""
-validated_by: ""
+last_validated: "2026-04-20"
+validated_by: "Perplexity research — 5 sources (PwC, Harneys, IBCCS Tax, Nikita Partners, Sage Hill Partners)"
 created: "2026-04-09"
-updated: "2026-04-13"
+updated: "2026-04-20"
 review_due: "2026-10-13"
 related_processes:
   - "PROC-TAX-CONF-001 — Non-Dom Status Application"
@@ -142,17 +142,21 @@ Tax residency under the 60-day rule is established through the **Cyprus Tax Depa
 
 > **These notes reflect field intelligence from practitioner sources. They are not official guidance and should be verified with a qualified tax specialist.**
 
-**FN-001 — 2026 rule change: no-other-tax-residency condition removed (April 2026)**
-As of 1 January 2026, Cyprus dropped the requirement that applicants under the 60-day rule must not be tax resident in any other country. This was confirmed by multiple sources including VisaHQ (April 7, 2026) and practitioner guides. This is a significant expansion of who can use the 60-day route. Individuals who previously could not qualify because they remained tax resident in the UK, US, or elsewhere can now consider Cyprus tax residency under the 60-day rule.
-*Source: VisaHQ news April 2026, GK Law Firm guide April 2026. Needs validation by a Cyprus tax specialist.*
+**FN-001 — 2026 rule change: no-other-tax-residency condition removed (confirmed)**
+As of 1 January 2026, Cyprus removed the requirement that applicants under the 60-day rule must not be tax resident in any other country. Enacted 22 December 2025, published in the Official Gazette 31 December 2025. Confirmed by PwC (official publication), Harneys, IBCCS Tax, and multiple practitioner guides. This is a significant expansion of access to the 60-day route — individuals who previously could not qualify because they remained tax resident in the UK, Germany, US, or elsewhere can now consider Cyprus tax residency under the 60-day rule. All other four conditions continue to apply.
+*Source: PwC Direct Tax Update N1/2026; Harneys blog January 2026; IBCCS Tax March 2026. Validated via Perplexity, 2026-04-20.*
 
-**FN-002 — Proposed annual flat fee for new non-dom applicants (2026)**
-There is a proposal under discussion to introduce an annual flat fee of €5,000–€10,000 for new non-dom applicants, potentially replacing aspects of the 60-day rule. This had not been formally enacted as of April 2026. Monitor for legislative updates.
-*Source: Practitioner guides, April 2026. Status: proposed, not yet law.*
+**FN-002 — Flat annual fee proposal: closed (updated April 2026)**
+An earlier proposal to introduce a €5,000–€10,000 annual flat fee for non-dom applicants did not become law. The 2026 reform instead introduced a lump-sum extension option for those reaching the 17-year non-dom threshold (see PROC-TAX-CONF-001). Do not reference the flat fee proposal in client communications — it is no longer relevant.
+*Source: Confirmed via Perplexity verification, 2026-04-20. [SUPERSEDED 2026-04-20]*
 
 **FN-003 — Cyprus company directorship is the most common qualifying business activity**
 The most commonly used method to satisfy the "Cyprus business activity" condition is holding a directorship of a Cyprus-registered company. This does not require the company to be actively trading in Cyprus — being a director is typically sufficient. A tax specialist should confirm this is structured correctly to withstand scrutiny.
 *Source: Multiple practitioner guides, April 2026.*
+
+**FN-005 — Dual residency risk: treaty tie-breakers now more important (2026)**
+Now that the "not resident elsewhere" condition has been removed, it is possible — and common — for a client to be simultaneously tax resident in Cyprus and another country. This creates dual residency. The relevant double tax treaty will determine which country has primary taxing rights, using the standard tie-breaker sequence: (1) permanent home, (2) centre of vital interests, (3) habitual abode, (4) nationality. Cyprus tax residency is most defensible when the client has genuinely shifted their permanent home, primary business activity, and daily life to Cyprus. Clients with ongoing ties to the UK, Germany, or other high-tax jurisdictions must take cross-border tax advice before relying on Cyprus non-dom status.
+*Source: IBCCS Tax March 2026; Nikita Partners February 2026. Validated via Perplexity, 2026-04-20.*
 
 **FN-004 — Travel records are critical and often underprepared**
 The Tax Department can request evidence of physical presence in Cyprus. Many applicants do not keep formal records throughout the year and struggle to reconstruct their day count retrospectively. Keep a travel diary or spreadsheet updated throughout the year, supported by flight records and receipts.
@@ -188,5 +192,6 @@ The Tax Department can request evidence of physical presence in Cyprus. Many app
 
 | Date | Change | Author |
 |------|--------|--------|
+| 2026-04-20 | Ingest agent update via Perplexity (5 sources, incl. PwC and Harneys): upgraded FN-001 sources; closed flat-fee proposal (FN-002); added FN-005 dual residency risk warning; updated last_validated | Knowledge Ingest Agent |
 | 2026-04-13 | Updated to new process document schema (review_due, section headings) | |
 | 2026-04-09 | Initial draft created from secondary sources | |
