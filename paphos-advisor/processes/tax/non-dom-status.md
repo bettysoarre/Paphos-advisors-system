@@ -28,10 +28,10 @@ sources:
   - url: "https://assets.kpmg.com/content/dam/kpmg/cy/pdf/2024/cyprus-tax-residency-and-non-dom-rules.pdf"
     title: "Cyprus Tax Residency and Non-Dom Rules — KPMG Cyprus"
     accessed: "2026-04-09"
-last_validated: ""
-validated_by: ""
+last_validated: "2026-04-20"
+validated_by: "Perplexity research — 5 sources (GK Law Firm, Liasides Law, PanPro, KPMG, Global Citizen Solutions)"
 created: "2026-04-09"
-updated: "2026-04-13"
+updated: "2026-04-20"
 review_due: "2026-10-13"
 related_processes:
   - "PROC-TAX-PROC-001 — 60-Day Tax Residency Rule"
@@ -73,7 +73,9 @@ You are considered **not domiciled** in Cyprus if you meet one of the following:
 
 **In practice:** The vast majority of relocators from the UK, EU, US, and other countries will qualify as non-domiciled. You would only be considered domiciled in Cyprus if you were born there to Cypriot parents or have lived there for most of your adult life.
 
-**Duration:** Non-dom status lasts for up to 17 years from when you first became a Cyprus tax resident. After 17 years of Cyprus tax residency, you are deemed domiciled and lose the SDC exemption.
+**Duration:** Non-dom status lasts for up to 17 years from when you first became a Cyprus tax resident. After 17 years of Cyprus tax residency, you are deemed domiciled and would normally lose the SDC exemption.
+
+**2026 Extension Option:** Non-doms who reach the 17-year threshold can now elect to extend non-dom benefits for an additional 5-year period by paying a lump sum of €250,000. This election can be made twice, giving a maximum of 10 additional years — extending total non-dom benefits to up to 27 years. The payment must be made in full within one month of the Tax Commissioner's acceptance, and the election is irrevocable for the full 5-year period. Application must be submitted by 30 June of the first qualifying year.
 
 ---
 
@@ -83,7 +85,7 @@ You are considered **not domiciled** in Cyprus if you meet one of the following:
 |-------------|------------------|--------------------------|
 | Dividend income (Cyprus & foreign companies) | 0% SDC | 5% SDC (as of 2026) |
 | Passive interest income | 0% SDC | 17% SDC |
-| Rental income | 0% SDC | 3% SDC (on 75% of gross rent) |
+| Rental income | 0% SDC | 0% SDC (abolished for all residents from 1 Jan 2026; income tax still applies) |
 | Capital gains on securities | Exempt | Exempt (same for all) |
 | Employment income | Normal income tax rates apply | Same |
 
@@ -115,8 +117,7 @@ Non-dom status is established through annual declarations filed with the Cyprus 
 | Non-dom declaration (TD.38) | Free | No government fee |
 | Annual tax return filing | Free (self-filed) | Accountant fees apply if using a professional |
 | Tax specialist fees | Variable | Highly recommended for first-year setup; €500–€2,000 typical for initial structuring |
-
-**Proposed 2026 change (not yet enacted):** A flat annual fee of €5,000–€10,000 has been proposed for new non-dom applicants. This had not been formally enacted as of April 2026. Monitor for legislative updates.
+| 17-year extension (optional) | €250,000 per 5-year period | Lump sum; can be elected twice for up to 10 additional years beyond the standard 17 |
 
 ---
 
@@ -168,13 +169,21 @@ The 17-year non-dom period begins from your first year of Cyprus tax residency �
 Non-doms are exempt from SDC on dividends but must still pay GHS contributions at 2.65% on dividend and interest income, capped at €180,000 per year. This is commonly misunderstood. The maximum GHS contribution on passive income is therefore €4,770/year. Factor this into planning.
 *Source: Multiple practitioner guides, April 2026.*
 
-**FN-003 — Proposed flat annual fee not yet law (April 2026)**
-A proposal to introduce a €5,000–€10,000 annual flat fee for non-dom status was circulating as of April 2026. It had not been formally enacted as of the date of this research. This should be monitored closely as it would materially change the economics of non-dom status for lower-income applicants.
-*Source: Practitioner guides, April 2026. Status: proposed only.*
+**FN-003 — Flat annual fee proposal superseded by lump-sum extension (updated April 2026)**
+An earlier proposal to introduce a €5,000–€10,000 annual flat fee for non-dom status did not become law. Instead, the 2026 tax reform enacted a different mechanism: a lump-sum extension option of €250,000 per 5-year period (available after the initial 17-year period). The flat annual fee proposal should be considered closed. Do not reference it in client communications.
+*Source: GK Law Firm, PanPro, Global Citizen Solutions — April 2026. [SUPERSEDED 2026-04-20]*
 
 **FN-004 — 2026 SDC reform preserves non-dom advantage**
 The January 2026 reform reduced SDC on dividends from 17% to 5% for non-qualifying individuals. Non-doms retain 0% SDC. The reform narrows (but does not eliminate) the advantage of non-dom status for dividend income.
 *Source: Easy Corporate SDC guide, April 2026.*
+
+**FN-005 — Income tax-free threshold raised to €22,000 (2026)**
+The personal income tax-free threshold was raised from €19,500 to €22,000 as part of the 2026 tax reform. This applies to all Cyprus tax residents including non-doms. Relevant when estimating net employment income for clients considering relocation.
+*Source: GK Law Firm, April 2026. Validated via Perplexity, 2026-04-20.*
+
+**FN-006 — Crypto gains now taxed at flat 8% (2026)**
+Gains from the disposal of crypto assets are now subject to a flat 8% tax rate under the 2026 reform. Previously, crypto treatment was ambiguous. Non-dom status does not exempt crypto gains. Clients with significant crypto holdings should factor this into planning.
+*Source: PanPro 2026 Non-Dom Guide, April 2026. Validated via Perplexity, 2026-04-20.*
 
 ---
 
@@ -206,5 +215,6 @@ The January 2026 reform reduced SDC on dividends from 17% to 5% for non-qualifyi
 
 | Date | Change | Author |
 |------|--------|--------|
+| 2026-04-20 | Ingest agent update via Perplexity (5 sources): added 17-year extension option (€250,000/5yr); corrected rental income SDC table; closed flat-fee proposal (FN-003); added FN-005 (income threshold €22k) and FN-006 (crypto 8% flat tax); validated last_validated field | Knowledge Ingest Agent |
 | 2026-04-13 | Updated to new process document schema (review_due, section headings) | |
 | 2026-04-09 | Initial draft created from secondary sources | |
