@@ -107,23 +107,6 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 
 ---
 
-## Content Brief IDs — `BRIEF`
-
-| Content Type | Code | Current Sequence | Next ID to Use |
-|-------------|------|-----------------|----------------|
-| Guide | GDE | 000 | BRIEF-GDE-001 |
-| FAQ | FAQ | 000 | BRIEF-FAQ-001 |
-| Checklist | CHK | 000 | BRIEF-CHK-001 |
-| Comparison | CMP | 000 | BRIEF-CMP-001 |
-| Partner Page | PRTN | 000 | BRIEF-PRTN-001 |
-| Service Page | SVC | 000 | BRIEF-SVC-001 |
-| Email Sequence | EMAIL | 000 | BRIEF-EMAIL-001 |
-| Social Post | SOC | 000 | BRIEF-SOC-001 |
-| Video Script | VID | 000 | BRIEF-VID-001 |
-| Lead Magnet | LM | 000 | BRIEF-LM-001 |
-| Landing Page | LP | 000 | BRIEF-LP-001 |
-| Blog Post | BLOG | 000 | BRIEF-BLOG-001 |
-
 ---
 
 ## Partner IDs — `PRTN`
