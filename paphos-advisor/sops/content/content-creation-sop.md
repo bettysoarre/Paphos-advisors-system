@@ -92,9 +92,15 @@ Covers the creation of any new piece of website content (guides, FAQs, checklist
 - **Output:** Meta title and description finalised.
 - **Tool:** Editor
 
-### Step 7: Update Notion and notify reviewer
+### Step 7: Save draft to GitHub and link in Notion
 - **Who:** Content Author
-- **How:** Set content item status to `review`. Tag related process doc(s). Note any open questions or caveats in the brief. Alert the assigned reviewer.
+- **How:** Save the completed draft as a Markdown file in the appropriate GitHub folder (e.g. `content/guides/[slug].md`). Copy the GitHub file URL. In the Notion Content Pipeline record, paste the URL into the `Content File` field.
+- **Output:** Draft committed to GitHub. Notion record linked to the file.
+- **Tool:** GitHub, Notion Content Pipeline
+
+### Step 8: Update Notion status and notify reviewer
+- **Who:** Content Author
+- **How:** Set content item status to `in-review`. Note any open questions or caveats in the Notes field. Alert the assigned reviewer.
 - **Output:** Content item status updated. Reviewer notified.
 - **Tool:** Notion Content Pipeline
 

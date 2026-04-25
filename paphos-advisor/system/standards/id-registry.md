@@ -104,6 +104,7 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 | Lead Magnet | LM | 000 | CNT-LM-001 |
 | Landing Page | LP | 000 | CNT-LP-001 |
 | Blog Post | BLOG | 000 | CNT-BLOG-001 |
+| Lifestyle | LIFE | 000 | CNT-LIFE-001 |
 
 ---
 
@@ -123,6 +124,7 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 | Lead Magnet | LM | 000 | BRIEF-LM-001 |
 | Landing Page | LP | 000 | BRIEF-LP-001 |
 | Blog Post | BLOG | 000 | BRIEF-BLOG-001 |
+| Lifestyle | LIFE | 000 | BRIEF-LIFE-001 |
 
 ---
 
@@ -150,7 +152,7 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 | Content | CNT | 004 | PRMT-CNT-005 |
 | Extraction | EXT | 003 | PRMT-EXT-004 |
 | Analysis | ANL | 003 | PRMT-ANL-004 |
-| Agents | AGT | 004 | PRMT-AGT-005 |
+| Agents | AGT | 013 | PRMT-AGT-014 |
 
 ---
 

@@ -55,6 +55,9 @@ dimensions:
       - tag: settling-in
         description: Relates to practical day-to-day settling-in tasks such as utilities, schools, and local registration.
 
+      - tag: lifestyle
+        description: Relates to quality of life, cost of living, areas, schools, community, and day-to-day life in Cyprus.
+
       - tag: legal
         description: Relates to legal processes, contracts, representation, or regulatory compliance.
 

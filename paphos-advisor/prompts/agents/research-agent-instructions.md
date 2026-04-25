@@ -1,5 +1,5 @@
 ﻿---
-id: PRMT-AGT-001
+id: PRMT-AGT-002
 title: Research Agent Instructions
 type: agent-instructions
 tool: claude
@@ -10,10 +10,19 @@ output_format: Structured research output ready for extraction pipeline
 use_with: prompts/research/, research/frameworks/, sops/research/
 ---
 
-# Research Agent Instructions (PRMT-AGT-001)
+# Research Agent Instructions (PRMT-AGT-002)
 
 ## Purpose
 Standing instructions for Claude when operating as the Paphos Advisors Research Agent. Defines how the agent should approach, execute, and document research sessions so that outputs feed cleanly into the extraction and knowledge pipeline.
+
+---
+
+## Skills
+
+Before proceeding with any task, read and apply the following skill files. They define the behavioral rules for this agent:
+
+- `paphos-advisor/prompts/skills/skl-res.md` — SKL-RES: Research with Citations (source hierarchy, confidence labelling, output format)
+- `paphos-advisor/prompts/skills/skl-grd.md` — SKL-GRD: Brand Guardrails (immovable rules, flagging, disclaimer, regulated-advice language)
 
 ---
 

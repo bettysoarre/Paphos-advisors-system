@@ -50,6 +50,7 @@ fields:
       - lead-magnet
       - landing-page
       - blog-post
+      - lifestyle
     taxonomy_ref: TAX-CNT-001
 
   - name: Status
@@ -59,12 +60,13 @@ fields:
     allowed_values:
       - idea
       - briefed
-      - in-progress
+      - in-production
       - in-review
       - approved
       - scheduled
       - published
       - needs-update
+      - blocked
       - archived
 
   - name: Target Keyword

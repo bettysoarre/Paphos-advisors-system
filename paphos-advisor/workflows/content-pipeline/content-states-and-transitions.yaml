@@ -1,27 +1,32 @@
 states:
   - id: idea
     label: Idea
-    description: Content topic identified, brief not yet created.
-    next_states: [brief]
+    description: Content topic identified. Brief not yet created.
+    next_states: [briefed, archived]
 
-  - id: brief
-    label: Brief
+  - id: briefed
+    label: Briefed
     description: Content brief created in Notion. Pending writer assignment.
     next_states: [in-production, blocked]
 
   - id: in-production
     label: In Production
     description: Writer actively working on the draft.
-    next_states: [review]
+    next_states: [in-review, blocked]
 
-  - id: review
-    label: Review
+  - id: in-review
+    label: In Review
     description: Draft submitted for editorial review.
     next_states: [approved, in-production]
 
   - id: approved
     label: Approved
-    description: Review passed. Ready to publish.
+    description: Review passed. Ready to publish or schedule.
+    next_states: [scheduled, published]
+
+  - id: scheduled
+    label: Scheduled
+    description: Approved and queued for a future publish date.
     next_states: [published]
 
   - id: published
@@ -36,8 +41,8 @@ states:
 
   - id: blocked
     label: Blocked
-    description: Item cannot progress — source material not ready, keyword research pending, or writer unavailable.
-    next_states: [brief]
+    description: Item cannot progress — source material not ready, keyword research pending, or writer unavailable. Reason must be noted in Notion.
+    next_states: [briefed, in-production]
 
   - id: archived
     label: Archived
@@ -46,51 +51,86 @@ states:
 
 transitions:
   - from: idea
-    to: brief
-    trigger: Content lead decides to progress
+    to: briefed
+    trigger: Content lead decides to progress — brief created in Notion
     actor: Content lead
 
-  - from: brief
+  - from: briefed
     to: in-production
-    trigger: Writer assigned and due date confirmed
+    trigger: Writer assigned and due date confirmed in Notion
+    actor: Content lead
+
+  - from: briefed
+    to: blocked
+    trigger: Source material unavailable or keyword research not complete
     actor: Content lead
 
   - from: in-production
-    to: review
-    trigger: Writer completes draft per SOP-CON-001
+    to: in-review
+    trigger: Writer completes draft per SOP-CON-001 — status updated in Notion
     actor: Writer
 
-  - from: review
+  - from: in-production
+    to: blocked
+    trigger: Blocker identified mid-draft — reason noted in Notion
+    actor: Writer
+
+  - from: in-review
     to: approved
     trigger: Review passes per SOP-CON-002
     actor: Reviewer
 
-  - from: review
+  - from: in-review
     to: in-production
-    trigger: Review returns draft for revision
+    trigger: Review returns draft for revision — notes added in Notion
     actor: Reviewer
 
   - from: approved
-    to: published
-    trigger: Publisher goes live per SOP-CON-003
+    to: scheduled
+    trigger: Publish date set — content queued in CMS
     actor: Publisher
+
+  - from: approved
+    to: published
+    trigger: Publisher goes live immediately per SOP-CON-003
+    actor: Publisher
+
+  - from: scheduled
+    to: published
+    trigger: Scheduled publish date reached — page goes live
+    actor: Automated (CMS) or Publisher
 
   - from: published
     to: needs-update
-    trigger: Scheduled review date, regulatory change, or quality flag
+    trigger: Scheduled review date reached, regulatory change flagged, or quality issue identified
     actor: Automated cadence or team flag
 
   - from: needs-update
     to: in-production
-    trigger: Major update required
+    trigger: Major update required — writer assigned
     actor: Content lead
 
   - from: needs-update
     to: published
-    trigger: Minor update made directly
+    trigger: Minor update made directly without full production cycle
     actor: Publisher
+
+  - from: blocked
+    to: briefed
+    trigger: Blocker resolved — brief remains valid
+    actor: Content lead
+
+  - from: blocked
+    to: in-production
+    trigger: Blocker resolved — draft was already started
+    actor: Content lead
 
   - from: published
     to: archived
     trigger: Content retired per SOP-CON-004
+    actor: Content lead
+
+  - from: idea
+    to: archived
+    trigger: Topic deprioritised — will not be pursued
     actor: Content lead

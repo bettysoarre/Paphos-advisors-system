@@ -83,6 +83,13 @@ values:
       A shorter, timely, or opinion-driven piece of content published on the Paphos Advisor
       blog. May cover news, updates, tips, or thought leadership. Typically 600–1,500 words.
 
+  - value: lifestyle
+    label: "Lifestyle"
+    description: >
+      Content covering day-to-day life in Cyprus — cost of living, areas, schools,
+      healthcare access, community, and quality of life. Targeted at readers in the
+      research and decision stage of relocation.
+
 rules:
   - "Each content record must be assigned exactly one primary category."
   - "Category values must match the CNT content ID area codes (e.g., guide → CNT-GDE, faq → CNT-FAQ)."
