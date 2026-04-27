@@ -7,7 +7,7 @@ confidence: medium
 last_validated: 2026-04-13
 validated_by: "lead-advisor"
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-27
 review_due: 2026-10-13
 related_processes:
   - PROC-TAX-PROC-001
@@ -107,7 +107,7 @@ The client qualifies for Cyprus tax residency and has significant dividend or in
 **Routing notes to flag before handoff:**
 - GHS contributions still apply even with non-dom status: 2.65% on dividend and interest income, capped at €180,000. This is frequently overlooked.
 - The 17-year clock runs from the first year of Cyprus tax residency — not from when non-dom status was first elected. Years of tax residency without an election still count against the clock.
-- A proposed €5,000–€10,000 flat annual fee for non-dom applicants was under discussion as of April 2026 but had not been enacted. Monitor for updates.
+- The 2026 reform introduced a lump-sum extension option for non-doms reaching the 17-year threshold: €250,000 per 5-year period, up to two extensions (27 years total). A previously proposed flat annual fee of €5,000–€10,000 was not enacted — do not reference it.
 
 ### Branch: Non-dom — 17 years elapsed
 
@@ -122,7 +122,7 @@ The client has been Cyprus tax resident for 17 or more years. Non-dom status is 
 - **Client is employed by a foreign employer but works remotely from Cyprus:** The economic activity condition for the 60-day rule requires Cyprus-based activity (Cyprus employer, Cyprus company directorship, or Cyprus-registered self-employment). Working for a foreign employer remotely from Cyprus does not satisfy the condition. A Cyprus company structure is typically required.
 - **Days calculation disputes:** Tax authorities may challenge day counts if travel records are poor. Advise clients to keep boarding passes, hotel receipts, and a dated travel diary. Do not rely on bank transaction history alone.
 - **Client with income in multiple jurisdictions:** Multi-jurisdiction tax situations require specialist cross-border tax advice. Do not route these clients through this tree alone — the interaction between Cyprus tax residency and other jurisdictions' tie-breaker rules (under double tax treaties) requires professional assessment.
-- **Proposed non-dom flat fee:** If enacted, this would change the economics of non-dom for lower-income clients. Monitor government announcements and update this tree and PROC-TAX-CONF-001 when confirmed.
+- **Non-dom 17-year extension (2026):** Clients approaching the 17-year threshold can elect a 5-year extension at €250,000 per period (max two extensions). This must be applied for by 30 June of the first qualifying year. See PROC-TAX-CONF-001 for full terms.
 
 ---
 

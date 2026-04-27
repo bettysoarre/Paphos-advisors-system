@@ -31,7 +31,7 @@ sources:
 last_validated: "2026-04-20"
 validated_by: "Perplexity research — 5 sources (GK Law Firm, Liasides Law, PanPro, KPMG, Global Citizen Solutions)"
 created: "2026-04-09"
-updated: "2026-04-20"
+updated: "2026-04-27"
 review_due: "2026-10-13"
 related_processes:
   - "PROC-TAX-PROC-001 — 60-Day Tax Residency Rule"
@@ -91,7 +91,10 @@ You are considered **not domiciled** in Cyprus if you meet one of the following:
 
 **GHS (General Healthcare System) contributions still apply** for non-doms at 2.65% on dividend and interest income, capped at €180,000. This is separate from SDC and is not exempted by non-dom status.
 
-**2026 SDC reform note:** SDC on dividends was reduced from 17% to 5% for non-qualifying individuals as of January 2026. SDC on rental income was abolished entirely. Non-doms retain full exemption from SDC on dividends and interest.
+**2026 SDC reform note:** SDC on dividends was reduced from 17% to 5% for domiciled individuals on profits earned from 1 January 2026 onwards. SDC on rental income was abolished entirely. Non-doms retain full exemption from SDC on dividends and interest.
+
+**Transitional rule (important):** Dividends distributed from profits earned *before* 1 January 2026, if paid before 31 December 2031, remain subject to the old 17% SDC rate for domiciled individuals. Non-doms are unaffected — the 0% SDC exemption applies regardless of when the underlying profits were earned. This distinction matters when comparing positions with Cypriot-domiciled co-directors or shareholders.
+Source: PwC Cyprus Tax Reform analysis; KPMG Cyprus Tax Reform PDF (February 2026). Confidence: high.
 
 ---
 
@@ -185,6 +188,10 @@ The personal income tax-free threshold was raised from €19,500 to €22,000 as
 Gains from the disposal of crypto assets are now subject to a flat 8% tax rate under the 2026 reform. Previously, crypto treatment was ambiguous. Non-dom status does not exempt crypto gains. Clients with significant crypto holdings should factor this into planning.
 *Source: PanPro 2026 Non-Dom Guide, April 2026. Validated via Perplexity, 2026-04-20.*
 
+**FN-007 — Pre-2026 profit SDC transitional rule (added 2026-04-27)**
+Dividends distributed from profits earned before 1 January 2026, if paid out before 31 December 2031, remain subject to the old 17% SDC rate for domiciled individuals — not the new 5% rate. Non-doms are unaffected by this transitional rule; the 0% SDC exemption applies regardless of when the underlying profits were earned. This distinction is relevant when a non-dom client is a co-shareholder alongside Cypriot-domiciled directors in the same Cyprus company — their respective SDC positions on the same dividend distribution will differ.
+*Source: PwC Cyprus Tax Reform analysis; KPMG Cyprus Tax Reform PDF, February 2026. Validated via Perplexity, 2026-04-27. Confidence: high.*
+
 ---
 
 ## Common Issues and How to Handle Them
@@ -215,6 +222,7 @@ Gains from the disposal of crypto assets are now subject to a flat 8% tax rate u
 
 | Date | Change | Author |
 |------|--------|--------|
+| 2026-04-27 | Ingest agent update: added pre-2026 profit SDC transitional rule to 2026 reform note and FN-007 (PwC + KPMG sources); updated SDC table note to clarify "domiciled" vs non-dom positions | Knowledge Ingest Agent |
 | 2026-04-20 | Ingest agent update via Perplexity (5 sources): added 17-year extension option (€250,000/5yr); corrected rental income SDC table; closed flat-fee proposal (FN-003); added FN-005 (income threshold €22k) and FN-006 (crypto 8% flat tax); validated last_validated field | Knowledge Ingest Agent |
 | 2026-04-13 | Updated to new process document schema (review_due, section headings) | |
 | 2026-04-09 | Initial draft created from secondary sources | |
