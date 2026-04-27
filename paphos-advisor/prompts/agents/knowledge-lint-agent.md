@@ -5,12 +5,12 @@ type: agent-instructions
 tool: claude
 version: "1.0"
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-27
 perplexity_required: false
 perplexity_enhanced: true
 output_format: Prioritised action list (markdown)
 use_with: PRMT-AGT-003, PRMT-RES-003
-schedule: Weekly — Monday morning recommended
+schedule: Weekly — Monday 09:03 local time
 ---
 
 # Knowledge Lint Agent (PRMT-AGT-004)
@@ -236,6 +236,16 @@ This agent feeds into:
 
 ## Scheduling
 
-Recommended to run weekly via the `/schedule` skill:
+**Cadence:** Every Monday at 09:03 local time.
 
-> Schedule: every Monday at 09:00 — run the knowledge lint agent and save the report to `assets/research-captures/lint-[YYYY-MM-DD].md`
+**To re-schedule at the start of each Claude session**, tell Claude:
+
+> "Schedule the Knowledge Lint Agent to run this Monday at 09:03."
+
+Claude will use CronCreate to enqueue the job for the current session. The job fires once on Monday then auto-expires — re-activate each week.
+
+**To trigger manually at any time:**
+
+> "Activate the Knowledge Lint Agent. Run all steps and save the report to `assets/research-captures/lint-[YYYY-MM-DD].md`."
+
+**Report saved to:** `assets/research-captures/lint-[YYYY-MM-DD].md`
