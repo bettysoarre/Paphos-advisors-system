@@ -29,7 +29,7 @@ Claude will read the relevant instruction file and operate as that agent for the
 **When to use:** The Research Agent has produced an approved research package and you need a complete content brief.
 **How it works:** Paste the research package output from step 1. The agent converts it into a fully structured brief the Writer can execute without further input.
 **Instruction file:** `paphos-advisor/prompts/agents/content-brief-writer-agent.md`
-**Say:** "Activate the Brief Writer. [Paste research package]. Target keyword: [keyword]. ICP: [ICP-00X]. Content type: [type]."
+**Say:** "Activate the Brief Writer. Page: /[url-path]/. Research package: [paste research package]."
 
 ### 3. Content Writer
 **When to use:** You have a human-approved brief and need a full draft.

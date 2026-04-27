@@ -5,7 +5,7 @@ type: agent-instructions
 tool: claude
 version: "1.0"
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-27
 output_format: Completed content brief ready for Writer Agent (PRMT-AGT-001)
 use_with: content-system/templates/content-brief-template.md, prompts/agents/research-agent-instructions.md, prompts/agents/content-agent-instructions.md
 skills: SKL-BRF, SKL-SEO, SKL-TOV, SKL-GRD
@@ -107,20 +107,75 @@ The outline you provide in the Structure section defines what the article contai
 
 ---
 
+## Sitemap Lookup (Step 0 — Before Building the Brief)
+
+Before assembling the brief, look up the target page in the sitemap spreadsheet to auto-populate page specifications.
+
+### How to query
+
+The sitemap lives in Google Drive as `paphosadvisor_sitemap.xlsx`, sheet tab "Sitemap".
+**File ID:** `1cHsqSflBE3zVf43t1NPKaZCTNtjz3R-w`
+
+Use the MCP Google Drive connection to read the file content, then find the row where column F matches the page URL the user has provided (full URL or path, e.g. `/tax-finance/cyprus-non-dom-explained/`).
+
+### Column mapping
+
+Once you find the matching row, extract and use these fields:
+
+| Sitemap Column | Brief Field | Column Letter |
+|---|---|---|
+| Title Tag | SEO title tag | G |
+| Main H1 | Page H1 heading | I |
+| Primary Keyword | Target keyword (overrides manual input) | J |
+| Secondary Keywords | Secondary/supporting keywords | K |
+| Target ICP | Target ICP segment | L |
+| Search Intent | Search intent classification | M |
+| Page Role | Content type / page role | C |
+| Traditional SEO Role | SEO role context | N |
+| LLM Retrieval Role | AI/LLM retrieval context | O |
+| Recommended Schema | Schema markup type | P |
+| Schema Notes | Additional schema guidance | Q |
+| Prompts This Page Should Answer | Key questions the content must address | R |
+| Internal Links To Add | Required internal links | S |
+| Content Notes | Additional content guidance | T |
+| Partner / Referral Disclosure Needed | Whether referral disclosure is required | V |
+| Evergreen / Blog | Content freshness classification | D |
+| Priority Phase | Build priority | E |
+
+### What to do with the data
+
+- Use **Primary Keyword** (column J) as the target keyword. If the user also provided a keyword, prefer the sitemap value unless the user explicitly says otherwise.
+- Use **Target ICP** (column L) to load the corresponding ICP segment profile from `paphos-advisor/icps/segments/`.
+- Use **Prompts This Page Should Answer** (column R) to define the content structure — each question should be addressed by a section in the brief.
+- Use **Internal Links To Add** (column S) to populate the internal linking section of the brief.
+- Use **Recommended Schema** (column P) to set the schema type in the brief.
+- If **Partner / Referral Disclosure Needed** (column V) is flagged, add a disclosure requirement to the brief and flag it for the Content Writer.
+- Use **Content Notes** (column T) as additional guidance when structuring the brief.
+
+### If the lookup fails
+
+If the page URL is not found in the sitemap, or the Google Drive MCP connection is not available, fall back to the existing manual input process and request the missing fields from the user.
+
+---
+
 ## Brief Inputs Required
 
-Before producing a brief, you need the following inputs. If any are missing, request them before proceeding.
+Before producing a brief, you need the following inputs. Most page-specific fields are auto-populated from the sitemap lookup (Step 0 above). If the sitemap lookup fails, request them manually.
 
-| Input | Required | Notes |
-|---|---|---|
-| Approved research package | Yes | Output from Research Agent (PRMT-AGT-001) |
-| Target keyword | Yes | If unknown, propose and state reasoning |
-| Target ICP | Yes | ICP-001 through ICP-006 — must be specified |
-| Content type | Yes | From content-categories taxonomy |
-| Word count target | Yes | If unknown, apply content-type default (see below) |
-| Related process IDs | If applicable | e.g. PROC-IMM-001 for Yellow Slip content |
-| Internal links available | If applicable | Pages that already exist and can be linked to |
-| CTA instruction | If provided | If not provided, select the most appropriate from the standard CTA types |
+| Input | Required | Source | Notes |
+|---|---|---|---|
+| Page URL or identifier | Yes | User provides | Used to look up the sitemap row |
+| Approved research package | Yes | User provides | Output from Research Agent (PRMT-AGT-002) |
+| Target keyword | Auto | Sitemap column J | User can override; if not in sitemap, propose and state reasoning |
+| Target ICP | Auto | Sitemap column L | ICP-001 through ICP-006 — loaded from sitemap |
+| Content type | Auto | Sitemap column C | Page Role from sitemap (guide, faq, checklist, etc.) |
+| Word count target | Yes | User or default | If unknown, apply content-type default (see below) |
+| Related process IDs | If applicable | User provides | e.g. PROC-IMM-001 for Yellow Slip content |
+| Internal links available | Auto | Sitemap column S | Auto-populated from sitemap; user can add more |
+| CTA instruction | If provided | User provides | If not provided, select the most appropriate from the standard CTA types |
+| Schema type | Auto | Sitemap column P | Auto-populated from sitemap |
+| Disclosure requirements | Auto | Sitemap column V | Auto-flagged from sitemap |
+| Questions to answer | Auto | Sitemap column R | Auto-populated from sitemap |
 
 **Default word counts by content type:**
 
