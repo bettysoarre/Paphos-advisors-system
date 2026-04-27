@@ -29,9 +29,7 @@ Before proceeding with any task, read and apply the following skill files. They 
 - `paphos-advisor/prompts/skills/skl-brf.md` — SKL-BRF: Brief Writing (angle selection, ICP specificity, source completeness, brief template)
 - `paphos-advisor/prompts/skills/skl-seo.md` — SKL-SEO: Formatting & SEO (meta rules, schema, heading hierarchy, word counts)
 - `paphos-advisor/prompts/skills/skl-grd.md` — SKL-GRD: Brand Guardrails (immovable rules, flagging, disclaimer, regulated-advice language)
-
-The following skill is assigned but not yet built — apply when available:
-- SKL-TOV — Tone of Voice (pending: Jason Brooks interviews, due 2026-05-07)
+- `paphos-advisor/prompts/skills/skl-tov.md` — SKL-TOV: Tone of Voice (voice, language rules, structure, persuasion, anti-patterns)
 
 ---
 

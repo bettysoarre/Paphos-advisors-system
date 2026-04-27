@@ -23,10 +23,10 @@ Before proceeding with any task, read and apply the following skill files. They 
 
 - `paphos-advisor/prompts/skills/skl-seo.md` — SKL-SEO: Formatting & SEO (meta rules, schema, heading hierarchy, word counts)
 - `paphos-advisor/prompts/skills/skl-grd.md` — SKL-GRD: Brand Guardrails (immovable rules, flagging, disclaimer, regulated-advice language)
+- `paphos-advisor/prompts/skills/skl-tov.md` — SKL-TOV: Tone of Voice (voice, language rules, structure, persuasion, anti-patterns)
 
-The following skills are assigned but not yet built — apply when available:
-- SKL-TOV — Tone of Voice (pending: Jason Brooks interviews, due 2026-05-07)
-- SKL-WRI — Writing Style (pending: SKL-TOV must be built first)
+The following skill is assigned but not yet built — apply when available:
+- SKL-WRI — Writing Style (ready to build — SKL-TOV now complete)
 
 ---
 
