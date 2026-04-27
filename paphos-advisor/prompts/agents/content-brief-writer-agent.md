@@ -145,7 +145,22 @@ Once you find the matching row, extract and use these fields:
 ### What to do with the data
 
 - Use **Primary Keyword** (column J) as the target keyword. If the user also provided a keyword, prefer the sitemap value unless the user explicitly says otherwise.
-- Use **Target ICP** (column L) to load the corresponding ICP segment profile from `paphos-advisor/icps/segments/`.
+- Use **Target ICP** (column L) as a hint only — the sitemap uses informal labels that do not match Notion segment names exactly. Use the mapping table below to find the correct Notion ICP record, then load the full segment profile (Primary Pain Points, Goals, Urgency Triggers, Onboarding Path Notes) from the **Notion ICPs database** (`collection://32c933cf-319c-4eea-8016-90680cea9144`).
+
+**Sitemap label → Notion Segment mapping:**
+
+| Sitemap label (column L) | Notion Segment Name | Segment ID |
+|---|---|---|
+| UK retirees / UK National Retiree | UK National Retiree | ICP-SEG-001 |
+| EU national / EU Remote Worker / remote worker | EU National Remote Worker | ICP-SEG-002 |
+| Non-dom tax planners | EU National Remote Worker or Entrepreneur / Company Formation — pick based on page topic | ICP-SEG-002 or ICP-SEG-004 |
+| Business owners / entrepreneurs | Entrepreneur / Company Formation | ICP-SEG-004 |
+| HNW individuals / HNI / high net worth | HNI Permanent Residency | ICP-SEG-005 |
+| Non-EU Digital Nomad / digital nomad | Non-EU Digital Nomad | ICP-SEG-003 |
+| Family / families with children | Family Relocating with Children | ICP-SEG-006 |
+| All priority ICPs | Use all 6 segments — note in brief which ICPs are primary | — |
+
+⚠ Note: Sitemap ICP labels and Notion segment names are not yet fully aligned. When the labels are updated to match, remove this mapping table and read column L directly.
 - Use **Prompts This Page Should Answer** (column R) to define the content structure — each question should be addressed by a section in the brief.
 - Use **Internal Links To Add** (column S) to populate the internal linking section of the brief.
 - Use **Recommended Schema** (column P) to set the schema type in the brief.
