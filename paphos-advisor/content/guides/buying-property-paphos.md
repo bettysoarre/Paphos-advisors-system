@@ -16,7 +16,7 @@ icp:
   - ICP-SEG-001 (UK National Retiree)
   - ICP-SEG-005 (HNI Permanent Residency)
 related_processes:
-  - PROC-PROP-001 (in preparation)
+  - PROC-PROP-002
 source: assets/research-captures/research-buying-property-paphos-2026-04-29.md
 brief: assets/briefs/brief-buying-property-paphos-2026-04-29.md
 schema: WebPage + FAQPage + BreadcrumbList
