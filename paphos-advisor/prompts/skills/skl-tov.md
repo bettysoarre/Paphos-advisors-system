@@ -183,6 +183,35 @@ Never use: "Learn more", "Click here", "Find out more" — these are placeholder
 
 ---
 
+## Humanisation Rules
+
+The primary failure mode for AI-generated content is mechanical over-regularity: every common mistake formatted identically, every sentence opened with the same word, punctuation used as structure rather than rhythm. These rules break that pattern.
+
+### Em dashes
+Never use an em dash (—) as a sentence separator in running prose. Replace with:
+- A full stop and a new sentence: "This is the risk. It is how most buyers get caught."
+- A comma: "ministerial approval, handled by the buyer's lawyer, typically adds four to eight weeks"
+- A colon when introducing a consequence or list: "The contingency clause does one thing: it keeps financial leverage in the buyer's hands."
+
+The only acceptable em dash in Paphos Advisor content is as a separator inside a table cell where a colon would create visual confusion. Even then, question whether it is necessary.
+
+### Bold + em dash for issues and mistakes
+Never format a problem or common issue as **Bold problem title** — explanation follows. It reads like a database label, not writing. Use one of these instead:
+- **Bold sentence ending in a full stop.** Explanation follows as a new sentence in the same paragraph.
+- An H4 heading for issues substantial enough to warrant their own heading.
+- A plain paragraph with no bold, when the issue can be stated clearly as prose.
+
+### Next steps and summary bullets
+Use a colon after the bold label, not an em dash: **Tax residency:** explains what comes next. Not **Tax residency** — explains what comes next.
+
+### List overuse
+A bullet list that could be written as two readable sentences should be written as prose. Lists are for items with no natural connective tissue. When items could be joined with "and", "but", or "which", write them as a sentence instead.
+
+### Sentence openings
+Vary them. If three consecutive sentences begin with the same word, rewrite one. Mechanical parallelism is the clearest signal of AI-generated copy.
+
+---
+
 ## Quality Check
 
 Before handing off any content, confirm:

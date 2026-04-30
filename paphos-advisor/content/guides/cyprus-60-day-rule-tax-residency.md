@@ -14,8 +14,8 @@ icp:
   - ICP-SEG-002 (EU National Remote Worker)
 related_processes:
   - PROC-TAX-PROC-001
-source: Research Agent session 2026-04-24 (no capture file — Perplexity output not saved to repo)
-brief: Brief Writer session 2026-04-24 (brief in Notion only — no GitHub brief file)
+source: Research Agent session 2026-04-24 (no capture file; Perplexity output not saved to repo)
+brief: Brief Writer session 2026-04-24 (brief in Notion only; no GitHub brief file)
 schema: WebPage + FAQPage + BreadcrumbList
 word_count_target: 2500
 status: revision
@@ -27,9 +27,9 @@ created: 2026-04-24
 
 # Cyprus 60-Day Rule: How to Establish Tax Residency
 
-The 60-day rule is Cyprus's mechanism for granting tax residency to internationally mobile individuals without requiring them to spend the majority of the year on the island. If you meet four specific conditions — including spending at least 60 days in Cyprus — you qualify as a Cyprus tax resident for that calendar year. This is the prerequisite for accessing Cyprus's non-dom regime, which exempts dividend and interest income from the Special Defence Contribution (SDC).
+If you meet four specific conditions, including spending at least 60 days in Cyprus, you qualify as a Cyprus tax resident for that calendar year. This is the prerequisite for accessing Cyprus's non-dom regime, which exempts dividend and interest income from the Special Defence Contribution (SDC).
 
-As of January 2026, Cyprus removed the condition that you must not be tax resident anywhere else. You can now hold dual tax residency — Cyprus and another country — and still qualify. This is a significant change that opens the route to a much wider group of EU nationals.
+As of January 2026, Cyprus removed the condition that you must not be tax resident anywhere else. You can now hold dual tax residency with another country and still qualify. This is a significant change that opens the route to a much wider group of EU nationals.
 
 ---
 
@@ -47,19 +47,19 @@ All four conditions must be satisfied within the same calendar year.
 
 ### 1. Minimum 60 days in Cyprus
 
-You must spend at least 60 days physically present in Cyprus during the calendar year. Both your day of arrival and your day of departure count as days in Cyprus. The days do not need to run consecutively — a combination of shorter stays across the year is fine, provided the total reaches 60.
+You must spend at least 60 days physically present in Cyprus during the calendar year. Both your day of arrival and your day of departure count as days in Cyprus. The days do not need to run consecutively. A combination of shorter stays across the year is fine, provided the total reaches 60.
 
 ### 2. No more than 183 days in any single other country
 
-You must not spend more than 183 days in any one other country during the same calendar year. This condition does not restrict how many countries you visit — only how much time you spend in any single one of them.
+You must not spend more than 183 days in any one other country during the same calendar year. This condition does not restrict how many countries you visit, only how much time you spend in any single one of them.
 
 ### 3. Permanent home available in Cyprus throughout the year
 
-You must have a home in Cyprus — owned or rented — that is genuinely available to you throughout the calendar year. A property that is rented to holiday visitors during peak season may not satisfy this condition. A stamped rental agreement covering the full calendar year is the standard documentary evidence.
+You must have a home in Cyprus, owned or rented, that is genuinely available to you throughout the calendar year. A property that is rented to holiday visitors during peak season may not satisfy this condition. A stamped rental agreement covering the full calendar year is the standard documentary evidence.
 
 ### 4. Cyprus employment, directorship, or business activity through 31 December
 
-You must hold a Cyprus employment contract, a directorship of a Cyprus-registered company, or active business operations in Cyprus — and this must remain in place through 31 December of the tax year.
+You must hold a Cyprus employment contract, a directorship of a Cyprus-registered company, or active business operations in Cyprus, and this must remain in place through 31 December of the tax year.
 
 ---
 
@@ -67,7 +67,7 @@ You must hold a Cyprus employment contract, a directorship of a Cyprus-registere
 
 Until 31 December 2025, the 60-day rule included a fifth condition: you must not be a tax resident in any other country. That condition was removed with effect from 1 January 2026.
 
-It is now possible — and increasingly common — to be simultaneously tax resident in Cyprus and another country.
+It is now possible, and increasingly common, to be simultaneously tax resident in Cyprus and another country.
 
 **What this means in practice:** If you are still registered as a tax resident in Germany, France, or the Netherlands, you are no longer automatically disqualified from Cyprus tax residency under the 60-day rule.
 
@@ -77,11 +77,11 @@ It is now possible — and increasingly common — to be simultaneously tax resi
 
 ---
 
-## What counts as economic activity — and what does not
+## What counts as economic activity, and what does not
 
 **What counts:**
 
-- Cyprus company directorship — the most common solution
+- Cyprus company directorship (the most common solution)
 - Cyprus employment contract
 - Active business operations in Cyprus
 
@@ -116,7 +116,7 @@ Register on the Cyprus Tax Department's online portal at taxisnet.gov.cy. Your a
 
 ### Step 5: File your annual tax return (TD.1)
 
-Tax returns for a given calendar year are filed in the following year — typically July to October. Your tax residency is formally confirmed through this filing.
+Tax returns for a given calendar year are filed in the following year, typically July to October. Your tax residency is formally confirmed through this filing.
 
 ### Step 6: Request a Cyprus Tax Residency Certificate if required
 
@@ -136,27 +136,27 @@ If you need to demonstrate Cyprus tax residency to a foreign tax authority or ba
 
 ---
 
-## Common mistakes — and how to avoid them
+## Common mistakes, and how to avoid them
 
-**Miscounting days in Cyprus** — Both arrival and departure count. Aim for 65+ days if you are close to the threshold.
+**Miscounting days in Cyprus.** Both arrival and departure count as full days. If you are close to the threshold, aim for 65 days to give yourself a margin.
 
-**A part-rented property does not qualify** — If your Cyprus home is let to holiday tenants during part of the year, it may not meet the genuinely available condition.
+**A part-rented property may not qualify.** If your Cyprus home is let to holiday tenants during part of the year, it may not meet the genuinely available condition. A 12-month rental agreement in your name is the safest approach.
 
-**Remote employment for a non-Cyprus employer does not satisfy the economic activity condition** — You need a Cyprus company directorship or a Cyprus employment contract.
+**Remote employment for a non-Cyprus employer is not enough.** Working remotely for a foreign employer does not satisfy the economic activity condition on its own. You need a Cyprus company directorship or a Cyprus employment contract.
 
-**A foreign tax authority disputes your Cyprus residency** — Obtain a Cyprus Tax Residency Certificate and maintain comprehensive records throughout the year.
+**Keep records if a foreign tax authority challenges your residency.** A Cyprus Tax Residency Certificate and comprehensive travel records are your main protection. Do not try to reconstruct your travel history retrospectively.
 
 ---
 
 ## The 60-day rule and non-dom status: how they connect
 
-The 60-day rule establishes that you are a Cyprus tax resident. Non-dom status is what you apply for — separately — once you are a Cyprus tax resident. Non-dom status exempts holders from SDC on dividend and interest income for up to 27 years. [INTERNAL LINK: /tax-finance/non-dom-status-cyprus/ → anchor text: "Non-Domiciled (Non-Dom) Status in Cyprus"]
+The 60-day rule establishes that you are a Cyprus tax resident. Non-dom status is what you apply for separately once you are a Cyprus tax resident. Non-dom status exempts holders from SDC on dividend and interest income for up to 27 years. [INTERNAL LINK: /tax-finance/non-dom-status-cyprus/ → anchor text: "Non-Domiciled (Non-Dom) Status in Cyprus"]
 
 ---
 
 ## Next steps
 
-1. Check whether you satisfy — or are close to satisfying — the four conditions.
+1. Check whether you satisfy, or are close to satisfying, the four conditions.
 2. Speak to a Cyprus tax specialist before the end of the calendar year.
 3. If you need a Cyprus company, read our [INTERNAL LINK: /business/cyprus-company-formation/ → anchor text: "Cyprus Company Formation Guide"].
 
@@ -164,11 +164,11 @@ The 60-day rule establishes that you are a Cyprus tax resident. Non-dom status i
 
 ---
 
-*This article is for informational purposes only and does not constitute legal, tax, or financial advice. Rules, fees, and timescales change — verify all details with a qualified Cyprus professional before acting on this information.*
+*This article is for informational purposes only and does not constitute legal, tax, or financial advice. Rules, fees, and timescales change. Verify all details with a qualified Cyprus professional before acting on this information.*
 
 ---
 
-**Sources:** PROC-TAX-PROC-001 (Cyprus Tax Residency — 60-Day Rule, validated April 2026); PwC Direct Tax Update N1/2026; Harneys (January 2026); IBCCS Tax (2026).
+**Sources:** PROC-TAX-PROC-001 (Cyprus Tax Residency: 60-Day Rule, validated April 2026); PwC Direct Tax Update N1/2026; Harneys (January 2026); IBCCS Tax (2026).
 
 ---
 

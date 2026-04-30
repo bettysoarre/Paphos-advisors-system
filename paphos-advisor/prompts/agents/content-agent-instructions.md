@@ -71,7 +71,9 @@ Every piece of content is written for a specific ICP segment. Read the brief's I
 - No US spellings (program → programme, analyze → analyse, center → centre)
 - Sentence case for headings (not Title Case)
 - Numbered lists for sequential steps; bullet lists for non-sequential items
-- No em dashes as sentence separators — use a comma or a new sentence
+- No em dashes as sentence separators in prose. If tempted, use a full stop and a new sentence, or a comma. See SKL-TOV Humanisation Rules for the full pattern list.
+- No bold + em dash pattern for issues or mistakes: "**Problem** — explanation" must become "**Problem.** Explanation." or an H4 heading.
+- No em dash after a bold label in bullet lists: use a colon instead ("**Next step:** do this" not "**Next step** — do this")
 - Oxford comma: yes
 - Active voice preferred; passive voice acceptable when the subject is genuinely unknown
 

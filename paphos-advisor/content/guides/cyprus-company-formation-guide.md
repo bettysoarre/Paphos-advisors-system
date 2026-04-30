@@ -29,16 +29,16 @@ updated: 2026-04-15
 
 *Last updated: April 2026*
 
-Forming a Cyprus company is one of the most common steps for entrepreneurs relocating to Cyprus. A Cyprus private limited company (Ltd) gives you a legal structure for your business, satisfies the economic activity requirement for the 60-day tax residency rule, and — combined with non-dom status — creates a tax structure where most business owners pay an effective rate of 15–17.25% on profits extracted as dividends.
+Forming a Cyprus company is one of the most common steps for entrepreneurs relocating to Cyprus. A Cyprus private limited company (Ltd) gives you a legal structure for your business, satisfies the economic activity requirement for the 60-day tax residency rule, and, combined with non-dom status, creates a tax structure where most business owners pay an effective rate of 15–17.25% on profits extracted as dividends.
 
-This guide covers the full process: from choosing your company structure to receiving your Certificate of Incorporation and opening a bank account. It is written for entrepreneurs and founders, not lawyers. You will still need a Cyprus lawyer to handle the registration — this guide tells you what to expect and how to prepare.
+This guide covers the full process: from choosing your company structure to receiving your Certificate of Incorporation and opening a bank account. It is written for entrepreneurs and founders, not lawyers. You will still need a Cyprus lawyer to handle the registration. This guide tells you what to expect and how to prepare.
 
 > **In this guide:**
 > - Which company structure to use and why
 > - The full list of documents you need to provide
 > - What fees to budget for
 > - The step-by-step process from name check to incorporation
-> - Why the bank account takes so long — and what to do about it
+> - Why the bank account takes so long, and what to do about it
 > - How the company connects to your tax residency
 
 ---
@@ -47,9 +47,9 @@ This guide covers the full process: from choosing your company structure to rece
 
 For entrepreneurs relocating to Cyprus, a company serves three purposes:
 
-**1. Tax structure.** Cyprus has a 15% corporate tax rate on net profits (increased from 12.5% as of January 2026). For non-dom residents, dividends from the company are subject only to a 2.65% GHS (healthcare) contribution capped at €180,000 per year — meaning no further personal income tax on dividends. Combined, the effective total rate on profits extracted as dividends is approximately 17.25% on the first €180,000 and 15% above that.
+**1. Tax structure.** Cyprus has a 15% corporate tax rate on net profits (increased from 12.5% as of January 2026). For non-dom residents, dividends from the company are subject only to a 2.65% GHS (healthcare) contribution capped at €180,000 per year, with no further personal income tax on dividends. Combined, the effective total rate on profits extracted as dividends is approximately 17.25% on the first €180,000 and 15% above that.
 
-**2. 60-day tax residency.** To qualify as a Cyprus tax resident under the 60-day rule, you must have economic activity in Cyprus — typically a directorship of a Cyprus company. Without a Cyprus company (or Cyprus employment), you cannot use the 60-day route.
+**2. 60-day tax residency.** To qualify as a Cyprus tax resident under the 60-day rule, you must have economic activity in Cyprus, typically a directorship of a Cyprus company. Without a Cyprus company (or Cyprus employment), you cannot use the 60-day route.
 
 **3. Legal structure.** The company holds contracts, invoices clients, and owns assets. The Cyprus IP Box regime allows qualifying intellectual property income to be taxed at an effective rate of 2.5%.
 
@@ -57,7 +57,7 @@ For entrepreneurs relocating to Cyprus, a company serves three purposes:
 
 ## Which Company Type to Use
 
-For almost all entrepreneurs, the answer is a **Private Limited Company (Ltd)**, known in Cyprus as an HE (Εταιρεία Περιορισμένης Ευθύνης — ΕΠΕ in Greek).
+For almost all entrepreneurs, the answer is a **Private Limited Company (Ltd)**, known in Cyprus as an HE (Εταιρεία Περιορισμένης Ευθύνης, ΕΠΕ in Greek).
 
 | Feature | Private Ltd (HE) |
 |---|---|
@@ -66,7 +66,7 @@ For almost all entrepreneurs, the answer is a **Private Limited Company (Ltd)**,
 | Minimum share capital | No minimum (€1 is valid) |
 | Shareholder liability | Limited to share capital |
 | Annual audit | Required (unless micro-entity exempt) |
-| Public registry | Yes — directors and shareholders are on public record |
+| Public registry | Yes; directors and shareholders are on public record |
 
 Public limited companies, branch offices, and partnerships exist but are not the right structure for most founders. This guide covers the private limited company only.
 
@@ -80,7 +80,7 @@ Public limited companies, branch offices, and partnerships exist but are not the
 |---|---|---|
 | Passport | Certified copy | Certified by a lawyer, notary, or apostilled |
 | Proof of address | Certified copy | Recent utility bill or bank statement, issued within 3 months |
-| Source of funds statement | Letter or supporting documents | Required for banking — not needed for registration itself |
+| Source of funds statement | Letter or supporting documents | Required for banking; not needed for registration itself |
 
 "Certified copy" means a legal professional has examined the original and confirmed the copy is authentic. Your Cyprus lawyer handles this once you send them scanned copies.
 
@@ -89,12 +89,12 @@ Public limited companies, branch offices, and partnerships exist but are not the
 | Document | Purpose |
 |---|---|
 | Memorandum and Articles of Association (M&AA) | Defines company objects, share structure, governance |
-| HE1 — Application for registration | Filed with the Registrar |
-| HE2 — Registered office confirmation | Confirms your Cyprus address |
-| HE3 — Directors and secretary details | Lists appointed officers |
+| HE1: Application for registration | Filed with the Registrar |
+| HE2: Registered office confirmation | Confirms your Cyprus address |
+| HE3: Directors and secretary details | Lists appointed officers |
 | Consent to act (director and secretary) | Signed declarations from each officer |
 
-You do not prepare these — your lawyer does. You will be asked to review and sign the M&AA and consent forms.
+You do not prepare these. Your lawyer does. You will be asked to review and sign the M&AA and consent forms.
 
 ---
 
@@ -104,8 +104,8 @@ You do not prepare these — your lawyer does. You will be asked to review and s
 |---|---|---|
 | Government registration fee | €105–€400 | Based on authorised share capital; €105 for capital up to €5,000 |
 | Lawyer / formation agent | €500–€2,000+ | Varies by provider |
-| Registered office (annual) | €300–€600/year | Required — provides your Cyprus address |
-| Company secretary (annual) | €300–€600/year | Required by law — usually bundled with registered office |
+| Registered office (annual) | €300–€600/year | Required; provides your Cyprus address |
+| Company secretary (annual) | €300–€600/year | Required by law; usually bundled with registered office |
 | Annual audit | €500–€2,000+/year | Required unless micro-entity exemption applies |
 
 **Total first-year cost estimate:** €2,000–€5,000 including setup, registered office, secretary, and audit. Ongoing annual costs from year two are lower.
@@ -130,7 +130,7 @@ When you instruct your lawyer, tell them:
 
 Your lawyer checks the Registrar of Companies to confirm your proposed company name is available. Names must be unique and cannot imply government affiliation or regulated activity without appropriate licensing.
 
-Have 2–3 alternative names ready — the Registrar may reject a name already in use or too similar to an existing company. This typically takes 1–3 working days.
+Have 2–3 alternative names ready. The Registrar may reject a name already in use or too similar to an existing company. This typically takes 1–3 working days.
 
 ### Step 3: Provide your KYC documents
 
@@ -139,7 +139,7 @@ Send your lawyer certified passport copies and proof of address for all director
 ### Step 4: Review and sign formation documents
 
 Your lawyer prepares the M&AA and HE forms. You review and sign:
-- The M&AA — read the company objects clause to confirm it covers your business activity
+- The M&AA: read the company objects clause to confirm it covers your business activity
 - Consent to act as director
 - Subscriber declaration confirming your shareholding
 
@@ -151,12 +151,12 @@ Your lawyer submits the full package electronically via the DRCOR eFiling portal
 - **Standard:** 5–10 working days
 - **Expedited (priority):** 1–3 working days (additional fee ~€300–€500)
 
-If you need the company urgently — for example to open a bank account quickly or meet a tax residency deadline — ask for the priority service.
+If you need the company urgently, for example to open a bank account quickly or meet a tax residency deadline, ask for the priority service.
 
 ### Step 6: Receive your incorporation documents
 
 Once registered, you receive:
-- **Certificate of Incorporation** — your company is legally registered
+- **Certificate of Incorporation:** your company is legally registered
 - **Certificate of Registered Office**
 - **Certificate of Directors and Secretary**
 - **Certificate of Shareholders**
@@ -200,7 +200,7 @@ Bank of Cyprus, Hellenic Bank, and Alpha Bank are the main options for Cyprus bu
 | TIC registration | 1–5 days | Free |
 | VAT registration | 2–4 weeks | Free |
 | Bank account | 4–12 weeks | No fee (bank) |
-| **Total — company registered and operational** | **~3 months (bank)** | **€2,000–€5,000 first year** |
+| **Total (company registered and operational)** | **~3 months (bank)** | **€2,000–€5,000 first year** |
 
 The incorporation itself is fast. The bank account is where time slips. Plan around this.
 
@@ -214,7 +214,7 @@ Where your board meetings are held and decisions are made determines where your 
 - Minutes of board meetings should be kept and show Cyprus as the location
 - At least one director should be actively involved in Cyprus
 
-For most owner-managed companies where the owner is relocating to Cyprus, this is naturally satisfied — you are in Cyprus, you run the company from Cyprus, and your directorship is your qualifying business activity for the 60-day tax residency rule.
+For most owner-managed companies where the owner is relocating to Cyprus, this is naturally satisfied. You are in Cyprus, you run the company from Cyprus, and your directorship is your qualifying business activity for the 60-day tax residency rule.
 
 If you are not planning to be in Cyprus frequently, discuss the substance position with your tax adviser before finalising your director structure. Failing to establish genuine Cyprus tax residence for your company can expose profits to tax in a higher-rate jurisdiction.
 
@@ -228,7 +228,7 @@ The Cyprus company does two things for your personal tax position:
 
 **2. Enables non-dom dividend extraction.** Once you are a Cyprus tax resident and have elected non-dom status, dividends paid from the company to you are subject only to 2.65% GHS (capped at €180,000). No income tax. No SDC. Read our guide to [Non-Domiciled (Non-Dom) Status in Cyprus] for the full election process.
 
-These two processes — company formation and tax residency — are designed to run together. Most advisers handle them simultaneously.
+These two processes, company formation and tax residency, are designed to run together. Most advisers handle them simultaneously.
 
 ---
 
@@ -238,22 +238,22 @@ These two processes — company formation and tax residency — are designed to 
 No. Your lawyer can handle the entire formation process remotely. You will need to provide certified documents, which can usually be sent by post or arranged locally. You will need to be in Cyprus at some point to satisfy the tax residency requirements, but registration itself does not require your physical presence.
 
 ### Does my company need a local Cypriot director?
-Not legally. You can be the sole director. However, if you are not planning to spend significant time in Cyprus, a local nominee director may help establish tax substance. This adds annual cost and complexity — discuss with your tax adviser whether it is necessary for your structure.
+Not legally. You can be the sole director. However, if you are not planning to spend significant time in Cyprus, a local nominee director may help establish tax substance. This adds annual cost and complexity. Discuss with your tax adviser whether it is necessary for your structure.
 
 ### What if my company has shareholders in multiple countries?
 This is common. The shareholder structure does not affect the formation process, but it affects banking (more KYC documentation required) and potentially tax (transfer pricing, controlled foreign company rules in your home country). Specialist advice is needed for multi-jurisdiction ownership structures.
 
-### My company isn't trading yet — can I still form it?
-Yes. Many companies are incorporated in advance of trading — to establish the directorship for tax residency purposes, to open a bank account, or to hold IP. An inactive company still has annual compliance obligations (accounts, annual return).
+### My company isn't trading yet. Can I still form it?
+Yes. Many companies are incorporated in advance of trading, to establish the directorship for tax residency purposes, to open a bank account, or to hold IP. An inactive company still has annual compliance obligations (accounts, annual return).
 
 ---
 
 ## Next Steps
 
-- **Tax residency** — Your company directorship satisfies the economic activity condition. Read our guide to the [Cyprus 60-Day Tax Residency Rule] for the full residency process.
-- **Non-dom status** — Once Cyprus tax resident, elect non-dom status to exempt dividends from SDC. Read [Non-Domiciled (Non-Dom) Status in Cyprus].
-- **Yellow Slip** — If you are an EU national, obtain your MEU1 registration certificate. Read [Cyprus Yellow Slip (MEU1): Complete Guide for EU Nationals].
-- **Find a lawyer** — Our partner network includes Cyprus-registered lawyers experienced in company formation for relocating entrepreneurs. [Contact us] to be introduced.
+- **Tax residency:** Your company directorship satisfies the economic activity condition. Read our guide to the [Cyprus 60-Day Tax Residency Rule] for the full residency process.
+- **Non-dom status:** Once Cyprus tax resident, elect non-dom status to exempt dividends from SDC. Read [Non-Domiciled (Non-Dom) Status in Cyprus].
+- **Yellow Slip:** If you are an EU national, obtain your MEU1 registration certificate. Read [Cyprus Yellow Slip (MEU1): Complete Guide for EU Nationals].
+- **Find a lawyer:** Our partner network includes Cyprus-registered lawyers experienced in company formation for relocating entrepreneurs. [Contact us] to be introduced.
 
 ---
 
@@ -263,4 +263,4 @@ Yes. Many companies are incorporated in advance of trading — to establish the 
 
 ---
 
-**Sources:** PROC-BIZ-001 (Cyprus Company Formation — Private Limited Company, draft, April 2026)
+**Sources:** PROC-BIZ-001 (Cyprus Company Formation: Private Limited Company, draft, April 2026)
