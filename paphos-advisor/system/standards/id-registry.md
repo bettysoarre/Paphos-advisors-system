@@ -68,7 +68,7 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 
 | Type | Code | Current Sequence | Next ID to Use |
 |------|------|-----------------|----------------|
-| Field Intelligence | FLD | 001 | KA-FLD-002 |
+| Field Intelligence | FLD | 019 | KA-FLD-020 |
 
 ---
 
@@ -132,9 +132,9 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 
 | Category | Code | Current Sequence | Next ID to Use |
 |----------|------|-----------------|----------------|
-| Lawyer | LAW | 000 | PRTN-LAW-001 |
-| Accountant | ACCT | 000 | PRTN-ACCT-001 |
-| Government Liaison | GOV | 000 | PRTN-GOV-001 |
+| Lawyer | LEG | 001 | PRTN-LEG-002 |
+| Accountant | ACC | 001 | PRTN-ACC-002 |
+| Government Liaison | GOV | 001 | PRTN-GOV-002 |
 | Shipping | SHIP | 000 | PRTN-SHIP-001 |
 | Property Developer | DEV | 000 | PRTN-DEV-001 |
 | Property Agent | AGENT | 000 | PRTN-AGENT-001 |
