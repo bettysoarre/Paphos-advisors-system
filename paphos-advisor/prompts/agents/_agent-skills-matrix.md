@@ -4,7 +4,7 @@ title: "Agent Skills Matrix"
 type: system-reference
 version: "1.0"
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-01
 owner: "lead-advisor"
 source: "April 21 planning meeting — Paphos Advisor Guide, ICPs, Content Operations, Headless CMS Plan"
 ---
@@ -37,6 +37,8 @@ Skills are reusable modules that agents are assigned. An agent's capability is t
 | `SKL-PR` | PR Research & Pitch Drafting | Identifies link/PR targets; researches site authority and relevance; drafts outreach email/pitch; does not send — human sends |
 | `SKL-ADS` | Ads Analysis | Competitor creative scan; identifies positioning gaps; drafts ad copy suggestions; provides dashboards; does not launch campaigns — human manages campaigns |
 | `SKL-BRF` | Brief Writing | Converts research output into a structured content brief: audience, keyword, angle, structure, source list, word count, internal links required |
+| `SKL-EXT` | Knowledge Extraction | Processes partner interview transcripts into structured KB records; separates official facts from partner opinion; applies reuse risk classification (Safe / Caution / Internal Only / Do Not Use / Needs Verification); enforces DO_NOT_USE guardrails for corruption implications, unsupported guarantees, and confidential partner methods |
+| `SKL-RAG` | Chatbot / RAG Safety | Filters KB records for chatbot delivery; only surfaces records classified Safe to Use; appends mandatory disclaimer on legal, tax, immigration, and financial topics; escalates out-of-scope questions to human; never presents partner opinion as official advice |
 
 ---
 
@@ -166,7 +168,40 @@ Skills are reusable modules that agents are assigned. An agent's capability is t
 
 ---
 
-### 9. Monthly Blog Refresh Agent
+### 9. Partner Knowledge Extraction Agent
+**ID:** PRMT-AGT-014 *(to be formally built — currently run manually)*
+**Stage:** Knowledge Pipeline — Step 1
+**Purpose:** Process partner interview transcripts into structured KB records with reuse risk classification.
+
+| Field | Value |
+|---|---|
+| Skills | `SKL-EXT`, `SKL-GRD` |
+| Input | Interview transcript + partner name, role, date, service area |
+| Output | KA-FLD records in Notion Knowledge Base: Title, KB ID, Claim, Detail, Source, Reuse Classification, Confidence, Topic Area, Tags, Partner Source relation |
+| Human gate | Human reviews any records classified Internal Only or Do Not Use before downstream use |
+| Guardrails | DO_NOT_USE triggers: corruption or improper influence implications; unsupported outcome guarantees (visas, tax, approvals); confidential partner methods or client data; tax evasion or regulatory bypassing; content that could create legal/reputational risk if surfaced by a chatbot |
+
+---
+
+### 10. Chatbot Knowledge Agent
+**ID:** PRMT-AGT-015 *(to be built — Phase 2)*
+**Platform:** chatbot.ai
+**Stage:** Customer-facing
+**Purpose:** Answer customer questions using KB records classified Safe to Use; route complex or sensitive queries to a human adviser.
+
+| Field | Value |
+|---|---|
+| Skills | `SKL-RAG`, `SKL-GRD`, `SKL-TOV` |
+| Input | Customer question → retrieves relevant KB records from Notion Knowledge Base (Reuse Classification = Safe to Use) |
+| Output | Direct answer with source caveat; disclaimer on all legal, tax, immigration, and financial topics; escalation prompt when question is out of scope |
+| Human gate | No real-time gate on individual responses — safety is enforced upstream via Reuse Classification on all KB records; chatbot configuration reviewed by human before go-live |
+| Guardrails | Only consumes records with Reuse Classification = Safe to Use; never surfaces Internal Only, Do Not Use, or Needs Verification records; always appends standard disclaimer; never presents partner opinion as official legal, tax, or immigration advice; escalates anything involving specific personal circumstances |
+
+*Note: KB Reuse Classification field must be fully populated before chatbot is trained on the Knowledge Base.*
+
+---
+
+### 11. Monthly Blog Refresh Agent
 **ID:** PRMT-AGT-013 *(to be created — phase 2)*
 **Stage:** Content maintenance (automated on schedule)
 **Purpose:** Review published Markdown articles on a monthly cadence, verify facts against current sources, update where needed, and add/update the "Latest update as of {date}" info box.
@@ -178,6 +213,24 @@ Skills are reusable modules that agents are assigned. An agent's capability is t
 | Output | Updated Markdown file with tracked changes + summary of what changed and why + updated info box |
 | Human gate | Human reviews diff before committing update; triggers site recrawl after approval |
 | Guardrails | Only update facts that are verified against a named source; never silently remove disclaimers; flag any regulatory changes that may require broader content revision |
+
+---
+
+## Scheduled Remote Automations
+
+These agents run automatically on a cron schedule via Claude Code Remote (CCR) at claude.ai/code/routines. They do not require manual activation.
+
+| Name | Routine ID | Schedule | Status | Output |
+|---|---|---|---|---|
+| Weekly Content Pipeline Hygiene | trig_017VhqGhm6Uuj1GtwZjitLqp | Every Friday 6am UTC | Active | Hygiene report page created in PA-Marketing and Branding in Notion |
+| Weekly Knowledge Lint (PRMT-AGT-004) | trig_01V16x3BTyDvrwgGJVZbnqDw | Every Monday 6am UTC | Active | Lint report committed to `paphos-advisor/research/lint-reports/` |
+
+**Dependencies:**
+- Both routines require the Claude GitHub App installed on the repo (bettysoarre/Paphos-advisors-system)
+- Hygiene routine requires Notion MCP connector
+- Lint routine requires repo access only
+
+*Monthly Blog Refresh Agent (PRMT-AGT-013) will be added here as a scheduled routine once the website is live.*
 
 ---
 
@@ -217,6 +270,23 @@ Skills are reusable modules that agents are assigned. An agent's capability is t
   Manual post via Canva + scheduler
   (Phase 1 — manual)
   (Phase 2 — platform agents post to draft queue, human approves)
+```
+
+### Partner Knowledge Pipeline
+```
+[Partner Interview Transcript — Google Drive]
+        ↓
+  Save to repo (paphos-advisor/assets/transcripts/)
+  Create Notion Interview record + Partner record
+        ↓
+  Knowledge Extraction Agent (PRMT-AGT-014)
+  — KA-FLD records created in Notion KB
+  — Reuse Classification applied to each record
+        ↓
+  [Human: review Internal Only + Do Not Use records]
+        ↓
+  Safe records available to Research Agent + Content Pipeline
+  Safe records available to Chatbot (PRMT-AGT-015) once live
 ```
 
 ### Content Refresh Pipeline
@@ -266,9 +336,11 @@ All agents must comply. These cannot be overridden by a prompt or brief.
 |---|---|---|
 | Phase 1 (now) | Brief Writer (PRMT-AGT-006) | Research Agent exists; content pipeline needs this link |
 | Phase 1 (now) | Social Repurposing Agent (PRMT-AGT-007) | Content exists to repurpose; Canva templates needed |
-| Phase 2 (May) | Blog Refresh Agent (PRMT-AGT-013) | Website live; GitHub–Notion sync in place |
+| Phase 1 (now) | Knowledge Extraction Agent (PRMT-AGT-014) | Formalise current manual extraction into a repeatable agent; add Reuse Classification field to Notion KB schema |
+| Phase 2 (May) | Blog Refresh Agent (PRMT-AGT-013) | Website live; GitHub–Notion sync in place; add as scheduled remote routine |
 | Phase 2 (May) | Platform Social Agents IG/FB (PRMT-AGT-008/009) | Social Repurposing Agent validated; Canva templates built |
 | Phase 2 (May) | Community Agent (PRMT-AGT-010) | Community playbook from Gratian (due 2026-05-05) |
+| Phase 2 (May) | Chatbot Knowledge Agent (PRMT-AGT-015) | Platform: chatbot.ai; KB Reuse Classification fully populated; chatbot.ai connected as MCP or API source |
 | Phase 3 (Jun+) | PR Agent (PRMT-AGT-011) | Core content pipeline stable; outreach templates ready |
 | Phase 3 (Jun+) | Ads Analysis Agent (PRMT-AGT-012) | Campaign running; performance data available |
 
@@ -278,13 +350,15 @@ All agents must comply. These cannot be overridden by a prompt or brief.
 
 When creating new agents, increment the PRMT-AGT sequence in id-registry.md:
 
-| Agent | ID to assign |
-|---|---|
-| Brief Writer | PRMT-AGT-006 |
-| Social Repurposing | PRMT-AGT-007 |
-| Instagram Social | PRMT-AGT-008 |
-| Facebook Social | PRMT-AGT-009 |
-| Community/Reactive | PRMT-AGT-010 |
-| PR/Links | PRMT-AGT-011 |
-| Ads Analysis | PRMT-AGT-012 |
-| Blog Refresh | PRMT-AGT-013 |
+| Agent | ID to assign | Status |
+|---|---|---|
+| Brief Writer | PRMT-AGT-006 | Built |
+| Social Repurposing | PRMT-AGT-007 | To build |
+| Instagram Social | PRMT-AGT-008 | To build |
+| Facebook Social | PRMT-AGT-009 | To build |
+| Community/Reactive | PRMT-AGT-010 | To build |
+| PR/Links | PRMT-AGT-011 | To build |
+| Ads Analysis | PRMT-AGT-012 | To build |
+| Blog Refresh | PRMT-AGT-013 | To build |
+| Knowledge Extraction | PRMT-AGT-014 | To formalise |
+| Chatbot Knowledge Agent | PRMT-AGT-015 | To build |
