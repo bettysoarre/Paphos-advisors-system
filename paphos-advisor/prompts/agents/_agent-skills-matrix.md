@@ -17,6 +17,60 @@ This document governs how agents are built and combined. Individual agent instru
 
 ---
 
+## Quick Reference
+
+### Scheduled Automations
+
+| Name | Schedule | Status | Output |
+|---|---|---|---|
+| Weekly Content Pipeline Hygiene | Every Friday 6am UTC | Active | Hygiene report in PA-Marketing and Branding (Notion) |
+| Weekly Knowledge Lint (PRMT-AGT-004) | Every Monday 6am UTC | Active | Lint report committed to `paphos-advisor/research/lint-reports/` |
+| Monthly Blog Refresh (PRMT-AGT-013) | Monthly — TBC | Not yet scheduled | Updated article files + diff summary |
+
+Manage routines at: https://claude.ai/code/routines
+
+### All Agents
+
+| ID | Agent | Status | Phase | Skills |
+|---|---|---|---|---|
+| PRMT-AGT-001 | Content Writer | Built | Live | SKL-WRI, SKL-TOV, SKL-SEO, SKL-GRD |
+| PRMT-AGT-002 | Research Agent | Built | Live | SKL-RES, SKL-GRD |
+| PRMT-AGT-003 | Knowledge Ingest Agent | Built | Live | — |
+| PRMT-AGT-004 | Knowledge Lint Agent | Built | Live (scheduled) | — |
+| PRMT-AGT-006 | Content Brief Writer | Built | Live | SKL-BRF, SKL-SEO, SKL-TOV, SKL-GRD |
+| PRMT-AGT-007 | Social Repurposing Agent | To build | Phase 1 | SKL-TOV, SKL-GRD, SKL-SOC-* |
+| PRMT-AGT-008 | Instagram Social Agent | To build | Phase 2 | SKL-SOC-IG, SKL-TOV, SKL-GRD |
+| PRMT-AGT-009 | Facebook Social Agent | To build | Phase 2 | SKL-SOC-FB, SKL-TOV, SKL-GRD |
+| PRMT-AGT-010 | Community / Reactive Agent | To build | Phase 2 | SKL-COM, SKL-TOV, SKL-GRD |
+| PRMT-AGT-011 | PR / Link Research Agent | To build | Phase 3 | SKL-RES, SKL-PR, SKL-GRD |
+| PRMT-AGT-012 | Ads Analysis Agent | To build | Phase 3 | SKL-ADS, SKL-TOV, SKL-GRD |
+| PRMT-AGT-013 | Monthly Blog Refresh Agent | To build | Phase 2 | SKL-RES, SKL-WRI, SKL-GRD |
+| PRMT-AGT-014 | Partner Knowledge Extraction Agent | To formalise | Phase 1 | SKL-EXT, SKL-GRD |
+| PRMT-AGT-015 | Chatbot Knowledge Agent | To build | Phase 2 | SKL-RAG, SKL-GRD, SKL-TOV |
+
+### All Skills
+
+| ID | Skill | Status | File |
+|---|---|---|---|
+| SKL-RES | Research with Citations | Built | [skl-res.md](../skills/skl-res.md) |
+| SKL-TOV | Tone of Voice | Built | [skl-tov.md](../skills/skl-tov.md) |
+| SKL-WRI | Writing Style | Built | [skl-wri.md](../skills/skl-wri.md) |
+| SKL-SEO | Formatting & SEO | Built | [skl-seo.md](../skills/skl-seo.md) |
+| SKL-GRD | Brand Guardrails | Built | [skl-grd.md](../skills/skl-grd.md) |
+| SKL-BRF | Brief Writing | Built | [skl-brf.md](../skills/skl-brf.md) |
+| SKL-EXT | Knowledge Extraction | Built | [skl-ext.md](../skills/skl-ext.md) |
+| SKL-RAG | Chatbot / RAG Safety | Built | [skl-rag.md](../skills/skl-rag.md) |
+| SKL-SOC-IG | Social: Instagram | Pending — blocked on social guidelines (due 2026-05-05) | — |
+| SKL-SOC-FB | Social: Facebook | Pending — blocked on social guidelines (due 2026-05-05) | — |
+| SKL-SOC-TK | Social: TikTok | Pending — blocked on social guidelines (due 2026-05-05) | — |
+| SKL-SOC-X | Social: X/Twitter | Pending — blocked on social guidelines (due 2026-05-05) | — |
+| SKL-SOC-LI | Social: LinkedIn | Pending — blocked on social guidelines (due 2026-05-05) | — |
+| SKL-COM | Community Research | Pending — blocked on Gratian community playbook (due 2026-05-05) | — |
+| SKL-PR | PR Research & Pitch Drafting | Pending — Phase 3 | — |
+| SKL-ADS | Ads Analysis | Pending — Phase 3 | — |
+
+---
+
 ## Modular Skills Library
 
 Skills are reusable modules that agents are assigned. An agent's capability is the sum of its assigned skills. Skills can be updated centrally without rewriting each agent.
