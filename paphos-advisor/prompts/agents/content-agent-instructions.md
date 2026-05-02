@@ -25,8 +25,7 @@ Before proceeding with any task, read and apply the following skill files. They 
 - `paphos-advisor/prompts/skills/skl-grd.md` — SKL-GRD: Brand Guardrails (immovable rules, flagging, disclaimer, regulated-advice language)
 - `paphos-advisor/prompts/skills/skl-tov.md` — SKL-TOV: Tone of Voice (voice, language rules, structure, persuasion, anti-patterns)
 
-The following skill is assigned but not yet built — apply when available:
-- SKL-WRI — Writing Style (ready to build — SKL-TOV now complete)
+- `paphos-advisor/prompts/skills/skl-wri.md` — SKL-WRI: Writing Style (paragraph construction, section structure, process steps, FAQ and comparison writing, avoiding AI patterns)
 
 ---
 

@@ -13,7 +13,7 @@ Modular skill files for Paphos Advisors AI agents. Each skill is a reusable beha
 
 ## Pending (blocked on dependencies)
 
-- SKL-WRI — Writing Style — unblocked; pinned for later
+- [skl-wri.md](skl-wri.md) — SKL-WRI — Writing Style (paragraph construction, section openings/closings, process steps, FAQ and comparison writing, avoiding AI patterns)
 - SKL-SOC-IG — Social: Instagram — blocked until social guidelines delivered (May 5)
 - SKL-SOC-FB — Social: Facebook — blocked until social guidelines delivered (May 5)
 - SKL-SOC-TK — Social: TikTok — blocked until social guidelines delivered (May 5)
