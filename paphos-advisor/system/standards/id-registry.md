@@ -20,7 +20,7 @@ Master registry of all ID prefixes, area/type codes, and current sequence number
 | Transport | TRN | 000 | PROC-TRN-001 |
 | Shipping | SHIP | 000 | PROC-SHIP-001 |
 | Insurance | INS | 000 | PROC-INS-001 |
-| Settling-In | SET | 000 | PROC-SET-001 |
+| Settling-In | SET | 005 | PROC-SET-006 |
 
 ---
 
