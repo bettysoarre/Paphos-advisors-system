@@ -16,7 +16,7 @@ Master registry of all ID prefixes, area/type codes, and current sequence number
 | Tax | TAX | 000 | PROC-TAX-PROC-001 |
 | Property | PROP | 002 | PROC-PROP-003 |
 | Business | BIZ | 001 | PROC-BIZ-002 |
-| Healthcare | HLTH | 000 | PROC-HLTH-001 |
+| Healthcare | HLTH | 003 | PROC-HLTH-004 |
 | Transport | TRN | 000 | PROC-TRN-001 |
 | Shipping | SHIP | 000 | PROC-SHIP-001 |
 | Insurance | INS | 000 | PROC-INS-001 |

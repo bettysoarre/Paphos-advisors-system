@@ -47,6 +47,7 @@ Manage routines at: https://claude.ai/code/routines
 | PRMT-AGT-013 | Monthly Blog Refresh Agent | To build | Phase 2 | SKL-RES, SKL-WRI, SKL-GRD |
 | PRMT-AGT-014 | Partner Knowledge Extraction Agent | To formalise | Phase 1 | SKL-EXT, SKL-GRD |
 | PRMT-AGT-015 | Chatbot Knowledge Agent | To build | Phase 2 | SKL-RAG, SKL-GRD, SKL-TOV |
+| PRMT-AGT-016 | Query Intelligence Agent | To build | Phase 3 | SKL-RES, SKL-GRD |
 
 ### All Skills
 
@@ -397,6 +398,7 @@ All agents must comply. These cannot be overridden by a prompt or brief.
 | Phase 2 (May) | Chatbot Knowledge Agent (PRMT-AGT-015) | Platform: chatbot.ai; KB Reuse Classification fully populated; chatbot.ai connected as MCP or API source |
 | Phase 3 (Jun+) | PR Agent (PRMT-AGT-011) | Core content pipeline stable; outreach templates ready |
 | Phase 3 (Jun+) | Ads Analysis Agent (PRMT-AGT-012) | Campaign running; performance data available |
+| Phase 3 (Jun+) | Query Intelligence Agent (PRMT-AGT-016) | Chatbot live with minimum 3 months of query volume; closes the loop: chatbot unanswered/escalated questions → batched FAQ candidates → Notion Research Log → human approves → content pipeline. Not a true self-learning system — human gates preserved — but automates the gap between what clients ask and what gets built. |
 
 ---
 
@@ -416,3 +418,4 @@ When creating new agents, increment the PRMT-AGT sequence in id-registry.md:
 | Blog Refresh | PRMT-AGT-013 | To build |
 | Knowledge Extraction | PRMT-AGT-014 | To formalise |
 | Chatbot Knowledge Agent | PRMT-AGT-015 | To build |
+| Query Intelligence Agent | PRMT-AGT-016 | To build |
