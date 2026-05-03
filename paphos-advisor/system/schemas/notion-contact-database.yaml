@@ -2,11 +2,12 @@
 id: SCH-NOT-001
 title: "Contacts Database — Notion Schema"
 database_name: Contacts
-notion_database_id: TBD
+notion_database_id: adc2ad6c127f4cd49803d9db1d6aac79
+notion_data_source_id: 8c8db36d-80ee-4b84-a8f1-3e542d9b8657
 schema_version: 1
-status: draft
+status: active
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-03
 owner: "lead-advisor"
 related_taxonomies:
   - TAX-ICP-001  # ICP Segments

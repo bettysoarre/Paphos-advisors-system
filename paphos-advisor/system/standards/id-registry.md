@@ -12,7 +12,7 @@ Master registry of all ID prefixes, area/type codes, and current sequence number
 
 | Area | Code | Current Sequence | Next ID to Use |
 |------|------|-----------------|----------------|
-| Immigration | IMM | 000 | PROC-IMM-001 |
+| Immigration | IMM | 010 | PROC-IMM-011 |
 | Tax | TAX | 000 | PROC-TAX-PROC-001 |
 | Property | PROP | 002 | PROC-PROP-003 |
 | Business | BIZ | 001 | PROC-BIZ-002 |
@@ -200,6 +200,18 @@ Assigned IDs:
 - SCH-NOT-005 — notion-research-database.yaml (Research Log)
 - SCH-NOT-006 — notion-knowledge-database.yaml (Knowledge Base)
 - SCH-NOT-007 — notion-process-database.yaml (Processes)
+
+---
+
+## Official Source Reference IDs — `OFF`
+
+Structured reference files capturing key official figures (fees, thresholds, form codes, contacts) from Cypriot government and regulatory bodies. One file per official body or domain.
+
+| Body | Code | Current Sequence | Next ID to Use |
+|------|------|-----------------|----------------|
+| CRMD (Civil Registry & Migration Dept) | CRMD | 001 | OFF-CRMD-002 |
+| Department of Labour | LAB | 001 | OFF-LAB-002 |
+| Cyprus Examinations Authority | CEA | 001 | OFF-CEA-002 |
 
 ---
 

@@ -10,10 +10,7 @@ End-to-end immigration process flows and requirements for Cyprus.
 | PROC-IMM-004 | [Digital Nomad Visa — Remote Workers Residence Permit](digital-nomad-visa.md) | Draft | Non-EU remote workers | ICP-003 |
 | PROC-IMM-005 | [Permanent Residency by Investment — Regulation 6(2)](permanent-residency-investment.md) | Draft | Non-EU investment route | ICP-005 |
 | PROC-IMM-006 | [Pink Slip — Temporary Residence Permit for Non-EU Nationals (Visitor Category)](pink-slip-temporary-residence-non-eu.md) | Draft | Non-EU self-sufficient | ICP-001 |
-
-## Pending (not yet drafted)
-
-- PROC-IMM-007 — Category F Permanent Residency (non-EU, financially independent, no employment) — relationship to Pink Slip clarified; Category F is permanent but has 5–7 year processing backlog; most non-EU nationals obtain Pink Slip while waiting for Category F approval
-- PROC-IMM-008 — Long-Term Resident Status (non-EU nationals after 5 years) — follow-on from Pink Slip route
-- PROC-IMM-009 — Work Permits for Non-EU nationals (employer-sponsored)
-- PROC-IMM-010 — Student Visa
+| PROC-IMM-007 | [Category F Permanent Residency — Non-EU Financially Independent Nationals](category-f-permanent-residency.md) | Draft | Non-EU financially independent | ICP-001 |
+| PROC-IMM-008 | [Long-Term Resident Status — Non-EU Nationals After 5 Years Continuous Residence](long-term-resident-status.md) | Draft | Non-EU long-term route | ICP-001, ICP-003 |
+| PROC-IMM-009 | [Work Permit — Non-EU Nationals (Employer-Sponsored)](work-permit-non-eu.md) | Draft | Non-EU employment route | ICP-003 |
+| PROC-IMM-010 | [Student Visa — Non-EU Nationals at Cyprus Universities](student-visa.md) | Draft | Non-EU students | ICP-003 |

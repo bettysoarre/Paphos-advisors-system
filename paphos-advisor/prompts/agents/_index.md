@@ -12,6 +12,7 @@ System prompts and configurations for deployed AI agents.
 - [content-agent-instructions.md](content-agent-instructions.md) — PRMT-AGT-001 — Writer/drafter (Step 3 of content pipeline)
 - [knowledge-ingest-agent.md](knowledge-ingest-agent.md) — PRMT-AGT-003 — Knowledge base ingestion
 - [knowledge-lint-agent.md](knowledge-lint-agent.md) — PRMT-AGT-004 — Knowledge base linting
+- [partner-knowledge-extraction-agent.md](partner-knowledge-extraction-agent.md) — PRMT-AGT-014 — Partner interview transcript → KA-FLD records in Notion KB
 
 ## To Build (see _agent-skills-matrix.md for specs)
 
