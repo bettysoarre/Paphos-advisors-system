@@ -13,33 +13,36 @@ Maps each ICP segment to the services they are most likely to need. Used for:
 | Service | ICP-01 UK Retiree | ICP-02 EU Remote Worker | ICP-03 Non-EU Nomad | ICP-04 Entrepreneur | ICP-05 HNI | ICP-06 Family | ICP-07 Property Speculators | ICP-08 Related Partners | ICP-09 Low Budget Escapers |
 |---|---|---|---|---|---|---|---|---|---|
 | **Immigration** | | | | | | | | | |
-| Category F Permit | ★★★ | — | ★★ | ★ | ★ | ★★ | ★ | — | ★ |
-| Yellow Slip (MEU1) | — | ★★★ | — | ★★ | — | ★★★ | ★ | — | — |
-| Digital Nomad Visa | — | — | ★★★ | — | — | — | — | — | — |
-| Permanent Residency (6.2) | — | — | — | ★ | ★★★ | — | ★ | — | — |
+| Category F Permit | high | — | medium | low | low | medium | low | — | low |
+| Yellow Slip (MEU1) | — | high | — | medium | — | high | low | — | — |
+| Digital Nomad Visa | — | — | high | — | — | — | — | — | — |
+| Permanent Residency (6.2) | — | — | — | low | high | low | low | — | — |
+| Dependant / Child Residency Handling | low | medium | low | low | medium | high | — | — | — |
 | **Tax** | | | | | | | | | |
-| 60-Day Rule Setup | ★ | ★★★ | ★ | ★★★ | ★★ | ★ | ★ | — | — |
-| Non-Dom Status | ★ | ★★★ | — | ★★★ | ★★★ | ★ | ★ | — | — |
-| Personal Tax Return | ★★ | ★★ | ★ | ★★ | ★★ | ★★ | ★★ | — | — |
-| Corporate Tax Advisory | — | — | — | ★★★ | ★★ | — | — | — | — |
+| 60-Day Rule Setup | low | high | low | high | medium | low | low | — | — |
+| Non-Dom Status | low | high | — | high | high | low | low | — | — |
+| Personal Tax Return | medium | medium | low | medium | medium | medium | medium | — | — |
+| Corporate Tax Advisory | — | low | — | high | medium | — | — | — | — |
 | **Property** | | | | | | | | | |
-| Long-term Rental | ★★ | ★★★ | ★★★ | ★ | ★ | ★★★ | ★ | — | ★★ |
-| Property Purchase | ★★★ | ★ | ★ | ★ | ★★★ | ★★ | ★★★ | — | — |
+| Long-term Rental | medium | high | high | medium | low | high | low | — | medium |
+| Property Purchase | high | medium | low | medium | high | medium | high | — | — |
+| Developer Due Diligence / Qualifying Property Review | — | — | — | low | high | low | — | — | — |
+| Area / School-Catchment Property Guidance | — | low | — | low | low | high | — | — | — |
 | **Healthcare** | | | | | | | | | |
-| GESY Registration | ★★★ | ★★★ | ★★ | ★★ | ★★ | ★★★ | — | — | ★ |
-| Private Health Insurance | ★★★ | ★ | ★★★ | ★ | ★★★ | ★★ | — | — | ★ |
+| GESY Registration | high | high | medium | low | medium | high | — | — | low |
+| Private Health Insurance | high | low | high | low | high | medium | — | — | low |
 | **Settling In** | | | | | | | | | |
-| Bank Account | ★★ | ★★★ | ★★ | ★★★ | ★★ | ★★ | ★★ | — | ★ |
-| Driving Licence Exchange | ★★★ | ★★ | ★★ | ★ | ★ | ★★★ | — | — | ★ |
-| School Registration | — | ★ | — | — | ★ | ★★★ | — | — | — |
+| Bank Account | medium | high | medium | high | medium | medium | medium | — | low |
+| Driving Licence Exchange | high | medium | medium | low | low | high | — | — | low |
+| School Registration | — | low | — | low | low | high | — | — | — |
 | **Financial** | | | | | | | | | |
-| UK Pension Transfer | ★★★ | — | — | — | ★ | ★ | ★ | — | — |
-| Investment / Wealth Planning | ★★ | ★ | — | ★★ | ★★★ | ★ | ★★ | — | — |
+| UK Pension Transfer | high | — | — | — | low | low | low | — | — |
+| Investment / Wealth Planning | medium | low | — | medium | high | low | medium | — | — |
 | **Removal** | | | | | | | | | |
-| Household Goods Removal | ★★★ | ★★ | ★ | ★ | ★★ | ★★★ | — | — | — |
-| Vehicle Import | ★★ | ★ | — | ★ | ★ | ★★ | — | — | — |
+| Household Goods Removal | high | medium | low | medium | low | high | — | — | — |
+| Vehicle Import | medium | low | — | low | low | medium | — | — | — |
 
-**Key:** ★★★ = Almost always needed | ★★ = Often needed | ★ = Sometimes needed | — = Rarely/never needed
+**Key:** high = Almost always needed | medium = Often needed | low = Sometimes needed | — = Rarely/never needed
 
 ---
 
@@ -51,19 +54,23 @@ Add-ons: Pension planning referral, property purchase guidance, removal planning
 
 ### ICP-02: EU Remote Worker Package
 Core: Yellow Slip advisory + tax residency setup (60-day + Non-Dom)
-Add-ons: Property rental guidance, GESY setup, bank account guidance
+Add-ons: Rental guidance, GESY setup, bank account guidance, later property purchase support, entrepreneur crossover review
+
+### ICP-03: Non-EU Digital Nomad Package
+Core: Immigration lawyer advisory for Digital Nomad Visa application + private health insurance referral
+Add-ons: Rental agent referral (proof of accommodation required for application), bank account guidance
 
 ### ICP-04: Entrepreneur Package
-Core: Company formation guidance + tax residency + Non-Dom setup
-Add-ons: Immigration advisory (if relocating personally), wealth structuring referral
+Core: Company formation coordination + corporate tax advisory + banking pathway planning
+Add-ons: Personal residency setup, non-dom support, rental/property guidance, wealth structuring referral
 
 ### ICP-05: HNI Package
-Core: Permanent residency advisory + property purchase guidance
-Add-ons: Non-Dom + tax structuring, financial planning referral
+Core: Permanent residency route qualification + property/developer due diligence + immigration handling
+Add-ons: Non-Dom and tax structuring, wealth planning, family settling-in support
 
 ### ICP-06: Family Package
-Core: Immigration for both parents + school guidance + settling-in
-Add-ons: Healthcare setup for children, removal referral, property agent referral
+Core: Family immigration route clarification + school guidance + rental/area matching + settling-in support
+Add-ons: Healthcare setup for children, removal referral, tax guidance for working parents, later property purchase support
 
 ### ICP-07: Property Speculators Package
 Core: Property agent referral + conveyancing lawyer referral

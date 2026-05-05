@@ -14,7 +14,7 @@ related_content_mapping: "../../icps/mapping/icp-to-content-mapping.md"
 related_service_mapping: "../../icps/mapping/icp-to-service-mapping.md"
 tags:
   - icp
-  - non-eu-national
+  - third-country
   - digital-nomad
   - segment
 ---
@@ -95,14 +95,14 @@ Cyprus competes directly with Portugal, Spain, Georgia, and Thailand for this se
 
 ## Processes Most Relevant to This Segment
 
-| Process | Priority |
-|---------|----------|
-| Digital Nomad Visa — PROC-IMM-004 (forthcoming) | Critical |
-| Private Health Insurance (visa prerequisite) | Critical |
-| Renting a Property in Cyprus | High |
-| Cyprus Bank Account Opening | Medium |
-| [Cyprus Tax Residency — 60-Day Rule](../../processes/tax/60-day-rule.md) | Low — if they pursue Cyprus tax residency |
-| GESY Registration | Low — only relevant post-residency |
+| Process | Priority | Notes |
+|---------|----------|-------|
+| [Digital Nomad Visa](../../processes/immigration/digital-nomad-visa.md) | Critical | Primary immigration route |
+| Private Health Insurance | Critical | Required before application can be submitted |
+| Renting a Property in Cyprus | High | Proof of accommodation required for the application |
+| Cyprus Bank Account Opening | Medium | Useful but lower urgency than for EU remote workers |
+| [Cyprus Tax Residency — 60-Day Rule](../../processes/tax/60-day-rule.md) | Low | Only if pursuing Cyprus tax residency alongside the visa |
+| GESY Registration | Low | Only relevant post-residency |
 
 ---
 

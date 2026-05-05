@@ -96,13 +96,12 @@ Title deed security, developer reliability, and the risk of purchasing on unregi
 
 | Process | Priority |
 |---------|----------|
-| Buying property in Cyprus | Critical |
+| [Buying property in Cyprus](../../processes/property/buying-a-property.md) | Critical |
 | Opening a bank account in Cyprus | High |
 | [Category F Permit](../../processes/immigration/category-f-permanent-residency.md) | Medium — if they decide to relocate |
 | [Yellow Slip (MEU1)](../../processes/immigration/yellow-slip-eu-national.md) | Medium — EU nationals who decide to relocate |
 | [60-day tax residency rule](../../processes/tax/60-day-rule.md) | Medium — relevant once relocation is planned |
 
-*Note: A dedicated "Buying property in Cyprus" process doc does not yet exist — flag for creation.*
 
 ---
 

@@ -14,7 +14,7 @@ related_service_mapping: "../../icps/mapping/icp-to-service-mapping.md"
 tags:
   - icp
   - lifestyle
-  - low-budget
+  - low-budget-aspirational
   - segment
 ---
 

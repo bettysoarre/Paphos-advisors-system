@@ -6,7 +6,7 @@ Practical settling-in steps covering the immediate administrative tasks new resi
 |----|------|--------|--------|------------|
 | PROC-SET-001 | [bank-account-opening.md](bank-account-opening.md) | Bank Account Opening — Personal and Corporate | Draft | All new residents and companies |
 | PROC-SET-002 | [driving-licence-exchange.md](driving-licence-exchange.md) | Driving Licence Exchange | Draft | All residents with foreign licences |
-| PROC-SET-003 | [gesY-registration.md](gesY-registration.md) | GeSY Registration — General Healthcare System | Draft | All Cyprus tax residents |
+| PROC-SET-003 | [gesy-registration.md](gesy-registration.md) | GeSY Registration — General Healthcare System | Draft | All Cyprus tax residents |
 | PROC-SET-004 | [tax-identification-code.md](tax-identification-code.md) | Tax Identification Code (TIC) | Draft | All new residents and company directors |
 | PROC-SET-005 | [social-insurance-registration.md](social-insurance-registration.md) | Social Insurance Registration — Self-Employed | Draft | Self-employed individuals and salary-drawing directors |
 

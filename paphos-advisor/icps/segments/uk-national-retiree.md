@@ -28,6 +28,23 @@ A British citizen, typically aged 55–72, who is retiring or semi-retiring to C
 
 ---
 
+## Commercial Importance
+
+This is the highest-volume inbound segment for Paphos Advisors. UK nationals represent the largest existing expat community in Paphos and continue to enquire in significant numbers post-Brexit, despite the change in process requirements. The typical engagement begins with an immigration question and, when well-managed, develops into a long-duration relationship that includes healthcare, tax, settling-in, and ultimately a property purchase.
+
+Typical commercial sequence:
+1. Initial enquiry about Category F, Brexit, or "can I still move to Cyprus"
+2. Qualification around pension income, timeline, and household composition
+3. Immigration lawyer referral for Category F application
+4. Private health insurance referral — required for the Category F application
+5. Property agent referral for long-term rental — proof of address is the first practical blocker
+6. Tax advisor referral for UK pension treatment and non-dom election where applicable
+7. Property purchase referral — typically 12–24 months post-arrival; often the highest-value single transaction in the relationship
+
+The strongest version of this lead is not just "I'm thinking of retiring to Cyprus." It is a confirmed retiree with pension secured, a clear move timeline, and genuine property purchase intent once settled.
+
+---
+
 ## Segment Definition Boundaries
 
 This segment includes:
@@ -96,18 +113,18 @@ Post-retirement timing is common — they have deferred the move until pension i
 
 ## Processes Most Relevant to This Segment
 
-| Process | Priority |
-|---------|----------|
-| Category F Permit (Non-EU Self-Sufficient) | Critical |
-| Private Health Insurance (pre-application requirement) | Critical |
-| [Cyprus Tax Residency — 60-Day Rule](../../processes/tax/60-day-rule.md) | High |
-| [Cyprus Non-Dom Status](../../processes/tax/non-dom-status.md) | High |
-| [Renting a Property in Cyprus](../../processes/property/renting-a-property.md) | High |
-| GESY Registration | Medium |
-| Driving Licence Exchange | Low |
-| Cyprus Bank Account Opening | Medium |
+| Process | Priority | Notes |
+|---------|----------|-------|
+| [Category F Permit (Non-EU Self-Sufficient)](../../processes/immigration/category-f-permanent-residency.md) | Critical | Core route for UK nationals post-Brexit |
+| Private Health Insurance (pre-application requirement) | Critical | Required before Category F application can be submitted |
+| [Cyprus Tax Residency — 60-Day Rule](../../processes/tax/60-day-rule.md) | High | Relevant if establishing full Cyprus tax residency |
+| [Cyprus Non-Dom Status](../../processes/tax/non-dom-status.md) | High | Relevant where income includes dividends or investments |
+| [Renting a Property in Cyprus](../../processes/property/renting-a-property.md) | High | Proof of address required early in the process |
+| GESY Registration | Medium | Practical post-arrival step |
+| Driving Licence Exchange | Low | Not a primary conversion trigger |
+| Cyprus Bank Account Opening | Medium | Common settling-in pain point |
 
-*Note: Category F Permit process doc is forthcoming (PROC-IMM-005). UK nationals are non-EU post-Brexit and cannot use the Yellow Slip (MEU1) route.*
+*Note: UK nationals are non-EU post-Brexit and cannot use the Yellow Slip (MEU1) route.*
 
 ---
 
@@ -170,6 +187,30 @@ Content format: long-form guides and FAQs convert best for this segment. They ar
 
 ---
 
+## Qualification Notes
+
+High-fit retiree leads usually have:
+- confirmed pension income at or above the Category F threshold
+- a clear timeline of 6–18 months to move
+- willingness to engage proper legal and financial advice
+- realistic expectations about post-Brexit residency requirements
+- openness to renting first, with property purchase consideration in the medium term
+
+Medium-fit leads:
+- pension is secured but departure is 1–3 years out
+- still researching Cyprus versus other destinations (Spain, Portugal, Malta)
+- have not yet resolved UK-side logistics such as property sale or pension drawdown timing
+- will convert with sustained educational content and a clear next step
+
+Low-fit leads:
+- do not meet or are unlikely to meet the Category F income threshold
+- only want a part-year base or holiday-home arrangement — not genuine residency intent
+- expect NHS entitlement to transfer or assume EU freedom of movement still applies
+- resist professional advice costs
+- have no concrete timeline or UK-side readiness to act
+
+---
+
 ## Red Flags / Disqualifiers
 
 - **Currently employed full-time in the UK with no intention to retire soon:** Likely not ready to act — may be a future client, but not a current case.
@@ -177,6 +218,18 @@ Content format: long-form guides and FAQs convert best for this segment. They ar
 - **Expects to use NHS entitlement in Cyprus:** NHS entitlement does not transfer to Cyprus. Clients who are unwilling to accept private health costs may not be a viable fit.
 - **Short-stay intention (under 6 months per year):** Category F requires genuine long-term residency intent. Clients who only want a holiday home should be re-routed.
 - **No pension or passive income secured:** Category F requires demonstrable sufficient income. Clients without confirmed pension or investment income cannot yet apply.
+
+---
+
+## Segment Overlaps
+
+This segment commonly overlaps with:
+- **ICP-SEG-006 Family Relocating with Children** in mixed-generation cases where the retiree household includes adult children considering their own move, or where a UK partner is part of a larger family relocation
+- **ICP-SEG-005 HNI — Permanent Residency** when the retiree has substantial investment capital and considers the €300k+ property investment route alongside or instead of Category F
+- **ICP-SEG-007 Property Speculators** when property purchase is the primary motivation and lifestyle residency is secondary — requires early re-routing to ensure the right frame
+- **ICP-SEG-009 Low Budget Escapers** when enquirers initially present as retirees but do not meet the Category F income threshold — re-route and nurture rather than disqualify
+
+These overlaps should inform early qualification and routing. The income level, property intent, and household composition are the key signals for determining which path applies.
 
 ---
 

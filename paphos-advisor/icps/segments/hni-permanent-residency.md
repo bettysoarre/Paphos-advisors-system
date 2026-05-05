@@ -9,51 +9,76 @@ owner: "lead-advisor"
 related_segments:
   - ICP-SEG-001
   - ICP-SEG-004
+  - ICP-SEG-006
   - ICP-SEG-007
 related_content_mapping: "../../icps/mapping/icp-to-content-mapping.md"
 related_service_mapping: "../../icps/mapping/icp-to-service-mapping.md"
 tags:
   - icp
-  - non-eu-national
   - hni
   - permanent-residency
+  - property-buyer
+  - third-country
   - segment
+  - multi-step-relocator
 ---
 
 # ICP Segment: HNI — Permanent Residency
 
 ## Segment Definition
 
-A high net worth individual seeking Cyprus permanent residency through the fast-track Category 6.2 route, which requires a minimum €300,000 investment in new residential property purchased directly from a developer. Typically also seeking non-dom status and broader wealth structuring. Almost exclusively non-EU nationals — commonly Israeli, Russian, South African, and from MENA markets — who want an EU permanent residency base for security, travel rights, and tax efficiency. The relocation usually involves a family unit rather than an individual.
+A high net worth individual or family pursuing Cyprus permanent residency through the Category 6.2 investment route, usually through the purchase of qualifying new property from a developer. This segment is typically non-EU and is motivated by a blend of residency security, family contingency planning, asset diversification, tax efficiency, and access to a stable EU jurisdiction.
+
+For Paphos Advisors, this is the highest individual case-value segment because it can combine immigration, tax, legal, and property transactions in one relationship. It is lower-volume than mainstream relocation segments, but each successful case can produce meaningful partner revenue and long-tail relationship value.
+
+---
+
+## Commercial Importance
+
+This segment has the highest single-case revenue potential in the business because the qualifying route is property-linked and often accompanied by tax, legal, and family advisory needs. It is also a strong trust test for the brand: if handled well, it reinforces Paphos Advisors as a serious, protective guide rather than a referral funnel dressed up as advice.
+
+Typical commercial sequence:
+1. Initial enquiry about permanent residency, investment route, or qualifying property
+2. Budget and nationality qualification
+3. Legal and residency route confirmation
+4. Property/developer shortlisting and due diligence
+5. Reservation, contract, and application support
+6. Post-approval tax, non-dom, settling-in, or family support as needed
+
+Because property commission is directly involved, the business must be especially disciplined about maintaining trust and independence at this stage.
 
 ---
 
 ## Segment Definition Boundaries
 
 This segment includes:
-- Non-EU nationals investing €300,000+ in new developer property for Category 6.2 Permanent Residency
-- Full family units (spouse and dependent children) applying under a single main applicant
-- Clients seeking EU PR primarily for security, travel rights, and EU status — lifestyle is secondary
-- Clients who may also pursue non-dom election and corporate structuring alongside the PR application
+- non-EU individuals or families with clear capacity for the qualifying investment route
+- applicants interested in Cyprus as a secure long-term residency base
+- clients who may or may not relocate full-time, but want the residency status and optionality
+- HNW founders or investors combining property, residency, and tax planning
 
 This segment does not include:
-- EU nationals — they can use the Yellow Slip and do not need Category 6.2; re-route to ICP-SEG-002
-- Non-EU nationals below the €300k property investment threshold — re-route to Digital Nomad Visa (ICP-SEG-003) if income qualifies, or Category F if self-sufficient
-- Investment funds or companies purchasing property — Category 6.2 is for individuals and families, not corporate entities
-- Russian nationals currently subject to sanctions complications — require specialist legal advice before any engagement; do not proceed without that referral
+- people below the investment threshold
+- buyers focused only on resale property
+- clients whose primary objective is Schengen mobility alone
+- speculative "passport shopping" leads with poor fit for Cyprus's actual offer
+- low-information property leads who should first be qualified as general property buyers rather than residency-led HNI clients
 
 ---
 
 ## Typical Lead Types
 
-### 1. The Family Safety Net Buyer
-The primary goal is EU PR as a contingency plan alongside life elsewhere. Will purchase the qualifying property, obtain PR, and visit Cyprus occasionally. Not a full relocation. Tax is a secondary benefit. Often reaches out through a professional intermediary (lawyer or financial advisor) rather than searching directly.
+### 1. Contingency-planning family
+A family wants a secure EU base and optionality for the future, often without planning an immediate full relocation. Family inclusion, schooling optionality, and long-term stability matter.
 
-### 2. The Relocation Planner
-Genuinely intending to make Cyprus a primary or significant secondary residence. Wants PR as the formal legal status. Tax efficiency, lifestyle, and EU stability all matter alongside the PR route. Often asks early about schooling and family setup — overlaps with ICP-SEG-006.
+### 2. Tax-and-wealth mover
+A higher-net-worth client wants residency plus tax efficiency, non-dom planning, and broader asset structuring. This can overlap heavily with entrepreneur and wealth-planning needs.
 
-### 3. The Due Diligence-First Client
-Approaches the decision methodically. Has been burned before, or knows people who have, by poor developer deals. First questions are about developer vetting, title deeds, and what can go wrong — not about the PR process itself. Trust must be earned before any property introduction is made.
+### 3. Property-led residency buyer
+The client is primarily focused on the qualifying property purchase, with residency as the enabling framework. This is commercially attractive but carries the greatest trust risk if property advice is not handled carefully.
+
+### 4. Founder/HNW crossover
+A business owner already considering company formation or personal tax residency also uses the PR route as part of a broader Cyprus move. This is one of the strongest overlap cases with ICP-004.
 
 ---
 
@@ -61,80 +86,98 @@ Approaches the decision methodically. Has been burned before, or knows people wh
 
 | Attribute | Typical Value |
 |-----------|---------------|
-| Nationality | Non-EU — commonly Israeli, Russian, South African, MENA, South/East Asian |
-| Age range | 40–65 |
-| Employment status | Business owner, investor, or retired |
-| Net worth | €2M or above (typically significantly more) |
-| Income source | Dividends, investment income, rental income, pension |
-| Household | Often full family unit — spouse and dependent children |
-| Property intention | Buying — €300,000 minimum on qualifying new developer property |
-| Cyprus experience | Often no prior connection; Cyprus is selected for its EU status and pathway clarity |
+| Nationality | Non-EU; commonly Israeli, South African, MENA, wider international |
+| Age range | 38–68 |
+| Employment status | Business owner, investor, executive, or retired |
+| Net worth | Usually €2M+ |
+| Income source | Dividends, investment income, business income, pension, rental income |
+| Household | Often spouse and children; sometimes multi-generational planning context |
+| Property intention | Buying qualifying new property; may later buy additional assets |
+| Cyprus familiarity | Often low at first; Cyprus selected for structure rather than emotional attachment |
 
 ---
 
 ## Core Motivation
 
-EU permanent residency status is the primary driver. This segment is not primarily moving for lifestyle — they want the security, travel rights, and stability of an EU member state residency status, often as a contingency alongside their primary residence elsewhere. Cyprus's Category 6.2 route offers a relatively fast, investment-linked path to permanent residency compared to equivalent programmes in other EU member states.
+This segment is rarely driven by just one thing. The real motivation is usually a combination of:
+- obtaining secure permanent residency status in an EU jurisdiction
+- creating family optionality and a contingency base
+- pairing residency with tax-efficient planning where relevant
+- buying a qualifying property asset rather than spending on a pure administrative route
+- preserving wealth in a stable, English-friendly legal environment
+- keeping future relocation options open even if full-time residence is not immediate
 
-Tax efficiency is secondary but meaningful: non-dom status eliminates SDC on dividend and interest income, and Cyprus has no wealth tax or inheritance tax. For clients with substantial passive income, the tax structure has real value.
-
-Asset security and political stability are also cited — Cyprus as an EU-governed, English-common-law-influenced jurisdiction provides a level of legal protection valued by clients from less stable environments.
+Lifestyle can matter, but it is usually secondary at the start. This is a certainty-seeking segment, not an inspiration-seeking segment.
 
 ---
 
 ## Primary Concerns and Questions
 
-1. "How do I get Cyprus permanent residency through investment — what is Category 6.2?"
-2. "What property qualifies for the €300,000 permanent residency route?"
-3. "How long does the application take, and what is my status while it is pending?"
-4. "Can my spouse and children be included in my application?"
-5. "What are the ongoing requirements to maintain permanent residency?"
-6. "How does the tax structuring work — non-dom, dividends, inheritance?"
-7. "What due diligence should I do on a developer before committing to a €300k purchase?"
+1. "How does Cyprus permanent residency by investment actually work?"
+2. "What exactly qualifies under Category 6.2?"
+3. "What property can I buy, and what does not qualify?"
+4. "How safe is the property transaction and how do I vet the developer?"
+5. "Can my spouse and children be included?"
+6. "How long does the process take and what happens while it is pending?"
+7. "What obligations continue after approval?"
+8. "How does non-dom or wider tax planning interact with this?"
+9. "Do I need to live in Cyprus full-time?"
+10. "How does Cyprus compare with other residency-by-investment routes?"
 
 ---
 
 ## Processes Most Relevant to This Segment
 
-| Process | Priority |
-|---------|----------|
-| AIP Category 6.2 — Permanent Residency by Investment — PROC-IMM-006 (forthcoming) | Critical |
-| Property Purchase (€300k minimum, new property from developer) | Critical |
-| [Cyprus Non-Dom Status](../../processes/tax/non-dom-status.md) | High |
-| [Cyprus Tax Residency — 60-Day Rule](../../processes/tax/60-day-rule.md) | Medium — if also establishing tax residency |
-| Private Health Insurance | High — required for the application |
-| Criminal Record Certificate (from country of origin) | High — required for the application |
-| Corporate Tax Planning | Medium — if they have Cyprus or offshore company structures |
+| Process | Priority | Notes |
+|---------|----------|-------|
+| Category 6.2 Permanent Residency by Investment | Critical | Core route |
+| Qualifying Property Purchase | Critical | Central commercial and legal step |
+| Developer and property due diligence | Critical | Trust-sensitive; must be explicit |
+| Immigration application handling | Critical | Specialist legal support required |
+| Non-Dom Status | High | Often relevant once residency/tax planning becomes active |
+| 60-Day Rule Tax Residency | Medium | Relevant if the client also becomes Cyprus tax resident |
+| Private Health Insurance | High | Common practical requirement |
+| Criminal Record and supporting documents | High | Core application component |
+| Wealth / estate / cross-border tax planning | Medium to High | Depends on client complexity |
+| Family settling-in support | Conditional | Relevant where actual relocation follows |
 
 ---
 
 ## Revenue Logic
 
-The highest per-case value of any segment. The property agent commission on a €300k+ new developer purchase is the primary revenue event; immigration and tax advisory are high-value secondary streams that run in parallel.
+This is the highest-value segment on a per-client basis because it can include:
+- immigration/legal referral
+- developer/property commission
+- tax advisory referral
+- financial planning or wealth-structuring referral
+- family or post-arrival support
+- later introductions for schools, healthcare, banking, or further property
 
-Typical revenue sequence:
-1. Content or referral drives initial enquiry — often via a trusted professional or nationality-specific channel
-2. Immigration lawyer referral — Category 6.2 application is legally complex and must be handled by a specialist
-3. Property agent referral — qualifying €300k+ new developer property; the primary revenue event
-4. Tax advisor referral — non-dom election, wealth structuring, cross-border planning at this net worth level
-5. Financial advisor referral — currency conversion, asset management, investment planning at the €300k+ transaction size
+However, this segment also carries the highest reputational risk. If the business appears to push property before demonstrating route suitability and due diligence discipline, trust will collapse. The revenue opportunity only works if credibility is protected.
 
 ---
 
 ## Content Most Relevant to This Segment
 
-This segment typically arrives already aware that Cyprus has a permanent residency by investment route. They are at the research and due diligence stage — they want to understand the requirements, risks, and process before committing.
+This segment does not want generic "dream lifestyle" content first. It wants precise, calm, protective guidance that reduces uncertainty before a major financial commitment.
 
 High-value content topics:
-- Cyprus permanent residency by investment — Category 6.2 explained
-- What property qualifies for the Cyprus permanent residency route?
-- How to verify a developer before buying for residency — title deeds, VAT status, planning permits
-- Family inclusion in Cyprus permanent residency applications
-- Non-dom status and wealth planning for Cyprus permanent residents
-- What are the ongoing requirements to maintain Cyprus Category 6.2 PR?
-- Cyprus permanent residency vs. Golden Visa routes in other EU countries
+- Cyprus permanent residency by investment — complete guide
+- What property qualifies for Category 6.2?
+- Cyprus permanent residency pending status explained
+- Family inclusion in Cyprus PR applications
+- Maintaining Cyprus permanent residency — annual obligations
+- Non-dom status for Cyprus permanent residents
+- Developer due diligence when buying new property in Cyprus
+- Cyprus permanent residency vs other EU investment routes
+- What do you really get at the €300k+ level in Cyprus property?
 
-Content format: authoritative, detailed guides. This segment reads carefully and values precision. They will likely also take advice from lawyers and accountants — content should reinforce professionalism.
+Best formats:
+- authoritative guides
+- FAQs
+- due diligence checklists
+- comparison pieces
+- carefully reviewed decision-stage articles
 
 ---
 
@@ -142,10 +185,12 @@ Content format: authoritative, detailed guides. This segment reads carefully and
 
 | Partner Category | Relevance |
 |-----------------|-----------|
-| Immigration lawyer | Category 6.2 application handling — legally complex, requires specialist non-EU immigration experience. Most critical referral |
-| Property agent | Identifying qualifying developer property; title deed verification; due diligence support — very high referral value |
-| Tax advisor (ICPAC) | Non-dom election, wealth structuring, cross-border tax planning — significant complexity at this net worth level |
-| Financial advisor | Asset management, pension planning, currency conversion at the €300k+ level |
+| Immigration lawyer | Most critical referral; specialist handling required |
+| Property lawyer | Essential for transaction protection and independent legal review |
+| Property developer / vetted property source | High commercial relevance, but must sit behind due diligence discipline |
+| Tax advisor (ICPAC) | Important for non-dom and wider structuring |
+| Financial advisor / wealth planner | Relevant for larger and more sophisticated cases |
+| Family relocation support | Useful where actual move follows PR approval |
 
 ---
 
@@ -153,39 +198,80 @@ Content format: authoritative, detailed guides. This segment reads carefully and
 
 | Signal | Weight |
 |--------|--------|
-| Non-EU nationality stated | High |
-| Mentions permanent residency, Category 6.2, or investment route | High |
-| Net worth or investment capacity at €300k+ implied or stated | High |
-| Family unit — spouse and children included | High |
-| Enquiring about property purchase alongside residency | High |
-| Israeli, Russian, South African, or MENA nationality | Medium |
-| Mentions non-dom or tax structuring | Medium |
-| Age 40–65 | Low |
+| Non-EU nationality | High |
+| Mentions permanent residency, PR by investment, or Category 6.2 | High |
+| Budget clearly above qualifying threshold | High |
+| Interest in qualifying new-build property | High |
+| Family inclusion requirement | High |
+| Mentions tax planning, non-dom, or wealth protection | Medium |
+| Wants legal certainty and due diligence | Medium |
+| Exploring multiple residency jurisdictions in parallel | Medium |
+| Wants immediate Schengen mobility as main objective | Negative |
+| Budget below threshold or unclear | Negative |
+
+---
+
+## Qualification Notes
+
+High-fit HNI PR leads usually have:
+- clear and sufficient budget
+- a genuine fit for the route as it actually exists
+- strong need for legal certainty and professional coordination
+- realistic expectations on timeline and qualifying property
+- interest in Cyprus as a serious long-term option, not just a headline residency product
+
+Medium-fit leads:
+- are still comparing Cyprus with other countries
+- have sufficient budget but need education before moving
+- may first enter via tax, entrepreneur, or property questions
+
+Low-fit leads:
+- want Schengen access that Cyprus PR does not provide
+- want resale property for a qualifying route
+- are vague on budget or capacity
+- treat the process as a quick commodity purchase
 
 ---
 
 ## Red Flags / Disqualifiers
 
-- **Budget below €300,000 for property:** The qualifying threshold for Category 6.2 is €300,000 minimum on new developer property, plus VAT. Clients who cannot meet this threshold cannot use this route. Re-route to Yellow Slip or Digital Nomad Visa depending on nationality and income.
-- **Seeking second-hand property:** Category 6.2 requires purchase of new residential property directly from a licensed developer. Resale property does not qualify. Clarify early.
-- **Seeking Schengen area access:** Cyprus is not in the Schengen Area. Cyprus permanent residency does not provide Schengen rights. If Schengen access is a primary goal, Cyprus does not meet the need.
-- **Primary country of residence is Russia (post-sanctions):** Current sanctions and banking restrictions have significantly complicated the process for Russian nationals. Refer to specialist immigration lawyer before quoting services.
-- **Expects immediate permanent residency:** The fast-track Category 6.2 route does not grant permanent residency on application — it is processed, and applicants are in a pending state during that period. Processing times vary. Set expectations clearly.
+- **Budget below the effective qualifying level:** this route requires sufficient capital for the qualifying property plus associated costs.
+- **Focused on resale property only:** resale stock does not fit the core route criteria.
+- **Primary goal is Schengen rights:** Cyprus does not satisfy that objective.
+- **Expects instant approval or no pending period:** expectations must be corrected early.
+- **Unwilling to perform proper developer due diligence:** high risk and poor fit.
+- **Nationality or sanctions-related complexity requiring immediate specialist review:** escalate early, do not casually quote.
+- **Wants "the cheapest qualifying unit" with no concern for legal or commercial quality:** poor trust and conversion profile.
+
+---
+
+## Segment Overlaps
+
+This segment commonly overlaps with:
+- **ICP-SEG-004 Entrepreneur — Company Formation** when the client is also restructuring business or personal tax residency
+- **ICP-SEG-006 Family Relocating with Children** when family inclusion and school planning become active
+- **ICP-SEG-007 Property Speculators** where high-value property buyers may straddle the investment threshold
+- **Property Buyer** taxonomy where the client's practical entry point is the purchase rather than the immigration framework
+- **Multi-Step Relocator** when residency, tax, family, and property all connect
+
+These overlaps should be treated as normal and commercially important, not exceptional.
 
 ---
 
 ## Trust and Handling Principles
 
-- Technical authority and risk-awareness are the primary trust signals for this segment — they are evaluating whether you know more than they do; match or exceed their level of knowledge on the process
-- Developer due diligence is non-negotiable — never introduce a developer without being prepared to stand behind that recommendation; a poor developer outcome is catastrophic for the relationship and for reputation in this segment's network
-- Disclose property commission proactively and clearly; at this transaction value, any hint of undisclosed commercial interest is disqualifying
-- Do not rush this segment — they make considered decisions on large investments and will disengage from any relationship that applies pressure or urgency
-- Geopolitical and sanction-related complications (particularly Russia) must be handled with extreme care; refer to specialist legal advice rather than attempting to advise directly or reassure informally
+Because this segment touches immigration status and high-value property transactions, the handling standard must be stricter than in other ICPs.
+
+Key principles:
+- qualify the route before discussing inventory
+- separate legal suitability from property marketing
+- emphasise independent due diligence and legal review
+- avoid implying that any property is "safe" without proper checks
+- keep all messaging factual, calm, and non-promotional
+- use partner introductions to de-risk the decision, not to pressure the client
 
 ---
 
 ## Notes
 
-*Highest individual case value of all segments, but lower volume than ICP-SEG-001 and ICP-SEG-002. Best acquired through: referrals from existing partner network (property developers, wealth managers), nationality-specific content (Israeli/South African/MENA audiences), and HNW partner relationships. Update with real case data as it accumulates — particularly: which nationalities actually convert, whether family inclusion is always the case, and typical advisory touchpoints from first enquiry to application submission.*
-
-*Irish HNW sub-audience: Irish nationals are EU citizens and technically follow the Yellow Slip residency route (ICP-SEG-002), but their motivations — EU base security, wealth structuring, long-term flexibility — overlap significantly with this segment. They are a named content target. Website content for this audience stays neutral (stability, structure, opportunity); social media content can reference EU/political context as a "why now" driver. Do not conflate with the broader ICP-005 profile when writing content — the tone differs.*
+*Highest individual case-value segment in the business, but also the most trust-sensitive. Best acquired through strong partner referrals, carefully written high-authority content, and reputation for protective guidance rather than aggressive property selling. The strategic goal is not to maximise raw lead volume here; it is to attract a smaller number of credible, qualified, high-trust enquiries that can convert cleanly across immigration, property, and tax support.*

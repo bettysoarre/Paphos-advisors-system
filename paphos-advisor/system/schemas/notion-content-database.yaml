@@ -69,6 +69,15 @@ fields:
       - blocked
       - archived
 
+  - name: Priority
+    notion_type: select
+    required: false
+    description: Production priority for this content piece, derived from ICP relevance and search demand.
+    allowed_values:
+      - high
+      - medium
+      - low
+
   - name: Target Keyword
     notion_type: rich_text
     required: false
