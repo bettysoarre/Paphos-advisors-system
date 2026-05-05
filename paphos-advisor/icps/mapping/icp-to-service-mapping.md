@@ -10,34 +10,34 @@ Maps each ICP segment to the services they are most likely to need. Used for:
 
 ## Mapping Table
 
-| Service | ICP-01 UK Retiree | ICP-02 EU Remote Worker | ICP-03 Non-EU Nomad | ICP-04 Entrepreneur | ICP-05 HNI | ICP-06 Family |
-|---|---|---|---|---|---|---|
-| **Immigration** | | | | | | |
-| Category F Permit | ★★★ | — | ★★ | ★ | ★ | ★★ |
-| Yellow Slip (MEU1) | — | ★★★ | — | ★★ | — | ★★★ |
-| Digital Nomad Visa | — | — | ★★★ | — | — | — |
-| Permanent Residency (6.2) | — | — | — | ★ | ★★★ | — |
-| **Tax** | | | | | | |
-| 60-Day Rule Setup | ★ | ★★★ | ★ | ★★★ | ★★ | ★ |
-| Non-Dom Status | ★ | ★★★ | — | ★★★ | ★★★ | ★ |
-| Personal Tax Return | ★★ | ★★ | ★ | ★★ | ★★ | ★★ |
-| Corporate Tax Advisory | — | — | — | ★★★ | ★★ | — |
-| **Property** | | | | | | |
-| Long-term Rental | ★★ | ★★★ | ★★★ | ★ | ★ | ★★★ |
-| Property Purchase | ★★★ | ★ | ★ | ★ | ★★★ | ★★ |
-| **Healthcare** | | | | | | |
-| GESY Registration | ★★★ | ★★★ | ★★ | ★★ | ★★ | ★★★ |
-| Private Health Insurance | ★★★ | ★ | ★★★ | ★ | ★★★ | ★★ |
-| **Settling In** | | | | | | |
-| Bank Account | ★★ | ★★★ | ★★ | ★★★ | ★★ | ★★ |
-| Driving Licence Exchange | ★★★ | ★★ | ★★ | ★ | ★ | ★★★ |
-| School Registration | — | ★ | — | — | ★ | ★★★ |
-| **Financial** | | | | | | |
-| UK Pension Transfer | ★★★ | — | — | — | ★ | ★ |
-| Investment / Wealth Planning | ★★ | ★ | — | ★★ | ★★★ | ★ |
-| **Removal** | | | | | | |
-| Household Goods Removal | ★★★ | ★★ | ★ | ★ | ★★ | ★★★ |
-| Vehicle Import | ★★ | ★ | — | ★ | ★ | ★★ |
+| Service | ICP-01 UK Retiree | ICP-02 EU Remote Worker | ICP-03 Non-EU Nomad | ICP-04 Entrepreneur | ICP-05 HNI | ICP-06 Family | ICP-07 Property Speculators | ICP-08 Related Partners | ICP-09 Low Budget Escapers |
+|---|---|---|---|---|---|---|---|---|---|
+| **Immigration** | | | | | | | | | |
+| Category F Permit | ★★★ | — | ★★ | ★ | ★ | ★★ | ★ | — | ★ |
+| Yellow Slip (MEU1) | — | ★★★ | — | ★★ | — | ★★★ | ★ | — | — |
+| Digital Nomad Visa | — | — | ★★★ | — | — | — | — | — | — |
+| Permanent Residency (6.2) | — | — | — | ★ | ★★★ | — | ★ | — | — |
+| **Tax** | | | | | | | | | |
+| 60-Day Rule Setup | ★ | ★★★ | ★ | ★★★ | ★★ | ★ | ★ | — | — |
+| Non-Dom Status | ★ | ★★★ | — | ★★★ | ★★★ | ★ | ★ | — | — |
+| Personal Tax Return | ★★ | ★★ | ★ | ★★ | ★★ | ★★ | ★★ | — | — |
+| Corporate Tax Advisory | — | — | — | ★★★ | ★★ | — | — | — | — |
+| **Property** | | | | | | | | | |
+| Long-term Rental | ★★ | ★★★ | ★★★ | ★ | ★ | ★★★ | ★ | — | ★★ |
+| Property Purchase | ★★★ | ★ | ★ | ★ | ★★★ | ★★ | ★★★ | — | — |
+| **Healthcare** | | | | | | | | | |
+| GESY Registration | ★★★ | ★★★ | ★★ | ★★ | ★★ | ★★★ | — | — | ★ |
+| Private Health Insurance | ★★★ | ★ | ★★★ | ★ | ★★★ | ★★ | — | — | ★ |
+| **Settling In** | | | | | | | | | |
+| Bank Account | ★★ | ★★★ | ★★ | ★★★ | ★★ | ★★ | ★★ | — | ★ |
+| Driving Licence Exchange | ★★★ | ★★ | ★★ | ★ | ★ | ★★★ | — | — | ★ |
+| School Registration | — | ★ | — | — | ★ | ★★★ | — | — | — |
+| **Financial** | | | | | | | | | |
+| UK Pension Transfer | ★★★ | — | — | — | ★ | ★ | ★ | — | — |
+| Investment / Wealth Planning | ★★ | ★ | — | ★★ | ★★★ | ★ | ★★ | — | — |
+| **Removal** | | | | | | | | | |
+| Household Goods Removal | ★★★ | ★★ | ★ | ★ | ★★ | ★★★ | — | — | — |
+| Vehicle Import | ★★ | ★ | — | ★ | ★ | ★★ | — | — | — |
 
 **Key:** ★★★ = Almost always needed | ★★ = Often needed | ★ = Sometimes needed | — = Rarely/never needed
 
@@ -64,3 +64,14 @@ Add-ons: Non-Dom + tax structuring, financial planning referral
 ### ICP-06: Family Package
 Core: Immigration for both parents + school guidance + settling-in
 Add-ons: Healthcare setup for children, removal referral, property agent referral
+
+### ICP-07: Property Speculators Package
+Core: Property agent referral + conveyancing lawyer referral
+Add-ons: Tax advisor (rental income), bank account guidance, immigration advisory if relocating
+
+### ICP-08: Related Partners
+*Not a service package — this segment is the source of partner referrals, not a consumer of them. See partner onboarding process.*
+
+### ICP-09: Low Budget Escapers
+Core: Qualification conversation + free Category F threshold guide
+Add-ons: Email nurture only — no paid advisory unless income qualifies; long-term rental referral if planning is concrete

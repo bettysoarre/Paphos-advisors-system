@@ -4,10 +4,12 @@ title: "ICP Segment: Non-EU Digital Nomad"
 segment_code: non-eu-digital-nomad
 status: active
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-05
 owner: "lead-advisor"
 related_segments:
   - ICP-SEG-004
+  - ICP-SEG-005
+  - ICP-SEG-009
 related_content_mapping: "../../icps/mapping/icp-to-content-mapping.md"
 related_service_mapping: "../../icps/mapping/icp-to-service-mapping.md"
 tags:
@@ -22,6 +24,35 @@ tags:
 ## Segment Definition
 
 A citizen of a non-EU/EEA country — commonly US, Canadian, Australian, South African, or from Israeli or MENA markets — who works remotely for a company or clients based outside Cyprus and is seeking legal residency for 12 months or more. Their primary immigration route is the Cyprus Digital Nomad Visa. Unlike EU nationals, they cannot use the Yellow Slip route and must meet specific income and insurance requirements. Tax motivation is generally lower than for EU remote workers as the non-dom structure is less compelling for those without significant dividend income.
+
+---
+
+## Segment Definition Boundaries
+
+This segment includes:
+- Non-EU/EEA nationals working remotely for non-Cyprus employers or clients
+- US, Canadian, Australian, South African, Israeli, and MENA nationals seeking legal residency via the Digital Nomad Visa
+- Couples where both are non-EU or one partner is non-EU (DNV covers dependants at an additional income threshold)
+- Non-EU nationals who have visited Cyprus on a tourist visa and are now applying for the DNV from inside Cyprus
+
+This segment does not include:
+- Non-EU nationals working for a Cyprus employer — re-route to Category E Work Permit
+- Non-EU nationals with significant dividend or passive income as the primary driver — assess for ICP-SEG-004 (Entrepreneur) or ICP-SEG-005 (HNI) based on net worth and structure
+- Non-EU nationals planning to incorporate a Cyprus company as the primary goal — primary driver shifts to ICP-SEG-004
+- Tourists planning to "sort it out when they arrive" with no qualifying income — tourist visa cannot typically be converted; set expectations clearly
+
+---
+
+## Typical Lead Types
+
+### 1. The Active Applicant
+Has already decided on Cyprus, meets the income threshold, and wants to start the application. Often has visited or is currently in Cyprus on a tourist visa. High-intent — looking for process guidance, not decision support.
+
+### 2. The Comparing Nomad
+Researching Cyprus alongside Portugal, Georgia, or Spain. Has not decided. Will spend 2–4 weeks doing comparison research before contacting anyone. Responds well to honest destination comparisons — including where Cyprus is not the strongest option.
+
+### 3. The Couple Applicant
+Two people (one or both non-EU) applying together. The primary earner qualifies and wants to include their partner as a dependant. Questions about partner inclusion, dual income counting, and whether children can be added are the typical entry questions.
 
 ---
 
@@ -40,7 +71,7 @@ A citizen of a non-EU/EEA country — commonly US, Canadian, Australian, South A
 
 ---
 
-## Motivation for Relocating
+## Core Motivation
 
 The primary motivator is an EU base combined with lifestyle. Cyprus is an EU member state, which provides travel flexibility within Europe and carries a level of legal and political stability attractive to nationals from less stable jurisdictions. Paphos has a large English-speaking community and year-round sunshine, both of which matter to this segment.
 
@@ -72,6 +103,19 @@ Cyprus competes directly with Portugal, Spain, Georgia, and Thailand for this se
 | Cyprus Bank Account Opening | Medium |
 | [Cyprus Tax Residency — 60-Day Rule](../../processes/tax/60-day-rule.md) | Low — if they pursue Cyprus tax residency |
 | GESY Registration | Low — only relevant post-residency |
+
+---
+
+## Revenue Logic
+
+This is the lower-revenue segment among the three immigration-led ICPs. The Digital Nomad Visa is a single primary process with limited tax planning need and fewer downstream partner referrals.
+
+Typical revenue sequence:
+1. Immigration lawyer referral — DNV application handling; the primary advisory touchpoint
+2. Private health insurance referral — required for the application; triggers immediately
+3. Property agent referral — proof of accommodation is required; rental search often needed
+4. Bank account guidance — lower conversion than ICP-002; useful but not always a referral
+5. Tax advisor referral — minority of cases, only if client pursues Cyprus tax residency
 
 ---
 
@@ -124,6 +168,15 @@ Content format: comparison articles and direct explainers convert well for this 
 - **Significant dividend or passive income driving the enquiry:** This profile is more likely ICP-SEG-004 (Entrepreneur) or ICP-SEG-005 (HNI). Re-assess segment fit.
 - **Seeking Schengen access as a primary goal:** Cyprus is not in the Schengen Area. If Schengen travel is a key requirement, Cyprus residency does not satisfy it.
 - **Income below the Digital Nomad Visa threshold:** Cannot proceed until income requirements are met. Advise on threshold and close with a follow-up prompt.
+
+---
+
+## Trust and Handling Principles
+
+- This segment is highly comparison-focused — if your content or consultation does not clearly answer "why Cyprus vs. Portugal or Georgia," they will leave for a source that does; be direct and honest about trade-offs
+- Do not oversell Cyprus as the easiest or cheapest nomad option — they have done the research and know the differences; honesty about processing timelines and real costs builds more trust than optimism
+- Be careful with income threshold guidance — the threshold is officially stated but real-world processing can apply additional scrutiny; set expectations accordingly and route to an immigration lawyer for specifics
+- If Cyprus is genuinely not the best option for a specific person, say so — this segment talks loudly in Reddit threads and Facebook groups, and a straightforward referral elsewhere creates more long-term goodwill than a forced fit
 
 ---
 

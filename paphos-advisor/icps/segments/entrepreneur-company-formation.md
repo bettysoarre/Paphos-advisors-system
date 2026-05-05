@@ -4,10 +4,11 @@ title: "ICP Segment: Entrepreneur — Company Formation"
 segment_code: entrepreneur-company-formation
 status: active
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-05
 owner: "lead-advisor"
 related_segments:
   - ICP-SEG-002
+  - ICP-SEG-003
   - ICP-SEG-005
 related_content_mapping: "../../icps/mapping/icp-to-content-mapping.md"
 related_service_mapping: "../../icps/mapping/icp-to-service-mapping.md"
@@ -26,6 +27,34 @@ A founder, business owner, or senior executive who is incorporating a Cyprus com
 
 ---
 
+## Segment Definition Boundaries
+
+This segment includes:
+- Founders and directors incorporating Cyprus HE companies for tax efficiency, IP Box, or EU holding structure
+- Clients pursuing Cyprus corporate structure with or without personal relocation
+- Those combining company formation with personal non-dom election and 60-day rule residency
+- EU and non-EU nationals — nationality determines the personal immigration route but not the corporate structure
+
+This segment does not include:
+- Individuals seeking only personal tax residency with no company involvement — re-route to ICP-SEG-002 (if EU, remote income) or ICP-SEG-005 (if HNI, passive income)
+- Employees of Cyprus companies with no ownership stake — re-route to the appropriate employment permit process
+- Those wanting to incorporate purely for banking purposes with no substance intent — high compliance risk; specialist legal advice required before engaging
+
+---
+
+## Typical Lead Types
+
+### 1. The Tech or SaaS Founder
+Building a product company, often with intellectual property that qualifies for the IP Box. May be relocating personally or just incorporating. Often already has a UK or other EU company and is restructuring. Wants to understand the IP Box specifically, not just the general 12.5% rate.
+
+### 2. The Consultant or Service Business Owner
+Primarily driven by the dividend and non-dom structure. No IP box need. Often a solo operator or small team. Personal relocation to Cyprus is usually part of the plan from the start. Wants to simplify their tax position in one clean move.
+
+### 3. The HoldCo Structurer
+Has existing investments, properties, or passive income streams. Looking to use Cyprus as an EU holding company layer for assets held elsewhere. May not personally relocate; substance requirements are the dominant concern. Tends to arrive with more prior advice than other lead types.
+
+---
+
 ## Demographic Profile
 
 | Attribute | Typical Value |
@@ -41,7 +70,7 @@ A founder, business owner, or senior executive who is incorporating a Cyprus com
 
 ---
 
-## Motivation for Relocating
+## Core Motivation
 
 Corporate tax efficiency is the primary driver. Cyprus's 12.5% corporate tax rate is one of the lowest in the EU. The IP Box regime applies an effective 2.5% rate on qualifying intellectual property income — highly attractive for tech and SaaS businesses. A Cyprus company has EU status, which provides market access and credibility that offshore structures (BVI, Cayman) do not.
 
@@ -75,6 +104,19 @@ Substance requirements are an increasing concern — clients are aware that Cypr
 | VAT Registration | Medium — if turnover exceeds threshold or intra-EU transactions |
 | Corporate Bank Account Opening | High |
 | IP Box Application | Medium — if qualifying IP income |
+
+---
+
+## Revenue Logic
+
+The highest tax advisor referral value of any segment. Corporate and personal tax planning creates a multi-service engagement where the tax advisor handles both strands. Immigration may also be triggered if personal relocation is part of the plan.
+
+Typical revenue sequence:
+1. Tax advisor referral — corporate structure advice plus personal non-dom planning; the most valuable single referral in this segment
+2. Corporate services / company secretary referral — HE company formation and registered office
+3. Immigration lawyer referral — Yellow Slip (EU nationals) or Category F (non-EU nationals) if personally relocating
+4. Corporate banking referral — often the longest and most frustrating part of the process; sets expectations early
+5. Financial advisor referral — for larger clients with wealth structuring and asset management needs
 
 ---
 
@@ -128,6 +170,16 @@ Content format: technical explainers and comparison articles. This segment has h
 - **Client's company is in a high-scrutiny sector (gambling, crypto, certain financial services):** Cyprus banking has become significantly more selective. If the business sector has known banking difficulties, flag this early — the corporate banking step may be the blocking constraint.
 - **No intention to personally establish Cyprus tax residency:** If the director remains tax resident elsewhere and the company has no Cyprus-based management and control, the structure may not achieve its intended purpose. Specialist advice required before quoting services.
 - **Timeframe is unrealistic:** Company formation takes 2–4 weeks; bank account opening can take 2–3 months. Clients expecting same-week setup need to be re-calibrated.
+
+---
+
+## Trust and Handling Principles
+
+- This segment has usually already consulted a tax advisor in their home country — match their level of knowledge rather than educating; vague answers read as incompetence, not caution
+- Be direct about the substance requirement problem — do not minimise it; clients who build letterbox structures face real compliance risk, and flagging this clearly establishes credibility rather than losing the lead
+- Corporate banking in Cyprus is genuinely difficult and time-consuming — acknowledge this honestly in the first conversation rather than revealing it as a surprise later
+- Disclose commission on tax advisor and corporate services referrals; this segment is commercially literate and will assume commercial arrangements exist regardless
+- Frame all advisory in compliance terms, not avoidance terms — Cyprus is a legitimate EU jurisdiction with real legal structures; positioning it as a workaround attracts the wrong clients and the wrong scrutiny
 
 ---
 

@@ -50,15 +50,18 @@ See `icps/segments/` for full profiles. Content priority order (highest first):
 
 We use a pillar-cluster model for topical authority. See `content-system/topical-map/` for the full structure.
 
-**6 pillars:**
-1. Immigration & Residency
-2. Tax & Financial Planning
-3. Property (Buying & Renting)
-4. Business Formation
-5. Healthcare (GESY & Private)
-6. Settling In (Banking, Utilities, Schools)
+**Architecture:** One master entry-point pillar, five topic sub-pillars.
 
-Each pillar has a comprehensive pillar page and multiple supporting cluster pages. All cluster pages link back to the pillar page. Internal links reinforce the topical structure.
+| # | Pillar | Type | Primary keyword |
+|---|---|---|---|
+| 0 | Moving to Cyprus | Master — routes readers to all sub-pillars | "moving to Cyprus" |
+| 1 | Immigration & Residency | Sub-pillar | "Cyprus residency for expats" |
+| 2 | Tax & Financial Planning | Sub-pillar | "Cyprus tax for expats" |
+| 3 | Buying Property in Cyprus | Sub-pillar | "buying property in Cyprus" |
+| 4 | Setting Up a Business | Sub-pillar | "setting up a business in Cyprus" |
+| 5 | Living in Paphos | Sub-pillar — covers healthcare, settling-in, daily life | "living in Paphos" |
+
+Each pillar has a comprehensive pillar page and multiple supporting cluster pages. All cluster pages link back to their pillar page. Internal links reinforce topical structure. Full detail in `content-system/topical-map/pillar-topics.md`.
 
 ---
 

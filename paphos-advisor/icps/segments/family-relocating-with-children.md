@@ -4,7 +4,7 @@ title: "ICP Segment: Family Relocating with Children"
 segment_code: family-relocating-with-children
 status: active
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-05
 owner: "lead-advisor"
 related_segments:
   - ICP-SEG-001
@@ -26,6 +26,35 @@ A family unit — typically two adults with one or more school-age children — 
 
 ---
 
+## Segment Definition Boundaries
+
+This segment includes:
+- Family units with dependent school-age children (under 18) making a full relocation to Cyprus
+- Mixed-nationality couples (e.g., one EU parent and one UK parent) where each parent follows a different immigration route
+- Families where school selection is a primary driver of both timing and area choice
+- Families where one parent is a remote worker (ICP-002 profile) but the children's needs dominate the enquiry
+
+This segment does not include:
+- Couples without dependent children — re-route to ICP-SEG-001 or ICP-SEG-002 based on nationality and employment
+- Families where the children are 18 or older — adult children apply independently; parents follow their own segment profiles
+- Families relocating because one parent is taking up physical employment with a Cyprus employer — immigration route changes significantly
+- Families where only one parent is relocating initially — re-qualify to the appropriate individual segment until the full family unit is confirmed
+
+---
+
+## Typical Lead Types
+
+### 1. The School-Led Family
+School choice is driving the entire decision. They want to know: which schools are good, where are they located, how do we register, what does it cost. Immigration and housing questions come second. Often the mother initiates the first enquiry. Responds well to school guides and family area content more than process documents.
+
+### 2. The EU + UK Couple
+One EU parent (Yellow Slip) and one UK parent (Category F). They find most relocation guides answer only one of their questions and leave the other hanging. They need someone who can handle both processes simultaneously without confusion. This lead type has high trust-conversion potential because the need is genuinely underserved.
+
+### 3. The Full-Plan Family
+Fully committed to the move but overwhelmed by complexity. Has a 6–12 month planning horizon. Wants someone to map out the entire process — immigration for both parents, school registration, housing search, GESY, removal. The first conversation sets the tone for whether they trust Paphos Advisors to hold the whole picture.
+
+---
+
 ## Demographic Profile
 
 | Attribute | Typical Value |
@@ -42,7 +71,7 @@ A family unit — typically two adults with one or more school-age children — 
 
 ---
 
-## Motivation for Relocating
+## Core Motivation
 
 Lifestyle and safety are primary — Cyprus is safe, family-friendly, English-speaking, and offers year-round outdoor life that is attractive for children. The combination of a Mediterranean environment and English as the de facto first language (in schools, services, and community) makes it particularly accessible for UK and Northern European families.
 
@@ -79,6 +108,20 @@ The move is typically enabled by one or both parents working remotely. Tax effic
 | Vehicle Import | Low — if bringing a family vehicle |
 
 *Note: Each parent's residency route depends on their individual nationality. Mixed-nationality couples often require two separate immigration processes running in parallel.*
+
+---
+
+## Revenue Logic
+
+Families generate volume across multiple service categories — immigration for two adults on potentially different routes, school referral, property agent, GESY registration, and removal. Property purchase typically follows 12–24 months after arrival, mirroring the ICP-001 pattern.
+
+Typical revenue sequence:
+1. Immigration referrals — often two separate processes (Yellow Slip + Category F) running in parallel; two lawyer referrals possible
+2. Property agent referral — family-sized rental (3+ bedrooms) in school catchment; often the most urgent practical need
+3. School referral — not a direct commission but builds strong community trust and word-of-mouth
+4. GESY registration assistance — whole-family registration including children
+5. Removal / shipping referral — most families in this segment are shipping significant household goods
+6. Property purchase — 12–24 months post-arrival once the family is settled
 
 ---
 
@@ -133,6 +176,16 @@ Content format: practical guides and area-specific information. This segment rea
 - **Parents have complex custody arrangements across jurisdictions:** International custody situations can affect the ability to relocate children. This is a legal matter requiring specialist family law advice before immigration work proceeds. Paphos Advisors cannot advise on custody law.
 - **Primary school requirement is in Greek medium:** State schools in Cyprus are Greek-medium. If the family requires English-medium education and cannot afford private school fees, this may be a viability issue worth raising early.
 - **Budget does not support private school fees alongside housing and living costs:** Private and international school fees in Paphos range from €4,000–€15,000+ per year per child. Families who have not factored this into their budget may find Cyprus less affordable than expected.
+
+---
+
+## Trust and Handling Principles
+
+- School and children's healthcare are emotional topics — approach these with warmth and patience, not process efficiency; this segment is making a decision for their children's wellbeing, not just their own convenience
+- Mixed-nationality couples often feel unserved by most relocation guides that only answer one partner's question — actively demonstrate that you handle both immigration routes simultaneously; this is a clear differentiator
+- Be honest about private school costs early and specifically; budget surprises around school fees are the most common reason a family aborts the move mid-planning
+- Account for the school year cycle in all planning conversations — most families only move in July or August; the advisory timeline must be calibrated around that constraint, not a generic process calendar
+- Disclose property commission clearly; at the family level, clients have strong community ties, and word-of-mouth influence is significant in both directions
 
 ---
 

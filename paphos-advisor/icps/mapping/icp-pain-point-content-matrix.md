@@ -5,7 +5,7 @@ type: planning-reference
 created: 2026-04-25
 updated: 2026-04-25
 owner: lead-advisor
-due: 2026-05-03
+due: 2026-06-05
 related_files:
   - icps/mapping/icp-to-content-mapping.md
   - system/taxonomies/content-categories.yaml
@@ -222,6 +222,89 @@ Maps each ICP segment's specific pain points to content ideas across three pilla
 | What are the best areas for families near good schools? | Best family-friendly areas in Paphos — near schools and amenities | lifestyle | ★★★ | ⬜ |
 | How much does private school actually cost? | Cost of private school in Paphos — realistic 2026 figures | lifestyle | ★★★ | ⬜ |
 | What is family life like day-to-day in Paphos? | Family life in Paphos — what to expect in year one | lifestyle | ★★ | ⬜ |
+
+---
+
+## ICP-007 — Property Speculators
+
+*Primary anxiety: "How do I know the title deed is clean and the developer is legitimate?"*
+
+### Method / How-to
+
+| Pain Point | Content Idea | Type | Priority | Status |
+|---|---|---|---|---|
+| Are title deeds guaranteed on new builds in Cyprus? | Cyprus property title deed risk — what every buyer needs to know | guide | ★★★ | ⬜ |
+| How do I check a developer's reputation and track record? | Developer due diligence in Cyprus — red flags and verification checklist | guide | ★★★ | ⬜ |
+| What is the property buying process in Cyprus? | Buying property in Cyprus — step-by-step guide | guide | ★★★ | ⬜ |
+| Can I buy property as a UK national after Brexit? | Buying property in Cyprus as a British citizen | guide | ★★★ | ⬜ |
+| Are repossessed / red-loan properties worth buying? | Repossessed and red-loan properties in Cyprus — the real picture | guide | ★★ | ⬜ |
+| Do I need to be a resident to buy in Cyprus? | Buying property in Cyprus without residency — what the rules say | faq | ★★ | ⬜ |
+
+### Housekeeping
+
+| Pain Point | Content Idea | Type | Priority | Status |
+|---|---|---|---|---|
+| What are the steps and costs in a Cyprus property purchase? | Cyprus property purchase — full costs and timeline checklist | checklist | ★★★ | ⬜ |
+| What do I need to check before signing a contract? | Pre-contract due diligence checklist — Cyprus property buyers | checklist | ★★★ | ⬜ |
+| What are the annual costs of owning a Cyprus property? | Annual ownership costs in Cyprus — what to budget | checklist | ★★ | ⬜ |
+
+### Lifestyle
+
+| Pain Point | Content Idea | Type | Priority | Status |
+|---|---|---|---|---|
+| What are rental yields like in Paphos vs Limassol? | Rental yields in Paphos and Limassol — realistic 2026 data by area | lifestyle | ★★★ | ⬜ |
+| What do you get for your money at different price points? | Cyprus property at €200k, €300k, €500k — what to expect | lifestyle | ★★ | ⬜ |
+| Which areas are best for investment vs lifestyle? | Paphos vs Limassol — property investor's guide to location | lifestyle | ★★ | ⬜ |
+
+---
+
+## ICP-008 — Related Partners
+
+*Primary concern: "Is Paphos Advisors genuinely independent and credible enough to refer my clients to?"*
+
+### Method / How-to
+
+| Pain Point | Content Idea | Type | Priority | Status |
+|---|---|---|---|---|
+| How does Paphos Advisors work with referral partners? | Partner with Paphos Advisors — how it works (page) | page | ★★★ | ⬜ |
+| What is the fee and referral structure? | How we handle referrals and commissions — transparency page | page | ★★★ | ⬜ |
+
+### Housekeeping
+
+| Pain Point | Content Idea | Type | Priority | Status |
+|---|---|---|---|---|
+| What has changed in immigration/tax rules recently? | Regulatory update posts — Category F, MEU1, 60-day rule, DNV | update | ★★ | ⬜ |
+
+### Lifestyle
+
+*No lifestyle content applicable to this segment.*
+
+---
+
+## ICP-009 — Low Budget Escapers
+
+*Primary anxiety: "Can I actually afford to move to Cyprus, and do I qualify?"*
+
+### Method / How-to
+
+| Pain Point | Content Idea | Type | Priority | Status |
+|---|---|---|---|---|
+| How much income do I need for Category F? | Category F income requirements — exactly what you need | guide | ★★★ | ⬜ |
+| Can I work in Cyprus as a UK or EU national? | Working in Cyprus as a UK or EU national — what the rules say | faq | ★★ | ⬜ |
+| Do I need a visa if I stay 90 days? | 90-day stays in Cyprus — tourist rules and what happens after | faq | ★★ | ⬜ |
+
+### Housekeeping
+
+| Pain Point | Content Idea | Type | Priority | Status |
+|---|---|---|---|---|
+| What documents do I need if I do qualify for Category F? | Category F application — documents checklist | checklist | ★★ | ⬜ |
+
+### Lifestyle
+
+| Pain Point | Content Idea | Type | Priority | Status |
+|---|---|---|---|---|
+| How much does it actually cost to live in Paphos? | Cost of living in Paphos — realistic 2026 figures | lifestyle | ★★★ | ⬜ |
+| What are the cheapest areas to rent in Paphos? | Renting in Paphos — areas, costs, and what to expect | lifestyle | ★★ | ⬜ |
 
 ---
 

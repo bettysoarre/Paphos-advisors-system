@@ -7,7 +7,7 @@ applies_to:
   - content
   - processes
 created: 2026-03-15
-updated: 2026-04-13
+updated: 2026-05-05
 owner: "lead-advisor"
 ---
 
@@ -77,6 +77,7 @@ values:
       residence, holiday home, or investment. May or may not be relocating permanently.
       Have specific needs around conveyancing, title deeds, mortgage access, and
       property management.
+    segment_ref: ICP-SEG-007
 
   - value: hni
     label: "HNI — Permanent Residency"
@@ -94,7 +95,26 @@ values:
       Require coordinated advisory across several service areas and are the highest
       value segment for Paphos Advisors.
 
+  - value: related-partners
+    label: "Related Partners"
+    description: >
+      Cyprus-based professionals (lawyers, accountants, property agents, relocation fixers)
+      or established locally resident expats who interact with Paphos Advisors as referral
+      sources, co-advisors, or influence nodes — not as direct end-clients. This is a B2B
+      stakeholder category, not a front-end marketing ICP.
+    segment_ref: ICP-SEG-008
+
+  - value: low-budget-aspirational
+    label: "Low Budget Aspirational"
+    description: >
+      Individuals dreaming of moving to Cyprus whose budget, income, or intent does not
+      match the core Paphos Advisors commercial model. Includes seasonal workers, retirees
+      below the Category F income threshold, and people planning short-term stays rather
+      than genuine long-term relocation. High content engagement, low direct advisory value.
+    segment_ref: ICP-SEG-009
+
 rules:
   - "A client may be assigned multiple segment values simultaneously."
   - "Where a detailed ICP-SEG file exists, the segment_ref field links to it as the canonical definition."
   - "Taxonomy values must be referenced in frontmatter and content briefs as kebab-case lowercase."
+  - "ICP-SEG-008 (Related Partners) is a B2B stakeholder category — do not apply to front-end marketing ICPs or content targeting."

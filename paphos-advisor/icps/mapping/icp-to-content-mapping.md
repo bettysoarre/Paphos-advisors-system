@@ -86,6 +86,42 @@ Maps each ICP segment to the content they are most likely to search for and find
 
 ---
 
+### ICP-07: Property Speculators
+
+| Content | Type | Priority | Notes |
+|---|---|---|---|
+| Cyprus property title deed risk — what every buyer needs to know | Guide | ★★★ | Core anxiety; differentiating content |
+| Rental yields in Paphos and Limassol — realistic 2026 data | Guide | ★★★ | Primary investment question |
+| Developer due diligence in Cyprus — red flags and how to verify | Guide | ★★★ | High-trust content; needs legal review before publishing |
+| Buying property in Cyprus as a UK national (post-Brexit) | Process explainer | ★★★ | High-volume search term |
+| Repossessed and red-loan properties in Cyprus — worth buying? | Guide | ★★ | Niche but high intent |
+| True cost of owning a Cyprus property from abroad | Guide | ★★ | Research-stage content |
+| Do I need residency to buy property in Cyprus? | FAQ | ★★ | Common early-stage question |
+
+---
+
+### ICP-08: Related Partners
+
+| Content | Type | Priority | Notes |
+|---|---|---|---|
+| Work with us / Partner with Paphos Advisors (page) | Page | ★★★ | Primary content deliverable for this segment — not an article |
+| Regulatory update posts (Category F, MEU1, DNV, 60-day rule changes) | Update | ★★ | Builds authority with professionals; share via email/LinkedIn |
+| Deep-dive process guides (Yellow Slip, Category 6.2 PR, company formation) | Guide | ★★ | Demonstrates expertise to professionals who refer clients |
+| Developer due diligence resources | Guide | ★★ | Useful for agents and lawyers to share with their clients |
+
+---
+
+### ICP-09: Low Budget Escapers
+
+| Content | Type | Priority | Notes |
+|---|---|---|---|
+| Category F income requirements — exactly what you need to qualify | Guide | ★★★ | Primary qualification content; also serves ICP-001 at early awareness |
+| Cost of living in Paphos — realistic 2026 figures | Guide | ★★★ | High search volume; double-serves ICP-001 |
+| Can I work in Cyprus as a UK or EU national? | FAQ | ★★ | Common question for this segment |
+| Renting in Paphos — what to budget and where to look | Guide | ★★ | Serves early-stage, budget-conscious enquirers |
+
+---
+
 ## Cross-ICP Content (serves multiple segments)
 
 | Content | Serves | Priority |

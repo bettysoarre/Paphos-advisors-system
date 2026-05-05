@@ -4,11 +4,12 @@ title: "ICP Segment: HNI — Permanent Residency"
 segment_code: hni-permanent-residency
 status: active
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-05
 owner: "lead-advisor"
 related_segments:
   - ICP-SEG-001
   - ICP-SEG-004
+  - ICP-SEG-007
 related_content_mapping: "../../icps/mapping/icp-to-content-mapping.md"
 related_service_mapping: "../../icps/mapping/icp-to-service-mapping.md"
 tags:
@@ -27,6 +28,35 @@ A high net worth individual seeking Cyprus permanent residency through the fast-
 
 ---
 
+## Segment Definition Boundaries
+
+This segment includes:
+- Non-EU nationals investing €300,000+ in new developer property for Category 6.2 Permanent Residency
+- Full family units (spouse and dependent children) applying under a single main applicant
+- Clients seeking EU PR primarily for security, travel rights, and EU status — lifestyle is secondary
+- Clients who may also pursue non-dom election and corporate structuring alongside the PR application
+
+This segment does not include:
+- EU nationals — they can use the Yellow Slip and do not need Category 6.2; re-route to ICP-SEG-002
+- Non-EU nationals below the €300k property investment threshold — re-route to Digital Nomad Visa (ICP-SEG-003) if income qualifies, or Category F if self-sufficient
+- Investment funds or companies purchasing property — Category 6.2 is for individuals and families, not corporate entities
+- Russian nationals currently subject to sanctions complications — require specialist legal advice before any engagement; do not proceed without that referral
+
+---
+
+## Typical Lead Types
+
+### 1. The Family Safety Net Buyer
+The primary goal is EU PR as a contingency plan alongside life elsewhere. Will purchase the qualifying property, obtain PR, and visit Cyprus occasionally. Not a full relocation. Tax is a secondary benefit. Often reaches out through a professional intermediary (lawyer or financial advisor) rather than searching directly.
+
+### 2. The Relocation Planner
+Genuinely intending to make Cyprus a primary or significant secondary residence. Wants PR as the formal legal status. Tax efficiency, lifestyle, and EU stability all matter alongside the PR route. Often asks early about schooling and family setup — overlaps with ICP-SEG-006.
+
+### 3. The Due Diligence-First Client
+Approaches the decision methodically. Has been burned before, or knows people who have, by poor developer deals. First questions are about developer vetting, title deeds, and what can go wrong — not about the PR process itself. Trust must be earned before any property introduction is made.
+
+---
+
 ## Demographic Profile
 
 | Attribute | Typical Value |
@@ -42,7 +72,7 @@ A high net worth individual seeking Cyprus permanent residency through the fast-
 
 ---
 
-## Motivation for Relocating
+## Core Motivation
 
 EU permanent residency status is the primary driver. This segment is not primarily moving for lifestyle — they want the security, travel rights, and stability of an EU member state residency status, often as a contingency alongside their primary residence elsewhere. Cyprus's Category 6.2 route offers a relatively fast, investment-linked path to permanent residency compared to equivalent programmes in other EU member states.
 
@@ -75,6 +105,19 @@ Asset security and political stability are also cited — Cyprus as an EU-govern
 | Private Health Insurance | High — required for the application |
 | Criminal Record Certificate (from country of origin) | High — required for the application |
 | Corporate Tax Planning | Medium — if they have Cyprus or offshore company structures |
+
+---
+
+## Revenue Logic
+
+The highest per-case value of any segment. The property agent commission on a €300k+ new developer purchase is the primary revenue event; immigration and tax advisory are high-value secondary streams that run in parallel.
+
+Typical revenue sequence:
+1. Content or referral drives initial enquiry — often via a trusted professional or nationality-specific channel
+2. Immigration lawyer referral — Category 6.2 application is legally complex and must be handled by a specialist
+3. Property agent referral — qualifying €300k+ new developer property; the primary revenue event
+4. Tax advisor referral — non-dom election, wealth structuring, cross-border planning at this net worth level
+5. Financial advisor referral — currency conversion, asset management, investment planning at the €300k+ transaction size
 
 ---
 
@@ -131,6 +174,18 @@ Content format: authoritative, detailed guides. This segment reads carefully and
 
 ---
 
+## Trust and Handling Principles
+
+- Technical authority and risk-awareness are the primary trust signals for this segment — they are evaluating whether you know more than they do; match or exceed their level of knowledge on the process
+- Developer due diligence is non-negotiable — never introduce a developer without being prepared to stand behind that recommendation; a poor developer outcome is catastrophic for the relationship and for reputation in this segment's network
+- Disclose property commission proactively and clearly; at this transaction value, any hint of undisclosed commercial interest is disqualifying
+- Do not rush this segment — they make considered decisions on large investments and will disengage from any relationship that applies pressure or urgency
+- Geopolitical and sanction-related complications (particularly Russia) must be handled with extreme care; refer to specialist legal advice rather than attempting to advise directly or reassure informally
+
+---
+
 ## Notes
 
 *Highest individual case value of all segments, but lower volume than ICP-SEG-001 and ICP-SEG-002. Best acquired through: referrals from existing partner network (property developers, wealth managers), nationality-specific content (Israeli/South African/MENA audiences), and HNW partner relationships. Update with real case data as it accumulates — particularly: which nationalities actually convert, whether family inclusion is always the case, and typical advisory touchpoints from first enquiry to application submission.*
+
+*Irish HNW sub-audience: Irish nationals are EU citizens and technically follow the Yellow Slip residency route (ICP-SEG-002), but their motivations — EU base security, wealth structuring, long-term flexibility — overlap significantly with this segment. They are a named content target. Website content for this audience stays neutral (stability, structure, opportunity); social media content can reference EU/political context as a "why now" driver. Do not conflate with the broader ICP-005 profile when writing content — the tone differs.*

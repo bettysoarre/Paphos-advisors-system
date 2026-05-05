@@ -13,16 +13,20 @@ All cluster pages link back to the pillar page. The pillar page links outward to
 
 ---
 
-## The 6 Pillars
+## The Pillar Structure
 
-| Pillar | File | Pillar page target keyword | Cluster count |
-|---|---|---|---|
-| Immigration & Residency | [pillar-immigration.md](pillar-immigration.md) | "moving to Cyprus" / "living in Cyprus" | ~10 |
-| Tax & Financial Planning | [pillar-tax.md](pillar-tax.md) | "Cyprus tax for expats" / "Cyprus tax residency" | ~8 |
-| Property | [pillar-property.md](pillar-property.md) | "buying property in Cyprus" / "renting in Cyprus" | ~8 |
-| Business Formation | [pillar-business.md](pillar-business.md) | "Cyprus company formation" | ~6 |
-| Healthcare | [pillar-healthcare.md](pillar-healthcare.md) | "healthcare in Cyprus for expats" | ~5 |
-| Settling In | [pillar-settling-in.md](pillar-settling-in.md) | "settling in Cyprus" / "Cyprus expat guide" | ~8 |
+One master entry-point pillar, five topic sub-pillars. Full cluster detail for all six is in [pillar-topics.md](pillar-topics.md) — that is the canonical reference. The individual per-pillar files below are superseded by it.
+
+| # | Pillar | Type | Primary keyword | Cluster count |
+|---|---|---|---|---|
+| 0 | Moving to Cyprus | Master | "moving to Cyprus" | ~8 |
+| 1 | Immigration & Residency | Sub-pillar | "Cyprus residency for expats" | ~9 |
+| 2 | Tax & Financial Planning | Sub-pillar | "Cyprus tax for expats" | ~9 |
+| 3 | Buying Property in Cyprus | Sub-pillar | "buying property in Cyprus" | ~9 |
+| 4 | Setting Up a Business | Sub-pillar | "setting up a business in Cyprus" | ~9 |
+| 5 | Living in Paphos | Sub-pillar (covers healthcare + settling-in + daily life) | "living in Paphos" | ~10 |
+
+**Superseded files** (kept for reference, do not update): `pillar-immigration.md`, `pillar-tax.md`, `pillar-property.md`, `pillar-business.md`, `pillar-healthcare.md`, `pillar-settling-in.md`
 
 ---
 

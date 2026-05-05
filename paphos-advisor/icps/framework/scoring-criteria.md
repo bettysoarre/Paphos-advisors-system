@@ -70,8 +70,8 @@ After scoring, assign the ICP segment based on:
 | Any nationality, forming a Cyprus company | ICP-04 Entrepreneur |
 | High net worth, seeking permanent residency or citizenship | ICP-05 HNI |
 | Moving with children, school registration is a priority | ICP-06 Family |
-| Transferred by employer to Cyprus role | ICP-07 Intra-Company Transfer |
-| Buying Cyprus property as an investment (not primary residence) | ICP-08 Property Investor |
-| Cyprus heritage, family ties, returning | ICP-09 Return Diaspora |
+| Buying Cyprus property as investment or holiday home, not primarily for residency | ICP-07 Property Speculators |
+| Cyprus-based professional or established expat acting as a referral source or co-advisor | ICP-08 Related Partners |
+| Budget, income, or intent does not meet advisory model threshold | ICP-09 Low Budget Escapers |
 
 Note the segment in the Case record at intake. It does not need to be perfect — update it if the picture becomes clearer during the case.
