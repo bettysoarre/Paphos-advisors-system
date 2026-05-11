@@ -1,4 +1,8 @@
-﻿# Topical Map — Pillar Topics
+﻿> **ARCHIVED 2026-05-11.** This is the original 6-pillar content plan (49 pieces).
+> Superseded by the [Canonical URL Inventory](../sitemap/canonical-url-inventory.md) and [ICP Pathway Topics](icp-pathway-topics.md).
+> Do not update this file.
+
+# Topical Map — Pillar Topics
 
 This document defines the six content pillars for Paphos Advisors. Each pillar represents a major topic cluster that we intend to own with topical authority. Supporting content ideas listed under each pillar will become individual Content Pipeline entries in Notion.
 
