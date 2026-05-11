@@ -1,89 +1,81 @@
 # Topical Map Overview
 
 ## Purpose
-This document provides the master overview of the content topical structure. Individual pillar files contain the detailed cluster breakdown for each pillar.
+This document describes the content architecture for Paphos Advisors.
+The canonical reference for all pages, URLs, and metadata is the
+[Canonical URL Inventory](../sitemap/canonical-url-inventory.md) — consult that file first.
+
+---
 
 ## Architecture
 
-We use a 6-pillar content architecture. Each pillar has:
-- One comprehensive **pillar page** (2,000–4,000 words) — the definitive overview of that topic area
-- Multiple **cluster pages** — process explainers, FAQ pages, checklists, comparisons linked to the pillar
-
-All cluster pages link back to the pillar page. The pillar page links outward to all its clusters.
-
----
-
-## The Pillar Structure
-
-One master entry-point pillar, five topic sub-pillars. Full cluster detail for all six is in [pillar-topics.md](pillar-topics.md) — that is the canonical reference. The individual per-pillar files below are superseded by it.
-
-| # | Pillar | Type | Primary keyword | Cluster count |
-|---|---|---|---|---|
-| 0 | Moving to Cyprus | Master | "moving to Cyprus" | ~8 |
-| 1 | Immigration & Residency | Sub-pillar | "Cyprus residency for expats" | ~9 |
-| 2 | Tax & Financial Planning | Sub-pillar | "Cyprus tax for expats" | ~9 |
-| 3 | Buying Property in Cyprus | Sub-pillar | "buying property in Cyprus" | ~9 |
-| 4 | Setting Up a Business | Sub-pillar | "setting up a business in Cyprus" | ~9 |
-| 5 | Living in Paphos | Sub-pillar (covers healthcare + settling-in + daily life) | "living in Paphos" | ~10 |
-
-**Superseded files** (kept for reference, do not update): `pillar-immigration.md`, `pillar-tax.md`, `pillar-property.md`, `pillar-business.md`, `pillar-healthcare.md`, `pillar-settling-in.md`
+The site uses an **ICP-pathway-first** model. Each audience segment has a dedicated pathway hub
+grouping all content relevant to that segment. Cross-ICP topics that serve multiple segments
+have their own standalone hubs. A third layer — Services, Experts, Locations, and Support pages
+— provides functional pages that cross-link across pathways.
 
 ---
 
-## Content Priority Matrix
+## ICP Pathway Hubs (8)
 
-Cluster pages are prioritised by: search demand × ICP relevance × knowledge readiness.
-
-**Tier 1 — Highest priority (produce first):**
-- Yellow Slip guide (Immigration)
-- 60-Day Rule / Non-Dom Status guide (Tax)
-- Renting a property guide (Property)
-- Moving to Cyprus — comprehensive guide (Settling In)
-
-**Tier 2 — High priority:**
-- Category F Permit guide (Immigration)
-- Digital Nomad Visa guide (Immigration)
-- Cyprus company formation guide (Business)
-- GESY registration guide (Healthcare)
-- Buying property in Cyprus (Property)
-
-**Tier 3 — Medium priority:**
-- Comparison articles, specific process FAQs, checklists
+| Pathway | Hub URL | Primary ICP | Phase |
+|---------|---------|-------------|-------|
+| Remote Workers | /remote-workers | ICP-002 | P0 |
+| Entrepreneurs | /entrepreneurs | ICP-004 | P0 |
+| Permanent Residency | /permanent-residency | ICP-005 | P0 |
+| Families | /families | ICP-006 | P0 |
+| Retirees | /retirees | ICP-001 | P0 |
+| Digital Nomads | /digital-nomads | ICP-003 | P2 |
+| Property Investors | /property-investors | ICP-007 | P2 |
+| Budget Movers | /budget-movers | ICP-009 | P2 |
 
 ---
 
-## Internal Linking Map (Simplified)
+## Cross-ICP Topic Hubs (4)
 
-```
-Immigration pillar
-  → Yellow Slip explainer ← links to → Non-Dom Status (Tax)
-  → Category F explainer ← links to → Private Health Insurance (Healthcare)
-  → Digital Nomad Visa explainer
-
-Tax pillar
-  → 60-Day Rule explainer ← links to → Yellow Slip (Immigration)
-  → Non-Dom Status explainer ← links to → Company Formation (Business)
-  → Personal Tax Return explainer
-
-Property pillar
-  → Renting a Property ← links to → Yellow Slip (Immigration)
-  → Buying Property (EU National)
-  → Buying Property (Non-EU)
-
-Business pillar
-  → Company Formation guide ← links to → Tax (Non-Dom, IP Box)
-  → IP Box Regime explainer
-
-Healthcare pillar
-  → GESY Registration guide ← links to → Yellow Slip (Immigration)
-
-Settling In pillar
-  → Opening a Bank Account ← links to → Yellow Slip (Immigration)
-  → School Registration
-```
+| Hub | URL | Serves | Phase |
+|-----|-----|--------|-------|
+| Tax & Residency | /tax-residency | ICP-001, ICP-002, ICP-004, ICP-005 | P0 |
+| Property | /property | ICP-001, ICP-005, ICP-006, ICP-007 | P0 |
+| Settling In | /settling-in | All | P1 |
+| Resources | /resources | All | P0 |
 
 ---
 
-## Status Tracking
+## Supporting Sections
 
-Track content production status in the Notion Content Pipeline. Filter by `Topic Area` to see status per pillar.
+| Section | URL | Phase | Notes |
+|---------|-----|-------|-------|
+| Services | /services | P0 | BOFU conversion pages; one per service category and sub-service |
+| Experts | /experts | P0 hub, P1 sub-pages | Partner category pages for trust and referral conversion |
+| Locations | /locations | P0 hub, P1/P2 sub-pages | Area guides; support property and lifestyle decisions |
+| Compare | /compare | P1/P2 | Comparison articles; decision-stage content |
+| Glossary | /glossary | P1 | Plain-English definitions; TOFU / LLM retrieval |
+| FAQ | /faq | P0 hub, P1 sub-pages | Structured answers; high TOFU search demand |
+| Tools | /tools | P1 | Lead magnets and interactive tools |
+| Core | /, /about, /contact, /start, /legal | P0 | Utility and trust pages |
+
+---
+
+## Content Reference Files
+
+| File | Purpose |
+|------|---------|
+| [Canonical URL Inventory](../sitemap/canonical-url-inventory.md) | Master list of all 130 pages — URL slugs, H1s, types, phases, funnel stages, primary keywords, ICP assignments, process doc links, status. **This is the source of truth.** |
+| [ICP Pathway Topics](icp-pathway-topics.md) | Human-readable content plan grouped by pathway and section — use for planning and prioritisation reviews |
+| [ICP-to-Content Mapping](../../icps/mapping/icp-to-content-mapping.md) | Maps each ICP segment to specific content pieces with priority and URL slug |
+
+---
+
+## Archived
+
+`pillar-topics-ARCHIVED.md` — the original 6-pillar topic plan (49 pieces, 6 pillars).
+Superseded by the canonical URL inventory. Kept for reference only — do not update it.
+
+---
+
+## Production Status
+
+Track production status per page in the Notion Content Pipeline.
+The `status` column in the inventory (`idea / briefed / drafted / published`)
+mirrors the Notion pipeline state — keep both in sync when a brief is created or a draft moves forward.
