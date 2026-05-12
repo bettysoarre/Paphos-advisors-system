@@ -277,6 +277,6 @@ Claude will use CronCreate to enqueue the job for the current session. The job f
 
 **To trigger manually at any time:**
 
-> "Activate the Knowledge Lint Agent. Run all steps and save the report to `paphos-advisor/assets/research-captures/lint-[YYYY-MM-DD].md`."
+> "Activate the Knowledge Lint Agent. Run all steps and save the report as a new Notion page under PA - Research & Knowledge Hub → Knowledge Lint Agent Audit."
 
-**Report saved to:** `paphos-advisor/assets/research-captures/lint-[YYYY-MM-DD].md`
+**Report saved to:** Notion — PA - Research & Knowledge Hub → Knowledge Lint Agent Audit → page titled `PaphosAdvisor Knowledge Audit — [YYYY-MM-DD]`
