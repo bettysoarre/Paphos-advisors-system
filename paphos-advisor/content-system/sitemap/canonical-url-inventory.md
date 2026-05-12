@@ -2,7 +2,7 @@
 title: Canonical URL Inventory
 source: Jason's IA Workbook (Sheet 1 — SEO metadata) + Sheet 2 (site tree / phase)
 synced: 2026-05-11
-total-pages: 130
+total-pages: 141
 p0-count: 42
 supersedes: content-system/topical-map/pillar-topics.md
 note: Primary keywords extracted from meta description prefix (pattern "[primary-keyword]: practical Paphos guidance..."). Verify against Jason's sheet column 10 before briefing. Phase data from site tree sheet.
@@ -54,6 +54,9 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 | P030 | /entrepreneurs/company-formation-cyprus | Cyprus Company Formation Guide | FAQ | P0 | MOFU | Cyprus company formation | ICP-004 | [company-formation.md](../../../processes/business/company-formation.md) | idea |
 | P031 | /entrepreneurs/running-foreign-business-from-cyprus | Running a Foreign Business from Cyprus | FAQ | P1 | MOFU | running foreign business from Cyprus | ICP-004 | — | idea |
 | P032 | /entrepreneurs/cyprus-company-substance | Cyprus Company Substance Guide | FAQ | P1 | MOFU | Cyprus company substance | ICP-004 | — | idea |
+| P133 | /entrepreneurs/cyprus-corporate-tax | Cyprus Corporate Tax Rate — Founder Essentials | FAQ | P1 | MOFU | Cyprus corporate tax rate | ICP-004 | — | idea |
+| P134 | /entrepreneurs/ip-box-regime | Cyprus IP Box Regime Guide | FAQ | P1 | MOFU | Cyprus IP Box regime | ICP-004 | — | idea |
+| P135 | /entrepreneurs/personal-vs-company-residency | Personal Residency vs Company Residency in Cyprus | FAQ | P1 | MOFU | personal vs company residency Cyprus | ICP-004 | — | idea |
 
 ### 2c. Permanent Residency
 
@@ -62,6 +65,7 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 | P013 | /permanent-residency | Cyprus Permanent Residency Path | Pillar/Hub | P0 | MOFU | Cyprus permanent residency | ICP-005 | — | idea |
 | P033 | /permanent-residency/investment-route | Cyprus Permanent Residency by Investment | FAQ | P0 | MOFU | Cyprus PR by investment | ICP-005 | [permanent-residency-investment.md](../../../processes/immigration/permanent-residency-investment.md) | idea |
 | P034 | /permanent-residency/property-requirements | Cyprus PR Property Requirements | FAQ | P1 | MOFU | Cyprus PR property requirements | ICP-005 | [permanent-residency-investment.md](../../../processes/immigration/permanent-residency-investment.md) | idea |
+| P137 | /permanent-residency/maintaining-pr | Maintaining Cyprus Permanent Residency | Guide | P1 | MOFU | maintaining Cyprus permanent residency | ICP-005 | — | idea |
 
 ### 2d. Families
 
@@ -71,6 +75,7 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 | P035 | /families/schools-in-paphos | Schools in Paphos Guide | FAQ | P0 | TOFU | schools in Paphos | ICP-006 | — | idea |
 | P036 | /families/international-schools | International Schools in Paphos | FAQ | P1 | TOFU | international schools Paphos | ICP-006 | — | idea |
 | P037 | /families/healthcare-for-children | Healthcare for Families in Paphos | FAQ | P1 | TOFU | healthcare for families Paphos | ICP-006 | [accessing-gesy-services.md](../../../processes/healthcare/accessing-gesy-services.md) | idea |
+| P138 | /families/mixed-nationality-families | Mixed-Nationality Families in Cyprus | Guide | P1 | MOFU | mixed nationality families Cyprus | ICP-006 | — | idea |
 
 ### 2e. Retirees
 
@@ -91,6 +96,8 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 | page-id | url-slug | h1 | type | phase | funnel-stage | primary-keyword | icp | process-doc | status |
 |---------|----------|----|------|-------|-------------|----------------|-----|------------|--------|
 | P017 | /property-investors | Paphos Property Investors | Pillar/Hub | P2 | MOFU | Paphos property investors | ICP-007 | — | idea |
+| P140 | /property-investors/rental-yields-paphos | Rental Yields in Paphos and Limassol | Guide | P2 | MOFU | rental yields Paphos | ICP-007 | — | idea |
+| P141 | /property-investors/repossessed-properties | Repossessed and Red-Loan Properties in Cyprus | Guide | P2 | MOFU | repossessed properties Cyprus | ICP-007 | — | idea |
 
 ### 2h. Budget Movers (P2)
 
@@ -133,6 +140,7 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 | P041 | /settling-in/gesy | GESY Healthcare Guide | FAQ | P0 | TOFU | GESY Cyprus | ICP-001, ICP-002, ICP-006 | [gesy-registration.md](../../../processes/settling-in/gesy-registration.md) | idea |
 | P042 | /settling-in/utilities | Setting Up Utilities in Paphos | Pillar/Hub | P1 | TOFU | set up utilities Paphos | ICP-001, ICP-002, ICP-006 | — | idea |
 | P043 | /settling-in/driving-in-cyprus | Driving in Cyprus Guide | FAQ | P1 | TOFU | driving in Cyprus | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | [driving-licence-exchange.md](../../../processes/settling-in/driving-licence-exchange.md) | idea |
+| P131 | /settling-in/cost-of-living-paphos | Cost of Living in Paphos | Guide | P1 | MOFU | cost of living Paphos | ICP-001, ICP-009 | — | idea |
 
 ### 3d. Resources
 
@@ -270,3 +278,6 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 | P128 | /tools/relocation-route-finder | Cyprus Relocation Route Finder | Lead Magnet | P1 | MOFU | Cyprus relocation route finder | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
 | P129 | /tools/yellow-slip-checklist | Yellow Slip Checklist | Lead Magnet | P1 | MOFU | Yellow Slip checklist | ICP-002 | [yellow-slip-eu-national.md](../../../processes/immigration/yellow-slip-eu-national.md) | idea |
 | P130 | /tools/cyprus-tax-route-finder | Cyprus Tax Route Finder | Lead Magnet | P2 | MOFU | Cyprus tax route finder | ICP-002, ICP-004, ICP-005 | — | idea |
+| P132 | /tools/first-30-days-checklist | First 30 Days in Cyprus — EU Remote Worker Checklist | Lead Magnet | P1 | MOFU | first 30 days Cyprus checklist | ICP-002 | — | idea |
+| P136 | /tools/company-formation-checklist | Cyprus Company Formation Checklist | Lead Magnet | P1 | MOFU | Cyprus company formation checklist | ICP-004 | — | idea |
+| P139 | /tools/family-move-checklist | Family Relocation to Cyprus — Moving Checklist | Lead Magnet | P1 | MOFU | Cyprus family move checklist | ICP-006 | — | idea |
