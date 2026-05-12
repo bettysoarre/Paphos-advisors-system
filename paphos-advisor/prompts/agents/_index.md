@@ -11,7 +11,8 @@ System prompts and configurations for deployed AI agents.
 - [research-agent-instructions.md](research-agent-instructions.md) — PRMT-AGT-002 — Research with citations (Step 1 of content pipeline)
 - [content-agent-instructions.md](content-agent-instructions.md) — PRMT-AGT-001 — Writer/drafter (Step 3 of content pipeline)
 - [knowledge-ingest-agent.md](knowledge-ingest-agent.md) — PRMT-AGT-003 — Knowledge base ingestion
-- [knowledge-lint-agent.md](knowledge-lint-agent.md) — PRMT-AGT-004 — Knowledge base linting
+- [knowledge-lint-agent.md](knowledge-lint-agent.md) — PRMT-AGT-004 — Knowledge base linting (bi-weekly Monday)
+- [content-hygiene-agent.md](content-hygiene-agent.md) — PRMT-AGT-017 — Content Pipeline hygiene check (weekly Friday)
 - [partner-knowledge-extraction-agent.md](partner-knowledge-extraction-agent.md) — PRMT-AGT-014 — Partner interview transcript → KA-FLD records in Notion KB
 
 ## To Build (see _agent-skills-matrix.md for specs)
