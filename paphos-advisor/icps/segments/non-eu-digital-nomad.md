@@ -4,7 +4,7 @@ title: "ICP Segment: Non-EU Digital Nomad"
 segment_code: non-eu-digital-nomad
 status: active
 created: 2026-04-13
-updated: 2026-05-05
+updated: 2026-05-12
 owner: "lead-advisor"
 related_segments:
   - ICP-SEG-004
@@ -161,6 +161,30 @@ Content format: comparison articles and direct explainers convert well for this 
 
 ---
 
+## Qualification Notes
+
+High-fit leads usually have:
+- qualifying remote income (€3,500+/month net from non-Cyprus employer or clients)
+- non-EU nationality and valid passport
+- private health insurance in place or actively arranging
+- genuine intent to stay 12+ months
+- no expectation of working for a Cyprus-based employer
+
+Medium-fit leads:
+- meet the income threshold but haven't confirmed health insurance yet
+- researching Cyprus alongside other nomad destinations (Portugal, Georgia, Spain)
+- inside Cyprus on a tourist visa and exploring whether in-country application is possible
+- couple applications where the secondary earner's income needs to be assessed against the dependent threshold
+
+Lower-fit leads usually:
+- are below the €3,500/month income threshold
+- want to work for a Cyprus-based employer or client — disqualifies the DNV entirely
+- are primarily motivated by Schengen access — Cyprus is not in the Schengen Area
+- expect straightforward tourist visa conversion — currently complex; manage expectations clearly
+- cannot secure private health insurance due to cost or pre-existing conditions
+
+---
+
 ## Red Flags / Disqualifiers
 
 - **Works for a Cyprus employer or intends to work physically in Cyprus:** The Digital Nomad Visa is specifically for those working for non-Cyprus companies or clients. Re-route to Category E Work Permit (PROC-IMM-003, forthcoming).
@@ -168,6 +192,16 @@ Content format: comparison articles and direct explainers convert well for this 
 - **Significant dividend or passive income driving the enquiry:** This profile is more likely ICP-SEG-004 (Entrepreneur) or ICP-SEG-005 (HNI). Re-assess segment fit.
 - **Seeking Schengen access as a primary goal:** Cyprus is not in the Schengen Area. If Schengen travel is a key requirement, Cyprus residency does not satisfy it.
 - **Income below the Digital Nomad Visa threshold:** Cannot proceed until income requirements are met. Advise on threshold and close with a follow-up prompt.
+
+---
+
+## Segment Overlaps
+
+This segment commonly overlaps with:
+- **ICP-SEG-004 Entrepreneur** — when a non-EU national is considering incorporating a Cyprus company alongside or instead of the DNV route; if company formation is the primary goal, re-route to ICP-SEG-004
+- **ICP-SEG-009 Low Budget Escapers** — when a non-EU national's income is near or below the €3,500/month DNV threshold; disqualify from DNV advisory until income is confirmed
+- **ICP-SEG-002 EU National Remote Worker** — when a lead identified as non-EU turns out to hold EU citizenship; the immigration route changes entirely from DNV to Yellow Slip — re-qualify immediately
+- **ICP-SEG-005 HNI** — when a non-EU national with significant passive income is using the DNV as a stepping stone toward Category 6.2 Permanent Residency; assess net worth and income structure before routing
 
 ---
 

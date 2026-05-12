@@ -4,7 +4,7 @@ title: "ICP Segment: Property Speculators"
 segment_code: property-speculators
 status: draft
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-12
 owner: "lead-advisor"
 related_segments:
   - ICP-SEG-005
@@ -162,11 +162,41 @@ Content format: Long-form guides and comparison articles perform best. Trust is 
 
 ---
 
+## Qualification Notes
+
+High-fit leads usually have:
+- a stated or clearly implied budget of €150k+
+- specific purchase intent — not just rental research
+- prior research done (they name areas, developments, or reference developer track records)
+- no immediate immigration need — property is the sole entry trigger
+
+Medium-fit leads:
+- have purchase intent but haven't defined budget
+- considering rental first, buy later — monitor and re-qualify at 6–12 months
+- future relocators planning to buy now but won't need immigration advisory for 3–5 years
+
+Lower-fit leads:
+- asking about property management or holiday lettings only — not a purchase enquiry
+- budget under €100k — below the working range of most quality partner agents
+- leads who are actually ICP-005 (HNI/PR) or ICP-001/002 who happen to mention property — re-qualify
+
+---
+
 ## Red Flags / Disqualifiers
 
 - **Budget under €100k:** Below the working range of most quality partner agents; redirect to self-serve content and reassess if budget changes
 - **Asking about holiday lettings licensing only:** May be a property management enquiry, not a purchase — re-qualify
 - **Already purchased, seeking management only:** Outside our service scope; signpost to specialist letting agents
+
+---
+
+## Segment Overlaps
+
+This segment commonly overlaps with:
+- **ICP-SEG-005 HNI** — when a non-EU buyer's budget exceeds €300k and permanent residency via the investment route becomes the primary goal; re-route to ICP-SEG-005
+- **ICP-SEG-001 UK National Retiree** — when a property buyer plans to retire to their Cyprus property within 5 years; immigration and tax planning become live needs sooner than expected
+- **ICP-SEG-002 EU National Remote Worker** — when an EU national buying property plans to spend significant time in Cyprus and will need Yellow Slip and non-dom status; re-qualify into ICP-SEG-002 when relocation intent is confirmed
+- **Multi-step Relocator** — when a property enquiry evolves into a full relocation journey spanning property, immigration, tax, and banking; escalate to a joined-up advisory engagement rather than a single-stream referral
 
 ---
 

@@ -4,7 +4,7 @@ title: "ICP Segment: Low Budget Escapers"
 segment_code: low-budget-escapers
 status: draft
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-12
 owner: "lead-advisor"
 related_segments:
   - ICP-SEG-001
@@ -152,11 +152,40 @@ Content format: Short FAQ-style answers and honest cost breakdowns work best. Av
 
 ---
 
+## Qualification Notes
+
+High-fit for content and email nurture (not advisory):
+- strong move intent but no clear timeline or financial plan
+- below the Category F threshold but aspirational and receptive to honest guidance
+- engage well with expectation-setting content and a clear "here is what you need to qualify" answer
+
+Medium-fit — monitor for step-up:
+- within €1,500–2,000/month of the Category F threshold
+- partner whose combined income might qualify
+- building toward remote income that could reach qualifying level within 12–24 months
+- could receive an inheritance or employment change that changes their situation
+
+Disqualify from advisory immediately (self-serve only):
+- income clearly below €800/month with no qualifying partner
+- seeking seasonal or hospitality work, not legal residency
+- asking about extending a tourist visa beyond 90 days — direct to official sources; no advisory
+
+---
+
 ## Red Flags / Disqualifiers
 
 - **Asking about working on a tourist visa or overstaying:** Do not advise; direct to official Cypriot immigration sources only
 - **Income clearly below Category F threshold with no qualifying partner income:** Honest, brief conversation about the requirement — no paid advisory service to offer
 - **No intent to formalise residency, just wants to "see how it goes":** Self-serve content only; do not invest advisory time
+
+---
+
+## Segment Overlaps
+
+This segment commonly overlaps with:
+- **ICP-SEG-001 UK National Retiree** — the primary step-up path; a Budget Retiree whose income increases (pension uplift, rental income, part-time remote work) may cross the Category F threshold and re-qualify; monitor nurture list annually
+- **ICP-SEG-003 Non-EU Digital Nomad** — when a non-EU national is actively building toward the €3,500/month DNV income threshold; re-qualify once income is confirmed
+- **ICP-SEG-002 EU National Remote Worker** — when an EU national whose income is growing crosses the Yellow Slip qualifying level; re-qualify and route to immigration advisory
 
 ---
 

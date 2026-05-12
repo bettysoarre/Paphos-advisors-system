@@ -4,7 +4,7 @@ title: "ICP Segment: Related Partners"
 segment_code: related-partners
 status: draft
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-12
 owner: "lead-advisor"
 related_segments:
   - ICP-SEG-001
@@ -157,11 +157,39 @@ Content format: Long-form technical guides establish authority. The primary cont
 
 ---
 
+## Qualification Notes
+
+High-fit for formal partner status:
+- verifiable professional profile (listed firm, company registration, active LinkedIn)
+- specific client referral types already identified ("I have clients needing Yellow Slip and non-dom setup")
+- currently sending informal referrals and wants to formalise the arrangement
+- no service conflict with what Paphos Advisors coordinates
+
+Medium-fit — develop relationship before formalising:
+- community influencers with large expat audiences but no formal professional practice
+- developers or agents interested in qualified buyer leads but not yet engaged formally
+- professionals who are current or recent clients referred by existing partners
+
+Not appropriate for formal partner agreement:
+- individuals without a verifiable professional practice or business presence
+- anyone expecting exclusivity or territory rights — incompatible with our model
+- anyone unwilling to disclose end-client identity when required — AML/KYC flag
+
+---
+
 ## Red Flags / Disqualifiers
 
 - **Intermediary obscuring the end-client's identity:** Do not proceed without KYC clarity — flag for compliance review before any introductions
 - **Demanding exclusivity or territory rights:** Incompatible with the Paphos Advisors model; decline professionally
 - **No verifiable professional profile or business presence:** Treat as a consumer ICP enquiry until professional status is confirmed
+
+---
+
+## Segment Overlaps
+
+This segment commonly overlaps with:
+- **ICP-SEG-001 through ICP-SEG-007 (all client ICPs)** — formal and informal partners are the primary referral source for all client-facing segments; every end-client referred by a partner should be re-qualified into the appropriate client ICP at intake
+- **ICP-SEG-005 HNI** — immigration lawyers and accountants handling high-net-worth clients are the primary referral source for this segment; this partner relationship carries the highest individual commercial significance in the referral network
 
 ---
 
