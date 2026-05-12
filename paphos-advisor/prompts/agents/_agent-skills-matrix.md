@@ -2,9 +2,9 @@
 id: PRMT-AGT-005
 title: "Agent Skills Matrix"
 type: system-reference
-version: "1.0"
+version: "1.1"
 created: 2026-04-24
-updated: 2026-05-01
+updated: 2026-05-12
 owner: "lead-advisor"
 source: "April 21 planning meeting — Paphos Advisor Guide, ICPs, Content Operations, Headless CMS Plan"
 ---
@@ -23,8 +23,8 @@ This document governs how agents are built and combined. Individual agent instru
 
 | Name | Schedule | Status | Output |
 |---|---|---|---|
-| Weekly Content Pipeline Hygiene | Every Friday 6am UTC | Active | Hygiene report in PA-Marketing and Branding (Notion) |
-| Weekly Knowledge Lint (PRMT-AGT-004) | Every Monday 6am UTC | Active | Lint report committed to `paphos-advisor/research/lint-reports/` |
+| Content Hygiene Agent (PRMT-AGT-017) | Every Friday 6am UTC | Active | Notion — Content Hygiene Agent Findings (35e2e0d072f580378386f11a9c3c5112) |
+| Knowledge Lint Agent (PRMT-AGT-004) | Bi-weekly — every other Monday 09:03 local | Active | Notion — Knowledge Lint Agent Audit (35e2e0d072f580ab97c1e4e00bbfd333) |
 | Monthly Blog Refresh (PRMT-AGT-013) | Monthly — TBC | Not yet scheduled | Updated article files + diff summary |
 
 Manage routines at: https://claude.ai/code/routines
@@ -48,6 +48,7 @@ Manage routines at: https://claude.ai/code/routines
 | PRMT-AGT-014 | Partner Knowledge Extraction Agent | To formalise | Phase 1 | SKL-EXT, SKL-GRD |
 | PRMT-AGT-015 | Chatbot Knowledge Agent | To build | Phase 2 | SKL-RAG, SKL-GRD, SKL-TOV |
 | PRMT-AGT-016 | Query Intelligence Agent | To build | Phase 3 | SKL-RES, SKL-GRD |
+| PRMT-AGT-017 | Content Hygiene Agent | Built | Live (scheduled) | — |
 
 ### All Skills
 
