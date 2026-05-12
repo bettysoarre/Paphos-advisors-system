@@ -3,14 +3,14 @@ id: PRMT-AGT-004
 title: Knowledge Lint Agent
 type: agent-instructions
 tool: claude
-version: "1.0"
+version: "1.1"
 created: 2026-04-20
-updated: 2026-04-27
+updated: 2026-05-12
 perplexity_required: false
 perplexity_enhanced: true
 output_format: Prioritised action list (markdown)
 use_with: PRMT-AGT-003, PRMT-RES-003
-schedule: Weekly — Monday 09:03 local time
+schedule: Bi-weekly — every other Monday at 09:03 local time
 ---
 
 # Knowledge Lint Agent (PRMT-AGT-004)
@@ -25,7 +25,7 @@ This agent does not make changes. It reads, checks, and reports. A human reviews
 
 ## When to Run
 
-- Weekly (Monday morning) — scheduled review
+- Bi-weekly (every other Monday morning) — scheduled review
 - Before any content is published — ensure source process docs are current
 - After a major regulatory announcement — check blast radius across all records
 - When the system has not been actively maintained for more than 30 days
@@ -71,6 +71,8 @@ For each process doc, check:
 
 ### Step 2 — Scan Notion Processes database
 
+**Database:** `Processes` — Notion ID `dbc3014e-ee2f-4f98-8146-81409302af26` (in PA - Research & Knowledge Hub)
+
 Query the Processes database. For each record check:
 
 - **Validation Status = "Needs Validation"** → flag, note how long it has been in this state
@@ -82,20 +84,41 @@ Query the Processes database. For each record check:
 
 ---
 
-### Step 3 — Scan Notion FAQs database
+### Step 3 — Scan Notion Knowledge Base (FAQs and field intelligence)
 
-Query the FAQs database. Check:
+**Database:** `Knowledge Base` — Notion ID `86d6a826-32e2-4e30-ab50-17c12eaffd06` (in PA - Research & Knowledge Hub)
 
-- **Volatility = "volatile"** and created more than 90 days ago without revalidation → HIGH priority
-- **Volatility = "annual-review"** and created more than 365 days ago → flag
-- **Validation Status = "Needs Revalidation"** → flag
-- **Schema Eligible = true** but **Validation Status ≠ "Validated"** → flag (schema-eligible FAQs need to be accurate before being used for structured data)
-- **Related Process** is empty → note (orphaned FAQ)
-- **Content Piece** is empty → note (not linked to any content)
+There is no separate FAQs database. FAQ and Field Intelligence entries live in the Knowledge Base, filtered by `Knowledge Type`. Query accordingly.
+
+Check all entries:
+- **Status = "Needs Revalidation"** → flag
+- **Status = "Draft"** and created more than 60 days ago → flag (stalled)
+- **Confidence = "Low"** or **"Unverified"** → flag if older than 90 days
+- **Next Review Due** is past → flag immediately
+- **Knowledge Type = "FAQ"** and **Confidence ≠ "High"** → flag (FAQs used in content must be high confidence)
+- **Related Process Docs** is empty → note (orphaned KB entry — no process anchor)
+- **GitHub File Path** is empty → note (broken audit trail)
+
+**Do not scan** any legacy or archived "Knowledge Hub" database that predates this structure. The Knowledge Base database above is the only active KB.
 
 ---
 
-### Step 4 — Scan Notion Content Pipeline
+### Step 4 — Scan Notion ICPs database
+
+**Database:** `ICPs` — Notion ID `32c933cf-319c-4eea-8016-90680cea9144` (in PA - Clients & Commercial Hub)
+
+Check all active ICP segments:
+- **Status = "active"** but **Process Path** is empty → flag (segment has no mapped process — gap in onboarding logic)
+- **Status = "active"** but **GitHub Definition Path** is empty → flag (broken audit trail to segment definition file)
+- **Status = "planned"** and created more than 90 days ago → note (segment still not activated — prioritise or retire)
+- **Category** is empty → note (uncategorised segment)
+- **Content Needs** relation is empty → note (segment not linked to any content — gap)
+
+---
+
+### Step 5 — Scan Notion Content Pipeline
+
+**Database:** `Content Pipeline` — Notion ID `b8429a09-8cef-4fdf-aafc-82b990db0689` (in PA - Marketing & Branding)
 
 Query the Content Pipeline. Check:
 
@@ -108,7 +131,7 @@ Query the Content Pipeline. Check:
 
 ---
 
-### Step 5 — Check cross-reference integrity
+### Step 6 — Check cross-reference integrity
 
 **Process doc ↔ Content Pipeline:**
 - For each process doc that has `related_content` in its frontmatter, confirm the content piece exists in the Content Pipeline
@@ -124,7 +147,7 @@ Query the Content Pipeline. Check:
 
 ---
 
-### Step 6 — Verify with Perplexity (if connected)
+### Step 7 — Verify with Perplexity (if connected)
 
 **If Perplexity MCP is available:**
 
@@ -149,7 +172,7 @@ Format your Perplexity findings as:
 
 ---
 
-### Step 7 — Output the lint report
+### Step 8 — Output the lint report
 
 ```
 ## Knowledge Lint Report
@@ -202,7 +225,8 @@ For each item:
 - Process docs scanned: [N]
 - [NEEDS VALIDATION] markers open: [N] (oldest: [age])
 - [CONTRADICTION] markers open: [N]
-- FAQs flagged: [N]
+- Knowledge Base entries flagged: [N]
+- ICP segments flagged: [N]
 - Content pieces flagged: [N]
 - Cross-reference issues: [N]
 - Suggested ingest agent runs: [N]
@@ -236,16 +260,23 @@ This agent feeds into:
 
 ## Scheduling
 
-**Cadence:** Every Monday at 09:03 local time.
+**Cadence:** Every other Monday at 09:03 local time (bi-weekly).
 
 **To re-schedule at the start of each Claude session**, tell Claude:
 
-> "Schedule the Knowledge Lint Agent to run this Monday at 09:03."
+> "Schedule the Knowledge Lint Agent to run on [date — next bi-weekly Monday] at 09:03."
 
-Claude will use CronCreate to enqueue the job for the current session. The job fires once on Monday then auto-expires — re-activate each week.
+Claude will use CronCreate to enqueue the job for the current session. The job fires once then auto-expires — re-activate every two weeks.
+
+**Databases to scan (current — do not deviate):**
+- GitHub: `paphos-advisor/processes/` (all subfolders)
+- Notion Processes: `dbc3014e-ee2f-4f98-8146-81409302af26`
+- Notion Knowledge Base: `86d6a826-32e2-4e30-ab50-17c12eaffd06`
+- Notion ICPs: `32c933cf-319c-4eea-8016-90680cea9144`
+- Notion Content Pipeline: `b8429a09-8cef-4fdf-aafc-82b990db0689`
 
 **To trigger manually at any time:**
 
-> "Activate the Knowledge Lint Agent. Run all steps and save the report to `assets/research-captures/lint-[YYYY-MM-DD].md`."
+> "Activate the Knowledge Lint Agent. Run all steps and save the report to `paphos-advisor/assets/research-captures/lint-[YYYY-MM-DD].md`."
 
-**Report saved to:** `assets/research-captures/lint-[YYYY-MM-DD].md`
+**Report saved to:** `paphos-advisor/assets/research-captures/lint-[YYYY-MM-DD].md`
