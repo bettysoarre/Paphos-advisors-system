@@ -13,7 +13,7 @@ Master registry of all ID prefixes, area/type codes, and current sequence number
 | Area | Code | Current Sequence | Next ID to Use |
 |------|------|-----------------|----------------|
 | Immigration | IMM | 010 | PROC-IMM-011 |
-| Tax | TAX | 000 | PROC-TAX-PROC-001 |
+| Tax | TAX | 000 | PROC-TAX-001 |
 | Property | PROP | 002 | PROC-PROP-003 |
 | Business | BIZ | 001 | PROC-BIZ-002 |
 | Healthcare | HLTH | 003 | PROC-HLTH-004 |
@@ -77,7 +77,7 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 | Area | Code | Current Sequence | Next ID to Use |
 |------|------|-----------------|----------------|
 | Immigration | IMM | 000 | KB-IMM-001 |
-| Tax | TAX | 000 | KB-TAX-PROC-001 |
+| Tax | TAX | 000 | KB-TAX-001 |
 | Property | PROP | 000 | KB-PROP-001 |
 | Business | BIZ | 000 | KB-BIZ-001 |
 | Healthcare | HLTH | 000 | KB-HLTH-001 |
@@ -139,7 +139,7 @@ Location-specific and office-specific practical notes. Domain-agnostic — all f
 | Property Developer | DEV | 000 | PRTN-DEV-001 |
 | Property Agent | AGENT | 000 | PRTN-AGENT-001 |
 | Insurance | INS | 000 | PRTN-INS-001 |
-| Tax Specialist | TAX | 000 | PRTN-TAX-PROC-001 |
+| Tax Specialist | TAX | 000 | PRTN-TAX-001 |
 | Other | OTH | 000 | PRTN-OTH-001 |
 
 ---

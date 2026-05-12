@@ -61,7 +61,7 @@ have their own standalone hubs. A third layer — Services, Experts, Locations, 
 
 | File | Purpose |
 |------|---------|
-| [Canonical URL Inventory](../sitemap/canonical-url-inventory.md) | Master list of all 130 pages — URL slugs, H1s, types, phases, funnel stages, primary keywords, ICP assignments, process doc links, status. **This is the source of truth.** |
+| [Canonical URL Inventory](../sitemap/canonical-url-inventory.md) | Master list of all 141 pages — URL slugs, H1s, types, phases, funnel stages, primary keywords, ICP assignments, process doc links, status. **This is the source of truth.** |
 | [ICP Pathway Topics](icp-pathway-topics.md) | Human-readable content plan grouped by pathway and section — use for planning and prioritisation reviews |
 | [ICP-to-Content Mapping](../../icps/mapping/icp-to-content-mapping.md) | Maps each ICP segment to specific content pieces with priority and URL slug |
 

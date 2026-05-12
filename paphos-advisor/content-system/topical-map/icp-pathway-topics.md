@@ -1,8 +1,8 @@
 ---
 title: ICP Pathway Topics
 source: canonical-url-inventory.md
-updated: 2026-05-11
-total-pages: 130
+updated: 2026-05-12
+total-pages: 141
 ---
 
 # ICP Pathway Topics
@@ -40,7 +40,7 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 |------|----------|------|-------|----------------|
 | Remote Workers Moving to Paphos | /remote-workers | Pillar/Hub | P0 | remote workers Paphos |
 
-### Entrepreneurs (4 pages)
+### Entrepreneurs (7 pages)
 
 **Hub:** /entrepreneurs — ICP-004
 
@@ -50,8 +50,11 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Cyprus Company Formation Guide | /entrepreneurs/company-formation-cyprus | FAQ | P0 | Cyprus company formation |
 | Running a Foreign Business from Cyprus | /entrepreneurs/running-foreign-business-from-cyprus | FAQ | P1 | running foreign business from Cyprus |
 | Cyprus Company Substance Guide | /entrepreneurs/cyprus-company-substance | FAQ | P1 | Cyprus company substance |
+| Cyprus Corporate Tax Guide | /entrepreneurs/cyprus-corporate-tax | FAQ | P1 | Cyprus corporate tax |
+| Cyprus IP Box Regime Guide | /entrepreneurs/ip-box-regime | FAQ | P1 | Cyprus IP Box regime |
+| Personal vs Company Residency in Cyprus | /entrepreneurs/personal-vs-company-residency | FAQ | P1 | personal vs company residency Cyprus |
 
-### Permanent Residency (3 pages)
+### Permanent Residency (4 pages)
 
 **Hub:** /permanent-residency — ICP-005
 
@@ -60,8 +63,9 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Cyprus Permanent Residency Path | /permanent-residency | Pillar/Hub | P0 | Cyprus permanent residency |
 | Cyprus Permanent Residency by Investment | /permanent-residency/investment-route | FAQ | P0 | Cyprus PR by investment |
 | Cyprus PR Property Requirements | /permanent-residency/property-requirements | FAQ | P1 | Cyprus PR property requirements |
+| Maintaining Cyprus Permanent Residency | /permanent-residency/maintaining-pr | FAQ | P1 | maintaining Cyprus permanent residency |
 
-### Families (4 pages)
+### Families (5 pages)
 
 **Hub:** /families — ICP-006
 
@@ -71,6 +75,7 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Schools in Paphos Guide | /families/schools-in-paphos | FAQ | P0 | schools in Paphos |
 | International Schools in Paphos | /families/international-schools | FAQ | P1 | international schools Paphos |
 | Healthcare for Families in Paphos | /families/healthcare-for-children | FAQ | P1 | healthcare for families Paphos |
+| Mixed-Nationality Families in Cyprus | /families/mixed-nationality-families | FAQ | P1 | mixed nationality families Cyprus |
 
 ### Retirees (3 pages)
 
@@ -90,13 +95,15 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 |------|----------|------|-------|----------------|
 | Digital Nomads in Cyprus | /digital-nomads | Pillar/Hub | P2 | Cyprus digital nomads |
 
-### Property Investors — P2 (1 page)
+### Property Investors — P2 (3 pages)
 
 **Hub:** /property-investors — ICP-007
 
 | Page | url-slug | Type | Phase | Primary Keyword |
 |------|----------|------|-------|----------------|
 | Paphos Property Investors | /property-investors | Pillar/Hub | P2 | Paphos property investors |
+| Rental Yields in Paphos and Limassol | /property-investors/rental-yields-paphos | FAQ | P2 | rental yields Paphos |
+| Repossessed Properties in Cyprus | /property-investors/repossessed-properties | FAQ | P2 | repossessed properties Cyprus |
 
 ### Budget Movers — P2 (1 page)
 
@@ -136,7 +143,7 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Paphos Property Due Diligence | /property/buyer-due-diligence | Pillar/Hub | P1 | Paphos property due diligence |
 | Renting in Paphos Guide | /property/renting-in-paphos | FAQ | P1 | renting in Paphos |
 
-### Settling In (5 pages)
+### Settling In (6 pages)
 
 **Hub:** /settling-in — All ICPs
 
@@ -145,6 +152,7 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Opening a Cyprus Bank Account | /settling-in/bank-account | Pillar/Hub | P0 | open Cyprus bank account |
 | GESY Healthcare Guide | /settling-in/gesy | FAQ | P0 | GESY Cyprus |
 | Settling In Paphos Hub | /settling-in | Pillar/Hub | P1 | settling in Paphos |
+| Cost of Living in Paphos | /settling-in/cost-of-living-paphos | FAQ | P1 | cost of living Paphos |
 | Setting Up Utilities in Paphos | /settling-in/utilities | Pillar/Hub | P1 | set up utilities Paphos |
 | Driving in Cyprus Guide | /settling-in/driving-in-cyprus | FAQ | P1 | driving in Cyprus |
 
@@ -283,4 +291,7 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Cyprus Relocation Tools | /tools | Lead Magnet | P1 | Cyprus relocation tools |
 | Cyprus Relocation Route Finder | /tools/relocation-route-finder | Lead Magnet | P1 | Cyprus relocation route finder |
 | Yellow Slip Checklist | /tools/yellow-slip-checklist | Lead Magnet | P1 | Yellow Slip checklist |
+| First 30 Days in Cyprus Checklist | /tools/first-30-days-checklist | Lead Magnet | P1 | first 30 days Cyprus checklist |
+| Cyprus Company Formation Checklist | /tools/company-formation-checklist | Lead Magnet | P1 | Cyprus company formation checklist |
+| Family Move to Cyprus Checklist | /tools/family-move-checklist | Lead Magnet | P1 | family move Cyprus checklist |
 | Cyprus Tax Route Finder | /tools/cyprus-tax-route-finder | Lead Magnet | P2 | Cyprus tax route finder |
