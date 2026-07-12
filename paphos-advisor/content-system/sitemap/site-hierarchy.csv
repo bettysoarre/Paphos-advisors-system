@@ -1,0 +1,154 @@
+Depth,URL,Page ID,Page Type,Parent Page,Primary Keyword,Priority,Children Count,Suggested Nav Group
+0,https://paphosadvisor.com/,P001,Home,,move to Paphos,P0 launch,21,Core
+1,https://paphosadvisor.com/about,P002,About,https://paphosadvisor.com/,Paphos Advisor,P0 launch,2,Core
+1,https://paphosadvisor.com/budget-movers,P018,Pillar/Hub,https://paphosadvisor.com/,moving to Cyprus on a budget,P2 later,0,Other
+1,https://paphosadvisor.com/contact,P005,Contact,https://paphosadvisor.com/,contact Paphos Advisor,P0 launch,0,Core
+1,https://paphosadvisor.com/digital-nomads,P016,Pillar/Hub,https://paphosadvisor.com/,Cyprus digital nomads,P2 later,0,Pathways
+1,https://paphosadvisor.com/entrepreneurs,P012,Pillar/Hub,https://paphosadvisor.com/,entrepreneurs moving to Cyprus,P0 launch,3,Pathways
+1,https://paphosadvisor.com/experts,P077,Expert/Person,https://paphosadvisor.com/,Cyprus relocation experts,P0 launch,12,Experts
+1,https://paphosadvisor.com/families,P014,Pillar/Hub,https://paphosadvisor.com/,families moving to Paphos,P0 launch,3,Pathways
+1,https://paphosadvisor.com/faq,P121,FAQ,https://paphosadvisor.com/,Cyprus relocation FAQ,P0 launch,5,Resources
+1,https://paphosadvisor.com/glossary,P112,Glossary,https://paphosadvisor.com/resources,Cyprus relocation glossary,P1 fast-follow,8,Resources
+1,https://paphosadvisor.com/legal,P010,Legal,https://paphosadvisor.com/,Paphos Advisor legal information,P1 fast-follow,3,Core
+1,https://paphosadvisor.com/locations,P090,Location,https://paphosadvisor.com/,where to live in Paphos,P0 launch,15,Locations
+1,https://paphosadvisor.com/permanent-residency,P013,Pillar/Hub,https://paphosadvisor.com/,Cyprus permanent residency,P0 launch,2,Pathways
+1,https://paphosadvisor.com/property,P020,Pillar/Hub,https://paphosadvisor.com/,Paphos property,P0 launch,3,Other
+1,https://paphosadvisor.com/property-investors,P017,Pillar/Hub,https://paphosadvisor.com/,Paphos property investors,P2 later,0,Other
+1,https://paphosadvisor.com/remote-workers,P011,Pillar/Hub,https://paphosadvisor.com/,remote workers Paphos,P0 launch,0,Pathways
+1,https://paphosadvisor.com/resources,P022,Pillar/Hub,https://paphosadvisor.com/,Cyprus relocation resources,P0 launch,1,Resources
+1,https://paphosadvisor.com/retirees,P015,Pillar/Hub,https://paphosadvisor.com/,retiring in Paphos,P0 launch,2,Pathways
+1,https://paphosadvisor.com/services,P047,Service,https://paphosadvisor.com/,Cyprus relocation services,P0 launch,9,Services
+1,https://paphosadvisor.com/settling-in,P021,Pillar/Hub,https://paphosadvisor.com/,settling in Paphos,P1 fast-follow,4,Other
+1,https://paphosadvisor.com/start,P006,Lead Magnet,https://paphosadvisor.com/,Cyprus relocation plan,P0 launch,0,Other
+1,https://paphosadvisor.com/tax-residency,P019,Pillar/Hub,https://paphosadvisor.com/,Cyprus tax residency,P0 launch,6,Other
+1,https://paphosadvisor.com/tools,P127,Lead Magnet,https://paphosadvisor.com/,Cyprus relocation tools,P1 fast-follow,8,Resources
+2,https://paphosadvisor.com/about/editorial-policy,P003,About,https://paphosadvisor.com/about,Paphos Advisor editorial policy,P1 fast-follow,0,Other
+2,https://paphosadvisor.com/about/referral-disclosure,P004,About,https://paphosadvisor.com/about,Cyprus referral disclosure,P0 launch,0,Other
+2,https://paphosadvisor.com/compare/cyprus-vs-ireland-company,P110,Comparison,https://paphosadvisor.com/compare,Cyprus vs Ireland company setup,P2 later,0,Compare
+2,https://paphosadvisor.com/compare/cyprus-vs-malta,P106,Comparison,https://paphosadvisor.com/compare,Cyprus vs Malta,P1 fast-follow,0,Compare
+2,https://paphosadvisor.com/compare/cyprus-vs-portugal,P107,Comparison,https://paphosadvisor.com/compare,Cyprus vs Portugal,P2 later,0,Compare
+2,https://paphosadvisor.com/compare/paphos-vs-larnaca,P109,Comparison,https://paphosadvisor.com/compare,Paphos vs Larnaca,P2 later,0,Compare
+2,https://paphosadvisor.com/compare/paphos-vs-limassol,P108,Comparison,https://paphosadvisor.com/compare,Paphos vs Limassol,P1 fast-follow,0,Compare
+2,https://paphosadvisor.com/compare/rent-first-vs-buy-paphos,P111,Comparison,https://paphosadvisor.com/compare,rent or buy in Paphos,P1 fast-follow,0,Compare
+2,https://paphosadvisor.com/entrepreneurs/company-formation-cyprus,P030,FAQ,https://paphosadvisor.com/entrepreneurs,Cyprus company formation,P0 launch,0,Pathways
+2,https://paphosadvisor.com/entrepreneurs/cyprus-company-substance,P032,FAQ,https://paphosadvisor.com/entrepreneurs,Cyprus company substance,P1 fast-follow,0,Pathways
+2,https://paphosadvisor.com/entrepreneurs/running-foreign-business-from-cyprus,P031,FAQ,https://paphosadvisor.com/entrepreneurs,running foreign business from Cyprus,P1 fast-follow,0,Pathways
+2,https://paphosadvisor.com/experts/accountants,P080,Expert/Person,https://paphosadvisor.com/experts,Cyprus accountants,P1 fast-follow,0,Experts
+2,https://paphosadvisor.com/experts/company-formation-specialists,P081,Expert/Person,https://paphosadvisor.com/experts,company formation specialists Cyprus,P1 fast-follow,0,Experts
+2,https://paphosadvisor.com/experts/education-advisors,P087,Expert/Person,https://paphosadvisor.com/experts,Paphos education advisors,P1 fast-follow,0,Experts
+2,https://paphosadvisor.com/experts/government-liaison,P084,Expert/Person,https://paphosadvisor.com/experts,Cyprus government liaison,P1 fast-follow,0,Experts
+2,https://paphosadvisor.com/experts/healthcare-navigators,P086,Expert/Person,https://paphosadvisor.com/experts,Cyprus healthcare navigators,P1 fast-follow,0,Experts
+2,https://paphosadvisor.com/experts/immigration-lawyers,P078,Expert/Person,https://paphosadvisor.com/experts,Cyprus immigration lawyers,P1 fast-follow,0,Experts
+2,https://paphosadvisor.com/experts/insurance-brokers,P088,Expert/Person,https://paphosadvisor.com/experts,Cyprus insurance brokers,P1 fast-follow,0,Experts
+2,https://paphosadvisor.com/experts/property-lawyers,P082,Expert/Person,https://paphosadvisor.com/experts,Paphos property lawyers,P1 fast-follow,0,Experts
+2,https://paphosadvisor.com/experts/real-estate-advisors,P083,Expert/Person,https://paphosadvisor.com/experts,Paphos real estate advisors,P1 fast-follow,0,Experts
+2,https://paphosadvisor.com/experts/relocation-consultants,P085,Expert/Person,https://paphosadvisor.com/experts,Paphos relocation consultants,P1 fast-follow,0,Experts
+2,https://paphosadvisor.com/experts/tax-advisors,P079,Expert/Person,https://paphosadvisor.com/experts,Cyprus tax advisors,P1 fast-follow,0,Experts
+2,https://paphosadvisor.com/experts/wealth-planning-advisors,P089,Expert/Person,https://paphosadvisor.com/experts,Cyprus wealth planning advisors,P1 fast-follow,0,Experts
+2,https://paphosadvisor.com/families/healthcare-for-children,P037,FAQ,https://paphosadvisor.com/families,healthcare for families Paphos,P1 fast-follow,0,Pathways
+2,https://paphosadvisor.com/families/international-schools,P036,FAQ,https://paphosadvisor.com/families,international schools Paphos,P1 fast-follow,0,Pathways
+2,https://paphosadvisor.com/families/schools-in-paphos,P035,FAQ,https://paphosadvisor.com/families,schools in Paphos,P0 launch,0,Pathways
+2,https://paphosadvisor.com/faq/company-formation,P126,FAQ,https://paphosadvisor.com/faq,Cyprus company formation FAQ,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/faq/families,P125,FAQ,https://paphosadvisor.com/faq,moving to Paphos with family FAQ,P1 fast-follow,0,Pathways
+2,https://paphosadvisor.com/faq/property,P124,FAQ,https://paphosadvisor.com/faq,Paphos property FAQ,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/faq/residency,P122,FAQ,https://paphosadvisor.com/faq,Cyprus residency FAQ,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/faq/tax,P123,FAQ,https://paphosadvisor.com/faq,Cyprus tax residency FAQ,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/glossary/60-day-rule,P117,Glossary,https://paphosadvisor.com/glossary,Cyprus 60-day rule meaning,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/glossary/category-f,P115,Glossary,https://paphosadvisor.com/glossary,Category F residency Cyprus,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/glossary/crmd,P120,Glossary,https://paphosadvisor.com/glossary,CRMD Cyprus,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/glossary/gesy,P118,Glossary,https://paphosadvisor.com/glossary,what is GESY,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/glossary/meu1,P114,Glossary,https://paphosadvisor.com/glossary,MEU1 Cyprus,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/glossary/non-dom,P116,Glossary,https://paphosadvisor.com/glossary,Cyprus non-dom meaning,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/glossary/title-deeds,P119,Glossary,https://paphosadvisor.com/glossary,title deeds Cyprus,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/glossary/yellow-slip,P113,Glossary,https://paphosadvisor.com/glossary,what is a Yellow Slip,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/legal/cookie-policy,P009,Legal,https://paphosadvisor.com/legal,cookie policy,P0 launch,0,Other
+2,https://paphosadvisor.com/legal/privacy-policy,P007,Legal,https://paphosadvisor.com/legal,privacy policy,P0 launch,0,Other
+2,https://paphosadvisor.com/legal/terms,P008,Legal,https://paphosadvisor.com/legal,terms of use,P0 launch,0,Other
+2,https://paphosadvisor.com/locations/best-areas-for-families,P103,Location,https://paphosadvisor.com/locations,best areas in Paphos for families,P1 fast-follow,0,Locations
+2,https://paphosadvisor.com/locations/best-areas-for-remote-workers,P105,Location,https://paphosadvisor.com/locations,best areas in Paphos for remote workers,P2 later,0,Locations
+2,https://paphosadvisor.com/locations/best-areas-for-retirees,P104,Location,https://paphosadvisor.com/locations,best areas in Paphos for retirees,P1 fast-follow,0,Locations
+2,https://paphosadvisor.com/locations/chloraka,P094,Location,https://paphosadvisor.com/locations,living in Chloraka,P1 fast-follow,0,Locations
+2,https://paphosadvisor.com/locations/coral-bay,P101,Location,https://paphosadvisor.com/locations,living in Coral Bay,P1 fast-follow,0,Locations
+2,https://paphosadvisor.com/locations/kato-paphos,P098,Location,https://paphosadvisor.com/locations,living in Kato Paphos,P1 fast-follow,0,Locations
+2,https://paphosadvisor.com/locations/kissonerga,P095,Location,https://paphosadvisor.com/locations,living in Kissonerga,P1 fast-follow,0,Locations
+2,https://paphosadvisor.com/locations/konia,P100,Location,https://paphosadvisor.com/locations,living in Konia,P1 fast-follow,0,Locations
+2,https://paphosadvisor.com/locations/mesogi,P102,Location,https://paphosadvisor.com/locations,living in Mesogi,P2 later,0,Locations
+2,https://paphosadvisor.com/locations/paphos,P091,Location,https://paphosadvisor.com/locations,living in Paphos,P1 fast-follow,0,Locations
+2,https://paphosadvisor.com/locations/pegeia,P092,Location,https://paphosadvisor.com/locations,living in Pegeia,P1 fast-follow,0,Locations
+2,https://paphosadvisor.com/locations/peyia,P093,Location,https://paphosadvisor.com/locations,living in Peyia,P2 later,0,Locations
+2,https://paphosadvisor.com/locations/tala,P096,Location,https://paphosadvisor.com/locations,living in Tala,P1 fast-follow,0,Locations
+2,https://paphosadvisor.com/locations/tsada,P097,Location,https://paphosadvisor.com/locations,living in Tsada,P2 later,0,Locations
+2,https://paphosadvisor.com/locations/universal,P099,Location,https://paphosadvisor.com/locations,living in Universal Paphos,P1 fast-follow,0,Locations
+2,https://paphosadvisor.com/permanent-residency/investment-route,P033,FAQ,https://paphosadvisor.com/permanent-residency,Cyprus PR by investment,P0 launch,0,Pathways
+2,https://paphosadvisor.com/permanent-residency/property-requirements,P034,FAQ,https://paphosadvisor.com/permanent-residency,Cyprus PR property requirements,P1 fast-follow,0,Pathways
+2,https://paphosadvisor.com/property/buyer-due-diligence,P045,Pillar/Hub,https://paphosadvisor.com/property,Paphos property due diligence,P1 fast-follow,0,Other
+2,https://paphosadvisor.com/property/buying-property-paphos,P044,Pillar/Hub,https://paphosadvisor.com/property,buying property in Paphos,P0 launch,0,Other
+2,https://paphosadvisor.com/property/renting-in-paphos,P046,FAQ,https://paphosadvisor.com/property,renting in Paphos,P1 fast-follow,0,Other
+2,https://paphosadvisor.com/retirees/category-f-residency,P038,FAQ,https://paphosadvisor.com/retirees,Category F Cyprus,P0 launch,0,Pathways
+2,https://paphosadvisor.com/retirees/uk-pensions-cyprus,P039,FAQ,https://paphosadvisor.com/retirees,UK pensions Cyprus,P1 fast-follow,0,Pathways
+2,https://paphosadvisor.com/services/banking,P055,Service,https://paphosadvisor.com/services,Cyprus banking introductions,P1 fast-follow,1,Services
+2,https://paphosadvisor.com/services/company-formation,P050,Service,https://paphosadvisor.com/services,Cyprus company formation services,P0 launch,3,Services
+2,https://paphosadvisor.com/services/education,P052,Service,https://paphosadvisor.com/services,Paphos education support,P1 fast-follow,1,Services
+2,https://paphosadvisor.com/services/healthcare,P053,Service,https://paphosadvisor.com/services,Cyprus healthcare navigation,P1 fast-follow,1,Services
+2,https://paphosadvisor.com/services/legal,P048,Service,https://paphosadvisor.com/services,Cyprus legal services,P0 launch,4,Services
+2,https://paphosadvisor.com/services/property,P051,Service,https://paphosadvisor.com/services,Paphos property services,P0 launch,4,Services
+2,https://paphosadvisor.com/services/settling-in,P054,Service,https://paphosadvisor.com/services,Paphos settling in support,P1 fast-follow,1,Services
+2,https://paphosadvisor.com/services/tax,P049,Service,https://paphosadvisor.com/services,Cyprus tax advisor,P0 launch,4,Services
+2,https://paphosadvisor.com/services/transport,P056,Service,https://paphosadvisor.com/services,Cyprus transport services,P1 fast-follow,1,Services
+2,https://paphosadvisor.com/settling-in/bank-account,P040,Pillar/Hub,https://paphosadvisor.com/settling-in,open Cyprus bank account,P0 launch,0,Other
+2,https://paphosadvisor.com/settling-in/driving-in-cyprus,P043,FAQ,https://paphosadvisor.com/settling-in,driving in Cyprus,P1 fast-follow,0,Other
+2,https://paphosadvisor.com/settling-in/gesy,P041,FAQ,https://paphosadvisor.com/settling-in,GESY Cyprus,P0 launch,0,Other
+2,https://paphosadvisor.com/settling-in/utilities,P042,Pillar/Hub,https://paphosadvisor.com/settling-in,set up utilities Paphos,P1 fast-follow,0,Other
+2,https://paphosadvisor.com/tax-residency/183-day-rule,P026,FAQ,https://paphosadvisor.com/tax-residency,Cyprus 183-day rule,P1 fast-follow,0,Other
+2,https://paphosadvisor.com/tax-residency/60-day-rule,P025,FAQ,https://paphosadvisor.com/tax-residency,Cyprus 60-day rule,P0 launch,0,Other
+2,https://paphosadvisor.com/tax-residency/gesy-contributions,P028,Pillar/Hub,https://paphosadvisor.com/tax-residency,GESY contributions Cyprus,P1 fast-follow,0,Other
+2,https://paphosadvisor.com/tax-residency/non-dom,P027,FAQ,https://paphosadvisor.com/tax-residency,Cyprus non-dom,P0 launch,0,Other
+2,https://paphosadvisor.com/tax-residency/uk-to-cyprus-tax,P029,Pillar/Hub,https://paphosadvisor.com/tax-residency,UK to Cyprus tax planning,P1 fast-follow,0,Other
+2,https://paphosadvisor.com/tax-residency/yellow-slip,P023,FAQ,https://paphosadvisor.com/tax-residency,yellow slip Cyprus,P0 launch,1,Other
+2,https://paphosadvisor.com/tax-residency/yellow-slip-documents,P024,FAQ,https://paphosadvisor.com/tax-residency/yellow-slip,yellow slip documents Cyprus,P1 fast-follow,0,Other
+2,https://paphosadvisor.com/tools/cyprus-tax-route-finder,P130,Lead Magnet,https://paphosadvisor.com/tools,Cyprus tax route finder,P2 later,0,Resources
+2,https://paphosadvisor.com/tools/family-move-checklist,P133,Lead Magnet,https://paphosadvisor.com/tools,Paphos family move checklist,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/tools/move-timeline,P135,Lead Magnet,https://paphosadvisor.com/tools,Cyprus move timeline,P2 later,0,Resources
+2,https://paphosadvisor.com/tools/paphos-cost-calculator,P131,Lead Magnet,https://paphosadvisor.com/tools,Paphos cost of living calculator,P2 later,0,Resources
+2,https://paphosadvisor.com/tools/permanent-residency-readiness,P132,Lead Magnet,https://paphosadvisor.com/tools,Cyprus PR readiness checklist,P1 fast-follow,0,Pathways
+2,https://paphosadvisor.com/tools/relocation-route-finder,P128,Lead Magnet,https://paphosadvisor.com/tools,Cyprus relocation route finder,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/tools/retirement-move-checklist,P134,Lead Magnet,https://paphosadvisor.com/tools,Cyprus retirement checklist,P1 fast-follow,0,Resources
+2,https://paphosadvisor.com/tools/yellow-slip-checklist,P129,Lead Magnet,https://paphosadvisor.com/tools,Yellow Slip checklist,P1 fast-follow,0,Resources
+3,https://paphosadvisor.com/resources/blog/best-restaurants-new-residents-paphos,P146,Blog,https://paphosadvisor.com/resources/blog,best restaurants Paphos new residents,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/category-f-mistakes,P139,Blog,https://paphosadvisor.com/resources/blog,Category F mistakes,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/cyprus-bureaucracy-realities,P152,Blog,https://paphosadvisor.com/resources/blog,Cyprus bureaucracy,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/cyprus-immigration-updates,P136,Blog,https://paphosadvisor.com/resources/blog,Cyprus immigration updates,P1 fast-follow,0,Resources
+3,https://paphosadvisor.com/resources/blog/cyprus-tax-updates-expats,P137,Blog,https://paphosadvisor.com/resources/blog,Cyprus tax updates expats,P1 fast-follow,0,Resources
+3,https://paphosadvisor.com/resources/blog/cyprus-vat-mistakes,P150,Blog,https://paphosadvisor.com/resources/blog,Cyprus VAT mistakes,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/events-in-paphos,P147,Blog,https://paphosadvisor.com/resources/blog,events in Paphos,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/making-friends-in-paphos,P148,Blog,https://paphosadvisor.com/resources/blog,making friends in Paphos,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/non-dom-myths-cyprus,P140,Blog,https://paphosadvisor.com/resources/blog,Cyprus non-dom myths,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/paphos-cost-of-living-update,P153,Blog,https://paphosadvisor.com/resources/blog,Paphos cost of living update,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/paphos-property-market-update,P141,Blog,https://paphosadvisor.com/resources/blog,Paphos property market update,P1 fast-follow,0,Resources
+3,https://paphosadvisor.com/resources/blog/property-scams-cyprus,P142,Blog,https://paphosadvisor.com/resources/blog,property scams Cyprus,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/rent-before-buying-paphos,P151,Blog,https://paphosadvisor.com/resources/blog,rent before buying Paphos,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/running-uk-company-from-cyprus-risks,P149,Blog,https://paphosadvisor.com/resources/blog,running UK company from Cyprus risks,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/school-admissions-paphos,P143,Blog,https://paphosadvisor.com/resources/blog,Paphos school admissions,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/summer-in-paphos,P144,Blog,https://paphosadvisor.com/resources/blog,summer in Paphos,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/winter-in-paphos,P145,Blog,https://paphosadvisor.com/resources/blog,winter in Paphos,P2 later,0,Resources
+3,https://paphosadvisor.com/resources/blog/yellow-slip-mistakes,P138,Blog,https://paphosadvisor.com/resources/blog,Yellow Slip mistakes,P2 later,0,Resources
+3,https://paphosadvisor.com/services/banking/bank-introductions,P075,Sub-service,https://paphosadvisor.com/services/banking,Cyprus bank introductions,P1 fast-follow,0,Services
+3,https://paphosadvisor.com/services/company-formation/accounting,P067,Sub-service,https://paphosadvisor.com/services/company-formation,Cyprus accounting referrals,P1 fast-follow,0,Services
+3,https://paphosadvisor.com/services/company-formation/bank-account,P066,Sub-service,https://paphosadvisor.com/services/company-formation,Cyprus company bank account,P1 fast-follow,0,Services
+3,https://paphosadvisor.com/services/company-formation/cyprus-limited-company,P065,Sub-service,https://paphosadvisor.com/services/company-formation,Cyprus limited company setup,P0 launch,0,Services
+3,https://paphosadvisor.com/services/education/school-admissions,P072,Sub-service,https://paphosadvisor.com/services/education,Paphos school admissions support,P1 fast-follow,0,Services
+3,https://paphosadvisor.com/services/healthcare/health-insurance,P073,Sub-service,https://paphosadvisor.com/services/healthcare,Cyprus health insurance referral,P1 fast-follow,0,Services
+3,https://paphosadvisor.com/services/legal/category-f,P059,Sub-service,https://paphosadvisor.com/services/legal,Category F legal support,P1 fast-follow,0,Services
+3,https://paphosadvisor.com/services/legal/permanent-residency,P058,Sub-service,https://paphosadvisor.com/services/legal,permanent residency lawyer Cyprus,P0 launch,0,Pathways
+3,https://paphosadvisor.com/services/legal/property-conveyancing,P060,Sub-service,https://paphosadvisor.com/services/legal,Cyprus property conveyancing,P0 launch,0,Services
+3,https://paphosadvisor.com/services/legal/yellow-slip,P057,Sub-service,https://paphosadvisor.com/services/legal,yellow slip legal support,P0 launch,0,Services
+3,https://paphosadvisor.com/services/property/buyer-due-diligence,P069,Sub-service,https://paphosadvisor.com/services/property,property buyer due diligence Cyprus,P0 launch,0,Services
+3,https://paphosadvisor.com/services/property/conveyancing,P068,Sub-service,https://paphosadvisor.com/services/property,Paphos property lawyer,P0 launch,0,Services
+3,https://paphosadvisor.com/services/property/real-estate-agent,P071,Sub-service,https://paphosadvisor.com/services/property,Paphos real estate agent referral,P1 fast-follow,0,Services
+3,https://paphosadvisor.com/services/property/search,P070,Sub-service,https://paphosadvisor.com/services/property,Paphos property search support,P1 fast-follow,0,Services
+3,https://paphosadvisor.com/services/settling-in/utilities,P074,Sub-service,https://paphosadvisor.com/services/settling-in,Paphos utility setup support,P2 later,0,Services
+3,https://paphosadvisor.com/services/tax/60-day-rule,P062,Sub-service,https://paphosadvisor.com/services/tax,Cyprus 60-day rule tax advice,P0 launch,0,Services
+3,https://paphosadvisor.com/services/tax/non-dom-planning,P061,Sub-service,https://paphosadvisor.com/services/tax,Cyprus non-dom tax planning,P0 launch,0,Services
+3,https://paphosadvisor.com/services/tax/uk-pensions,P064,Sub-service,https://paphosadvisor.com/services/tax,UK pension tax advice Cyprus,P1 fast-follow,0,Services
+3,https://paphosadvisor.com/services/tax/uk-to-cyprus,P063,Sub-service,https://paphosadvisor.com/services/tax,UK to Cyprus tax advice,P1 fast-follow,0,Services
+3,https://paphosadvisor.com/services/transport/car-import,P076,Sub-service,https://paphosadvisor.com/services/transport,Cyprus car import support,P2 later,0,Services

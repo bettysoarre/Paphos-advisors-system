@@ -1,8 +1,8 @@
 ---
 title: ICP Pathway Topics
 source: canonical-url-inventory.md
-updated: 2026-05-12
-total-pages: 141
+updated: 2026-07-11
+total-pages: 153
 ---
 
 # ICP Pathway Topics
@@ -17,15 +17,15 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 
 | Page | url-slug | Type | Phase | Primary Keyword |
 |------|----------|------|-------|----------------|
-| Move to Paphos with a Clear Route | / | Home | P0 | move to Paphos |
+| Moving to Cyprus from the UK, with a Clear Route | / | Home | P0 | moving to Cyprus from UK |
 | About Paphos Advisor | /about | About | P0 | Paphos Advisor |
 | Our Editorial Policy | /about/editorial-policy | About | P1 | Paphos Advisor editorial policy |
 | Referral Disclosure | /about/referral-disclosure | About | P0 | Cyprus referral disclosure |
 | Contact Paphos Advisor | /contact | Contact | P0 | contact Paphos Advisor |
 | Start Your Cyprus Relocation Plan | /start | Lead Magnet | P0 | Cyprus relocation plan |
-| Privacy Policy | /legal/privacy-policy | Legal | P0 | privacy policy |
-| Terms of Use | /legal/terms | Legal | P0 | terms of use |
-| Cookie Policy | /legal/cookie-policy | Legal | P0 | cookie policy |
+| Privacy Policy | /legal/privacy-policy | Legal | P0 | Paphos Advisor privacy policy |
+| Terms of Use | /legal/terms | Legal | P0 | Paphos Advisor terms of use |
+| Cookie Policy | /legal/cookie-policy | Legal | P0 | Paphos Advisor cookie policy |
 | Legal Information | /legal | Legal | P1 | Paphos Advisor legal information |
 
 ---
@@ -40,7 +40,7 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 |------|----------|------|-------|----------------|
 | Remote Workers Moving to Paphos | /remote-workers | Pillar/Hub | P0 | remote workers Paphos |
 
-### Entrepreneurs (7 pages)
+### Entrepreneurs (4 pages)
 
 **Hub:** /entrepreneurs — ICP-004
 
@@ -50,11 +50,8 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Cyprus Company Formation Guide | /entrepreneurs/company-formation-cyprus | FAQ | P0 | Cyprus company formation |
 | Running a Foreign Business from Cyprus | /entrepreneurs/running-foreign-business-from-cyprus | FAQ | P1 | running foreign business from Cyprus |
 | Cyprus Company Substance Guide | /entrepreneurs/cyprus-company-substance | FAQ | P1 | Cyprus company substance |
-| Cyprus Corporate Tax Guide | /entrepreneurs/cyprus-corporate-tax | FAQ | P1 | Cyprus corporate tax |
-| Cyprus IP Box Regime Guide | /entrepreneurs/ip-box-regime | FAQ | P1 | Cyprus IP Box regime |
-| Personal vs Company Residency in Cyprus | /entrepreneurs/personal-vs-company-residency | FAQ | P1 | personal vs company residency Cyprus |
 
-### Permanent Residency (4 pages)
+### Permanent Residency (3 pages)
 
 **Hub:** /permanent-residency — ICP-005
 
@@ -63,9 +60,8 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Cyprus Permanent Residency Path | /permanent-residency | Pillar/Hub | P0 | Cyprus permanent residency |
 | Cyprus Permanent Residency by Investment | /permanent-residency/investment-route | FAQ | P0 | Cyprus PR by investment |
 | Cyprus PR Property Requirements | /permanent-residency/property-requirements | FAQ | P1 | Cyprus PR property requirements |
-| Maintaining Cyprus Permanent Residency | /permanent-residency/maintaining-pr | FAQ | P1 | maintaining Cyprus permanent residency |
 
-### Families (5 pages)
+### Families (4 pages)
 
 **Hub:** /families — ICP-006
 
@@ -75,7 +71,6 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Schools in Paphos Guide | /families/schools-in-paphos | FAQ | P0 | schools in Paphos |
 | International Schools in Paphos | /families/international-schools | FAQ | P1 | international schools Paphos |
 | Healthcare for Families in Paphos | /families/healthcare-for-children | FAQ | P1 | healthcare for families Paphos |
-| Mixed-Nationality Families in Cyprus | /families/mixed-nationality-families | FAQ | P1 | mixed nationality families Cyprus |
 
 ### Retirees (3 pages)
 
@@ -93,17 +88,15 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 
 | Page | url-slug | Type | Phase | Primary Keyword |
 |------|----------|------|-------|----------------|
-| Digital Nomads in Cyprus | /digital-nomads | Pillar/Hub | P2 | Cyprus digital nomads |
+| The Cyprus Digital Nomad Visa | /digital-nomads | Pillar/Hub | P1 | Cyprus digital nomad visa |
 
-### Property Investors — P2 (3 pages)
+### Property Investors — P2 (1 page)
 
 **Hub:** /property-investors — ICP-007
 
 | Page | url-slug | Type | Phase | Primary Keyword |
 |------|----------|------|-------|----------------|
 | Paphos Property Investors | /property-investors | Pillar/Hub | P2 | Paphos property investors |
-| Rental Yields in Paphos and Limassol | /property-investors/rental-yields-paphos | FAQ | P2 | rental yields Paphos |
-| Repossessed Properties in Cyprus | /property-investors/repossessed-properties | FAQ | P2 | repossessed properties Cyprus |
 
 ### Budget Movers — P2 (1 page)
 
@@ -125,10 +118,10 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 |------|----------|------|-------|----------------|
 | Cyprus Tax and Residency Hub | /tax-residency | Pillar/Hub | P0 | Cyprus tax residency |
 | Yellow Slip Cyprus Guide | /tax-residency/yellow-slip | FAQ | P0 | yellow slip Cyprus |
-| Cyprus 60-Day Rule Guide | /tax-residency/60-day-rule | FAQ | P0 | Cyprus 60-day rule |
-| Cyprus Non-Dom Guide | /tax-residency/non-dom | FAQ | P0 | Cyprus non-dom |
 | Yellow Slip Documents Checklist | /tax-residency/yellow-slip-documents | FAQ | P1 | yellow slip documents Cyprus |
+| Cyprus 60-Day Rule Guide | /tax-residency/60-day-rule | FAQ | P0 | Cyprus 60-day rule |
 | Cyprus 183-Day Rule Guide | /tax-residency/183-day-rule | FAQ | P1 | Cyprus 183-day rule |
+| Cyprus Non-Dom Guide | /tax-residency/non-dom | FAQ | P0 | Cyprus non-dom |
 | GESY Contributions Explained | /tax-residency/gesy-contributions | Pillar/Hub | P1 | GESY contributions Cyprus |
 | UK to Cyprus Tax Planning | /tax-residency/uk-to-cyprus-tax | Pillar/Hub | P1 | UK to Cyprus tax planning |
 
@@ -143,16 +136,15 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Paphos Property Due Diligence | /property/buyer-due-diligence | Pillar/Hub | P1 | Paphos property due diligence |
 | Renting in Paphos Guide | /property/renting-in-paphos | FAQ | P1 | renting in Paphos |
 
-### Settling In (6 pages)
+### Settling In (5 pages)
 
-**Hub:** /settling-in — All ICPs
+**Hub:** /settling-in — ICP-001, ICP-002, ICP-004, ICP-005, ICP-006
 
 | Page | url-slug | Type | Phase | Primary Keyword |
 |------|----------|------|-------|----------------|
+| Settling In Paphos Hub | /settling-in | Pillar/Hub | P1 | settling in Paphos |
 | Opening a Cyprus Bank Account | /settling-in/bank-account | Pillar/Hub | P0 | open Cyprus bank account |
 | GESY Healthcare Guide | /settling-in/gesy | FAQ | P0 | GESY Cyprus |
-| Settling In Paphos Hub | /settling-in | Pillar/Hub | P1 | settling in Paphos |
-| Cost of Living in Paphos | /settling-in/cost-of-living-paphos | FAQ | P1 | cost of living Paphos |
 | Setting Up Utilities in Paphos | /settling-in/utilities | Pillar/Hub | P1 | set up utilities Paphos |
 | Driving in Cyprus Guide | /settling-in/driving-in-cyprus | FAQ | P1 | driving in Cyprus |
 
@@ -173,30 +165,30 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Cyprus Tax Advisory Referrals | /services/tax | Service | P0 | Cyprus tax advisor |
 | Cyprus Company Formation Services | /services/company-formation | Service | P0 | Cyprus company formation services |
 | Paphos Property Services | /services/property | Service | P0 | Paphos property services |
-| Yellow Slip Legal Support | /services/legal/yellow-slip | Sub-service | P0 | yellow slip legal support |
-| Permanent Residency Legal Support | /services/legal/permanent-residency | Sub-service | P0 | permanent residency lawyer Cyprus |
-| Cyprus Property Conveyancing | /services/legal/property-conveyancing | Sub-service | P0 | Cyprus property conveyancing |
-| Cyprus Non-Dom Tax Planning | /services/tax/non-dom-planning | Sub-service | P0 | Cyprus non-dom tax planning |
-| Cyprus 60-Day Rule Tax Advice | /services/tax/60-day-rule | Sub-service | P0 | Cyprus 60-day rule tax advice |
-| Cyprus Limited Company Setup | /services/company-formation/cyprus-limited-company | Sub-service | P0 | Cyprus limited company setup |
-| Paphos Property Lawyer Referral | /services/property/conveyancing | Sub-service | P0 | Paphos property lawyer |
-| Property Buyer Due Diligence | /services/property/buyer-due-diligence | Sub-service | P0 | property buyer due diligence Cyprus |
 | Paphos Education Support | /services/education | Service | P1 | Paphos education support |
 | Cyprus Healthcare Navigation | /services/healthcare | Service | P1 | Cyprus healthcare navigation |
 | Paphos Settling-In Support | /services/settling-in | Service | P1 | Paphos settling in support |
 | Cyprus Banking Introductions | /services/banking | Service | P1 | Cyprus banking introductions |
 | Cyprus Transport Services | /services/transport | Service | P1 | Cyprus transport services |
+| Yellow Slip Legal Support | /services/legal/yellow-slip | Sub-service | P0 | yellow slip legal support |
+| Permanent Residency Legal Support | /services/legal/permanent-residency | Sub-service | P0 | permanent residency lawyer Cyprus |
 | Category F Legal Support | /services/legal/category-f | Sub-service | P1 | Category F legal support |
+| Cyprus Property Conveyancing | /services/legal/property-conveyancing | Sub-service | P0 | Cyprus property conveyancing |
+| Cyprus Non-Dom Tax Planning | /services/tax/non-dom-planning | Sub-service | P0 | Cyprus non-dom tax planning |
+| Cyprus 60-Day Rule Tax Advice | /services/tax/60-day-rule | Sub-service | P0 | Cyprus 60-day rule tax advice |
 | UK to Cyprus Tax Advice | /services/tax/uk-to-cyprus | Sub-service | P1 | UK to Cyprus tax advice |
 | UK Pension Tax Advice Cyprus | /services/tax/uk-pensions | Sub-service | P1 | UK pension tax advice Cyprus |
+| Cyprus Limited Company Setup | /services/company-formation/cyprus-limited-company | Sub-service | P0 | Cyprus limited company setup |
 | Cyprus Company Bank Account Help | /services/company-formation/bank-account | Sub-service | P1 | Cyprus company bank account |
 | Cyprus Accounting Referrals | /services/company-formation/accounting | Sub-service | P1 | Cyprus accounting referrals |
+| Paphos Property Lawyer Referral | /services/property/conveyancing | Sub-service | P0 | Paphos property lawyer |
+| Property Buyer Due Diligence | /services/property/buyer-due-diligence | Sub-service | P0 | property buyer due diligence Cyprus |
 | Paphos Property Search Support | /services/property/search | Sub-service | P1 | Paphos property search support |
 | Paphos Real Estate Agent Referral | /services/property/real-estate-agent | Sub-service | P1 | Paphos real estate agent referral |
 | Paphos School Admissions Support | /services/education/school-admissions | Sub-service | P1 | Paphos school admissions support |
 | Cyprus Health Insurance Referral | /services/healthcare/health-insurance | Sub-service | P1 | Cyprus health insurance referral |
-| Cyprus Bank Introductions | /services/banking/bank-introductions | Sub-service | P1 | Cyprus bank introductions |
 | Paphos Utility Setup Support | /services/settling-in/utilities | Sub-service | P2 | Paphos utility setup support |
+| Cyprus Bank Introductions | /services/banking/bank-introductions | Sub-service | P1 | Cyprus bank introductions |
 | Cyprus Car Import Support | /services/transport/car-import | Sub-service | P2 | Cyprus car import support |
 
 ---
@@ -228,18 +220,18 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Where to Live in Paphos | /locations | Location | P0 | where to live in Paphos |
 | Living in Paphos | /locations/paphos | Location | P1 | living in Paphos |
 | Living in Pegeia | /locations/pegeia | Location | P1 | living in Pegeia |
+| Living in Peyia | /locations/peyia | Location | P2 | living in Peyia |
 | Living in Chloraka | /locations/chloraka | Location | P1 | living in Chloraka |
 | Living in Kissonerga | /locations/kissonerga | Location | P1 | living in Kissonerga |
 | Living in Tala | /locations/tala | Location | P1 | living in Tala |
+| Living in Tsada | /locations/tsada | Location | P2 | living in Tsada |
 | Living in Kato Paphos | /locations/kato-paphos | Location | P1 | living in Kato Paphos |
 | Living in Universal, Paphos | /locations/universal | Location | P1 | living in Universal Paphos |
 | Living in Konia | /locations/konia | Location | P1 | living in Konia |
 | Living in Coral Bay | /locations/coral-bay | Location | P1 | living in Coral Bay |
+| Living in Mesogi | /locations/mesogi | Location | P2 | living in Mesogi |
 | Best Areas in Paphos for Families | /locations/best-areas-for-families | Location | P1 | best areas in Paphos for families |
 | Best Areas in Paphos for Retirees | /locations/best-areas-for-retirees | Location | P1 | best areas in Paphos for retirees |
-| Living in Peyia | /locations/peyia | Location | P2 | living in Peyia |
-| Living in Tsada | /locations/tsada | Location | P2 | living in Tsada |
-| Living in Mesogi | /locations/mesogi | Location | P2 | living in Mesogi |
 | Best Paphos Areas for Remote Workers | /locations/best-areas-for-remote-workers | Location | P2 | best areas in Paphos for remote workers |
 
 ---
@@ -249,15 +241,15 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Page | url-slug | Type | Phase | Primary Keyword |
 |------|----------|------|-------|----------------|
 | Cyprus vs Malta for Relocation | /compare/cyprus-vs-malta | Comparison | P1 | Cyprus vs Malta |
-| Paphos vs Limassol for Expats | /compare/paphos-vs-limassol | Comparison | P1 | Paphos vs Limassol |
-| Rent First or Buy in Paphos? | /compare/rent-first-vs-buy-paphos | Comparison | P1 | rent or buy in Paphos |
 | Cyprus vs Portugal for Expats | /compare/cyprus-vs-portugal | Comparison | P2 | Cyprus vs Portugal |
+| Paphos vs Limassol for Expats | /compare/paphos-vs-limassol | Comparison | P1 | Paphos vs Limassol |
 | Paphos vs Larnaca for Expats | /compare/paphos-vs-larnaca | Comparison | P2 | Paphos vs Larnaca |
 | Cyprus vs Ireland Company Setup | /compare/cyprus-vs-ireland-company | Comparison | P2 | Cyprus vs Ireland company setup |
+| Rent First or Buy in Paphos? | /compare/rent-first-vs-buy-paphos | Comparison | P1 | rent or buy in Paphos |
 
 ---
 
-## Support (Glossary, FAQ, Tools — 19 pages)
+## Support (Glossary, FAQ, Tools — 24 pages)
 
 ### Glossary
 
@@ -291,7 +283,36 @@ For full metadata (H1, funnel stage, ICP assignments, process doc links, status)
 | Cyprus Relocation Tools | /tools | Lead Magnet | P1 | Cyprus relocation tools |
 | Cyprus Relocation Route Finder | /tools/relocation-route-finder | Lead Magnet | P1 | Cyprus relocation route finder |
 | Yellow Slip Checklist | /tools/yellow-slip-checklist | Lead Magnet | P1 | Yellow Slip checklist |
-| First 30 Days in Cyprus Checklist | /tools/first-30-days-checklist | Lead Magnet | P1 | first 30 days Cyprus checklist |
-| Cyprus Company Formation Checklist | /tools/company-formation-checklist | Lead Magnet | P1 | Cyprus company formation checklist |
-| Family Move to Cyprus Checklist | /tools/family-move-checklist | Lead Magnet | P1 | family move Cyprus checklist |
 | Cyprus Tax Route Finder | /tools/cyprus-tax-route-finder | Lead Magnet | P2 | Cyprus tax route finder |
+| Paphos Cost of Living Calculator | /tools/paphos-cost-calculator | Lead Magnet | P2 | Paphos cost of living calculator |
+| Cyprus Permanent Residency Readiness Checklist | /tools/permanent-residency-readiness | Lead Magnet | P1 | Cyprus PR readiness checklist |
+| Paphos Family Move Checklist | /tools/family-move-checklist | Lead Magnet | P1 | Paphos family move checklist |
+| Cyprus Retirement Move Checklist | /tools/retirement-move-checklist | Lead Magnet | P1 | Cyprus retirement checklist |
+| Cyprus Move Timeline Planner | /tools/move-timeline | Lead Magnet | P2 | Cyprus move timeline |
+
+---
+
+## Blog (18 pages)
+
+Weekly/seasonal news and lifestyle content, distinct from the evergreen pathway/topic pages above. See `sitemap-full-metadata.csv` for seasonality and schema notes.
+
+| Page | url-slug | Type | Phase | Primary Keyword |
+|------|----------|------|-------|----------------|
+| Cyprus Immigration Updates | /resources/blog/cyprus-immigration-updates | Blog | P1 | Cyprus immigration updates |
+| Cyprus Tax Updates for Expats | /resources/blog/cyprus-tax-updates-expats | Blog | P1 | Cyprus tax updates expats |
+| Common Yellow Slip Mistakes | /resources/blog/yellow-slip-mistakes | Blog | P2 | Yellow Slip mistakes |
+| Category F Mistakes to Avoid | /resources/blog/category-f-mistakes | Blog | P2 | Category F mistakes |
+| Cyprus Non-Dom Myths | /resources/blog/non-dom-myths-cyprus | Blog | P2 | Cyprus non-dom myths |
+| Paphos Property Market Update | /resources/blog/paphos-property-market-update | Blog | P1 | Paphos property market update |
+| Property Scams in Cyprus | /resources/blog/property-scams-cyprus | Blog | P2 | property scams Cyprus |
+| Paphos School Admissions Tips | /resources/blog/school-admissions-paphos | Blog | P2 | Paphos school admissions |
+| Summer in Paphos | /resources/blog/summer-in-paphos | Blog | P2 | summer in Paphos |
+| Winter in Paphos | /resources/blog/winter-in-paphos | Blog | P2 | winter in Paphos |
+| Best Restaurants for New Residents in Paphos | /resources/blog/best-restaurants-new-residents-paphos | Blog | P2 | best restaurants Paphos new residents |
+| Events in Paphos for New Residents | /resources/blog/events-in-paphos | Blog | P2 | events in Paphos |
+| Making Friends in Paphos | /resources/blog/making-friends-in-paphos | Blog | P2 | making friends in Paphos |
+| Running a UK Company from Cyprus Risks | /resources/blog/running-uk-company-from-cyprus-risks | Blog | P2 | running UK company from Cyprus risks |
+| Cyprus VAT Mistakes | /resources/blog/cyprus-vat-mistakes | Blog | P2 | Cyprus VAT mistakes |
+| Should You Rent Before Buying in Paphos? | /resources/blog/rent-before-buying-paphos | Blog | P2 | rent before buying Paphos |
+| Cyprus Bureaucracy Realities | /resources/blog/cyprus-bureaucracy-realities | Blog | P2 | Cyprus bureaucracy |
+| Paphos Cost of Living Update | /resources/blog/paphos-cost-of-living-update | Blog | P2 | Paphos cost of living update |

@@ -24,7 +24,7 @@ Maps each ICP segment to the content they are most likely to search for and find
 | Category F Permit — UK nationals guide | Process explainer | high | /retirees/category-f-residency | P0 | Core process |
 | Healthcare in Cyprus for retirees | Guide | high | /settling-in/gesy | P0 | Primary concern |
 | UK pension in Cyprus — tax implications | Tax explainer | high | /retirees/uk-pensions-cyprus | P1 | High anxiety topic |
-| Cost of living in Paphos | Guide | medium | /settling-in/cost-of-living-paphos | P1 | |
+| Cost of living in Paphos | Guide | medium | /tools/paphos-cost-calculator | P2 | Old slug /settling-in/cost-of-living-paphos removed in 2026-07-11 sitemap rebuild; retargeted to the cost calculator tool (also see /resources/blog/paphos-cost-of-living-update) |
 | Buying property in Cyprus as a UK national (post-Brexit) | Process explainer | medium | /property/buying-property-paphos | P0 | |
 | Best areas in Paphos for British expats | Area guide | medium | /locations/best-areas-for-retirees | P1 | |
 
@@ -41,7 +41,7 @@ Maps each ICP segment to the content they are most likely to search for and find
 | What lease qualifies for Yellow Slip / MEU1? | Property guide | high | /tax-residency/yellow-slip | P0 | Covered within Yellow Slip guide |
 | GESY for employed remote workers | Process explainer | medium | /settling-in/gesy | P0 | |
 | Opening a bank account in Cyprus | Process explainer | medium | /settling-in/bank-account | P0 | Known pain point |
-| First 30 days in Cyprus — EU remote worker checklist | Checklist | medium | /tools/first-30-days-checklist | P1 | |
+| First 30 days in Cyprus — EU remote worker checklist | Checklist | medium | /tools/move-timeline | P2 | Old slug /tools/first-30-days-checklist removed in 2026-07-11 sitemap rebuild; retargeted to the move timeline tool |
 | Renting first, buying later in Paphos | Guide | medium | /compare/rent-first-vs-buy-paphos | P1 | Supports long-tail property conversion |
 | Best areas in Paphos for remote workers | Area guide | medium | /locations/best-areas-for-remote-workers | P2 | Strong local-intent content |
 | When a remote worker should consider Cyprus company formation | Guide | low | /remote-workers | P0 | Merge into /remote-workers hub — "considering company formation" section |
@@ -64,14 +64,14 @@ Maps each ICP segment to the content they are most likely to search for and find
 | Content | Type | Priority | url-slug | phase | Notes |
 |---|---|---|---|---|---|
 | Cyprus company formation — complete guide | Process explainer | high | /entrepreneurs/company-formation-cyprus | P0 | Core process |
-| Cyprus corporate tax rate and founder essentials | Tax explainer | high | /entrepreneurs/cyprus-corporate-tax | P1 | |
-| Cyprus IP Box regime guide | Process explainer | high | /entrepreneurs/ip-box-regime | P1 | |
+| Cyprus corporate tax rate and founder essentials | Tax explainer | high | pending | P1 | Old slug /entrepreneurs/cyprus-corporate-tax removed in 2026-07-11 sitemap rebuild; not present in current inventory |
+| Cyprus IP Box regime guide | Process explainer | high | pending | P1 | Old slug /entrepreneurs/ip-box-regime removed in 2026-07-11 sitemap rebuild; not present in current inventory |
 | Substance requirements for Cyprus companies | Guide | high | /entrepreneurs/cyprus-company-substance | P1 | High-intent qualification content |
 | Non-Dom status for company directors | Tax explainer | high | /tax-residency/non-dom | P0 | Critical for dividends |
-| Personal residency vs company residency in Cyprus | FAQ / Guide | high | /entrepreneurs/personal-vs-company-residency | P1 | |
+| Personal residency vs company residency in Cyprus | FAQ / Guide | high | pending | P1 | Old slug /entrepreneurs/personal-vs-company-residency removed in 2026-07-11 sitemap rebuild; not present in current inventory |
 | Cyprus vs Malta vs Ireland company formation | Comparison | high | /compare/cyprus-vs-ireland-company | P2 | Decision-stage |
 | Corporate banking in Cyprus — realistic guide | Process explainer | medium | /services/company-formation/bank-account | P1 | Key blocker topic |
-| Company formation checklist Cyprus | Checklist | medium | /tools/company-formation-checklist | P1 | |
+| Company formation checklist Cyprus | Checklist | medium | pending | P1 | Old slug /tools/company-formation-checklist removed in 2026-07-11 sitemap rebuild; not present in current inventory |
 | Should founders relocate personally to Cyprus? | Guide | medium | /entrepreneurs/running-foreign-business-from-cyprus | P1 | Supports crossover into multi-step relocator |
 
 ---
@@ -83,7 +83,7 @@ Maps each ICP segment to the content they are most likely to search for and find
 | Cyprus permanent residency by investment — complete guide | Process explainer | high | /permanent-residency/investment-route | P0 | Core process |
 | What property qualifies for Category 6.2? | FAQ / Guide | high | /permanent-residency/property-requirements | P1 | Key qualification question |
 | Cyprus PR pending status explained | FAQ | high | /permanent-residency/investment-route | P0 | Merge into investment-route guide — "after submission" FAQ section |
-| Maintaining Cyprus permanent residency — annual obligations | Checklist / Guide | high | /permanent-residency/maintaining-pr | P1 | |
+| Maintaining Cyprus permanent residency — annual obligations | Checklist / Guide | high | pending | P1 | Old slug /permanent-residency/maintaining-pr removed in 2026-07-11 sitemap rebuild; not present in current inventory |
 | Developer due diligence when buying new property in Cyprus | Checklist / Guide | high | /property/buyer-due-diligence | P1 | High-stakes trust content |
 | Family inclusion in Cyprus permanent residency | Guide | medium | /permanent-residency/investment-route | P0 | Merge into investment-route guide — "who can be included" section |
 | Non-Dom status for Cyprus permanent residents | Tax explainer | medium | /tax-residency/non-dom | P0 | |
@@ -99,7 +99,7 @@ Maps each ICP segment to the content they are most likely to search for and find
 | Moving to Cyprus with children — full relocation guide | Guide | high | /families | P0 | Core family entry-point content |
 | Schools in Paphos — expat and international options guide | Guide | high | /families/schools-in-paphos | P0 | Primary concern |
 | School registration in Cyprus — step-by-step | Process explainer | high | /services/education/school-admissions | P1 | High-intent practical content |
-| Mixed-nationality families in Cyprus — two parents, two routes | Guide | high | /families/mixed-nationality-families | P1 | |
+| Mixed-nationality families in Cyprus — two parents, two routes | Guide | high | pending | P1 | Old slug /families/mixed-nationality-families removed in 2026-07-11 sitemap rebuild; not present in current inventory |
 | GESY for children — healthcare registration guide | Process explainer | high | /families/healthcare-for-children | P1 | Strong practical anxiety topic |
 | Family relocation to Cyprus — complete moving checklist | Checklist | high | /tools/family-move-checklist | P1 | |
 | Best family-friendly areas in Paphos — near schools and amenities | Area guide | high | /locations/best-areas-for-families | P1 | Strong local commercial intent |
@@ -114,10 +114,10 @@ Maps each ICP segment to the content they are most likely to search for and find
 | Content | Type | Priority | url-slug | phase | Notes |
 |---|---|---|---|---|---|
 | Cyprus property title deed risk — what every buyer needs to know | Guide | high | /property/buyer-due-diligence | P1 | Core anxiety; differentiating content |
-| Rental yields in Paphos and Limassol — realistic 2026 data | Guide | high | /property-investors/rental-yields-paphos | P2 | |
+| Rental yields in Paphos and Limassol — realistic 2026 data | Guide | high | pending | P2 | Old slug /property-investors/rental-yields-paphos removed in 2026-07-11 sitemap rebuild; not present in current inventory |
 | Developer due diligence in Cyprus — red flags and how to verify | Guide | high | /services/property/buyer-due-diligence | P0 | High-trust content; needs legal review before publishing |
 | Buying property in Cyprus as a UK national (post-Brexit) | Process explainer | high | /property/buying-property-paphos | P0 | High-volume search term |
-| Repossessed and red-loan properties in Cyprus — worth buying? | Guide | medium | /property-investors/repossessed-properties | P2 | |
+| Repossessed and red-loan properties in Cyprus — worth buying? | Guide | medium | pending | P2 | Old slug /property-investors/repossessed-properties removed in 2026-07-11 sitemap rebuild; not present in current inventory |
 | True cost of owning a Cyprus property from abroad | Guide | medium | /property/buying-property-paphos | P0 | Merge into buying guide — ongoing costs section |
 | Do I need residency to buy property in Cyprus? | FAQ | medium | /faq/property | P1 | Common early-stage question |
 
@@ -139,7 +139,7 @@ Maps each ICP segment to the content they are most likely to search for and find
 | Content | Type | Priority | url-slug | phase | Notes |
 |---|---|---|---|---|---|
 | Category F income requirements — exactly what you need to qualify | Guide | high | /retirees/category-f-residency | P0 | Primary qualification content; also serves ICP-001 at early awareness |
-| Cost of living in Paphos — realistic 2026 figures | Guide | high | /settling-in/cost-of-living-paphos | P1 | Same page as ICP-01 above |
+| Cost of living in Paphos — realistic 2026 figures | Guide | high | /tools/paphos-cost-calculator | P2 | Same page as ICP-01 above; old slug /settling-in/cost-of-living-paphos removed in 2026-07-11 sitemap rebuild |
 | Can I work in Cyprus as a UK or EU national? | FAQ | medium | /faq/residency | P1 | Common question for this segment |
 | Renting in Paphos — what to budget and where to look | Guide | medium | /property/renting-in-paphos | P1 | Serves early-stage, budget-conscious enquirers |
 
@@ -159,10 +159,13 @@ Maps each ICP segment to the content they are most likely to search for and find
 
 ## Content Gap Analysis by Segment
 
-Gaps reviewed and resolved 2026-05-12. 11 pieces added to the canonical URL inventory (P131–P141); 6 pieces merged into existing pages. No pending pieces remain.
+Gaps reviewed and resolved 2026-05-12, against the 141-page inventory then in place. 11 pieces added to the canonical URL inventory (old P131–P141); 6 pieces merged into existing pages.
 
-Remaining production priorities by segment:
-1. **ICP-04 Entrepreneur** — 5 new P1 pages added (corporate tax, IP Box, personal vs company residency, company formation checklist, substance guide already in inventory); no pieces live yet
-2. **ICP-05 HNI** — 1 new P1 page added (maintaining PR); core application guide (P033) and property requirements (P034) are P0 and P1 respectively
-3. **ICP-06 Families** — 2 new P1 pages added (mixed-nationality families, family move checklist); schools guide (P035) is P0
-4. **ICP-02 EU Remote Worker** — core immigration and tax content fully mapped; lifecycle content (first-30-days checklist) now has inventory slot
+**Superseded 2026-07-11:** the canonical URL inventory was fully rebuilt (153 pages, all IDs renumbered — see `../sitemap/canonical-url-inventory.md`). 8 of the 11 pieces added in the May review (corporate tax, IP Box, personal vs company residency, company formation checklist, maintaining PR, mixed-nationality families, rental yields, repossessed properties) are no longer present in the current inventory and are marked `pending` in the tables above. This is a real gap again — review whether to re-add these pages or confirm they're intentionally dropped.
+
+Remaining production priorities by segment (pre-July-rebuild view, needs re-review):
+1. **ICP-04 Entrepreneur** — corporate tax, IP Box, personal vs company residency, and company formation checklist are now `pending` (no inventory slot); substance guide (`/entrepreneurs/cyprus-company-substance`) is still live at P1
+2. **ICP-05 HNI** — maintaining PR is now `pending` (no inventory slot); core application guide (P033) and property requirements (P034) are still live at P0 and P1 respectively
+3. **ICP-06 Families** — mixed-nationality families is now `pending` (no inventory slot); family move checklist is still live (`/tools/family-move-checklist`); schools guide (P035) is still live at P0
+4. **ICP-02 EU Remote Worker** — core immigration and tax content fully mapped; lifecycle content (first-30-days checklist) retargeted to `/tools/move-timeline`
+5. **ICP-07 Property Speculators** — rental yields and repossessed properties pieces are now `pending` (no inventory slot)

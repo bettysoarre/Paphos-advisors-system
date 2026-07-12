@@ -1,11 +1,11 @@
 ---
 title: Canonical URL Inventory
-source: Jason's IA Workbook (Sheet 1 — SEO metadata) + Sheet 2 (site tree / phase)
-synced: 2026-05-11
-total-pages: 141
+source: Jason's rebuilt IA workbook (paphosadvisor_rebuilt_sitemap_geo_seo.xlsx — Sitemap tab, GID 295829359) + Hierarchy/QA/ICP Notes tabs
+synced: 2026-07-11
+total-pages: 153
 p0-count: 42
-supersedes: content-system/topical-map/pillar-topics.md
-note: Primary keywords extracted from meta description prefix (pattern "[primary-keyword]: practical Paphos guidance..."). Verify against Jason's sheet column 10 before briefing. Phase data from site tree sheet.
+supersedes: content-system/topical-map/pillar-topics.md, previous canonical-url-inventory.md (141-page version, synced 2026-05-11 — all page IDs renumbered, do not cross-reference old P0## ids)
+note: Full rebuild, not an incremental sync. All Page IDs (P001-P153) are reassigned from the previous version and do not correspond to the same pages. Full SEO metadata (title tag, meta description, secondary keywords, schema.org types, key entities, LLM retrieval angle, internal link targets, notes) is available in sitemap-full-metadata.csv in this folder. Site hierarchy (depth, nav grouping, children count) is available in site-hierarchy.csv. ICP labels now carry full descriptive names matching icps/segments/ file names — see "ICP Priority in This Sitemap" below.
 ---
 
 # Canonical URL Inventory
@@ -15,9 +15,44 @@ Master reference for all pages on the Paphos Advisors website. Supersedes `pilla
 All content briefs, content mapping rows, and Notion Content Pipeline records derive from this file.
 When Jason's sheet is updated, sync here first, then propagate changes downstream.
 
-Full SEO metadata not captured here (title tag, meta description, secondary keywords, schema type, key entities, LLM retrieval angle, internal link targets) — available in Jason's IA workbook Sheet 1, columns 7–17.
+Full SEO metadata not captured in the table below (title tag, meta description, secondary keywords, schema type, key entities, LLM retrieval angle, internal link targets) — available in `sitemap-full-metadata.csv` in this same folder, keyed by page-id.
 
 **Columns:** `page-id | url-slug | h1 | type | phase | funnel-stage | primary-keyword | icp | process-doc | status`
+
+---
+
+## ICP Priority in This Sitemap
+
+| ICP | Role in this sitemap | Treatment |
+|---|---|---|
+| ICP-002 EU National Remote Worker | Primary design set | Top-level pathway, Yellow Slip, 60-day rule, non-dom, banking, and rental-first content. |
+| ICP-004 Entrepreneur / Company Formation | Primary design set | Top-level pathway, company formation, substance, tax, VAT, accounting, and banking service routes. |
+| ICP-005 HNI Permanent Residency | Primary design set | Top-level permanent residency pathway, PR by investment, property requirements, tax, due diligence, and wealth planning experts. |
+| ICP-006 Family Relocating with Children | Primary design set | Top-level family pathway, schools, healthcare, areas, rentals, and longer nurture journey. |
+| ICP-001 UK National Retiree | Primary design set | Top-level retiree pathway, Category F, pensions, healthcare, post-Brexit residency, and property journey. |
+| ICP-003 Non-EU Digital Nomad | Secondary acquisition audience | Content cluster only; not dominant in main navigation. |
+| ICP-007 Property Speculators | Strategic content audience | Property due diligence, investor comparison, area pages, and developer-neutral trust surfaces. |
+| ICP-009 Low Budget Escapers | Nurture/filter case | Single lightweight route page, FAQ and checklist content, not premium partner flow. |
+| ICP-008 Related Partners | Internal stakeholder | Expert hub and referral disclosure support partner trust without public partner names. |
+
+---
+
+## Pages Consolidated or Renamed in This Rebuild
+
+These 10 page concepts from the previous inventory do not have a matching URL slug in the new sitemap. None had a process-doc link in the old version, so no process-doc references are broken, but flag if any of this content was in progress:
+
+| Old slug | Likely new equivalent |
+|---|---|
+| /entrepreneurs/cyprus-corporate-tax | Not present in new sitemap — was P1 idea only |
+| /entrepreneurs/ip-box-regime | Not present in new sitemap — was P1 idea only |
+| /entrepreneurs/personal-vs-company-residency | Not present in new sitemap — was P1 idea only |
+| /families/mixed-nationality-families | Not present in new sitemap — was P1 idea only |
+| /permanent-residency/maintaining-pr | Not present in new sitemap — was P1 idea only |
+| /property-investors/rental-yields-paphos | Not present in new sitemap — was P2 idea only |
+| /property-investors/repossessed-properties | Not present in new sitemap — was P2 idea only |
+| /settling-in/cost-of-living-paphos | /tools/paphos-cost-calculator (P131) + /resources/blog/paphos-cost-of-living-update (P153) |
+| /tools/company-formation-checklist | Not present in new sitemap — was P1 idea only |
+| /tools/first-30-days-checklist | /tools/move-timeline (P135) |
 
 ---
 
@@ -25,15 +60,15 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 
 | page-id | url-slug | h1 | type | phase | funnel-stage | primary-keyword | icp | process-doc | status |
 |---------|----------|----|------|-------|-------------|----------------|-----|------------|--------|
-| P001 | / | Move to Paphos with a Clear Route | Home | P0 | MOFU | move to Paphos | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
+| P001 | / | Moving to Cyprus from the UK, with a Clear Route | Home | P0 | MOFU | moving to Cyprus from UK | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
 | P002 | /about | About Paphos Advisor | About | P0 | MOFU | Paphos Advisor | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
 | P003 | /about/editorial-policy | Our Editorial Policy | About | P1 | MOFU | Paphos Advisor editorial policy | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
 | P004 | /about/referral-disclosure | Referral Disclosure | About | P0 | BOFU | Cyprus referral disclosure | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
 | P005 | /contact | Contact Paphos Advisor | Contact | P0 | BOFU | contact Paphos Advisor | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
 | P006 | /start | Start Your Cyprus Relocation Plan | Lead Magnet | P0 | BOFU | Cyprus relocation plan | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
-| P007 | /legal/privacy-policy | Privacy Policy | Legal | P0 | BOFU | privacy policy | — | — | idea |
-| P008 | /legal/terms | Terms of Use | Legal | P0 | BOFU | terms of use | — | — | idea |
-| P009 | /legal/cookie-policy | Cookie Policy | Legal | P0 | BOFU | cookie policy | — | — | idea |
+| P007 | /legal/privacy-policy | Privacy Policy | Legal | P0 | BOFU | Paphos Advisor privacy policy | — | — | idea |
+| P008 | /legal/terms | Terms of Use | Legal | P0 | BOFU | Paphos Advisor terms of use | — | — | idea |
+| P009 | /legal/cookie-policy | Cookie Policy | Legal | P0 | BOFU | Paphos Advisor cookie policy | — | — | idea |
 | P010 | /legal | Legal Information | Legal | P1 | BOFU | Paphos Advisor legal information | — | — | idea |
 
 ---
@@ -54,9 +89,6 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 | P030 | /entrepreneurs/company-formation-cyprus | Cyprus Company Formation Guide | FAQ | P0 | MOFU | Cyprus company formation | ICP-004 | [company-formation.md](../../../processes/business/company-formation.md) | idea |
 | P031 | /entrepreneurs/running-foreign-business-from-cyprus | Running a Foreign Business from Cyprus | FAQ | P1 | MOFU | running foreign business from Cyprus | ICP-004 | — | idea |
 | P032 | /entrepreneurs/cyprus-company-substance | Cyprus Company Substance Guide | FAQ | P1 | MOFU | Cyprus company substance | ICP-004 | — | idea |
-| P133 | /entrepreneurs/cyprus-corporate-tax | Cyprus Corporate Tax Rate — Founder Essentials | FAQ | P1 | MOFU | Cyprus corporate tax rate | ICP-004 | — | idea |
-| P134 | /entrepreneurs/ip-box-regime | Cyprus IP Box Regime Guide | FAQ | P1 | MOFU | Cyprus IP Box regime | ICP-004 | — | idea |
-| P135 | /entrepreneurs/personal-vs-company-residency | Personal Residency vs Company Residency in Cyprus | FAQ | P1 | MOFU | personal vs company residency Cyprus | ICP-004 | — | idea |
 
 ### 2c. Permanent Residency
 
@@ -65,7 +97,6 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 | P013 | /permanent-residency | Cyprus Permanent Residency Path | Pillar/Hub | P0 | MOFU | Cyprus permanent residency | ICP-005 | — | idea |
 | P033 | /permanent-residency/investment-route | Cyprus Permanent Residency by Investment | FAQ | P0 | MOFU | Cyprus PR by investment | ICP-005 | [permanent-residency-investment.md](../../../processes/immigration/permanent-residency-investment.md) | idea |
 | P034 | /permanent-residency/property-requirements | Cyprus PR Property Requirements | FAQ | P1 | MOFU | Cyprus PR property requirements | ICP-005 | [permanent-residency-investment.md](../../../processes/immigration/permanent-residency-investment.md) | idea |
-| P137 | /permanent-residency/maintaining-pr | Maintaining Cyprus Permanent Residency | Guide | P1 | MOFU | maintaining Cyprus permanent residency | ICP-005 | — | idea |
 
 ### 2d. Families
 
@@ -75,7 +106,6 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 | P035 | /families/schools-in-paphos | Schools in Paphos Guide | FAQ | P0 | TOFU | schools in Paphos | ICP-006 | — | idea |
 | P036 | /families/international-schools | International Schools in Paphos | FAQ | P1 | TOFU | international schools Paphos | ICP-006 | — | idea |
 | P037 | /families/healthcare-for-children | Healthcare for Families in Paphos | FAQ | P1 | TOFU | healthcare for families Paphos | ICP-006 | [accessing-gesy-services.md](../../../processes/healthcare/accessing-gesy-services.md) | idea |
-| P138 | /families/mixed-nationality-families | Mixed-Nationality Families in Cyprus | Guide | P1 | MOFU | mixed nationality families Cyprus | ICP-006 | — | idea |
 
 ### 2e. Retirees
 
@@ -89,15 +119,13 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 
 | page-id | url-slug | h1 | type | phase | funnel-stage | primary-keyword | icp | process-doc | status |
 |---------|----------|----|------|-------|-------------|----------------|-----|------------|--------|
-| P016 | /digital-nomads | Digital Nomads in Cyprus | Pillar/Hub | P2 | MOFU | Cyprus digital nomads | ICP-003 | [digital-nomad-visa.md](../../../processes/immigration/digital-nomad-visa.md) | idea |
+| P016 | /digital-nomads | The Cyprus Digital Nomad Visa | Pillar/Hub | P1 | MOFU | Cyprus digital nomad visa | ICP-003 | [digital-nomad-visa.md](../../../processes/immigration/digital-nomad-visa.md) | idea |
 
 ### 2g. Property Investors (P2)
 
 | page-id | url-slug | h1 | type | phase | funnel-stage | primary-keyword | icp | process-doc | status |
 |---------|----------|----|------|-------|-------------|----------------|-----|------------|--------|
 | P017 | /property-investors | Paphos Property Investors | Pillar/Hub | P2 | MOFU | Paphos property investors | ICP-007 | — | idea |
-| P140 | /property-investors/rental-yields-paphos | Rental Yields in Paphos and Limassol | Guide | P2 | MOFU | rental yields Paphos | ICP-007 | — | idea |
-| P141 | /property-investors/repossessed-properties | Repossessed and Red-Loan Properties in Cyprus | Guide | P2 | MOFU | repossessed properties Cyprus | ICP-007 | — | idea |
 
 ### 2h. Budget Movers (P2)
 
@@ -140,7 +168,6 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 | P041 | /settling-in/gesy | GESY Healthcare Guide | FAQ | P0 | TOFU | GESY Cyprus | ICP-001, ICP-002, ICP-006 | [gesy-registration.md](../../../processes/settling-in/gesy-registration.md) | idea |
 | P042 | /settling-in/utilities | Setting Up Utilities in Paphos | Pillar/Hub | P1 | TOFU | set up utilities Paphos | ICP-001, ICP-002, ICP-006 | — | idea |
 | P043 | /settling-in/driving-in-cyprus | Driving in Cyprus Guide | FAQ | P1 | TOFU | driving in Cyprus | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | [driving-licence-exchange.md](../../../processes/settling-in/driving-licence-exchange.md) | idea |
-| P131 | /settling-in/cost-of-living-paphos | Cost of Living in Paphos | Guide | P1 | MOFU | cost of living Paphos | ICP-001, ICP-009 | — | idea |
 
 ### 3d. Resources
 
@@ -278,6 +305,35 @@ Full SEO metadata not captured here (title tag, meta description, secondary keyw
 | P128 | /tools/relocation-route-finder | Cyprus Relocation Route Finder | Lead Magnet | P1 | MOFU | Cyprus relocation route finder | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
 | P129 | /tools/yellow-slip-checklist | Yellow Slip Checklist | Lead Magnet | P1 | MOFU | Yellow Slip checklist | ICP-002 | [yellow-slip-eu-national.md](../../../processes/immigration/yellow-slip-eu-national.md) | idea |
 | P130 | /tools/cyprus-tax-route-finder | Cyprus Tax Route Finder | Lead Magnet | P2 | MOFU | Cyprus tax route finder | ICP-002, ICP-004, ICP-005 | — | idea |
-| P132 | /tools/first-30-days-checklist | First 30 Days in Cyprus — EU Remote Worker Checklist | Lead Magnet | P1 | MOFU | first 30 days Cyprus checklist | ICP-002 | — | idea |
-| P136 | /tools/company-formation-checklist | Cyprus Company Formation Checklist | Lead Magnet | P1 | MOFU | Cyprus company formation checklist | ICP-004 | — | idea |
-| P139 | /tools/family-move-checklist | Family Relocation to Cyprus — Moving Checklist | Lead Magnet | P1 | MOFU | Cyprus family move checklist | ICP-006 | — | idea |
+| P131 | /tools/paphos-cost-calculator | Paphos Cost of Living Calculator | Lead Magnet | P2 | MOFU | Paphos cost of living calculator | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
+| P132 | /tools/permanent-residency-readiness | Cyprus Permanent Residency Readiness Checklist | Lead Magnet | P1 | MOFU | Cyprus PR readiness checklist | ICP-005 | — | idea |
+| P133 | /tools/family-move-checklist | Paphos Family Move Checklist | Lead Magnet | P1 | MOFU | Paphos family move checklist | ICP-006 | — | idea |
+| P134 | /tools/retirement-move-checklist | Cyprus Retirement Move Checklist | Lead Magnet | P1 | MOFU | Cyprus retirement checklist | ICP-001 | — | idea |
+| P135 | /tools/move-timeline | Cyprus Move Timeline Planner | Lead Magnet | P2 | MOFU | Cyprus move timeline | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
+
+---
+
+## 9. Blog
+
+Seasonality and schema notes for each post are in `sitemap-full-metadata.csv`. All 18 posts are `BlogPosting + Article + BreadcrumbList` schema.
+
+| page-id | url-slug | h1 | type | phase | funnel-stage | primary-keyword | icp | process-doc | status |
+|---------|----------|----|------|-------|-------------|----------------|-----|------------|--------|
+| P136 | /resources/blog/cyprus-immigration-updates | Cyprus Immigration Updates | Blog | P1 | TOFU | Cyprus immigration updates | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
+| P137 | /resources/blog/cyprus-tax-updates-expats | Cyprus Tax Updates for Expats | Blog | P1 | TOFU | Cyprus tax updates expats | ICP-001, ICP-002, ICP-004, ICP-005 | — | idea |
+| P138 | /resources/blog/yellow-slip-mistakes | Common Yellow Slip Mistakes | Blog | P2 | TOFU | Yellow Slip mistakes | ICP-002 | — | idea |
+| P139 | /resources/blog/category-f-mistakes | Category F Mistakes to Avoid | Blog | P2 | TOFU | Category F mistakes | ICP-001 | — | idea |
+| P140 | /resources/blog/non-dom-myths-cyprus | Cyprus Non-Dom Myths | Blog | P2 | TOFU | Cyprus non-dom myths | ICP-002, ICP-004, ICP-005 | — | idea |
+| P141 | /resources/blog/paphos-property-market-update | Paphos Property Market Update | Blog | P1 | TOFU | Paphos property market update | ICP-001, ICP-005, ICP-006, ICP-007 | — | idea |
+| P142 | /resources/blog/property-scams-cyprus | Property Scams in Cyprus | Blog | P2 | TOFU | property scams Cyprus | ICP-005, ICP-007 | — | idea |
+| P143 | /resources/blog/school-admissions-paphos | Paphos School Admissions Tips | Blog | P2 | TOFU | Paphos school admissions | ICP-006 | — | idea |
+| P144 | /resources/blog/summer-in-paphos | Summer in Paphos | Blog | P2 | TOFU | summer in Paphos | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
+| P145 | /resources/blog/winter-in-paphos | Winter in Paphos | Blog | P2 | TOFU | winter in Paphos | ICP-001, ICP-002 | — | idea |
+| P146 | /resources/blog/best-restaurants-new-residents-paphos | Best Restaurants for New Residents in Paphos | Blog | P2 | TOFU | best restaurants Paphos new residents | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
+| P147 | /resources/blog/events-in-paphos | Events in Paphos for New Residents | Blog | P2 | TOFU | events in Paphos | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
+| P148 | /resources/blog/making-friends-in-paphos | Making Friends in Paphos | Blog | P2 | TOFU | making friends in Paphos | ICP-001, ICP-002, ICP-006 | — | idea |
+| P149 | /resources/blog/running-uk-company-from-cyprus-risks | Running a UK Company from Cyprus Risks | Blog | P2 | TOFU | running UK company from Cyprus risks | ICP-004 | — | idea |
+| P150 | /resources/blog/cyprus-vat-mistakes | Cyprus VAT Mistakes | Blog | P2 | TOFU | Cyprus VAT mistakes | ICP-004 | — | idea |
+| P151 | /resources/blog/rent-before-buying-paphos | Should You Rent Before Buying in Paphos? | Blog | P2 | TOFU | rent before buying Paphos | ICP-001, ICP-005, ICP-006 | — | idea |
+| P152 | /resources/blog/cyprus-bureaucracy-realities | Cyprus Bureaucracy Realities | Blog | P2 | TOFU | Cyprus bureaucracy | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |
+| P153 | /resources/blog/paphos-cost-of-living-update | Paphos Cost of Living Update | Blog | P2 | TOFU | Paphos cost of living update | ICP-001, ICP-002, ICP-004, ICP-005, ICP-006 | — | idea |

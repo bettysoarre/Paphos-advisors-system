@@ -53,6 +53,7 @@ have their own standalone hubs. A third layer — Services, Experts, Locations, 
 | Glossary | /glossary | P1 | Plain-English definitions; TOFU / LLM retrieval |
 | FAQ | /faq | P0 hub, P1 sub-pages | Structured answers; high TOFU search demand |
 | Tools | /tools | P1 | Lead magnets and interactive tools |
+| Blog | /resources/blog | P1/P2 | Weekly/seasonal news and lifestyle posts; TOFU, distinct cadence from evergreen pages |
 | Core | /, /about, /contact, /start, /legal | P0 | Utility and trust pages |
 
 ---
@@ -61,7 +62,7 @@ have their own standalone hubs. A third layer — Services, Experts, Locations, 
 
 | File | Purpose |
 |------|---------|
-| [Canonical URL Inventory](../sitemap/canonical-url-inventory.md) | Master list of all 141 pages — URL slugs, H1s, types, phases, funnel stages, primary keywords, ICP assignments, process doc links, status. **This is the source of truth.** |
+| [Canonical URL Inventory](../sitemap/canonical-url-inventory.md) | Master list of all 153 pages — URL slugs, H1s, types, phases, funnel stages, primary keywords, ICP assignments, process doc links, status. **This is the source of truth.** |
 | [ICP Pathway Topics](icp-pathway-topics.md) | Human-readable content plan grouped by pathway and section — use for planning and prioritisation reviews |
 | [ICP-to-Content Mapping](../../icps/mapping/icp-to-content-mapping.md) | Maps each ICP segment to specific content pieces with priority and URL slug |
 
