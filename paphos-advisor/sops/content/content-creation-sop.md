@@ -94,9 +94,11 @@ Covers the creation of any new piece of website content (guides, FAQs, checklist
 
 ### Step 7: Save draft to GitHub and link in Notion
 - **Who:** Content Author
-- **How:** Save the completed draft as a Markdown file in the appropriate GitHub folder (e.g. `content/guides/[slug].md`). Copy the GitHub file URL. In the Notion Content Pipeline record, paste the URL into the `Content File` field.
-- **Output:** Draft committed to GitHub. Notion record linked to the file.
+- **How:** Save the completed draft as a Markdown file in the appropriate GitHub folder (e.g. `content/guides/[slug].md`). Copy the GitHub file URL. In the Notion Content Pipeline record, paste the URL into the `Content File` field. **Also paste the full draft text into the Notion page body itself** — the draft lives in both places, not just as a link.
+- **Output:** Draft committed to GitHub. Notion record linked to the file, with the full text also readable directly in Notion.
 - **Tool:** GitHub, Notion Content Pipeline
+
+> **Field-naming note (2026-07-11):** the live Content Pipeline database has no field literally named "Content File." The field actually used for this link today is **"GitHub Content-Type Definition"** — a legacy name that, per the system's own ID registry, was meant for a different purpose (linking to `CT-DEF` writing-rules docs, not drafts). It's being reused for draft links in practice. Use that field until this is resolved; flagged as an open decision, not yet renamed. To find everything currently drafted, use the "Drafted Content (Ready to Reference)" saved view on the Content Pipeline database (filtered to Status: In Production/In Review/Revision/Approved/Scheduled/Published).
 
 ### Step 8: Update Notion status and notify reviewer
 - **Who:** Content Author
